@@ -3,19 +3,19 @@ VERSION:2.0
 PRODID:-//NBA Master Calendar//2026-27 Feed Pilot//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:NBA TEST Feed V1
+X-WR-CALNAME:NBA TEST Feed V2
 BEGIN:VEVENT
 UID:NBA2627-0001@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
-DTSTART:20261020T190000Z
-DTEND:20261020T220000Z
-SUMMARY:[TEST FEED V1] Boston Celtics @ Detroit Pistons
+DTSTAMP:20260903T010633Z
+DTSTART:20261020T191500Z
+DTEND:20261020T221500Z
+SUMMARY:[TEST FEED V2] Boston Celtics @ Detroit Pistons
 LOCATION:Little Caesars Arena\, Detroit\, Michigan\, EE. UU.
 DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-10-2026 16:00\nHora Punta Arenas/Magallanes: 20-10-2026 16:00\nTV nacional EE.UU.: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\; sujeto a restricciones)\nEvento especial: Opening Night\nID maestro: NBA2627-0001\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el término real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
-SEQUENCE:0
+SEQUENCE:1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:NBA: partido mañana — Boston Celtics @ Detroit Pistons
@@ -31,5 +31,6 @@ ACTION:DISPLAY
 DESCRIPTION:NBA: partido en 30 minutos — Boston Celtics @ Detroit Pistons
 TRIGGER:-PT30M
 END:VALARM
+LAST-MODIFIED:20260903T010633Z
 END:VEVENT
 END:VCALENDAR
