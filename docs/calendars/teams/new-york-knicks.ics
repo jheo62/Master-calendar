@@ -1,0 +1,2683 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NBA Master Calendar//2026-27 Premium//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NBA 2026-27 — New York Knicks
+X-WR-CALDESC:Calendario 2026-27 de New York Knicks — 80 partidos actualmente definidos.
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:NBA2627-0002@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261020T230000Z
+DTEND:20261021T020000Z
+SUMMARY:[OPENING NIGHT] Philadelphia 76ers @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-10-2026 20
+ :00\nHora Punta Arenas/Magallanes: 20-10-2026 20:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: Opening Night\nID maestro: NB
+ A2627-0002\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas
+ \; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ New York Knick
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ New York Kn
+ icks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0020@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261023T230000Z
+DTEND:20261024T020000Z
+SUMMARY:New York Knicks @ Boston Celtics
+LOCATION:TD Garden\, Boston\, Massachusetts\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-10-2026 20
+ :00\nHora Punta Arenas/Magallanes: 23-10-2026 20:00\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0020\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del partido
+  puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Boston Celtics
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Boston Celtics
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Boston Celtics
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0039@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261025T230000Z
+DTEND:20261026T020000Z
+SUMMARY:Orlando Magic @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-10-2026 20
+ :00\nHora Punta Arenas/Magallanes: 25-10-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0039\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Orlando Magic @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Orlando Magic @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Orlando Magic @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0055@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261028T000000Z
+DTEND:20261028T030000Z
+SUMMARY:Detroit Pistons @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-10-2026 21
+ :00\nHora Punta Arenas/Magallanes: 27-10-2026 21:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-0055\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Detroit Pistons @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Detroit Pistons @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ New York Knick
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0063@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261029T000000Z
+DTEND:20261029T030000Z
+SUMMARY:New York Knicks @ Chicago Bulls
+LOCATION:United Center\, Chicago\, Illinois\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-10-2026 21
+ :00\nHora Punta Arenas/Magallanes: 28-10-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0063\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Chicago Bulls
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Chicago Bulls
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Chicago Bulls
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0077@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261030T233000Z
+DTEND:20261031T023000Z
+SUMMARY:[NBA CUP] New York Knicks @ Philadelphia 76ers
+LOCATION:Xfinity Mobile Arena\, Philadelphia\, Pennsylvania\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 30-10-2026
+  20:30\nHora Punta Arenas/Magallanes: 30-10-2026 20:30\nTV nacional EE.U
+ U.: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merc
+ ado\; sujeto a restricciones)\nEmirates NBA Cup — East Group B\nID maest
+ ro: NBA2627-0077\nFuente base: NBA.com\nDuración del calendario: 3 h est
+ imadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Philadelphia 76ers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Philadelphia 76er
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Philadelphia 7
+ 6ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0099@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261103T003000Z
+DTEND:20261103T033000Z
+SUMMARY:Brooklyn Nets @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-11-2026 21
+ :30\nHora Punta Arenas/Magallanes: 02-11-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0099\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Brooklyn Nets @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Brooklyn Nets @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Brooklyn Nets @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0114@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261105T003000Z
+DTEND:20261105T033000Z
+SUMMARY:Chicago Bulls @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-11-2026 21
+ :30\nHora Punta Arenas/Magallanes: 04-11-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0114\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Chicago Bulls @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Chicago Bulls @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Chicago Bulls @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0136@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261108T010000Z
+DTEND:20261108T040000Z
+SUMMARY:New York Knicks @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-11-2026 22
+ :00\nHora Punta Arenas/Magallanes: 07-11-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0136\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Cleveland Cavalie
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Cleveland Cava
+ liers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0157@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261111T003000Z
+DTEND:20261111T033000Z
+SUMMARY:Milwaukee Bucks @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-11-2026 21
+ :30\nHora Punta Arenas/Magallanes: 10-11-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0157\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Milwaukee Bucks @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Milwaukee Bucks @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Milwaukee Bucks @ New York Knick
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0163@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261112T000000Z
+DTEND:20261112T030000Z
+SUMMARY:Cleveland Cavaliers @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 11-11-2026 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0163\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ New York Knic
+ ks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ New York K
+ nicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0177@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261114T000000Z
+DTEND:20261114T030000Z
+SUMMARY:[NBA CUP] New York Knicks @ Indiana Pacers
+LOCATION:Gainbridge Fieldhouse\, Indianapolis\, Indiana\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 13-11-2026
+  21:00\nHora Punta Arenas/Magallanes: 13-11-2026 21:00\nTV nacional EE.U
+ U.: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merc
+ ado\; sujeto a restricciones)\nEmirates NBA Cup — East Group B\nID maest
+ ro: NBA2627-0177\nFuente base: NBA.com\nDuración del calendario: 3 h est
+ imadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Indiana Pacers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Indiana Pacers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Indiana Pacers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0194@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261115T230000Z
+DTEND:20261116T020000Z
+SUMMARY:New York Knicks @ Toronto Raptors
+LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canadá
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-11-2026 20
+ :00\nHora Punta Arenas/Magallanes: 15-11-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0194\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Toronto Raptors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Toronto Raptors
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Toronto Raptor
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0208@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261118T003000Z
+DTEND:20261118T033000Z
+SUMMARY:New York Knicks @ Toronto Raptors
+LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canadá
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-11-2026 21
+ :30\nHora Punta Arenas/Magallanes: 17-11-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0208\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Toronto Raptors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Toronto Raptors
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Toronto Raptor
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0225@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261120T010000Z
+DTEND:20261120T040000Z
+SUMMARY:New York Knicks @ Minnesota Timberwolves
+LOCATION:Target Center\, Minneapolis\, Minnesota\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 19-11-2026 22
+ :00\nHora Punta Arenas/Magallanes: 19-11-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0225\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Minnesota Timberwolve
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Minnesota Timberw
+ olves
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Minnesota Timb
+ erwolves
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0238@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261122T003000Z
+DTEND:20261122T033000Z
+SUMMARY:Portland Trail Blazers @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-11-2026 21
+ :30\nHora Punta Arenas/Magallanes: 21-11-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0238\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Portland Trail Blazers @ New York Knick
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Portland Trail Blazers @ New York K
+ nicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Portland Trail Blazers @ New Yor
+ k Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0247@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261123T010000Z
+DTEND:20261123T040000Z
+SUMMARY:Indiana Pacers @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-11-2026 22
+ :00\nHora Punta Arenas/Magallanes: 22-11-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0247\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Indiana Pacers @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Indiana Pacers @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Indiana Pacers @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0266@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261126T003000Z
+DTEND:20261126T033000Z
+SUMMARY:[NBA CUP] Cleveland Cavaliers @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 25-11-2026
+  21:30\nHora Punta Arenas/Magallanes: 25-11-2026 21:30\nTV nacional EE.U
+ U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEmirates NBA Cup — East Group B\nID maestro: NBA2627-02
+ 66\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
+ rmino real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ New York Knic
+ ks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ New York K
+ nicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0271@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261128T000000Z
+DTEND:20261128T030000Z
+SUMMARY:[NBA CUP] Miami Heat @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 27-11-2026
+  21:00\nHora Punta Arenas/Magallanes: 27-11-2026 21:00\nTV nacional EE.U
+ U.: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merc
+ ado\; sujeto a restricciones)\nEmirates NBA Cup — East Group B\nID maest
+ ro: NBA2627-0271\nFuente base: NBA.com\nDuración del calendario: 3 h est
+ imadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0292@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261129T230000Z
+DTEND:20261130T020000Z
+SUMMARY:Atlanta Hawks @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-11-2026 20
+ :00\nHora Punta Arenas/Magallanes: 29-11-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0292\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Atlanta Hawks @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Atlanta Hawks @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Atlanta Hawks @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0309@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261202T010000Z
+DTEND:20261202T040000Z
+SUMMARY:New York Knicks @ Chicago Bulls
+LOCATION:United Center\, Chicago\, Illinois\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 01-12-2026 22:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-0309\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Chicago Bulls
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Chicago Bulls
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Chicago Bulls
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0317@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261203T010000Z
+DTEND:20261203T040000Z
+SUMMARY:New York Knicks @ Milwaukee Bucks
+LOCATION:Fiserv Forum\, Milwaukee\, Wisconsin\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 02-12-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0317\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Milwaukee Bucks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Milwaukee Bucks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Milwaukee Buck
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0331@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261213T013000Z
+DTEND:20261213T043000Z
+SUMMARY:New York Knicks @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-12-2026 22
+ :30\nHora Punta Arenas/Magallanes: 12-12-2026 22:30\nTV nacional EE.UU.:
+  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nID maestro: NBA2627-0331\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede vari
+ ar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0348@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261215T013000Z
+DTEND:20261215T043000Z
+SUMMARY:New York Knicks @ Houston Rockets
+LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-12-2026 22
+ :30\nHora Punta Arenas/Magallanes: 14-12-2026 22:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0348\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Houston Rockets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Houston Rockets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Houston Rocket
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0362@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261217T010000Z
+DTEND:20261217T040000Z
+SUMMARY:New York Knicks @ New Orleans Pelicans
+LOCATION:Smoothie King Center\, New Orleans\, Louisiana\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 16-12-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0362\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ New Orleans Pelicans
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ New Orleans Pelic
+ ans
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ New Orleans Pe
+ licans
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0371@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261219T000000Z
+DTEND:20261219T030000Z
+SUMMARY:New York Knicks @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-12-2026 21
+ :00\nHora Punta Arenas/Magallanes: 18-12-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0371\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Washington Wizard
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Washington Wiz
+ ards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0399@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261222T000000Z
+DTEND:20261222T030000Z
+SUMMARY:New York Knicks @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-12-2026 21
+ :00\nHora Punta Arenas/Magallanes: 21-12-2026 21:00\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0399\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Cleveland Cavalie
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Cleveland Cava
+ liers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0417@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261224T003000Z
+DTEND:20261224T033000Z
+SUMMARY:Utah Jazz @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-12-2026 21
+ :30\nHora Punta Arenas/Magallanes: 23-12-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0417\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Utah Jazz @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Utah Jazz @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Utah Jazz @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0424@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261225T170000Z
+DTEND:20261225T200000Z
+SUMMARY:[NBA CHRISTMAS DAY] San Antonio Spurs @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-12-2026 14
+ :00\nHora Punta Arenas/Magallanes: 25-12-2026 14:00\nTV nacional EE.UU.:
+  ABC / ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; s
+ ujeto a restricciones)\nEvento especial: NBA Christmas Day\nID maestro: 
+ NBA2627-0424\nFuente base: NBA.com\nDuración del calendario: 3 h estimad
+ as\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ New York Kni
+ cks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0439@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261227T230000Z
+DTEND:20261228T020000Z
+SUMMARY:Brooklyn Nets @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-12-2026 20
+ :00\nHora Punta Arenas/Magallanes: 27-12-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0439\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Brooklyn Nets @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Brooklyn Nets @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Brooklyn Nets @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0466@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261231T020000Z
+DTEND:20261231T050000Z
+SUMMARY:New York Knicks @ Utah Jazz
+LOCATION:Delta Center\, Salt Lake City\, Utah\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-12-2026 23
+ :00\nHora Punta Arenas/Magallanes: 30-12-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0466\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Utah Jazz
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Utah Jazz
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Utah Jazz
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0475@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270101T020000Z
+DTEND:20270101T050000Z
+SUMMARY:New York Knicks @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-12-2026 23
+ :00\nHora Punta Arenas/Magallanes: 31-12-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0475\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0484@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270102T220000Z
+DTEND:20270103T010000Z
+SUMMARY:New York Knicks @ Denver Nuggets
+LOCATION:Ball Arena\, Denver\, Colorado\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-01-2027 19
+ :00\nHora Punta Arenas/Magallanes: 02-01-2027 19:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0484\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Denver Nuggets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Denver Nuggets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Denver Nuggets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0500@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270105T030000Z
+DTEND:20270105T060000Z
+SUMMARY:New York Knicks @ Portland Trail Blazers
+LOCATION:Moda Center\, Portland\, Oregón\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-01-2027 00
+ :00\nHora Punta Arenas/Magallanes: 05-01-2027 00:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0500\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Portland Trail Blazer
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Portland Trail Bl
+ azers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Portland Trail
+  Blazers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0515@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270107T030000Z
+DTEND:20270107T060000Z
+SUMMARY:New York Knicks @ Golden State Warriors
+LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-01-2027 00
+ :00\nHora Punta Arenas/Magallanes: 07-01-2027 00:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0515\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Golden State Warriors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Golden State Warr
+ iors
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Golden State W
+ arriors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0533@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270109T030000Z
+DTEND:20270109T060000Z
+SUMMARY:New York Knicks @ Sacramento Kings
+LOCATION:Golden 1 Center\, Sacramento\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-01-2027 00
+ :00\nHora Punta Arenas/Magallanes: 09-01-2027 00:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0533\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Sacramento Kings
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Sacramento Kings
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Sacramento Kin
+ gs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0558@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270112T003000Z
+DTEND:20270112T033000Z
+SUMMARY:Denver Nuggets @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 11-01-2027 21:30\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0558\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Denver Nuggets @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Denver Nuggets @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0571@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270114T000000Z
+DTEND:20270114T030000Z
+SUMMARY:New York Knicks @ Boston Celtics
+LOCATION:TD Garden\, Boston\, Massachusetts\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 13-01-2027 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0571\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Boston Celtics
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Boston Celtics
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Boston Celtics
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0580@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270115T003000Z
+DTEND:20270115T033000Z
+SUMMARY:Miami Heat @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 14-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0580\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0594@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270117T003000Z
+DTEND:20270117T033000Z
+SUMMARY:Dallas Mavericks @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 16-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0594\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Dallas Mavericks @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Dallas Mavericks @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Dallas Mavericks @ New York Knic
+ ks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0610@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270118T220000Z
+DTEND:20270119T010000Z
+SUMMARY:[NBA ON MLK DAY] Minnesota Timberwolves @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-01-2027 19
+ :00\nHora Punta Arenas/Magallanes: 18-01-2027 19:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: NBA on MLK Day\nID maestro: N
+ BA2627-0610\nFuente base: NBA.com\nDuración del calendario: 3 h estimada
+ s\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ New York Knick
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ New York K
+ nicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ New Yor
+ k Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0624@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270121T003000Z
+DTEND:20270121T033000Z
+SUMMARY:Toronto Raptors @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 20-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0624\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Toronto Raptors @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Toronto Raptors @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Toronto Raptors @ New York Knick
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0637@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270123T000000Z
+DTEND:20270123T030000Z
+SUMMARY:New York Knicks @ Atlanta Hawks
+LOCATION:State Farm Arena\, Atlanta\, Georgia\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 22-01-2027 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0637\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Atlanta Hawks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Atlanta Hawks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Atlanta Hawks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0656@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270125T000000Z
+DTEND:20270125T030000Z
+SUMMARY:Los Angeles Clippers @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 24-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0656\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Los Angeles Clippers @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Clippers @ New York Kni
+ cks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Clippers @ New York 
+ Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0670@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270127T003000Z
+DTEND:20270127T033000Z
+SUMMARY:Phoenix Suns @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 26-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0670\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0683@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270129T000000Z
+DTEND:20270129T030000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Atlanta Hawks @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 28-01-2027 21:00\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nEvento especial: AWS NBA Rivals Week\nID mae
+ stro: NBA2627-0683\nFuente base: NBA.com\nDuración del calendario: 3 h e
+ stimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Atlanta Hawks @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Atlanta Hawks @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Atlanta Hawks @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0702@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270131T013000Z
+DTEND:20270131T043000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Los Angeles Lakers @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-01-2027 22
+ :30\nHora Punta Arenas/Magallanes: 30-01-2027 22:30\nTV nacional EE.UU.:
+  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEvento especial: AWS NBA Rivals Week\nID maestro: NBA26
+ 27-0702\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; 
+ el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Los Angeles Lakers @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ New York Knick
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ New York Kn
+ icks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0715@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270202T003000Z
+DTEND:20270202T033000Z
+SUMMARY:New York Knicks @ Brooklyn Nets
+LOCATION:Barclays Center\, Brooklyn\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-02-2027 21
+ :30\nHora Punta Arenas/Magallanes: 01-02-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0715\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Brooklyn Nets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Brooklyn Nets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Brooklyn Nets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0728@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270204T000000Z
+DTEND:20270204T030000Z
+SUMMARY:[NBA PIONEERS CLASSIC] New York Knicks @ Detroit Pistons
+LOCATION:Little Caesars Arena\, Detroit\, Michigan\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 03-02-2027 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nEvento especial: NBA Pioneers Classic\nID maestro: NBA
+ 2627-0728\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\
+ ; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Detroit Pistons
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Detroit Pistons
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Detroit Piston
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0740@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270205T003000Z
+DTEND:20270205T033000Z
+SUMMARY:Toronto Raptors @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-02-2027 21
+ :30\nHora Punta Arenas/Magallanes: 04-02-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0740\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Toronto Raptors @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Toronto Raptors @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Toronto Raptors @ New York Knick
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0765@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270208T023000Z
+DTEND:20270208T053000Z
+SUMMARY:New York Knicks @ Oklahoma City Thunder
+LOCATION:Paycom Center\, Oklahoma City\, Oklahoma\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-02-2027 23
+ :30\nHora Punta Arenas/Magallanes: 07-02-2027 23:30\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-0765\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Oklahoma City Thunder
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Oklahoma City Thu
+ nder
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Oklahoma City 
+ Thunder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0778@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270210T003000Z
+DTEND:20270210T033000Z
+SUMMARY:Charlotte Hornets @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-02-2027 21
+ :30\nHora Punta Arenas/Magallanes: 09-02-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0778\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Charlotte Hornets @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Charlotte Hornets @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Charlotte Hornets @ New York Kni
+ cks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0792@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270212T000000Z
+DTEND:20270212T030000Z
+SUMMARY:New York Knicks @ Philadelphia 76ers
+LOCATION:Xfinity Mobile Arena\, Philadelphia\, Pennsylvania\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 11-02-2027 21:00\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0792\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del partido
+  puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Philadelphia 76ers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Philadelphia 76er
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Philadelphia 7
+ 6ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0811@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270214T013000Z
+DTEND:20270214T043000Z
+SUMMARY:Golden State Warriors @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-02-2027 22
+ :30\nHora Punta Arenas/Magallanes: 13-02-2027 22:30\nTV nacional EE.UU.:
+  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nID maestro: NBA2627-0811\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede vari
+ ar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Golden State Warriors @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Golden State Warriors @ New York Kn
+ icks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Golden State Warriors @ New York
+  Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0824@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270216T010000Z
+DTEND:20270216T040000Z
+SUMMARY:New York Knicks @ Memphis Grizzlies
+LOCATION:FedExForum\, Memphis\, Tennessee\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-02-2027 22
+ :00\nHora Punta Arenas/Magallanes: 15-02-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0824\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Memphis Grizzlies
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Memphis Grizzlies
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Memphis Grizzl
+ ies
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0837@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270218T000000Z
+DTEND:20270218T030000Z
+SUMMARY:New York Knicks @ Detroit Pistons
+LOCATION:Little Caesars Arena\, Detroit\, Michigan\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 17-02-2027 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0837\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Detroit Pistons
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Detroit Pistons
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Detroit Piston
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0855@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270226T003000Z
+DTEND:20270226T033000Z
+SUMMARY:Oklahoma City Thunder @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-02-2027 21
+ :30\nHora Punta Arenas/Magallanes: 25-02-2027 21:30\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0855\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del partido
+  puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ New York Kn
+ icks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ New York
+  Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0870@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270228T013000Z
+DTEND:20270228T043000Z
+SUMMARY:Philadelphia 76ers @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-02-2027 22
+ :30\nHora Punta Arenas/Magallanes: 27-02-2027 22:30\nTV nacional EE.UU.:
+  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nID maestro: NBA2627-0870\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede vari
+ ar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ New York Knick
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ New York Kn
+ icks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0879@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270301T003000Z
+DTEND:20270301T033000Z
+SUMMARY:Milwaukee Bucks @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-02-2027 21
+ :30\nHora Punta Arenas/Magallanes: 28-02-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0879\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Milwaukee Bucks @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Milwaukee Bucks @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Milwaukee Bucks @ New York Knick
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0892@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270303T003000Z
+DTEND:20270303T033000Z
+SUMMARY:Memphis Grizzlies @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-03-2027 21
+ :30\nHora Punta Arenas/Magallanes: 02-03-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0892\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Memphis Grizzlies @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Memphis Grizzlies @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Memphis Grizzlies @ New York Kni
+ cks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0910@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270305T023000Z
+DTEND:20270305T053000Z
+SUMMARY:New York Knicks @ Dallas Mavericks
+LOCATION:American Airlines Center\, Dallas\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-03-2027 23
+ :30\nHora Punta Arenas/Magallanes: 04-03-2027 23:30\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0910\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del partido
+  puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Dallas Mavericks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Dallas Mavericks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Dallas Maveric
+ ks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0929@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270308T003000Z
+DTEND:20270308T033000Z
+SUMMARY:New York Knicks @ San Antonio Spurs
+LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-03-2027 21
+ :30\nHora Punta Arenas/Magallanes: 07-03-2027 21:30\nTV nacional EE.UU.:
+  NBC / Peacock / Telemundo\nStreaming: Peacock / NBA League Pass (fuera 
+ de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0929\nFuente b
+ ase: NBA.com\nDuración del calendario: 3 h estimadas\; el término real d
+ el partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ San Antonio Spurs
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ San Antonio Spurs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ San Antonio Sp
+ urs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0947@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270311T033000Z
+DTEND:20270311T063000Z
+SUMMARY:New York Knicks @ Los Angeles Clippers
+LOCATION:Intuit Dome\, Inglewood\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-03-2027 00
+ :30\nHora Punta Arenas/Magallanes: 11-03-2027 00:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0947\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Los Angeles Clippers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Los Angeles Clipp
+ ers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Los Angeles Cl
+ ippers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0953@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270312T030000Z
+DTEND:20270312T060000Z
+SUMMARY:New York Knicks @ Los Angeles Lakers
+LOCATION:Crypto.com Arena\, Los Angeles\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-03-2027 00
+ :00\nHora Punta Arenas/Magallanes: 12-03-2027 00:00\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0953\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del partido
+  puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Los Angeles Lakers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Los Angeles Laker
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Los Angeles La
+ kers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0977@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270314T160000Z
+DTEND:20270314T190000Z
+SUMMARY:Boston Celtics @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-03-2027 13
+ :00\nHora Punta Arenas/Magallanes: 14-03-2027 13:00\nTV nacional EE.UU.:
+  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nID maestro: NBA2627-0977\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede vari
+ ar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Boston Celtics @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Boston Celtics @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Boston Celtics @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0991@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270316T230000Z
+DTEND:20270317T020000Z
+SUMMARY:New York Knicks @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-03-2027 20
+ :00\nHora Punta Arenas/Magallanes: 16-03-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0991\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Washington Wizard
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Washington Wiz
+ ards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1002@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270317T233000Z
+DTEND:20270318T023000Z
+SUMMARY:Sacramento Kings @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-03-2027 20
+ :30\nHora Punta Arenas/Magallanes: 17-03-2027 20:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1002\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Sacramento Kings @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Sacramento Kings @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Sacramento Kings @ New York Knic
+ ks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1022@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270320T170000Z
+DTEND:20270320T200000Z
+SUMMARY:Washington Wizards @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-03-2027 14
+ :00\nHora Punta Arenas/Magallanes: 20-03-2027 14:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1022\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ New York Knick
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ New York Kn
+ icks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1046@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270323T233000Z
+DTEND:20270324T023000Z
+SUMMARY:New Orleans Pelicans @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-03-2027 20
+ :30\nHora Punta Arenas/Magallanes: 23-03-2027 20:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1046\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New Orleans Pelicans @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New Orleans Pelicans @ New York Kni
+ cks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New Orleans Pelicans @ New York 
+ Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1057@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270324T233000Z
+DTEND:20270325T023000Z
+SUMMARY:Houston Rockets @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-03-2027 20
+ :30\nHora Punta Arenas/Magallanes: 24-03-2027 20:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1057\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ New York Knick
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1069@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270326T230000Z
+DTEND:20270327T020000Z
+SUMMARY:New York Knicks @ Charlotte Hornets
+LOCATION:Spectrum Center\, Charlotte\, Carolina del Norte\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-03-2027 20
+ :00\nHora Punta Arenas/Magallanes: 26-03-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1069\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Charlotte Hornets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Charlotte Hornets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Charlotte Horn
+ ets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1081@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270328T163000Z
+DTEND:20270328T193000Z
+SUMMARY:New York Knicks @ Orlando Magic
+LOCATION:Kia Center\, Orlando\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-03-2027 13
+ :30\nHora Punta Arenas/Magallanes: 28-03-2027 13:30\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-1081\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Orlando Magic
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Orlando Magic
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Orlando Magic
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1100@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270331T000000Z
+DTEND:20270331T030000Z
+SUMMARY:New York Knicks @ Orlando Magic
+LOCATION:Kia Center\, Orlando\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-03-2027 21
+ :00\nHora Punta Arenas/Magallanes: 30-03-2027 21:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-1100\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Orlando Magic
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Orlando Magic
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Orlando Magic
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1115@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270401T233000Z
+DTEND:20270402T023000Z
+SUMMARY:Charlotte Hornets @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-04-2027 20
+ :30\nHora Punta Arenas/Magallanes: 01-04-2027 20:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1115\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Charlotte Hornets @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Charlotte Hornets @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Charlotte Hornets @ New York Kni
+ cks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1122@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270402T233000Z
+DTEND:20270403T023000Z
+SUMMARY:New York Knicks @ Brooklyn Nets
+LOCATION:Barclays Center\, Brooklyn\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-04-2027 20
+ :30\nHora Punta Arenas/Magallanes: 02-04-2027 20:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1122\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Brooklyn Nets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Brooklyn Nets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Brooklyn Nets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1143@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270404T233000Z
+DTEND:20270405T023000Z
+SUMMARY:Boston Celtics @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-04-2027 19
+ :30\nHora Punta Arenas/Magallanes: 04-04-2027 20:30\nTV nacional EE.UU.:
+  NBC / Peacock / Telemundo\nStreaming: Peacock / NBA League Pass (fuera 
+ de mercado\; sujeto a restricciones)\nID maestro: NBA2627-1143\nFuente b
+ ase: NBA.com\nDuración del calendario: 3 h estimadas\; el término real d
+ el partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Boston Celtics @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Boston Celtics @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Boston Celtics @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1152@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270407T000000Z
+DTEND:20270407T030000Z
+SUMMARY:New York Knicks @ Atlanta Hawks
+LOCATION:State Farm Arena\, Atlanta\, Georgia\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-04-2027 20
+ :00\nHora Punta Arenas/Magallanes: 06-04-2027 21:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-1152\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Atlanta Hawks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Atlanta Hawks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Atlanta Hawks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1168@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270409T000000Z
+DTEND:20270409T030000Z
+SUMMARY:New York Knicks @ Milwaukee Bucks
+LOCATION:Fiserv Forum\, Milwaukee\, Wisconsin\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-04-2027 20
+ :00\nHora Punta Arenas/Magallanes: 08-04-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1168\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Milwaukee Bucks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Milwaukee Bucks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Milwaukee Buck
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1178@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270409T230000Z
+DTEND:20270410T020000Z
+SUMMARY:Detroit Pistons @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-04-2027 19
+ :00\nHora Punta Arenas/Magallanes: 09-04-2027 20:00\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-1178\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del partido
+  puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Detroit Pistons @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Detroit Pistons @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ New York Knick
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1190@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270411T220000Z
+DTEND:20270412T010000Z
+SUMMARY:Indiana Pacers @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-04-2027 18
+ :00\nHora Punta Arenas/Magallanes: 11-04-2027 19:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1190\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Indiana Pacers @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Indiana Pacers @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Indiana Pacers @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,2715 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NBA Master Calendar//2026-27 Premium//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NBA 2026-27 — Washington Wizards
+X-WR-CALDESC:Calendario 2026-27 de Washington Wizards — 80 partidos actualmente definidos.
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:NBA2627-0008@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261021T230000Z
+DTEND:20261022T020000Z
+SUMMARY:Milwaukee Bucks @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-10-2026 20
+ :00\nHora Punta Arenas/Magallanes: 21-10-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0008\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Milwaukee Bucks @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Milwaukee Bucks @ Washington Wizard
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Milwaukee Bucks @ Washington Wiz
+ ards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0024@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261023T230000Z
+DTEND:20261024T020000Z
+SUMMARY:Toronto Raptors @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-10-2026 20
+ :00\nHora Punta Arenas/Magallanes: 23-10-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0024\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Toronto Raptors @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Toronto Raptors @ Washington Wizard
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Toronto Raptors @ Washington Wiz
+ ards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0034@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261025T000000Z
+DTEND:20261025T030000Z
+SUMMARY:Washington Wizards @ Chicago Bulls
+LOCATION:United Center\, Chicago\, Illinois\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-10-2026 21
+ :00\nHora Punta Arenas/Magallanes: 24-10-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0034\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Chicago Bulls
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Chicago Bulls
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Chicago Bul
+ ls
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0045@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261026T230000Z
+DTEND:20261027T020000Z
+SUMMARY:Washington Wizards @ Charlotte Hornets
+LOCATION:Spectrum Center\, Charlotte\, Carolina del Norte\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-10-2026 20
+ :00\nHora Punta Arenas/Magallanes: 26-10-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0045\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Charlotte Hornets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Charlotte Horn
+ ets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Charlotte H
+ ornets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0059@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261028T230000Z
+DTEND:20261029T020000Z
+SUMMARY:Washington Wizards @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-10-2026 20
+ :00\nHora Punta Arenas/Magallanes: 28-10-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0059\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Cleveland Cavalier
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Cleveland Cava
+ liers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Cleveland C
+ avaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0074@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261030T230000Z
+DTEND:20261031T020000Z
+SUMMARY:[NBA CUP] Charlotte Hornets @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 30-10-2026
+  20:00\nHora Punta Arenas/Magallanes: 30-10-2026 20:00\nTV nacional EE.U
+ U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEmirates NBA Cup — East Group C\nID maestro: NBA2627-00
+ 74\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
+ rmino real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Charlotte Hornets @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Charlotte Hornets @ Washington Wiza
+ rds
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Charlotte Hornets @ Washington W
+ izards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0100@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261103T003000Z
+DTEND:20261103T033000Z
+SUMMARY:Washington Wizards @ Orlando Magic
+LOCATION:Kia Center\, Orlando\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-11-2026 21
+ :30\nHora Punta Arenas/Magallanes: 02-11-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0100\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Orlando Magic
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Orlando Magic
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Orlando Mag
+ ic
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0111@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261105T000000Z
+DTEND:20261105T030000Z
+SUMMARY:Atlanta Hawks @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 04-11-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0111\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Atlanta Hawks @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Atlanta Hawks @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Atlanta Hawks @ Washington Wizar
+ ds
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0126@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261107T000000Z
+DTEND:20261107T030000Z
+SUMMARY:[NBA CUP] Washington Wizards @ Atlanta Hawks
+LOCATION:State Farm Arena\, Atlanta\, Georgia\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 06-11-2026
+  21:00\nHora Punta Arenas/Magallanes: 06-11-2026 21:00\nTV nacional EE.U
+ U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEmirates NBA Cup — East Group C\nID maestro: NBA2627-01
+ 26\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
+ rmino real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Atlanta Hawks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Atlanta Hawks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Atlanta Haw
+ ks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0137@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261108T010000Z
+DTEND:20261108T040000Z
+SUMMARY:Washington Wizards @ Oklahoma City Thunder
+LOCATION:Paycom Center\, Oklahoma City\, Oklahoma\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-11-2026 22
+ :00\nHora Punta Arenas/Magallanes: 07-11-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0137\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Oklahoma City Thun
+ der
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Oklahoma City 
+ Thunder
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Oklahoma Ci
+ ty Thunder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0150@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261110T000000Z
+DTEND:20261110T030000Z
+SUMMARY:Washington Wizards @ Detroit Pistons
+LOCATION:Little Caesars Arena\, Detroit\, Michigan\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 09-11-2026 21:00\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0150\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Detroit Pistons
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Detroit Piston
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Detroit Pis
+ tons
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0162@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261112T000000Z
+DTEND:20261112T030000Z
+SUMMARY:Washington Wizards @ Indiana Pacers
+LOCATION:Gainbridge Fieldhouse\, Indianapolis\, Indiana\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 11-11-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0162\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Indiana Pacers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Indiana Pacers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Indiana Pac
+ ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0172@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261113T000000Z
+DTEND:20261113T030000Z
+SUMMARY:Detroit Pistons @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 12-11-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0172\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Detroit Pistons @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Detroit Pistons @ Washington Wizard
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ Washington Wiz
+ ards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0195@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261116T000000Z
+DTEND:20261116T030000Z
+SUMMARY:Houston Rockets @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 15-11-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0195\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Washington Wizard
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Washington Wiz
+ ards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0199@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261117T000000Z
+DTEND:20261117T030000Z
+SUMMARY:Memphis Grizzlies @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 16-11-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0199\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Memphis Grizzlies @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Memphis Grizzlies @ Washington Wiza
+ rds
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Memphis Grizzlies @ Washington W
+ izards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0218@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261119T003000Z
+DTEND:20261119T033000Z
+SUMMARY:Washington Wizards @ Toronto Raptors
+LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canadá
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-11-2026 21
+ :30\nHora Punta Arenas/Magallanes: 18-11-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0218\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Toronto Raptors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Toronto Raptor
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Toronto Rap
+ tors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0233@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:[NBA CUP] Washington Wizards @ Chicago Bulls
+LOCATION:United Center\, Chicago\, Illinois\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 20-11-2026
+  22:00\nHora Punta Arenas/Magallanes: 20-11-2026 22:00\nTV nacional EE.U
+ U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEmirates NBA Cup — East Group C\nID maestro: NBA2627-02
+ 33\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
+ rmino real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Chicago Bulls
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Chicago Bulls
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Chicago Bul
+ ls
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0244@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261123T000000Z
+DTEND:20261123T030000Z
+SUMMARY:Orlando Magic @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 22-11-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0244\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Orlando Magic @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Orlando Magic @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Orlando Magic @ Washington Wizar
+ ds
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0261@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261125T010000Z
+DTEND:20261125T040000Z
+SUMMARY:[NBA CUP] Boston Celtics @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 24-11-2026
+  22:00\nHora Punta Arenas/Magallanes: 24-11-2026 22:00\nTV nacional EE.U
+ U.: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercad
+ o\; sujeto a restricciones)\nEmirates NBA Cup — East Group C\nID maestro
+ : NBA2627-0261\nFuente base: NBA.com\nDuración del calendario: 3 h estim
+ adas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Boston Celtics @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Boston Celtics @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Boston Celtics @ Washington Wiza
+ rds
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0282@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261128T220000Z
+DTEND:20261129T010000Z
+SUMMARY:Orlando Magic @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-11-2026 19
+ :00\nHora Punta Arenas/Magallanes: 28-11-2026 19:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0282\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Orlando Magic @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Orlando Magic @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Orlando Magic @ Washington Wizar
+ ds
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0298@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261201T000000Z
+DTEND:20261201T030000Z
+SUMMARY:Washington Wizards @ Charlotte Hornets
+LOCATION:Spectrum Center\, Charlotte\, Carolina del Norte\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 30-11-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0298\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Charlotte Hornets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Charlotte Horn
+ ets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Charlotte H
+ ornets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0323@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261204T003000Z
+DTEND:20261204T033000Z
+SUMMARY:Washington Wizards @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-12-2026 21
+ :30\nHora Punta Arenas/Magallanes: 03-12-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0323\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0328@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261213T000000Z
+DTEND:20261213T030000Z
+SUMMARY:Charlotte Hornets @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-12-2026 21
+ :00\nHora Punta Arenas/Magallanes: 12-12-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0328\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Charlotte Hornets @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Charlotte Hornets @ Washington Wiza
+ rds
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Charlotte Hornets @ Washington W
+ izards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0344@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261215T003000Z
+DTEND:20261215T033000Z
+SUMMARY:Washington Wizards @ Boston Celtics
+LOCATION:TD Garden\, Boston\, Massachusetts\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-12-2026 21
+ :30\nHora Punta Arenas/Magallanes: 14-12-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0344\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Boston Celtics
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Boston Celtics
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Boston Celt
+ ics
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0353@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261217T000000Z
+DTEND:20261217T030000Z
+SUMMARY:Washington Wizards @ Boston Celtics
+LOCATION:TD Garden\, Boston\, Massachusetts\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-12-2026 21
+ :00\nHora Punta Arenas/Magallanes: 16-12-2026 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0353\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Boston Celtics
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Boston Celtics
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Boston Celt
+ ics
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0371@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261219T000000Z
+DTEND:20261219T030000Z
+SUMMARY:New York Knicks @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-12-2026 21
+ :00\nHora Punta Arenas/Magallanes: 18-12-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0371\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Washington Wizard
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Washington Wiz
+ ards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0386@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261220T200000Z
+DTEND:20261220T230000Z
+SUMMARY:Washington Wizards @ Brooklyn Nets
+LOCATION:Barclays Center\, Brooklyn\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-12-2026 17
+ :00\nHora Punta Arenas/Magallanes: 20-12-2026 17:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0386\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Brooklyn Nets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Brooklyn Nets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Brooklyn Ne
+ ts
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0406@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261223T000000Z
+DTEND:20261223T030000Z
+SUMMARY:Toronto Raptors @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-12-2026 21
+ :00\nHora Punta Arenas/Magallanes: 22-12-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0406\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Toronto Raptors @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Toronto Raptors @ Washington Wizard
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Toronto Raptors @ Washington Wiz
+ ards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0413@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261224T000000Z
+DTEND:20261224T030000Z
+SUMMARY:Cleveland Cavaliers @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-12-2026 21
+ :00\nHora Punta Arenas/Magallanes: 23-12-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0413\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Washington Wizard
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Washington Wi
+ zards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Washington
+  Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0429@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261226T180000Z
+DTEND:20261226T210000Z
+SUMMARY:Portland Trail Blazers @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-12-2026 15
+ :00\nHora Punta Arenas/Magallanes: 26-12-2026 15:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0429\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Portland Trail Blazers @ Washington Wiz
+ ards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Portland Trail Blazers @ Washington
+  Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Portland Trail Blazers @ Washing
+ ton Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0437@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261227T230000Z
+DTEND:20261228T020000Z
+SUMMARY:Washington Wizards @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-12-2026 20
+ :00\nHora Punta Arenas/Magallanes: 27-12-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0437\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Cleveland Cavalier
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Cleveland Cava
+ liers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Cleveland C
+ avaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0463@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261231T003000Z
+DTEND:20261231T033000Z
+SUMMARY:Washington Wizards @ Toronto Raptors
+LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canadá
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-12-2026 21
+ :30\nHora Punta Arenas/Magallanes: 30-12-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0463\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Toronto Raptors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Toronto Raptor
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Toronto Rap
+ tors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0476@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270101T220000Z
+DTEND:20270102T010000Z
+SUMMARY:San Antonio Spurs @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-01-2027 19
+ :00\nHora Punta Arenas/Magallanes: 01-01-2027 19:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0476\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Washington Wiza
+ rds
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Washington W
+ izards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0496@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270104T000000Z
+DTEND:20270104T030000Z
+SUMMARY:Los Angeles Clippers @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 03-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0496\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Los Angeles Clippers @ Washington Wizar
+ ds
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Clippers @ Washington W
+ izards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Clippers @ Washingto
+ n Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0511@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270106T000000Z
+DTEND:20270106T030000Z
+SUMMARY:Los Angeles Lakers @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 05-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0511\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Los Angeles Lakers @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ Washington Wiz
+ ards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ Washington 
+ Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0526@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270108T000000Z
+DTEND:20270108T030000Z
+SUMMARY:Oklahoma City Thunder @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 07-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0526\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ Washington Wiza
+ rds
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ Washington 
+ Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ Washingt
+ on Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0535@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270109T000000Z
+DTEND:20270109T030000Z
+SUMMARY:Minnesota Timberwolves @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 08-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0535\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ Washington Wiz
+ ards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ Washington
+  Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ Washing
+ ton Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0556@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270112T000000Z
+DTEND:20270112T030000Z
+SUMMARY:Atlanta Hawks @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 11-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0556\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Atlanta Hawks @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Atlanta Hawks @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Atlanta Hawks @ Washington Wizar
+ ds
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0564@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270113T010000Z
+DTEND:20270113T040000Z
+SUMMARY:Washington Wizards @ Philadelphia 76ers
+LOCATION:Xfinity Mobile Arena\, Philadelphia\, Pennsylvania\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-01-2027 22
+ :00\nHora Punta Arenas/Magallanes: 12-01-2027 22:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-0564\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Philadelphia 76ers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Philadelphia 7
+ 6ers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Philadelphi
+ a 76ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0591@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270116T013000Z
+DTEND:20270116T043000Z
+SUMMARY:Washington Wizards @ Houston Rockets
+LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-01-2027 22
+ :30\nHora Punta Arenas/Magallanes: 15-01-2027 22:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0591\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Houston Rockets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Houston Rocket
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Houston Roc
+ kets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0599@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270117T180000Z
+DTEND:20270117T210000Z
+SUMMARY:Indiana Pacers @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-01-2027 15
+ :00\nHora Punta Arenas/Magallanes: 17-01-2027 15:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0599\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Indiana Pacers @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Indiana Pacers @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Indiana Pacers @ Washington Wiza
+ rds
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0609@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270118T200000Z
+DTEND:20270118T230000Z
+SUMMARY:Boston Celtics @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-01-2027 17
+ :00\nHora Punta Arenas/Magallanes: 18-01-2027 17:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0609\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Boston Celtics @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Boston Celtics @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Boston Celtics @ Washington Wiza
+ rds
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0633@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270122T020000Z
+DTEND:20270122T050000Z
+SUMMARY:Washington Wizards @ Denver Nuggets
+LOCATION:Ball Arena\, Denver\, Colorado\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-01-2027 23
+ :00\nHora Punta Arenas/Magallanes: 21-01-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0633\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Denver Nuggets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Denver Nuggets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Denver Nugg
+ ets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0636@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270123T033000Z
+DTEND:20270123T063000Z
+SUMMARY:Washington Wizards @ Los Angeles Clippers
+LOCATION:Intuit Dome\, Inglewood\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-01-2027 00
+ :30\nHora Punta Arenas/Magallanes: 23-01-2027 00:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0636\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Los Angeles Clippe
+ rs
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Los Angeles Cl
+ ippers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Los Angeles
+  Clippers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0653@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270124T210000Z
+DTEND:20270125T000000Z
+SUMMARY:Washington Wizards @ Los Angeles Lakers
+LOCATION:Crypto.com Arena\, Los Angeles\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-01-2027 18
+ :00\nHora Punta Arenas/Magallanes: 24-01-2027 18:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0653\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Los Angeles Lakers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Los Angeles La
+ kers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Los Angeles
+  Lakers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0666@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270127T030000Z
+DTEND:20270127T060000Z
+SUMMARY:Washington Wizards @ Portland Trail Blazers
+LOCATION:Moda Center\, Portland\, Oregón\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-01-2027 00
+ :00\nHora Punta Arenas/Magallanes: 27-01-2027 00:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0666\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Portland Trail Bla
+ zers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Portland Trail
+  Blazers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Portland Tr
+ ail Blazers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0685@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270129T000000Z
+DTEND:20270129T030000Z
+SUMMARY:Sacramento Kings @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 28-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0685\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Sacramento Kings @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Sacramento Kings @ Washington Wizar
+ ds
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Sacramento Kings @ Washington Wi
+ zards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0699@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270131T000000Z
+DTEND:20270131T030000Z
+SUMMARY:Washington Wizards @ Indiana Pacers
+LOCATION:Gainbridge Fieldhouse\, Indianapolis\, Indiana\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 30-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0699\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Indiana Pacers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Indiana Pacers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Indiana Pac
+ ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0713@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270202T000000Z
+DTEND:20270202T030000Z
+SUMMARY:Washington Wizards @ Atlanta Hawks
+LOCATION:State Farm Arena\, Atlanta\, Georgia\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 01-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0713\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Atlanta Hawks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Atlanta Hawks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Atlanta Haw
+ ks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0736@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270205T000000Z
+DTEND:20270205T030000Z
+SUMMARY:New Orleans Pelicans @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 04-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0736\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New Orleans Pelicans @ Washington Wizar
+ ds
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New Orleans Pelicans @ Washington W
+ izards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New Orleans Pelicans @ Washingto
+ n Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0753@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270206T230000Z
+DTEND:20270207T020000Z
+SUMMARY:Washington Wizards @ Brooklyn Nets
+LOCATION:Barclays Center\, Brooklyn\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-02-2027 20
+ :00\nHora Punta Arenas/Magallanes: 06-02-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0753\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Brooklyn Nets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Brooklyn Nets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Brooklyn Ne
+ ts
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0768@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270209T000000Z
+DTEND:20270209T030000Z
+SUMMARY:Chicago Bulls @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 08-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0768\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Chicago Bulls @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Chicago Bulls @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Chicago Bulls @ Washington Wizar
+ ds
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0786@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270211T000000Z
+DTEND:20270211T030000Z
+SUMMARY:Miami Heat @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 10-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0786\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Washington Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0800@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270213T000000Z
+DTEND:20270213T030000Z
+SUMMARY:Brooklyn Nets @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 12-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0800\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Brooklyn Nets @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Brooklyn Nets @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Brooklyn Nets @ Washington Wizar
+ ds
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0810@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270214T000000Z
+DTEND:20270214T030000Z
+SUMMARY:Milwaukee Bucks @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 13-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0810\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Milwaukee Bucks @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Milwaukee Bucks @ Washington Wizard
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Milwaukee Bucks @ Washington Wiz
+ ards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0822@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270216T000000Z
+DTEND:20270216T030000Z
+SUMMARY:Phoenix Suns @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 15-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0822\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Washington Wizard
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0840@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270218T000000Z
+DTEND:20270218T030000Z
+SUMMARY:Miami Heat @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 17-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0840\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Washington Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0857@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270226T010000Z
+DTEND:20270226T040000Z
+SUMMARY:Washington Wizards @ Milwaukee Bucks
+LOCATION:Fiserv Forum\, Milwaukee\, Wisconsin\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-02-2027 22
+ :00\nHora Punta Arenas/Magallanes: 25-02-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0857\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Milwaukee Bucks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Milwaukee Buck
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Milwaukee B
+ ucks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0866@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270227T200000Z
+DTEND:20270227T230000Z
+SUMMARY:Washington Wizards @ Utah Jazz
+LOCATION:Delta Center\, Salt Lake City\, Utah\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-02-2027 17
+ :00\nHora Punta Arenas/Magallanes: 27-02-2027 17:00\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0866\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del partido
+  puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Utah Jazz
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Utah Jazz
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Utah Jazz
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0886@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270302T023000Z
+DTEND:20270302T053000Z
+SUMMARY:Washington Wizards @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-03-2027 23
+ :30\nHora Punta Arenas/Magallanes: 01-03-2027 23:30\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0886\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Phoenix Sun
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0887@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270303T030000Z
+DTEND:20270303T060000Z
+SUMMARY:Washington Wizards @ Sacramento Kings
+LOCATION:Golden 1 Center\, Sacramento\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-03-2027 00
+ :00\nHora Punta Arenas/Magallanes: 03-03-2027 00:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0887\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Sacramento Kings
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Sacramento Kin
+ gs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Sacramento 
+ Kings
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0903@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270305T030000Z
+DTEND:20270305T060000Z
+SUMMARY:Washington Wizards @ Golden State Warriors
+LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-03-2027 00
+ :00\nHora Punta Arenas/Magallanes: 05-03-2027 00:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0903\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Golden State Warri
+ ors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Golden State W
+ arriors
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Golden Stat
+ e Warriors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0921@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270307T000000Z
+DTEND:20270307T030000Z
+SUMMARY:Utah Jazz @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-03-2027 21
+ :00\nHora Punta Arenas/Magallanes: 06-03-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0921\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Utah Jazz @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Utah Jazz @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Utah Jazz @ Washington Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0944@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270310T010000Z
+DTEND:20270310T040000Z
+SUMMARY:Washington Wizards @ San Antonio Spurs
+LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-03-2027 22
+ :00\nHora Punta Arenas/Magallanes: 09-03-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0944\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ San Antonio Spurs
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ San Antonio Sp
+ urs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ San Antonio
+  Spurs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0961@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270312T010000Z
+DTEND:20270312T040000Z
+SUMMARY:Washington Wizards @ Dallas Mavericks
+LOCATION:American Airlines Center\, Dallas\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-03-2027 22
+ :00\nHora Punta Arenas/Magallanes: 11-03-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0961\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Dallas Mavericks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Dallas Maveric
+ ks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Dallas Mave
+ ricks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0982@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270315T000000Z
+DTEND:20270315T030000Z
+SUMMARY:Washington Wizards @ Minnesota Timberwolves
+LOCATION:Target Center\, Minneapolis\, Minnesota\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-03-2027 21
+ :00\nHora Punta Arenas/Magallanes: 14-03-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0982\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Minnesota Timberwo
+ lves
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Minnesota Timb
+ erwolves
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Minnesota T
+ imberwolves
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0991@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270316T230000Z
+DTEND:20270317T020000Z
+SUMMARY:New York Knicks @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-03-2027 20
+ :00\nHora Punta Arenas/Magallanes: 16-03-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0991\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Washington Wizard
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Washington Wiz
+ ards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1008@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270318T230000Z
+DTEND:20270319T020000Z
+SUMMARY:Philadelphia 76ers @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-03-2027 20
+ :00\nHora Punta Arenas/Magallanes: 18-03-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1008\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ Washington Wiz
+ ards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ Washington 
+ Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1022@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270320T170000Z
+DTEND:20270320T200000Z
+SUMMARY:Washington Wizards @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-03-2027 14
+ :00\nHora Punta Arenas/Magallanes: 20-03-2027 14:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1022\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ New York Knick
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ New York Kn
+ icks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1041@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270323T000000Z
+DTEND:20270323T030000Z
+SUMMARY:Washington Wizards @ Milwaukee Bucks
+LOCATION:Fiserv Forum\, Milwaukee\, Wisconsin\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-03-2027 21
+ :00\nHora Punta Arenas/Magallanes: 22-03-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1041\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Milwaukee Bucks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Milwaukee Buck
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Milwaukee B
+ ucks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1055@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270324T230000Z
+DTEND:20270325T020000Z
+SUMMARY:Denver Nuggets @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-03-2027 20
+ :00\nHora Punta Arenas/Magallanes: 24-03-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1055\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Denver Nuggets @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Denver Nuggets @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ Washington Wiza
+ rds
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1077@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270327T230000Z
+DTEND:20270328T020000Z
+SUMMARY:Golden State Warriors @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-03-2027 20
+ :00\nHora Punta Arenas/Magallanes: 27-03-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1077\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Golden State Warriors @ Washington Wiza
+ rds
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Golden State Warriors @ Washington 
+ Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Golden State Warriors @ Washingt
+ on Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1085@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270328T220000Z
+DTEND:20270329T010000Z
+SUMMARY:Dallas Mavericks @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-03-2027 19
+ :00\nHora Punta Arenas/Magallanes: 28-03-2027 19:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1085\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Dallas Mavericks @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Dallas Mavericks @ Washington Wizar
+ ds
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Dallas Mavericks @ Washington Wi
+ zards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1107@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270331T230000Z
+DTEND:20270401T020000Z
+SUMMARY:Chicago Bulls @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-03-2027 20
+ :00\nHora Punta Arenas/Magallanes: 31-03-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1107\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Chicago Bulls @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Chicago Bulls @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Chicago Bulls @ Washington Wizar
+ ds
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1120@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270402T230000Z
+DTEND:20270403T020000Z
+SUMMARY:Philadelphia 76ers @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-04-2027 20
+ :00\nHora Punta Arenas/Magallanes: 02-04-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1120\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ Washington Wiz
+ ards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ Washington 
+ Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1130@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270403T230000Z
+DTEND:20270404T020000Z
+SUMMARY:Washington Wizards @ Orlando Magic
+LOCATION:Kia Center\, Orlando\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-04-2027 20
+ :00\nHora Punta Arenas/Magallanes: 03-04-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1130\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Orlando Magic
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Orlando Magic
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Orlando Mag
+ ic
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1146@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270406T000000Z
+DTEND:20270406T030000Z
+SUMMARY:Washington Wizards @ New Orleans Pelicans
+LOCATION:Smoothie King Center\, New Orleans\, Louisiana\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-04-2027 20
+ :00\nHora Punta Arenas/Magallanes: 05-04-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1146\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ New Orleans Pelica
+ ns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ New Orleans Pe
+ licans
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ New Orleans
+  Pelicans
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1165@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270408T000000Z
+DTEND:20270408T030000Z
+SUMMARY:Washington Wizards @ Memphis Grizzlies
+LOCATION:FedExForum\, Memphis\, Tennessee\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-04-2027 20
+ :00\nHora Punta Arenas/Magallanes: 07-04-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1165\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Memphis Grizzlies
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Memphis Grizzl
+ ies
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Memphis Gri
+ zzlies
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1180@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270410T000000Z
+DTEND:20270410T030000Z
+SUMMARY:Washington Wizards @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-04-2027 20
+ :00\nHora Punta Arenas/Magallanes: 09-04-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1180\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1192@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270411T220000Z
+DTEND:20270412T010000Z
+SUMMARY:Detroit Pistons @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-04-2027 18
+ :00\nHora Punta Arenas/Magallanes: 11-04-2027 19:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1192\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Detroit Pistons @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Detroit Pistons @ Washington Wizard
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ Washington Wiz
+ ards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

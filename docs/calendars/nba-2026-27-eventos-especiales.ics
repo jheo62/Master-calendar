@@ -1,0 +1,1122 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NBA Master Calendar//2026-27 Premium//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NBA 2026-27 — Partidos Especiales
+X-WR-CALDESC:Calendario NBA 2026-27 generado desde la Base Maestra validada.
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:NBA2627-0001@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261020T190000Z
+DTEND:20261020T220000Z
+SUMMARY:[OPENING NIGHT] Boston Celtics @ Detroit Pistons
+LOCATION:Little Caesars Arena\, Detroit\, Michigan\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-10-2026 16
+ :00\nHora Punta Arenas/Magallanes: 20-10-2026 16:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: Opening Night\nID maestro: NB
+ A2627-0001\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas
+ \; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Boston Celtics @ Detroit Pistons
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Boston Celtics @ Detroit Pistons
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Boston Celtics @ Detroit Pistons
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0002@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261020T230000Z
+DTEND:20261021T020000Z
+SUMMARY:[OPENING NIGHT] Philadelphia 76ers @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-10-2026 20
+ :00\nHora Punta Arenas/Magallanes: 20-10-2026 20:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: Opening Night\nID maestro: NB
+ A2627-0002\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas
+ \; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ New York Knick
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ New York Kn
+ icks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0003@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261021T013000Z
+DTEND:20261021T043000Z
+SUMMARY:[OPENING NIGHT] Oklahoma City Thunder @ San Antonio Spurs
+LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-10-2026 22
+ :30\nHora Punta Arenas/Magallanes: 20-10-2026 22:30\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: Opening Night\nID maestro: NB
+ A2627-0003\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas
+ \; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ San Antonio Spu
+ rs
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ San Antonio
+  Spurs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ San Anto
+ nio Spurs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0134@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261107T220000Z
+DTEND:20261108T010000Z
+SUMMARY:[NBA MEXICO CITY GAME 2026] Denver Nuggets @ Indiana Pacers
+LOCATION:Arena CDMX\, Mexico City\, Ciudad de México\, México
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-11-2026 19
+ :00\nHora Punta Arenas/Magallanes: 07-11-2026 19:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nEvento especial: NBA Mexico City Game 2026\nID maestro: NB
+ A2627-0134\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas
+ \; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Denver Nuggets @ Indiana Pacers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Denver Nuggets @ Indiana Pacers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ Indiana Pacers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0423@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261226T033000Z
+DTEND:20261226T063000Z
+SUMMARY:[NBA CHRISTMAS DAY] Denver Nuggets @ Golden State Warriors
+LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-12-2026 00
+ :30\nHora Punta Arenas/Magallanes: 26-12-2026 00:30\nTV nacional EE.UU.:
+  ABC / ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; s
+ ujeto a restricciones)\nEvento especial: NBA Christmas Day\nID maestro: 
+ NBA2627-0423\nFuente base: NBA.com\nDuración del calendario: 3 h estimad
+ as\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Denver Nuggets @ Golden State Warriors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Denver Nuggets @ Golden State Warri
+ ors
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ Golden State Wa
+ rriors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0424@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261225T170000Z
+DTEND:20261225T200000Z
+SUMMARY:[NBA CHRISTMAS DAY] San Antonio Spurs @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-12-2026 14
+ :00\nHora Punta Arenas/Magallanes: 25-12-2026 14:00\nTV nacional EE.UU.:
+  ABC / ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; s
+ ujeto a restricciones)\nEvento especial: NBA Christmas Day\nID maestro: 
+ NBA2627-0424\nFuente base: NBA.com\nDuración del calendario: 3 h estimad
+ as\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ New York Kni
+ cks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0425@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261225T193000Z
+DTEND:20261225T223000Z
+SUMMARY:[NBA CHRISTMAS DAY] Miami Heat @ Boston Celtics
+LOCATION:TD Garden\, Boston\, Massachusetts\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-12-2026 16
+ :30\nHora Punta Arenas/Magallanes: 25-12-2026 16:30\nTV nacional EE.UU.:
+  ABC / ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; s
+ ujeto a restricciones)\nEvento especial: NBA Christmas Day\nID maestro: 
+ NBA2627-0425\nFuente base: NBA.com\nDuración del calendario: 3 h estimad
+ as\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Boston Celtics
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Boston Celtics
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Boston Celtics
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0426@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261225T220000Z
+DTEND:20261226T010000Z
+SUMMARY:[NBA CHRISTMAS DAY] Philadelphia 76ers @ Los Angeles Lakers
+LOCATION:Crypto.com Arena\, Los Angeles\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-12-2026 19
+ :00\nHora Punta Arenas/Magallanes: 25-12-2026 19:00\nTV nacional EE.UU.:
+  ABC / ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; s
+ ujeto a restricciones)\nEvento especial: NBA Christmas Day\nID maestro: 
+ NBA2627-0426\nFuente base: NBA.com\nDuración del calendario: 3 h estimad
+ as\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ Los Angeles Lakers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ Los Angeles La
+ kers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ Los Angeles
+  Lakers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0427@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261226T010000Z
+DTEND:20261226T040000Z
+SUMMARY:[NBA CHRISTMAS DAY] Oklahoma City Thunder @ Minnesota Timberwolve
+ s
+LOCATION:Target Center\, Minneapolis\, Minnesota\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 25-12-2026 22:00\nTV nacional EE.UU.:
+  ABC / ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; s
+ ujeto a restricciones)\nEvento especial: NBA Christmas Day\nID maestro: 
+ NBA2627-0427\nFuente base: NBA.com\nDuración del calendario: 3 h estimad
+ as\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ Minnesota Timbe
+ rwolves
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ Minnesota T
+ imberwolves
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ Minnesot
+ a Timberwolves
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0577@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270114T190000Z
+DTEND:20270114T220000Z
+SUMMARY:[NBA PARIS GAME 2027] New Orleans Pelicans @ San Antonio Spurs
+LOCATION:Accor Arena\, Paris\, Île-de-France\, Francia
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-01-2027 16
+ :00\nHora Punta Arenas/Magallanes: 14-01-2027 16:00\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nEvento especial: NBA Paris Game 2027\nID mae
+ stro: NBA2627-0577\nFuente base: NBA.com\nDuración del calendario: 3 h e
+ stimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New Orleans Pelicans @ San Antonio Spur
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New Orleans Pelicans @ San Antonio 
+ Spurs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New Orleans Pelicans @ San Anton
+ io Spurs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0598@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270117T153000Z
+DTEND:20270117T183000Z
+SUMMARY:[NBA MANCHESTER GAME 2027] San Antonio Spurs @ New Orleans Pelica
+ ns
+LOCATION:Co-op Live\, Manchester\, England\, Reino Unido
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-01-2027 12
+ :30\nHora Punta Arenas/Magallanes: 17-01-2027 12:30\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nEvento especial: NBA Manchester Game 2027\nI
+ D maestro: NBA2627-0598\nFuente base: NBA.com\nDuración del calendario: 
+ 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ New Orleans Pelican
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ New Orleans Pel
+ icans
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ New Orleans 
+ Pelicans
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0607@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270118T170000Z
+DTEND:20270118T200000Z
+SUMMARY:[NBA ON MLK DAY] Detroit Pistons @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-01-2027 14
+ :00\nHora Punta Arenas/Magallanes: 18-01-2027 14:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: NBA on MLK Day\nID maestro: N
+ BA2627-0607\nFuente base: NBA.com\nDuración del calendario: 3 h estimada
+ s\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Detroit Pistons @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Detroit Pistons @ Cleveland Cavalie
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ Cleveland Cava
+ liers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0608@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270118T193000Z
+DTEND:20270118T223000Z
+SUMMARY:[NBA ON MLK DAY] Philadelphia 76ers @ Atlanta Hawks
+LOCATION:State Farm Arena\, Atlanta\, Georgia\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-01-2027 16
+ :30\nHora Punta Arenas/Magallanes: 18-01-2027 16:30\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: NBA on MLK Day\nID maestro: N
+ BA2627-0608\nFuente base: NBA.com\nDuración del calendario: 3 h estimada
+ s\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ Atlanta Hawks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ Atlanta Hawks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ Atlanta Haw
+ ks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0610@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270118T220000Z
+DTEND:20270119T010000Z
+SUMMARY:[NBA ON MLK DAY] Minnesota Timberwolves @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-01-2027 19
+ :00\nHora Punta Arenas/Magallanes: 18-01-2027 19:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: NBA on MLK Day\nID maestro: N
+ BA2627-0610\nFuente base: NBA.com\nDuración del calendario: 3 h estimada
+ s\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ New York Knick
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ New York K
+ nicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ New Yor
+ k Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0611@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270119T003000Z
+DTEND:20270119T033000Z
+SUMMARY:[NBA ON MLK DAY] Houston Rockets @ Memphis Grizzlies
+LOCATION:FedExForum\, Memphis\, Tennessee\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 18-01-2027 21:30\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nEvento especial: NBA on MLK Day
+ \nID maestro: NBA2627-0611\nFuente base: NBA.com\nDuración del calendari
+ o: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Memphis Grizzlies
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Memphis Grizzlies
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Memphis Grizzl
+ ies
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0667@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270127T040000Z
+DTEND:20270127T070000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Oklahoma City Thunder @ Los Angeles Lakers
+LOCATION:Crypto.com Arena\, Los Angeles\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-01-2027 01
+ :00\nHora Punta Arenas/Magallanes: 27-01-2027 01:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: AWS NBA Rivals Week\nID maest
+ ro: NBA2627-0667\nFuente base: NBA.com\nDuración del calendario: 3 h est
+ imadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ Los Angeles Lak
+ ers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ Los Angeles
+  Lakers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ Los Ange
+ les Lakers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0671@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270127T010000Z
+DTEND:20270127T040000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Houston Rockets @ San Antonio Spurs
+LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-01-2027 22
+ :00\nHora Punta Arenas/Magallanes: 26-01-2027 22:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: AWS NBA Rivals Week\nID maest
+ ro: NBA2627-0671\nFuente base: NBA.com\nDuración del calendario: 3 h est
+ imadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ San Antonio Spurs
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ San Antonio Spurs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ San Antonio Sp
+ urs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0674@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270128T000000Z
+DTEND:20270128T030000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Detroit Pistons @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 27-01-2027 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nEvento especial: AWS NBA Rivals Week\nID maestro: NBA2
+ 627-0674\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\;
+  el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Detroit Pistons @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Detroit Pistons @ Cleveland Cavalie
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ Cleveland Cava
+ liers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0681@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270128T023000Z
+DTEND:20270128T053000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Denver Nuggets @ Minnesota Timberwolves
+LOCATION:Target Center\, Minneapolis\, Minnesota\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-01-2027 23
+ :30\nHora Punta Arenas/Magallanes: 27-01-2027 23:30\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nEvento especial: AWS NBA Rivals Week\nID maestro: NBA2
+ 627-0681\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\;
+  el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Denver Nuggets @ Minnesota Timberwolves
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Denver Nuggets @ Minnesota Timberwo
+ lves
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ Minnesota Timbe
+ rwolves
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0683@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270129T000000Z
+DTEND:20270129T030000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Atlanta Hawks @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 28-01-2027 21:00\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nEvento especial: AWS NBA Rivals Week\nID mae
+ stro: NBA2627-0683\nFuente base: NBA.com\nDuración del calendario: 3 h e
+ stimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Atlanta Hawks @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Atlanta Hawks @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Atlanta Hawks @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0689@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270129T023000Z
+DTEND:20270129T053000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Miami Heat @ Milwaukee Bucks
+LOCATION:Fiserv Forum\, Milwaukee\, Wisconsin\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-01-2027 23
+ :30\nHora Punta Arenas/Magallanes: 28-01-2027 23:30\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nEvento especial: AWS NBA Rivals Week\nID mae
+ stro: NBA2627-0689\nFuente base: NBA.com\nDuración del calendario: 3 h e
+ stimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Milwaukee Bucks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Milwaukee Bucks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Milwaukee Bucks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0690@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270130T000000Z
+DTEND:20270130T030000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Cleveland Cavaliers @ Toronto Raptors
+LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canadá
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 29-01-2027 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nEvento especial: AWS NBA Rivals Week\nID maestro: NBA2
+ 627-0690\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\;
+  el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Toronto Raptors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Toronto Rapto
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Toronto Ra
+ ptors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0695@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270130T023000Z
+DTEND:20270130T053000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Charlotte Hornets @ Minnesota Timberwolves
+LOCATION:Target Center\, Minneapolis\, Minnesota\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-01-2027 23
+ :30\nHora Punta Arenas/Magallanes: 29-01-2027 23:30\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nEvento especial: AWS NBA Rivals Week\nID maestro: NBA2
+ 627-0695\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\;
+  el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Charlotte Hornets @ Minnesota Timberwol
+ ves
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Charlotte Hornets @ Minnesota Timbe
+ rwolves
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Charlotte Hornets @ Minnesota Ti
+ mberwolves
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0696@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270130T173000Z
+DTEND:20270130T203000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Philadelphia 76ers @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-01-2027 14
+ :30\nHora Punta Arenas/Magallanes: 30-01-2027 14:30\nTV nacional EE.UU.:
+  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEvento especial: AWS NBA Rivals Week\nID maestro: NBA26
+ 27-0696\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; 
+ el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0697@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270130T200000Z
+DTEND:20270130T230000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Denver Nuggets @ Oklahoma City Thunder
+LOCATION:Paycom Center\, Oklahoma City\, Oklahoma\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-01-2027 17
+ :00\nHora Punta Arenas/Magallanes: 30-01-2027 17:00\nTV nacional EE.UU.:
+  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEvento especial: AWS NBA Rivals Week\nID maestro: NBA26
+ 27-0697\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; 
+ el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Denver Nuggets @ Oklahoma City Thunder
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Denver Nuggets @ Oklahoma City Thun
+ der
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ Oklahoma City T
+ hunder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0698@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270130T223000Z
+DTEND:20270131T013000Z
+SUMMARY:[AWS NBA RIVALS WEEK] San Antonio Spurs @ Golden State Warriors
+LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-01-2027 19
+ :30\nHora Punta Arenas/Magallanes: 30-01-2027 19:30\nTV nacional EE.UU.:
+  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEvento especial: AWS NBA Rivals Week\nID maestro: NBA26
+ 27-0698\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; 
+ el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Golden State Warrio
+ rs
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Golden State Wa
+ rriors
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Golden State
+  Warriors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0702@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270131T013000Z
+DTEND:20270131T043000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Los Angeles Lakers @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-01-2027 22
+ :30\nHora Punta Arenas/Magallanes: 30-01-2027 22:30\nTV nacional EE.UU.:
+  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEvento especial: AWS NBA Rivals Week\nID maestro: NBA26
+ 27-0702\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; 
+ el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Los Angeles Lakers @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ New York Knick
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ New York Kn
+ icks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0728@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270204T000000Z
+DTEND:20270204T030000Z
+SUMMARY:[NBA PIONEERS CLASSIC] New York Knicks @ Detroit Pistons
+LOCATION:Little Caesars Arena\, Detroit\, Michigan\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 03-02-2027 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nEvento especial: NBA Pioneers Classic\nID maestro: NBA
+ 2627-0728\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\
+ ; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Detroit Pistons
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Detroit Pistons
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Detroit Piston
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0819@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270215T170000Z
+DTEND:20270215T200000Z
+SUMMARY:[NBA ON PRESIDENTS' DAY] Minnesota Timberwolves @ Charlotte Horne
+ ts
+LOCATION:Spectrum Center\, Charlotte\, Carolina del Norte\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-02-2027 14
+ :00\nHora Punta Arenas/Magallanes: 15-02-2027 14:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: NBA on Presidents' Day\nID ma
+ estro: NBA2627-0819\nFuente base: NBA.com\nDuración del calendario: 3 h 
+ estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ Charlotte Horn
+ ets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ Charlotte 
+ Hornets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ Charlot
+ te Hornets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0820@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270215T193000Z
+DTEND:20270215T223000Z
+SUMMARY:[NBA ON PRESIDENTS' DAY] Philadelphia 76ers @ Dallas Mavericks
+LOCATION:American Airlines Center\, Dallas\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-02-2027 16
+ :30\nHora Punta Arenas/Magallanes: 15-02-2027 16:30\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: NBA on Presidents' Day\nID ma
+ estro: NBA2627-0820\nFuente base: NBA.com\nDuración del calendario: 3 h 
+ estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ Dallas Mavericks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ Dallas Maveric
+ ks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ Dallas Mave
+ ricks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0821@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270215T220000Z
+DTEND:20270216T010000Z
+SUMMARY:[NBA ON PRESIDENTS' DAY] San Antonio Spurs @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-02-2027 19
+ :00\nHora Punta Arenas/Magallanes: 15-02-2027 19:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: NBA on Presidents' Day\nID ma
+ estro: NBA2627-0821\nFuente base: NBA.com\nDuración del calendario: 3 h 
+ estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0823@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270216T003000Z
+DTEND:20270216T033000Z
+SUMMARY:[NBA ON PRESIDENTS' DAY] Indiana Pacers @ Golden State Warriors
+LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-02-2027 21
+ :30\nHora Punta Arenas/Magallanes: 15-02-2027 21:30\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nEvento especial: NBA on Preside
+ nts' Day\nID maestro: NBA2627-0823\nFuente base: NBA.com\nDuración del c
+ alendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Indiana Pacers @ Golden State Warriors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Indiana Pacers @ Golden State Warri
+ ors
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Indiana Pacers @ Golden State Wa
+ rriors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

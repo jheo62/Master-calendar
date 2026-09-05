@@ -1,0 +1,2742 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NBA Master Calendar//2026-27 Premium//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NBA 2026-27 — Cleveland Cavaliers
+X-WR-CALDESC:Calendario 2026-27 de Cleveland Cavaliers — 80 partidos actualmente definidos.
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:NBA2627-0015@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261022T230000Z
+DTEND:20261023T020000Z
+SUMMARY:Cleveland Cavaliers @ Philadelphia 76ers
+LOCATION:Xfinity Mobile Arena\, Philadelphia\, Pennsylvania\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-10-2026 20
+ :00\nHora Punta Arenas/Magallanes: 22-10-2026 20:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0015\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Philadelphia 76er
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Philadelphia 
+ 76ers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Philadelph
+ ia 76ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0031@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261024T233000Z
+DTEND:20261025T023000Z
+SUMMARY:Brooklyn Nets @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-10-2026 20
+ :30\nHora Punta Arenas/Magallanes: 24-10-2026 20:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0031\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Brooklyn Nets @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Brooklyn Nets @ Cleveland Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Brooklyn Nets @ Cleveland Cavali
+ ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0046@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261026T230000Z
+DTEND:20261027T020000Z
+SUMMARY:Minnesota Timberwolves @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-10-2026 20
+ :00\nHora Punta Arenas/Magallanes: 26-10-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0046\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ Cleveland Cava
+ liers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ Cleveland 
+ Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ Clevela
+ nd Cavaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0059@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261028T230000Z
+DTEND:20261029T020000Z
+SUMMARY:Washington Wizards @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-10-2026 20
+ :00\nHora Punta Arenas/Magallanes: 28-10-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0059\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Cleveland Cavalier
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Cleveland Cava
+ liers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Cleveland C
+ avaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0070@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261029T230000Z
+DTEND:20261030T020000Z
+SUMMARY:Cleveland Cavaliers @ Atlanta Hawks
+LOCATION:State Farm Arena\, Atlanta\, Georgia\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-10-2026 20
+ :00\nHora Punta Arenas/Magallanes: 29-10-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0070\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Atlanta Hawks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Atlanta Hawks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Atlanta Ha
+ wks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0086@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261101T000000Z
+DTEND:20261101T030000Z
+SUMMARY:Cleveland Cavaliers @ Milwaukee Bucks
+LOCATION:Fiserv Forum\, Milwaukee\, Wisconsin\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-10-2026 21
+ :00\nHora Punta Arenas/Magallanes: 31-10-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0086\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Milwaukee Bucks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Milwaukee Buc
+ ks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Milwaukee 
+ Bucks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0096@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261103T000000Z
+DTEND:20261103T030000Z
+SUMMARY:Oklahoma City Thunder @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 02-11-2026 21:00\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0096\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ Cleveland Caval
+ iers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ Cleveland C
+ avaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ Clevelan
+ d Cavaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0117@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261105T010000Z
+DTEND:20261105T040000Z
+SUMMARY:Cleveland Cavaliers @ Oklahoma City Thunder
+LOCATION:Paycom Center\, Oklahoma City\, Oklahoma\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-11-2026 22
+ :00\nHora Punta Arenas/Magallanes: 04-11-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0117\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Oklahoma City Thu
+ nder
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Oklahoma City
+  Thunder
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Oklahoma C
+ ity Thunder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0128@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261107T003000Z
+DTEND:20261107T033000Z
+SUMMARY:[NBA CUP] Philadelphia 76ers @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 06-11-2026
+  21:30\nHora Punta Arenas/Magallanes: 06-11-2026 21:30\nTV nacional EE.U
+ U.: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merc
+ ado\; sujeto a restricciones)\nEmirates NBA Cup — East Group B\nID maest
+ ro: NBA2627-0128\nFuente base: NBA.com\nDuración del calendario: 3 h est
+ imadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ Cleveland Cavalier
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ Cleveland Cava
+ liers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ Cleveland C
+ avaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0136@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261108T010000Z
+DTEND:20261108T040000Z
+SUMMARY:New York Knicks @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-11-2026 22
+ :00\nHora Punta Arenas/Magallanes: 07-11-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0136\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Cleveland Cavalie
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Cleveland Cava
+ liers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0149@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261110T000000Z
+DTEND:20261110T030000Z
+SUMMARY:Cleveland Cavaliers @ Charlotte Hornets
+LOCATION:Spectrum Center\, Charlotte\, Carolina del Norte\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 09-11-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0149\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Charlotte Hornets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Charlotte Hor
+ nets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Charlotte 
+ Hornets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0163@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261112T000000Z
+DTEND:20261112T030000Z
+SUMMARY:Cleveland Cavaliers @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 11-11-2026 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0163\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ New York Knic
+ ks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ New York K
+ nicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0179@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:[NBA CUP] Cleveland Cavaliers @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 13-11-2026
+  22:00\nHora Punta Arenas/Magallanes: 13-11-2026 22:00\nTV nacional EE.U
+ U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEmirates NBA Cup — East Group B\nID maestro: NBA2627-01
+ 79\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
+ rmino real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0185@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261115T003000Z
+DTEND:20261115T033000Z
+SUMMARY:Dallas Mavericks @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-11-2026 21
+ :30\nHora Punta Arenas/Magallanes: 14-11-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0185\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Dallas Mavericks @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Dallas Mavericks @ Cleveland Cavali
+ ers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Dallas Mavericks @ Cleveland Cav
+ aliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0198@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261117T000000Z
+DTEND:20261117T030000Z
+SUMMARY:Chicago Bulls @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 16-11-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0198\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Chicago Bulls @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Chicago Bulls @ Cleveland Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Chicago Bulls @ Cleveland Cavali
+ ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0213@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261119T000000Z
+DTEND:20261119T030000Z
+SUMMARY:Memphis Grizzlies @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 18-11-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0213\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Memphis Grizzlies @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Memphis Grizzlies @ Cleveland Caval
+ iers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Memphis Grizzlies @ Cleveland Ca
+ valiers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0231@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261121T003000Z
+DTEND:20261121T033000Z
+SUMMARY:[NBA CUP] Indiana Pacers @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 20-11-2026
+  21:30\nHora Punta Arenas/Magallanes: 20-11-2026 21:30\nTV nacional EE.U
+ U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEmirates NBA Cup — East Group B\nID maestro: NBA2627-02
+ 31\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
+ rmino real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Indiana Pacers @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Indiana Pacers @ Cleveland Cavalier
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Indiana Pacers @ Cleveland Caval
+ iers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0256@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261124T010000Z
+DTEND:20261124T040000Z
+SUMMARY:Cleveland Cavaliers @ Chicago Bulls
+LOCATION:United Center\, Chicago\, Illinois\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-11-2026 22
+ :00\nHora Punta Arenas/Magallanes: 23-11-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0256\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Chicago Bulls
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Chicago Bulls
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Chicago Bu
+ lls
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0266@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261126T003000Z
+DTEND:20261126T033000Z
+SUMMARY:[NBA CUP] Cleveland Cavaliers @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 25-11-2026
+  21:30\nHora Punta Arenas/Magallanes: 25-11-2026 21:30\nTV nacional EE.U
+ U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEmirates NBA Cup — East Group B\nID maestro: NBA2627-02
+ 66\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
+ rmino real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ New York Knic
+ ks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ New York K
+ nicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0290@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261129T230000Z
+DTEND:20261130T020000Z
+SUMMARY:Miami Heat @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-11-2026 20
+ :00\nHora Punta Arenas/Magallanes: 29-11-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0290\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Cleveland Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Cleveland Cavaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0306@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261202T000000Z
+DTEND:20261202T030000Z
+SUMMARY:Indiana Pacers @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-12-2026 21
+ :00\nHora Punta Arenas/Magallanes: 01-12-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0306\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Indiana Pacers @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Indiana Pacers @ Cleveland Cavalier
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Indiana Pacers @ Cleveland Caval
+ iers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0324@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261204T010000Z
+DTEND:20261204T040000Z
+SUMMARY:Cleveland Cavaliers @ Chicago Bulls
+LOCATION:United Center\, Chicago\, Illinois\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 03-12-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0324\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Chicago Bulls
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Chicago Bulls
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Chicago Bu
+ lls
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0330@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261213T010000Z
+DTEND:20261213T040000Z
+SUMMARY:Golden State Warriors @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 12-12-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0330\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Golden State Warriors @ Cleveland Caval
+ iers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Golden State Warriors @ Cleveland C
+ avaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Golden State Warriors @ Clevelan
+ d Cavaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0352@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261216T010000Z
+DTEND:20261216T040000Z
+SUMMARY:San Antonio Spurs @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 15-12-2026 22:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-0352\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Cleveland Caval
+ iers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Cleveland Ca
+ valiers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0357@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261217T000000Z
+DTEND:20261217T030000Z
+SUMMARY:Cleveland Cavaliers @ Orlando Magic
+LOCATION:Kia Center\, Orlando\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-12-2026 21
+ :00\nHora Punta Arenas/Magallanes: 16-12-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0357\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Orlando Magic
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Orlando Magic
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Orlando Ma
+ gic
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0374@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261219T003000Z
+DTEND:20261219T033000Z
+SUMMARY:Cleveland Cavaliers @ Detroit Pistons
+LOCATION:Little Caesars Arena\, Detroit\, Michigan\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-12-2026 21
+ :30\nHora Punta Arenas/Magallanes: 18-12-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0374\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Detroit Pistons
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Detroit Pisto
+ ns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Detroit Pi
+ stons
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0389@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261220T230000Z
+DTEND:20261221T020000Z
+SUMMARY:Utah Jazz @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-12-2026 20
+ :00\nHora Punta Arenas/Magallanes: 20-12-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0389\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Utah Jazz @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Utah Jazz @ Cleveland Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Utah Jazz @ Cleveland Cavaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0399@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261222T000000Z
+DTEND:20261222T030000Z
+SUMMARY:New York Knicks @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-12-2026 21
+ :00\nHora Punta Arenas/Magallanes: 21-12-2026 21:00\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0399\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Cleveland Cavalie
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Cleveland Cava
+ liers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0413@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261224T000000Z
+DTEND:20261224T030000Z
+SUMMARY:Cleveland Cavaliers @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-12-2026 21
+ :00\nHora Punta Arenas/Magallanes: 23-12-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0413\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Washington Wizard
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Washington Wi
+ zards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Washington
+  Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0437@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261227T230000Z
+DTEND:20261228T020000Z
+SUMMARY:Washington Wizards @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-12-2026 20
+ :00\nHora Punta Arenas/Magallanes: 27-12-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0437\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Cleveland Cavalier
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Cleveland Cava
+ liers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Cleveland C
+ avaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0450@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261229T010000Z
+DTEND:20261229T040000Z
+SUMMARY:Cleveland Cavaliers @ Boston Celtics
+LOCATION:TD Garden\, Boston\, Massachusetts\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 28-12-2026 22:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-0450\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Boston Celtics
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Boston Celtic
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Boston Cel
+ tics
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0469@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261231T200000Z
+DTEND:20261231T230000Z
+SUMMARY:Los Angeles Clippers @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-12-2026 17
+ :00\nHora Punta Arenas/Magallanes: 31-12-2026 17:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0469\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Los Angeles Clippers @ Cleveland Cavali
+ ers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Clippers @ Cleveland Ca
+ valiers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Clippers @ Cleveland
+  Cavaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0483@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270102T180000Z
+DTEND:20270102T210000Z
+SUMMARY:Cleveland Cavaliers @ Charlotte Hornets
+LOCATION:Spectrum Center\, Charlotte\, Carolina del Norte\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-01-2027 15
+ :00\nHora Punta Arenas/Magallanes: 02-01-2027 15:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0483\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Charlotte Hornets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Charlotte Hor
+ nets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Charlotte 
+ Hornets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0497@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270104T000000Z
+DTEND:20270104T030000Z
+SUMMARY:Cleveland Cavaliers @ Houston Rockets
+LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 03-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0497\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Houston Rockets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Houston Rocke
+ ts
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Houston Ro
+ ckets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0509@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270106T000000Z
+DTEND:20270106T030000Z
+SUMMARY:Toronto Raptors @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 05-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0509\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Toronto Raptors @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Toronto Raptors @ Cleveland Cavalie
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Toronto Raptors @ Cleveland Cava
+ liers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0525@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270108T000000Z
+DTEND:20270108T030000Z
+SUMMARY:Cleveland Cavaliers @ Orlando Magic
+LOCATION:Kia Center\, Orlando\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 07-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0525\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Orlando Magic
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Orlando Magic
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Orlando Ma
+ gic
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0542@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270109T220000Z
+DTEND:20270110T010000Z
+SUMMARY:Denver Nuggets @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-01-2027 19
+ :00\nHora Punta Arenas/Magallanes: 09-01-2027 19:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0542\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Denver Nuggets @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Denver Nuggets @ Cleveland Cavalier
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ Cleveland Caval
+ iers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0559@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270112T010000Z
+DTEND:20270112T040000Z
+SUMMARY:Cleveland Cavaliers @ Minnesota Timberwolves
+LOCATION:Target Center\, Minneapolis\, Minnesota\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-01-2027 22
+ :00\nHora Punta Arenas/Magallanes: 11-01-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0559\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Minnesota Timberw
+ olves
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Minnesota Tim
+ berwolves
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Minnesota 
+ Timberwolves
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0570@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270114T000000Z
+DTEND:20270114T030000Z
+SUMMARY:Cleveland Cavaliers @ Atlanta Hawks
+LOCATION:State Farm Arena\, Atlanta\, Georgia\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 13-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0570\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Atlanta Hawks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Atlanta Hawks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Atlanta Ha
+ wks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0589@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270116T010000Z
+DTEND:20270116T040000Z
+SUMMARY:Cleveland Cavaliers @ Milwaukee Bucks
+LOCATION:Fiserv Forum\, Milwaukee\, Wisconsin\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-01-2027 22
+ :00\nHora Punta Arenas/Magallanes: 15-01-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0589\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Milwaukee Bucks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Milwaukee Buc
+ ks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Milwaukee 
+ Bucks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0595@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270117T010000Z
+DTEND:20270117T040000Z
+SUMMARY:Cleveland Cavaliers @ Memphis Grizzlies
+LOCATION:FedExForum\, Memphis\, Tennessee\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-01-2027 22
+ :00\nHora Punta Arenas/Magallanes: 16-01-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0595\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Memphis Grizzlies
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Memphis Grizz
+ lies
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Memphis Gr
+ izzlies
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0607@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270118T170000Z
+DTEND:20270118T200000Z
+SUMMARY:[NBA ON MLK DAY] Detroit Pistons @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-01-2027 14
+ :00\nHora Punta Arenas/Magallanes: 18-01-2027 14:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: NBA on MLK Day\nID maestro: N
+ BA2627-0607\nFuente base: NBA.com\nDuración del calendario: 3 h estimada
+ s\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Detroit Pistons @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Detroit Pistons @ Cleveland Cavalie
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ Cleveland Cava
+ liers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0632@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270122T003000Z
+DTEND:20270122T033000Z
+SUMMARY:Cleveland Cavaliers @ Brooklyn Nets
+LOCATION:Barclays Center\, Brooklyn\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 21-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0632\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Brooklyn Nets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Brooklyn Nets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Brooklyn N
+ ets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0649@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270124T010000Z
+DTEND:20270124T040000Z
+SUMMARY:Cleveland Cavaliers @ Dallas Mavericks
+LOCATION:American Airlines Center\, Dallas\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-01-2027 22
+ :00\nHora Punta Arenas/Magallanes: 23-01-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0649\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Dallas Mavericks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Dallas Maveri
+ cks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Dallas Mav
+ ericks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0664@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270126T010000Z
+DTEND:20270126T040000Z
+SUMMARY:Cleveland Cavaliers @ New Orleans Pelicans
+LOCATION:Smoothie King Center\, New Orleans\, Louisiana\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-01-2027 22
+ :00\nHora Punta Arenas/Magallanes: 25-01-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0664\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ New Orleans Pelic
+ ans
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ New Orleans P
+ elicans
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ New Orlean
+ s Pelicans
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0674@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270128T000000Z
+DTEND:20270128T030000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Detroit Pistons @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 27-01-2027 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nEvento especial: AWS NBA Rivals Week\nID maestro: NBA2
+ 627-0674\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\;
+  el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Detroit Pistons @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Detroit Pistons @ Cleveland Cavalie
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ Cleveland Cava
+ liers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0690@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270130T000000Z
+DTEND:20270130T030000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Cleveland Cavaliers @ Toronto Raptors
+LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canadá
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 29-01-2027 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nEvento especial: AWS NBA Rivals Week\nID maestro: NBA2
+ 627-0690\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\;
+  el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Toronto Raptors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Toronto Rapto
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Toronto Ra
+ ptors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0700@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270131T003000Z
+DTEND:20270131T033000Z
+SUMMARY:New Orleans Pelicans @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 30-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0700\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New Orleans Pelicans @ Cleveland Cavali
+ ers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New Orleans Pelicans @ Cleveland Ca
+ valiers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New Orleans Pelicans @ Cleveland
+  Cavaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0718@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270202T020000Z
+DTEND:20270202T050000Z
+SUMMARY:Cleveland Cavaliers @ Utah Jazz
+LOCATION:Delta Center\, Salt Lake City\, Utah\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-02-2027 23
+ :00\nHora Punta Arenas/Magallanes: 01-02-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0718\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Utah Jazz
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Utah Jazz
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Utah Jazz
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0731@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270204T020000Z
+DTEND:20270204T050000Z
+SUMMARY:Cleveland Cavaliers @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-02-2027 23
+ :00\nHora Punta Arenas/Magallanes: 03-02-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0731\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Phoenix Su
+ ns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0734@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270205T030000Z
+DTEND:20270205T060000Z
+SUMMARY:Cleveland Cavaliers @ Portland Trail Blazers
+LOCATION:Moda Center\, Portland\, Oregón\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-02-2027 00
+ :00\nHora Punta Arenas/Magallanes: 05-02-2027 00:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0734\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Portland Trail Bl
+ azers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Portland Trai
+ l Blazers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Portland T
+ rail Blazers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0754@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270207T003000Z
+DTEND:20270207T033000Z
+SUMMARY:Orlando Magic @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-02-2027 21
+ :30\nHora Punta Arenas/Magallanes: 06-02-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0754\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Orlando Magic @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Orlando Magic @ Cleveland Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Orlando Magic @ Cleveland Cavali
+ ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0775@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270210T000000Z
+DTEND:20270210T030000Z
+SUMMARY:Toronto Raptors @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 09-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0775\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Toronto Raptors @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Toronto Raptors @ Cleveland Cavalie
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Toronto Raptors @ Cleveland Cava
+ liers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0785@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270211T000000Z
+DTEND:20270211T030000Z
+SUMMARY:Cleveland Cavaliers @ Indiana Pacers
+LOCATION:Gainbridge Fieldhouse\, Indianapolis\, Indiana\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 10-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0785\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Indiana Pacers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Indiana Pacer
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Indiana Pa
+ cers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0801@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270213T003000Z
+DTEND:20270213T033000Z
+SUMMARY:Cleveland Cavaliers @ Toronto Raptors
+LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canadá
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-02-2027 21
+ :30\nHora Punta Arenas/Magallanes: 12-02-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0801\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Toronto Raptors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Toronto Rapto
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Toronto Ra
+ ptors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0814@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270214T180000Z
+DTEND:20270214T210000Z
+SUMMARY:Phoenix Suns @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-02-2027 15
+ :00\nHora Punta Arenas/Magallanes: 14-02-2027 15:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0814\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Cleveland Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Cleveland Cavalie
+ rs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0830@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270217T000000Z
+DTEND:20270217T030000Z
+SUMMARY:Milwaukee Bucks @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 16-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0830\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Milwaukee Bucks @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Milwaukee Bucks @ Cleveland Cavalie
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Milwaukee Bucks @ Cleveland Cava
+ liers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0836@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270218T000000Z
+DTEND:20270218T030000Z
+SUMMARY:Milwaukee Bucks @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 17-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0836\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Milwaukee Bucks @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Milwaukee Bucks @ Cleveland Cavalie
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Milwaukee Bucks @ Cleveland Cava
+ liers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0851@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270226T000000Z
+DTEND:20270226T030000Z
+SUMMARY:Sacramento Kings @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 25-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0851\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Sacramento Kings @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Sacramento Kings @ Cleveland Cavali
+ ers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Sacramento Kings @ Cleveland Cav
+ aliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0861@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270227T003000Z
+DTEND:20270227T033000Z
+SUMMARY:Cleveland Cavaliers @ Boston Celtics
+LOCATION:TD Garden\, Boston\, Massachusetts\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-02-2027 21
+ :30\nHora Punta Arenas/Magallanes: 26-02-2027 21:30\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0861\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Boston Celtics
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Boston Celtic
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Boston Cel
+ tics
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0882@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270302T000000Z
+DTEND:20270302T030000Z
+SUMMARY:Philadelphia 76ers @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-03-2027 21
+ :00\nHora Punta Arenas/Magallanes: 01-03-2027 21:00\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0882\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ Cleveland Cavalier
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ Cleveland Cava
+ liers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ Cleveland C
+ avaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0906@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270305T000000Z
+DTEND:20270305T030000Z
+SUMMARY:Portland Trail Blazers @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-03-2027 21
+ :00\nHora Punta Arenas/Magallanes: 04-03-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0906\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Portland Trail Blazers @ Cleveland Cava
+ liers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Portland Trail Blazers @ Cleveland 
+ Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Portland Trail Blazers @ Clevela
+ nd Cavaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0920@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270306T223000Z
+DTEND:20270307T013000Z
+SUMMARY:Atlanta Hawks @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-03-2027 19
+ :30\nHora Punta Arenas/Magallanes: 06-03-2027 19:30\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0920\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del partido
+  puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Atlanta Hawks @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Atlanta Hawks @ Cleveland Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Atlanta Hawks @ Cleveland Cavali
+ ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0941@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270310T010000Z
+DTEND:20270310T040000Z
+SUMMARY:Cleveland Cavaliers @ Detroit Pistons
+LOCATION:Little Caesars Arena\, Detroit\, Michigan\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-03-2027 22
+ :00\nHora Punta Arenas/Magallanes: 09-03-2027 22:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-0941\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Detroit Pistons
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Detroit Pisto
+ ns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Detroit Pi
+ stons
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0954@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270312T033000Z
+DTEND:20270312T063000Z
+SUMMARY:Cleveland Cavaliers @ Los Angeles Clippers
+LOCATION:Intuit Dome\, Inglewood\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-03-2027 00
+ :30\nHora Punta Arenas/Magallanes: 12-03-2027 00:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0954\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Los Angeles Clipp
+ ers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Los Angeles C
+ lippers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Los Angele
+ s Clippers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0963@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270313T030000Z
+DTEND:20270313T060000Z
+SUMMARY:Cleveland Cavaliers @ Los Angeles Lakers
+LOCATION:Crypto.com Arena\, Los Angeles\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-03-2027 00
+ :00\nHora Punta Arenas/Magallanes: 13-03-2027 00:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0963\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Los Angeles Laker
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Los Angeles L
+ akers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Los Angele
+ s Lakers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0980@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270314T220000Z
+DTEND:20270315T010000Z
+SUMMARY:Cleveland Cavaliers @ Sacramento Kings
+LOCATION:Golden 1 Center\, Sacramento\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-03-2027 19
+ :00\nHora Punta Arenas/Magallanes: 14-03-2027 19:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0980\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Sacramento Kings
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Sacramento Ki
+ ngs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Sacramento
+  Kings
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0988@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270317T020000Z
+DTEND:20270317T050000Z
+SUMMARY:Cleveland Cavaliers @ Golden State Warriors
+LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-03-2027 23
+ :00\nHora Punta Arenas/Magallanes: 16-03-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0988\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Golden State Warr
+ iors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Golden State 
+ Warriors
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Golden Sta
+ te Warriors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1013@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270319T010000Z
+DTEND:20270319T040000Z
+SUMMARY:Cleveland Cavaliers @ Denver Nuggets
+LOCATION:Ball Arena\, Denver\, Colorado\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-03-2027 22
+ :00\nHora Punta Arenas/Magallanes: 18-03-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1013\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Denver Nuggets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Denver Nugget
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Denver Nug
+ gets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1024@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270320T233000Z
+DTEND:20270321T023000Z
+SUMMARY:Chicago Bulls @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-03-2027 20
+ :30\nHora Punta Arenas/Magallanes: 20-03-2027 20:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1024\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Chicago Bulls @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Chicago Bulls @ Cleveland Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Chicago Bulls @ Cleveland Cavali
+ ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1037@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270322T230000Z
+DTEND:20270323T020000Z
+SUMMARY:Houston Rockets @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-03-2027 20
+ :00\nHora Punta Arenas/Magallanes: 22-03-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1037\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Cleveland Cavalie
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Cleveland Cava
+ liers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1061@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270325T230000Z
+DTEND:20270326T020000Z
+SUMMARY:Los Angeles Lakers @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-03-2027 20
+ :00\nHora Punta Arenas/Magallanes: 25-03-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1061\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Los Angeles Lakers @ Cleveland Cavalier
+ s
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ Cleveland Cava
+ liers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ Cleveland C
+ avaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1092@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270329T230000Z
+DTEND:20270330T020000Z
+SUMMARY:Miami Heat @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-03-2027 20
+ :00\nHora Punta Arenas/Magallanes: 29-03-2027 20:00\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-1092\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Cleveland Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Cleveland Cavaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1108@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270331T233000Z
+DTEND:20270401T023000Z
+SUMMARY:Cleveland Cavaliers @ Brooklyn Nets
+LOCATION:Barclays Center\, Brooklyn\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-03-2027 20
+ :30\nHora Punta Arenas/Magallanes: 31-03-2027 20:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1108\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Brooklyn Nets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Brooklyn Nets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Brooklyn N
+ ets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1113@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270401T230000Z
+DTEND:20270402T020000Z
+SUMMARY:Boston Celtics @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-04-2027 20
+ :00\nHora Punta Arenas/Magallanes: 01-04-2027 20:00\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-1113\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del partido
+  puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Boston Celtics @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Boston Celtics @ Cleveland Cavalier
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Boston Celtics @ Cleveland Caval
+ iers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1134@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270404T190000Z
+DTEND:20270404T220000Z
+SUMMARY:Charlotte Hornets @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-04-2027 15
+ :00\nHora Punta Arenas/Magallanes: 04-04-2027 16:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1134\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Charlotte Hornets @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Charlotte Hornets @ Cleveland Caval
+ iers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Charlotte Hornets @ Cleveland Ca
+ valiers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1144@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270405T230000Z
+DTEND:20270406T020000Z
+SUMMARY:Brooklyn Nets @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-04-2027 19
+ :00\nHora Punta Arenas/Magallanes: 05-04-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1144\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Brooklyn Nets @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Brooklyn Nets @ Cleveland Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Brooklyn Nets @ Cleveland Cavali
+ ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1163@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270407T233000Z
+DTEND:20270408T023000Z
+SUMMARY:Cleveland Cavaliers @ San Antonio Spurs
+LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-04-2027 19
+ :30\nHora Punta Arenas/Magallanes: 07-04-2027 20:30\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-1163\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ San Antonio Spurs
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ San Antonio S
+ purs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ San Antoni
+ o Spurs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1177@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270409T230000Z
+DTEND:20270410T020000Z
+SUMMARY:Cleveland Cavaliers @ Indiana Pacers
+LOCATION:Gainbridge Fieldhouse\, Indianapolis\, Indiana\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-04-2027 19
+ :00\nHora Punta Arenas/Magallanes: 09-04-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1177\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Indiana Pacers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Indiana Pacer
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Indiana Pa
+ cers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1188@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270411T220000Z
+DTEND:20270412T010000Z
+SUMMARY:Atlanta Hawks @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-04-2027 18
+ :00\nHora Punta Arenas/Magallanes: 11-04-2027 19:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1188\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Atlanta Hawks @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Atlanta Hawks @ Cleveland Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Atlanta Hawks @ Cleveland Cavali
+ ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

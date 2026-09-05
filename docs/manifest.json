@@ -1,0 +1,278 @@
+{
+  "project": "NBA Master Calendar 2026-27",
+  "phase": "3.2",
+  "generated_utc": "2026-09-03T01:06:33.784205+00:00",
+  "production_feeds": [
+    {
+      "file": "calendars/nba-2026-27-completo.ics",
+      "events": 1200,
+      "unique_uids": 1200,
+      "alarms": 3600,
+      "sha256": "e968e611d1a35af50156d4fc9a3538f15fdfd98eec6fe9ea16e0eb0f061cfbce",
+      "bytes": 1340564
+    },
+    {
+      "file": "calendars/nba-2026-27-cup-group-play.ics",
+      "events": 60,
+      "unique_uids": 60,
+      "alarms": 180,
+      "sha256": "759d56c1a5bda4873725a0223f8b29732a46ba962fbaeaeaefd56f62c3d1b985",
+      "bytes": 70224
+    },
+    {
+      "file": "calendars/nba-2026-27-eventos-especiales.ics",
+      "events": 32,
+      "unique_uids": 32,
+      "alarms": 96,
+      "sha256": "7139379b0e833d8be5a4faf260a3c4924c4845e5b815f76c88138dc794036276",
+      "bytes": 38334
+    },
+    {
+      "file": "calendars/teams/atlanta-hawks.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "0fb4203a8db6876bd0bed39c5933cd9c9f77b0d44b9bacd8baf8b3e13f80d471",
+      "bytes": 88228
+    },
+    {
+      "file": "calendars/teams/boston-celtics.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "a22c040598556ea80a1ba65ec85139cb072108cd8af1a5b91e322d9b0c86cccd",
+      "bytes": 88729
+    },
+    {
+      "file": "calendars/teams/brooklyn-nets.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "ed309801c9a156ece2384d09c77d5e238e8f6857298bf341c41f5c410129440d",
+      "bytes": 88124
+    },
+    {
+      "file": "calendars/teams/charlotte-hornets.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "d75cd67b016a6cde1cf3cfec97a60001378dc5a61550c62229780fa48c5d4b57",
+      "bytes": 90071
+    },
+    {
+      "file": "calendars/teams/chicago-bulls.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "d16e3d25f499fe38ba5ea91e70a68b9c1b4fb0d5ac2b02fbda58f9b95c06232a",
+      "bytes": 87943
+    },
+    {
+      "file": "calendars/teams/cleveland-cavaliers.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "8ec2264343ddd7df35ee60ac22c6f8e103743e6e041188ebae814338c4c17785",
+      "bytes": 90354
+    },
+    {
+      "file": "calendars/teams/dallas-mavericks.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "4cad1e6d71a742302d0c50ce4d089929bbd76e47585bd855735bd915d4b0ade0",
+      "bytes": 89931
+    },
+    {
+      "file": "calendars/teams/denver-nuggets.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "c7717974160eee231894422f96e7bb7ee7480145d67114a9ee1476cf00535dc8",
+      "bytes": 89016
+    },
+    {
+      "file": "calendars/teams/detroit-pistons.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "2ec19b16ad2678ae1e084fb2a0fc9bcb8364eafd141aa13d9307196f5545c891",
+      "bytes": 89366
+    },
+    {
+      "file": "calendars/teams/golden-state-warriors.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "6c609f786d8f5f957aa6333c0c81610a89b0f616b11cd91ef4c71b8feb9ab164",
+      "bytes": 91892
+    },
+    {
+      "file": "calendars/teams/houston-rockets.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "88941ebb123cbfe7f9ca822186c6caf1bc0d0e0d14d1296f6c76747185c73fd9",
+      "bytes": 89206
+    },
+    {
+      "file": "calendars/teams/indiana-pacers.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "21083b36bf97280e1f2539b84fde6c2091f420df916b7ed947425b94d538096c",
+      "bytes": 89042
+    },
+    {
+      "file": "calendars/teams/los-angeles-clippers.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "fe7b0b1d359ba4e92ded4b34e76685893afbb8290fe81a5ad7a38611ee526cf8",
+      "bytes": 90816
+    },
+    {
+      "file": "calendars/teams/los-angeles-lakers.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "9379a0d20afc246a488e860a9c102b09a6a2e0888e534b062c8f079bee20b6cf",
+      "bytes": 90992
+    },
+    {
+      "file": "calendars/teams/memphis-grizzlies.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "7c27b83ffb2527cb7c275f609afd24f5f8b336581c21b8e5aff77e5b7b4a30bc",
+      "bytes": 89647
+    },
+    {
+      "file": "calendars/teams/miami-heat.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "39b77da3e421709aa069a1bc94cebe2ae52c2152805e67ceab5ec5a750cdabea",
+      "bytes": 87358
+    },
+    {
+      "file": "calendars/teams/milwaukee-bucks.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "5485bdf802d4f5116a661fc19f1c14ad6139969c4a34f0f55f324f21ef813d7e",
+      "bytes": 88734
+    },
+    {
+      "file": "calendars/teams/minnesota-timberwolves.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "3c7e906ab3a03273ed4b757cf02e5ffae844940b80e3d35cd641c37232d58116",
+      "bytes": 92183
+    },
+    {
+      "file": "calendars/teams/new-orleans-pelicans.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "2c88eb25baf27a1d8ad7bc42e58007085f1c7725ed6f19cbe9aa852ba71ad948",
+      "bytes": 91225
+    },
+    {
+      "file": "calendars/teams/new-york-knicks.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "f98eabf6fc6bc89886e078ca07dd7b8000ec4c3a938855e618951b85648422f7",
+      "bytes": 89821
+    },
+    {
+      "file": "calendars/teams/oklahoma-city-thunder.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "58d2eb16b373ffd7896a086c17159d086788241b83308bd2a8267d67a37b8688",
+      "bytes": 91900
+    },
+    {
+      "file": "calendars/teams/orlando-magic.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "5e893fe1d856aeeb6d4b8fda3a220fbc9b3cb9bd52240479c117e658fee66b1c",
+      "bytes": 87859
+    },
+    {
+      "file": "calendars/teams/philadelphia-76ers.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "1a08725ec17fb6f445830ccabccfc2b3c2dd66ed2ec4f264ff453d65fde7c905",
+      "bytes": 91055
+    },
+    {
+      "file": "calendars/teams/phoenix-suns.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "2f94401f1f42d40c3922e95fc29585c91993cfbcb141f0f1fb493e411a120b43",
+      "bytes": 88301
+    },
+    {
+      "file": "calendars/teams/portland-trail-blazers.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "427829f3fc9cf9a288720c36aef8ee340dde29c0e26418b8516d80842c5e22bd",
+      "bytes": 91450
+    },
+    {
+      "file": "calendars/teams/sacramento-kings.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "65dd74b72cda234ee99bea7cfa35c998d9620890a8584e51307d010513afcaff",
+      "bytes": 89597
+    },
+    {
+      "file": "calendars/teams/san-antonio-spurs.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "b002afec04ae1766cd538735a5d14c586c3b6ea3b1a414210ddd8bcd6c85bdaa",
+      "bytes": 90742
+    },
+    {
+      "file": "calendars/teams/toronto-raptors.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "c9cf3fe6bcf39f60b5ce7cd539a1c98261f8e62ee2df9c0a70adf5e6d22e5a1f",
+      "bytes": 88885
+    },
+    {
+      "file": "calendars/teams/utah-jazz.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "1fc7b2090131a6f603c9038824e884894c72556711e666abff3a331c44b0cd12",
+      "bytes": 86960
+    },
+    {
+      "file": "calendars/teams/washington-wizards.ics",
+      "events": 80,
+      "unique_uids": 80,
+      "alarms": 240,
+      "sha256": "c6ef2f87fe23779991ca16a7d52d000313696a10a99f78aa078c2f104f9e187f",
+      "bytes": 89865
+    }
+  ],
+  "test_feed_uid": "NBA2627-0001@nba-master-calendar.local",
+  "notes": [
+    "1,200 currently defined games only.",
+    "30 Cup-dependent regular-season games remain pending and are not fabricated.",
+    "All production event UIDs are stable.",
+    "Static hosting prototype for subscription testing."
+  ]
+}

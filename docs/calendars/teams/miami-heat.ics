@@ -1,0 +1,2608 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NBA Master Calendar//2026-27 Premium//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NBA 2026-27 — Miami Heat
+X-WR-CALDESC:Calendario 2026-27 de Miami Heat — 80 partidos actualmente definidos.
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:NBA2627-0009@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261021T233000Z
+DTEND:20261022T023000Z
+SUMMARY:Minnesota Timberwolves @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-10-2026 20
+ :30\nHora Punta Arenas/Magallanes: 21-10-2026 20:30\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0009\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ Miami H
+ eat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0025@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261024T000000Z
+DTEND:20261024T030000Z
+SUMMARY:Detroit Pistons @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-10-2026 21
+ :00\nHora Punta Arenas/Magallanes: 23-10-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0025\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Detroit Pistons @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Detroit Pistons @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0030@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261024T220000Z
+DTEND:20261025T010000Z
+SUMMARY:Miami Heat @ Charlotte Hornets
+LOCATION:Spectrum Center\, Charlotte\, Carolina del Norte\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-10-2026 19
+ :00\nHora Punta Arenas/Magallanes: 24-10-2026 19:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0030\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Charlotte Hornets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Charlotte Hornets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Charlotte Hornets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0048@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261026T233000Z
+DTEND:20261027T023000Z
+SUMMARY:Dallas Mavericks @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-10-2026 20
+ :30\nHora Punta Arenas/Magallanes: 26-10-2026 20:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0048\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Dallas Mavericks @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Dallas Mavericks @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Dallas Mavericks @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0058@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261028T230000Z
+DTEND:20261029T020000Z
+SUMMARY:Miami Heat @ Atlanta Hawks
+LOCATION:State Farm Arena\, Atlanta\, Georgia\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-10-2026 20
+ :00\nHora Punta Arenas/Magallanes: 28-10-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0058\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Atlanta Hawks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Atlanta Hawks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Atlanta Hawks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0079@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:[NBA CUP] Indiana Pacers @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 30-10-2026
+  21:00\nHora Punta Arenas/Magallanes: 30-10-2026 21:00\nTV nacional EE.U
+ U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEmirates NBA Cup — East Group B\nID maestro: NBA2627-00
+ 79\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
+ rmino real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Indiana Pacers @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Indiana Pacers @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Indiana Pacers @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0095@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261103T030000Z
+DTEND:20261103T060000Z
+SUMMARY:Miami Heat @ Los Angeles Lakers
+LOCATION:Crypto.com Arena\, Los Angeles\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-11-2026 00
+ :00\nHora Punta Arenas/Magallanes: 03-11-2026 00:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0095\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Los Angeles Lakers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Los Angeles Lakers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Los Angeles Lakers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0109@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261105T033000Z
+DTEND:20261105T063000Z
+SUMMARY:Miami Heat @ Los Angeles Clippers
+LOCATION:Intuit Dome\, Inglewood\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-11-2026 00
+ :30\nHora Punta Arenas/Magallanes: 05-11-2026 00:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0109\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Los Angeles Clippers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Los Angeles Clippers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Los Angeles Clipper
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0122@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261106T030000Z
+DTEND:20261106T060000Z
+SUMMARY:Miami Heat @ Golden State Warriors
+LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-11-2026 00
+ :00\nHora Punta Arenas/Magallanes: 06-11-2026 00:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0122\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Golden State Warriors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Golden State Warriors
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Golden State Warrio
+ rs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0146@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261109T020000Z
+DTEND:20261109T050000Z
+SUMMARY:Miami Heat @ Sacramento Kings
+LOCATION:Golden 1 Center\, Sacramento\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-11-2026 23
+ :00\nHora Punta Arenas/Magallanes: 08-11-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0146\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Sacramento Kings
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Sacramento Kings
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Sacramento Kings
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0160@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261111T020000Z
+DTEND:20261111T050000Z
+SUMMARY:Miami Heat @ Utah Jazz
+LOCATION:Delta Center\, Salt Lake City\, Utah\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-11-2026 23
+ :00\nHora Punta Arenas/Magallanes: 10-11-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0160\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Utah Jazz
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Utah Jazz
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Utah Jazz
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0179@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+SUMMARY:[NBA CUP] Cleveland Cavaliers @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 13-11-2026
+  22:00\nHora Punta Arenas/Magallanes: 13-11-2026 22:00\nTV nacional EE.U
+ U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEmirates NBA Cup — East Group B\nID maestro: NBA2627-01
+ 79\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
+ rmino real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0186@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261115T010000Z
+DTEND:20261115T040000Z
+SUMMARY:Detroit Pistons @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-11-2026 22
+ :00\nHora Punta Arenas/Magallanes: 14-11-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0186\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Detroit Pistons @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Detroit Pistons @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0202@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261117T003000Z
+DTEND:20261117T033000Z
+SUMMARY:Houston Rockets @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-11-2026 21
+ :30\nHora Punta Arenas/Magallanes: 16-11-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0202\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0215@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261119T000000Z
+DTEND:20261119T030000Z
+SUMMARY:Milwaukee Bucks @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-11-2026 21
+ :00\nHora Punta Arenas/Magallanes: 18-11-2026 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0215\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Milwaukee Bucks @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Milwaukee Bucks @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Milwaukee Bucks @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0243@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261122T230000Z
+DTEND:20261123T020000Z
+SUMMARY:Oklahoma City Thunder @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-11-2026 20
+ :00\nHora Punta Arenas/Magallanes: 22-11-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0243\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ Miami He
+ at
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0264@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261125T220000Z
+DTEND:20261126T010000Z
+SUMMARY:[NBA CUP] Miami Heat @ Philadelphia 76ers
+LOCATION:Xfinity Mobile Arena\, Philadelphia\, Pennsylvania\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 25-11-2026
+  19:00\nHora Punta Arenas/Magallanes: 25-11-2026 19:00\nTV nacional EE.U
+ U.: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; suje
+ to a restricciones)\nEmirates NBA Cup — East Group B\nID maestro: NBA262
+ 7-0264\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; e
+ l término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Philadelphia 76ers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Philadelphia 76ers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Philadelphia 76ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0271@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261128T000000Z
+DTEND:20261128T030000Z
+SUMMARY:[NBA CUP] Miami Heat @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 27-11-2026
+  21:00\nHora Punta Arenas/Magallanes: 27-11-2026 21:00\nTV nacional EE.U
+ U.: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merc
+ ado\; sujeto a restricciones)\nEmirates NBA Cup — East Group B\nID maest
+ ro: NBA2627-0271\nFuente base: NBA.com\nDuración del calendario: 3 h est
+ imadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0290@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261129T230000Z
+DTEND:20261130T020000Z
+SUMMARY:Miami Heat @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-11-2026 20
+ :00\nHora Punta Arenas/Magallanes: 29-11-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0290\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Cleveland Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Cleveland Cavaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0308@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261202T003000Z
+DTEND:20261202T033000Z
+SUMMARY:Atlanta Hawks @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-12-2026 21
+ :30\nHora Punta Arenas/Magallanes: 01-12-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0308\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Atlanta Hawks @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Atlanta Hawks @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Atlanta Hawks @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0323@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261204T003000Z
+DTEND:20261204T033000Z
+SUMMARY:Washington Wizards @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-12-2026 21
+ :30\nHora Punta Arenas/Magallanes: 03-12-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0323\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0331@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261213T013000Z
+DTEND:20261213T043000Z
+SUMMARY:New York Knicks @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-12-2026 22
+ :30\nHora Punta Arenas/Magallanes: 12-12-2026 22:30\nTV nacional EE.UU.:
+  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nID maestro: NBA2627-0331\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede vari
+ ar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0345@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261215T010000Z
+DTEND:20261215T040000Z
+SUMMARY:Miami Heat @ Chicago Bulls
+LOCATION:United Center\, Chicago\, Illinois\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 14-12-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0345\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Chicago Bulls
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Chicago Bulls
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Chicago Bulls
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0361@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261217T010000Z
+DTEND:20261217T040000Z
+SUMMARY:Miami Heat @ Memphis Grizzlies
+LOCATION:FedExForum\, Memphis\, Tennessee\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 16-12-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0361\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Memphis Grizzlies
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Memphis Grizzlies
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Memphis Grizzlies
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0370@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261219T000000Z
+DTEND:20261219T030000Z
+SUMMARY:Los Angeles Clippers @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-12-2026 21
+ :00\nHora Punta Arenas/Magallanes: 18-12-2026 21:00\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0370\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del partido
+  puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Los Angeles Clippers @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Clippers @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Clippers @ Miami Hea
+ t
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0390@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261220T230000Z
+DTEND:20261221T020000Z
+SUMMARY:Sacramento Kings @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-12-2026 20
+ :00\nHora Punta Arenas/Magallanes: 20-12-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0390\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Sacramento Kings @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Sacramento Kings @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Sacramento Kings @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0401@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261222T003000Z
+DTEND:20261222T033000Z
+SUMMARY:Chicago Bulls @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-12-2026 21
+ :30\nHora Punta Arenas/Magallanes: 21-12-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0401\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Chicago Bulls @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Chicago Bulls @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Chicago Bulls @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0416@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261224T003000Z
+DTEND:20261224T033000Z
+SUMMARY:Chicago Bulls @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-12-2026 21
+ :30\nHora Punta Arenas/Magallanes: 23-12-2026 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0416\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Chicago Bulls @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Chicago Bulls @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Chicago Bulls @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0425@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261225T193000Z
+DTEND:20261225T223000Z
+SUMMARY:[NBA CHRISTMAS DAY] Miami Heat @ Boston Celtics
+LOCATION:TD Garden\, Boston\, Massachusetts\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-12-2026 16
+ :30\nHora Punta Arenas/Magallanes: 25-12-2026 16:30\nTV nacional EE.UU.:
+  ABC / ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; s
+ ujeto a restricciones)\nEvento especial: NBA Christmas Day\nID maestro: 
+ NBA2627-0425\nFuente base: NBA.com\nDuración del calendario: 3 h estimad
+ as\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Boston Celtics
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Boston Celtics
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Boston Celtics
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0438@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261227T230000Z
+DTEND:20261228T020000Z
+SUMMARY:Charlotte Hornets @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-12-2026 20
+ :00\nHora Punta Arenas/Magallanes: 27-12-2026 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0438\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Charlotte Hornets @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Charlotte Hornets @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Charlotte Hornets @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0458@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261230T010000Z
+DTEND:20261230T040000Z
+SUMMARY:Miami Heat @ Dallas Mavericks
+LOCATION:American Airlines Center\, Dallas\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 29-12-2026 22:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-0458\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Dallas Mavericks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Dallas Mavericks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Dallas Mavericks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0474@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270101T010000Z
+DTEND:20270101T040000Z
+SUMMARY:Miami Heat @ Oklahoma City Thunder
+LOCATION:Paycom Center\, Oklahoma City\, Oklahoma\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 31-12-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0474\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Oklahoma City Thunder
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Oklahoma City Thunder
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Oklahoma City Thund
+ er
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0486@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270103T000000Z
+DTEND:20270103T030000Z
+SUMMARY:Miami Heat @ New Orleans Pelicans
+LOCATION:Smoothie King Center\, New Orleans\, Louisiana\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 02-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0486\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ New Orleans Pelicans
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ New Orleans Pelicans
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ New Orleans Pelican
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0512@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270106T003000Z
+DTEND:20270106T033000Z
+SUMMARY:Memphis Grizzlies @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 05-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0512\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Memphis Grizzlies @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Memphis Grizzlies @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Memphis Grizzlies @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0527@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270108T003000Z
+DTEND:20270108T033000Z
+SUMMARY:Miami Heat @ Brooklyn Nets
+LOCATION:Barclays Center\, Brooklyn\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 07-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0527\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Brooklyn Nets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Brooklyn Nets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Brooklyn Nets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0534@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270109T000000Z
+DTEND:20270109T030000Z
+SUMMARY:Miami Heat @ Philadelphia 76ers
+LOCATION:Xfinity Mobile Arena\, Philadelphia\, Pennsylvania\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 08-01-2027 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0534\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Philadelphia 76ers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Philadelphia 76ers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Philadelphia 76ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0548@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270110T230000Z
+DTEND:20270111T020000Z
+SUMMARY:New Orleans Pelicans @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-01-2027 20
+ :00\nHora Punta Arenas/Magallanes: 10-01-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0548\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New Orleans Pelicans @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New Orleans Pelicans @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New Orleans Pelicans @ Miami Hea
+ t
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0562@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270113T003000Z
+DTEND:20270113T033000Z
+SUMMARY:Brooklyn Nets @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 12-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0562\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Brooklyn Nets @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Brooklyn Nets @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Brooklyn Nets @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0580@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270115T003000Z
+DTEND:20270115T033000Z
+SUMMARY:Miami Heat @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 14-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0580\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0588@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270116T003000Z
+DTEND:20270116T033000Z
+SUMMARY:Miami Heat @ Toronto Raptors
+LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canadá
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 15-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0588\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Toronto Raptors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Toronto Raptors
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Toronto Raptors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0603@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270117T230000Z
+DTEND:20270118T020000Z
+SUMMARY:Golden State Warriors @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-01-2027 20
+ :00\nHora Punta Arenas/Magallanes: 17-01-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0603\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Golden State Warriors @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Golden State Warriors @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Golden State Warriors @ Miami He
+ at
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0618@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270120T003000Z
+DTEND:20270120T033000Z
+SUMMARY:Portland Trail Blazers @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 19-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 19-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0618\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Portland Trail Blazers @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Portland Trail Blazers @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Portland Trail Blazers @ Miami H
+ eat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0629@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270121T023000Z
+DTEND:20270121T053000Z
+SUMMARY:Miami Heat @ San Antonio Spurs
+LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-01-2027 23
+ :30\nHora Punta Arenas/Magallanes: 20-01-2027 23:30\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0629\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ San Antonio Spurs
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ San Antonio Spurs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ San Antonio Spurs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0648@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270124T010000Z
+DTEND:20270124T040000Z
+SUMMARY:Atlanta Hawks @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-01-2027 22
+ :00\nHora Punta Arenas/Magallanes: 23-01-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0648\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Atlanta Hawks @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Atlanta Hawks @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Atlanta Hawks @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0661@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270126T003000Z
+DTEND:20270126T033000Z
+SUMMARY:Miami Heat @ Brooklyn Nets
+LOCATION:Barclays Center\, Brooklyn\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 25-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0661\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Brooklyn Nets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Brooklyn Nets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Brooklyn Nets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0689@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270129T023000Z
+DTEND:20270129T053000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Miami Heat @ Milwaukee Bucks
+LOCATION:Fiserv Forum\, Milwaukee\, Wisconsin\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-01-2027 23
+ :30\nHora Punta Arenas/Magallanes: 28-01-2027 23:30\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nEvento especial: AWS NBA Rivals Week\nID mae
+ stro: NBA2627-0689\nFuente base: NBA.com\nDuración del calendario: 3 h e
+ stimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Milwaukee Bucks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Milwaukee Bucks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Milwaukee Bucks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0696@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270130T173000Z
+DTEND:20270130T203000Z
+SUMMARY:[AWS NBA RIVALS WEEK] Philadelphia 76ers @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-01-2027 14
+ :30\nHora Punta Arenas/Magallanes: 30-01-2027 14:30\nTV nacional EE.UU.:
+  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEvento especial: AWS NBA Rivals Week\nID maestro: NBA26
+ 27-0696\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; 
+ el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0716@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270202T003000Z
+DTEND:20270202T033000Z
+SUMMARY:Miami Heat @ Indiana Pacers
+LOCATION:Gainbridge Fieldhouse\, Indianapolis\, Indiana\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-02-2027 21
+ :30\nHora Punta Arenas/Magallanes: 01-02-2027 21:30\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0716\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Indiana Pacers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Indiana Pacers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Indiana Pacers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0723@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270203T003000Z
+DTEND:20270203T033000Z
+SUMMARY:Charlotte Hornets @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-02-2027 21
+ :30\nHora Punta Arenas/Magallanes: 02-02-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0723\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Charlotte Hornets @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Charlotte Hornets @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Charlotte Hornets @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0739@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270205T003000Z
+DTEND:20270205T033000Z
+SUMMARY:Milwaukee Bucks @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-02-2027 21
+ :30\nHora Punta Arenas/Magallanes: 04-02-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0739\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Milwaukee Bucks @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Milwaukee Bucks @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Milwaukee Bucks @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0751@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270206T200000Z
+DTEND:20270206T230000Z
+SUMMARY:Miami Heat @ Minnesota Timberwolves
+LOCATION:Target Center\, Minneapolis\, Minnesota\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-02-2027 17
+ :00\nHora Punta Arenas/Magallanes: 06-02-2027 17:00\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0751\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del partido
+  puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Minnesota Timberwolves
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Minnesota Timberwolves
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Minnesota Timberwol
+ ves
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0769@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270209T000000Z
+DTEND:20270209T030000Z
+SUMMARY:Miami Heat @ Atlanta Hawks
+LOCATION:State Farm Arena\, Atlanta\, Georgia\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 08-02-2027 21:00\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0769\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Atlanta Hawks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Atlanta Hawks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Atlanta Hawks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0786@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270211T000000Z
+DTEND:20270211T030000Z
+SUMMARY:Miami Heat @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 10-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0786\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Washington Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0799@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270213T000000Z
+DTEND:20270213T030000Z
+SUMMARY:Miami Heat @ Orlando Magic
+LOCATION:Kia Center\, Orlando\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 12-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0799\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Orlando Magic
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Orlando Magic
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Orlando Magic
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0815@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270214T180000Z
+DTEND:20270214T210000Z
+SUMMARY:Brooklyn Nets @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-02-2027 15
+ :00\nHora Punta Arenas/Magallanes: 14-02-2027 15:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0815\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Brooklyn Nets @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Brooklyn Nets @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Brooklyn Nets @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0821@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270215T220000Z
+DTEND:20270216T010000Z
+SUMMARY:[NBA ON PRESIDENTS' DAY] San Antonio Spurs @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-02-2027 19
+ :00\nHora Punta Arenas/Magallanes: 15-02-2027 19:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: NBA on Presidents' Day\nID ma
+ estro: NBA2627-0821\nFuente base: NBA.com\nDuración del calendario: 3 h 
+ estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0840@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270218T000000Z
+DTEND:20270218T030000Z
+SUMMARY:Miami Heat @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 17-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0840\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Washington Wizards
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0852@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270226T000000Z
+DTEND:20270226T030000Z
+SUMMARY:Miami Heat @ Detroit Pistons
+LOCATION:Little Caesars Arena\, Detroit\, Michigan\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 25-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0852\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Detroit Pistons
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Detroit Pistons
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Detroit Pistons
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0880@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270301T023000Z
+DTEND:20270301T053000Z
+SUMMARY:Miami Heat @ Houston Rockets
+LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-02-2027 23
+ :30\nHora Punta Arenas/Magallanes: 28-02-2027 23:30\nTV nacional EE.UU.:
+  NBC / Peacock / Telemundo\nStreaming: Peacock / NBA League Pass (fuera 
+ de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0880\nFuente b
+ ase: NBA.com\nDuración del calendario: 3 h estimadas\; el término real d
+ el partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Houston Rockets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Houston Rockets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Houston Rockets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0891@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270303T003000Z
+DTEND:20270303T033000Z
+SUMMARY:Toronto Raptors @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-03-2027 21
+ :30\nHora Punta Arenas/Magallanes: 02-03-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0891\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Toronto Raptors @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Toronto Raptors @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Toronto Raptors @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0899@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270304T003000Z
+DTEND:20270304T033000Z
+SUMMARY:Toronto Raptors @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-03-2027 21
+ :30\nHora Punta Arenas/Magallanes: 03-03-2027 21:30\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0899\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Toronto Raptors @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Toronto Raptors @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Toronto Raptors @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0918@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270306T200000Z
+DTEND:20270306T230000Z
+SUMMARY:Indiana Pacers @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-03-2027 17
+ :00\nHora Punta Arenas/Magallanes: 06-03-2027 17:00\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0918\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del partido
+  puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Indiana Pacers @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Indiana Pacers @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Indiana Pacers @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0934@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270309T003000Z
+DTEND:20270309T033000Z
+SUMMARY:Phoenix Suns @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-03-2027 21
+ :30\nHora Punta Arenas/Magallanes: 08-03-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0934\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0949@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270311T000000Z
+DTEND:20270311T030000Z
+SUMMARY:Orlando Magic @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-03-2027 21
+ :00\nHora Punta Arenas/Magallanes: 10-03-2027 21:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0949\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Orlando Magic @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Orlando Magic @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Orlando Magic @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0965@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270313T010000Z
+DTEND:20270313T040000Z
+SUMMARY:Miami Heat @ Milwaukee Bucks
+LOCATION:Fiserv Forum\, Milwaukee\, Wisconsin\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-03-2027 22
+ :00\nHora Punta Arenas/Magallanes: 12-03-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0965\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Milwaukee Bucks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Milwaukee Bucks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Milwaukee Bucks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0981@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270314T233000Z
+DTEND:20270315T023000Z
+SUMMARY:Miami Heat @ Denver Nuggets
+LOCATION:Ball Arena\, Denver\, Colorado\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-03-2027 20
+ :30\nHora Punta Arenas/Magallanes: 14-03-2027 20:30\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-0981\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Denver Nuggets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Denver Nuggets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Denver Nuggets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1000@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270318T020000Z
+DTEND:20270318T050000Z
+SUMMARY:Miami Heat @ Portland Trail Blazers
+LOCATION:Moda Center\, Portland\, Oregón\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-03-2027 23
+ :00\nHora Punta Arenas/Magallanes: 17-03-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1000\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Portland Trail Blazers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Portland Trail Blazers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Portland Trail Blaz
+ ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1017@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270320T023000Z
+DTEND:20270320T053000Z
+SUMMARY:Miami Heat @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 19-03-2027 23
+ :30\nHora Punta Arenas/Magallanes: 19-03-2027 23:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1017\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1033@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270321T220000Z
+DTEND:20270322T010000Z
+SUMMARY:Denver Nuggets @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-03-2027 19
+ :00\nHora Punta Arenas/Magallanes: 21-03-2027 19:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1033\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Denver Nuggets @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Denver Nuggets @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1047@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270324T000000Z
+DTEND:20270324T030000Z
+SUMMARY:Los Angeles Lakers @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-03-2027 21
+ :00\nHora Punta Arenas/Magallanes: 23-03-2027 21:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-1047\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Los Angeles Lakers @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1065@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270325T233000Z
+DTEND:20270326T023000Z
+SUMMARY:Utah Jazz @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-03-2027 20
+ :30\nHora Punta Arenas/Magallanes: 25-03-2027 20:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1065\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Utah Jazz @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Utah Jazz @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Utah Jazz @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1078@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270328T000000Z
+DTEND:20270328T030000Z
+SUMMARY:Boston Celtics @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-03-2027 21
+ :00\nHora Punta Arenas/Magallanes: 27-03-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1078\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Boston Celtics @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Boston Celtics @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Boston Celtics @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1092@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270329T230000Z
+DTEND:20270330T020000Z
+SUMMARY:Miami Heat @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-03-2027 20
+ :00\nHora Punta Arenas/Magallanes: 29-03-2027 20:00\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-1092\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Cleveland Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Cleveland Cavaliers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1098@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270330T230000Z
+DTEND:20270331T020000Z
+SUMMARY:Miami Heat @ Charlotte Hornets
+LOCATION:Spectrum Center\, Charlotte\, Carolina del Norte\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-03-2027 20
+ :00\nHora Punta Arenas/Magallanes: 30-03-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1098\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Charlotte Hornets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Charlotte Hornets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Charlotte Hornets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1121@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270402T233000Z
+DTEND:20270403T023000Z
+SUMMARY:Miami Heat @ Boston Celtics
+LOCATION:TD Garden\, Boston\, Massachusetts\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-04-2027 20
+ :30\nHora Punta Arenas/Magallanes: 02-04-2027 20:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1121\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Boston Celtics
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Boston Celtics
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Boston Celtics
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1135@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270404T190000Z
+DTEND:20270404T220000Z
+SUMMARY:Miami Heat @ Detroit Pistons
+LOCATION:Little Caesars Arena\, Detroit\, Michigan\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-04-2027 15
+ :00\nHora Punta Arenas/Magallanes: 04-04-2027 16:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1135\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Detroit Pistons
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Detroit Pistons
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Detroit Pistons
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1145@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270405T230000Z
+DTEND:20270406T020000Z
+SUMMARY:Miami Heat @ Orlando Magic
+LOCATION:Kia Center\, Orlando\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-04-2027 19
+ :00\nHora Punta Arenas/Magallanes: 05-04-2027 20:00\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-1145\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Orlando Magic
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Orlando Magic
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Orlando Magic
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1167@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270408T230000Z
+DTEND:20270409T020000Z
+SUMMARY:Philadelphia 76ers @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-04-2027 19
+ :00\nHora Punta Arenas/Magallanes: 08-04-2027 20:00\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-1167\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del partido
+  puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1180@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270410T000000Z
+DTEND:20270410T030000Z
+SUMMARY:Washington Wizards @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-04-2027 20
+ :00\nHora Punta Arenas/Magallanes: 09-04-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1180\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1189@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270411T220000Z
+DTEND:20270412T010000Z
+SUMMARY:Orlando Magic @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-04-2027 18
+ :00\nHora Punta Arenas/Magallanes: 11-04-2027 19:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1189\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Orlando Magic @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Orlando Magic @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Orlando Magic @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

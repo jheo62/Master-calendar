@@ -1,0 +1,2627 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NBA Master Calendar//2026-27 Premium//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NBA 2026-27 — Phoenix Suns
+X-WR-CALDESC:Calendario 2026-27 de Phoenix Suns — 80 partidos actualmente definidos.
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:NBA2627-0005@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261022T020000Z
+DTEND:20261022T050000Z
+SUMMARY:Phoenix Suns @ Portland Trail Blazers
+LOCATION:Moda Center\, Portland\, Oregón\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-10-2026 23
+ :00\nHora Punta Arenas/Magallanes: 21-10-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0005\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Portland Trail Blazers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Portland Trail Blaze
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Portland Trail Bl
+ azers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0029@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261025T020000Z
+DTEND:20261025T050000Z
+SUMMARY:Golden State Warriors @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-10-2026 23
+ :00\nHora Punta Arenas/Magallanes: 24-10-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0029\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Golden State Warriors @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Golden State Warriors @ Phoenix Sun
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Golden State Warriors @ Phoenix 
+ Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0050@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261027T000000Z
+DTEND:20261027T030000Z
+SUMMARY:Phoenix Suns @ Oklahoma City Thunder
+LOCATION:Paycom Center\, Oklahoma City\, Oklahoma\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-10-2026 21
+ :00\nHora Punta Arenas/Magallanes: 26-10-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0050\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Oklahoma City Thunder
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Oklahoma City Thunde
+ r
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Oklahoma City Thu
+ nder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0073@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261031T020000Z
+DTEND:20261031T050000Z
+SUMMARY:[NBA CUP] Denver Nuggets @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 30-10-2026
+  23:00\nHora Punta Arenas/Magallanes: 30-10-2026 23:00\nTV nacional EE.U
+ U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEmirates NBA Cup — West Group A\nID maestro: NBA2627-00
+ 73\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
+ rmino real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Denver Nuggets @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Denver Nuggets @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0093@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261103T030000Z
+DTEND:20261103T060000Z
+SUMMARY:Phoenix Suns @ Golden State Warriors
+LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-11-2026 00
+ :00\nHora Punta Arenas/Magallanes: 03-11-2026 00:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0093\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Golden State Warriors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Golden State Warrior
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Golden State Warr
+ iors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0120@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261105T020000Z
+DTEND:20261105T050000Z
+SUMMARY:Portland Trail Blazers @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-11-2026 23
+ :00\nHora Punta Arenas/Magallanes: 04-11-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0120\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Portland Trail Blazers @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Portland Trail Blazers @ Phoenix Su
+ ns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Portland Trail Blazers @ Phoenix
+  Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0123@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261106T020000Z
+DTEND:20261106T050000Z
+SUMMARY:Orlando Magic @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-11-2026 23
+ :00\nHora Punta Arenas/Magallanes: 05-11-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0123\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Orlando Magic @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Orlando Magic @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Orlando Magic @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0139@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261108T020000Z
+DTEND:20261108T050000Z
+SUMMARY:Houston Rockets @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-11-2026 23
+ :00\nHora Punta Arenas/Magallanes: 07-11-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0139\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0154@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261110T020000Z
+DTEND:20261110T050000Z
+SUMMARY:San Antonio Spurs @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-11-2026 23
+ :00\nHora Punta Arenas/Magallanes: 09-11-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0154\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0159@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261111T020000Z
+DTEND:20261111T050000Z
+SUMMARY:Los Angeles Clippers @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-11-2026 23
+ :00\nHora Punta Arenas/Magallanes: 10-11-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0159\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Los Angeles Clippers @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Clippers @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Clippers @ Phoenix S
+ uns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0174@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261113T020000Z
+DTEND:20261113T050000Z
+SUMMARY:Charlotte Hornets @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-11-2026 23
+ :00\nHora Punta Arenas/Magallanes: 12-11-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0174\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Charlotte Hornets @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Charlotte Hornets @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Charlotte Hornets @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0190@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261115T210000Z
+DTEND:20261116T000000Z
+SUMMARY:Los Angeles Lakers @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-11-2026 18
+ :00\nHora Punta Arenas/Magallanes: 15-11-2026 18:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0190\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Los Angeles Lakers @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ Phoenix Sun
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0205@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261117T020000Z
+DTEND:20261117T050000Z
+SUMMARY:Phoenix Suns @ Denver Nuggets
+LOCATION:Ball Arena\, Denver\, Colorado\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-11-2026 23
+ :00\nHora Punta Arenas/Magallanes: 16-11-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0205\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Denver Nuggets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Denver Nuggets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Denver Nuggets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0212@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261119T030000Z
+DTEND:20261119T060000Z
+SUMMARY:Phoenix Suns @ Sacramento Kings
+LOCATION:Golden 1 Center\, Sacramento\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 19-11-2026 00
+ :00\nHora Punta Arenas/Magallanes: 19-11-2026 00:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0212\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Sacramento Kings
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Sacramento Kings
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Sacramento Kings
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0235@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261121T023000Z
+DTEND:20261121T053000Z
+SUMMARY:[NBA CUP] Phoenix Suns @ Utah Jazz
+LOCATION:Delta Center\, Salt Lake City\, Utah\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 20-11-2026
+  23:30\nHora Punta Arenas/Magallanes: 20-11-2026 23:30\nTV nacional EE.U
+ U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEmirates NBA Cup — West Group A\nID maestro: NBA2627-02
+ 35\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
+ rmino real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Utah Jazz
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Utah Jazz
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Utah Jazz
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0257@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261124T010000Z
+DTEND:20261124T040000Z
+SUMMARY:Phoenix Suns @ New Orleans Pelicans
+LOCATION:Smoothie King Center\, New Orleans\, Louisiana\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-11-2026 22
+ :00\nHora Punta Arenas/Magallanes: 23-11-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0257\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ New Orleans Pelicans
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ New Orleans Pelicans
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ New Orleans Pelic
+ ans
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0270@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261126T013000Z
+DTEND:20261126T043000Z
+SUMMARY:[NBA CUP] Phoenix Suns @ Houston Rockets
+LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 25-11-2026
+  22:30\nHora Punta Arenas/Magallanes: 25-11-2026 22:30\nTV nacional EE.U
+ U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEmirates NBA Cup — West Group A\nID maestro: NBA2627-02
+ 70\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
+ rmino real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Houston Rockets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Houston Rockets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Houston Rockets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0277@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261128T020000Z
+DTEND:20261128T050000Z
+SUMMARY:[NBA CUP] Dallas Mavericks @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 27-11-2026
+  23:00\nHora Punta Arenas/Magallanes: 27-11-2026 23:00\nTV nacional EE.U
+ U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
+  restricciones)\nEmirates NBA Cup — West Group A\nID maestro: NBA2627-02
+ 77\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
+ rmino real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Dallas Mavericks @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Dallas Mavericks @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Dallas Mavericks @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0289@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261129T220000Z
+DTEND:20261130T010000Z
+SUMMARY:Phoenix Suns @ Utah Jazz
+LOCATION:Delta Center\, Salt Lake City\, Utah\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-11-2026 19
+ :00\nHora Punta Arenas/Magallanes: 29-11-2026 19:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0289\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Utah Jazz
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Utah Jazz
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Utah Jazz
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0311@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261202T020000Z
+DTEND:20261202T050000Z
+SUMMARY:Los Angeles Clippers @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-12-2026 23
+ :00\nHora Punta Arenas/Magallanes: 01-12-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0311\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Los Angeles Clippers @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Clippers @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Clippers @ Phoenix S
+ uns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0320@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261203T020000Z
+DTEND:20261203T050000Z
+SUMMARY:Sacramento Kings @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-12-2026 23
+ :00\nHora Punta Arenas/Magallanes: 02-12-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0320\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Sacramento Kings @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Sacramento Kings @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Sacramento Kings @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0332@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261213T020000Z
+DTEND:20261213T050000Z
+SUMMARY:Minnesota Timberwolves @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-12-2026 23
+ :00\nHora Punta Arenas/Magallanes: 12-12-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0332\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ Phoenix Su
+ ns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ Phoenix
+  Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0349@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261215T020000Z
+DTEND:20261215T050000Z
+SUMMARY:Atlanta Hawks @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-12-2026 23
+ :00\nHora Punta Arenas/Magallanes: 14-12-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0349\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Atlanta Hawks @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Atlanta Hawks @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Atlanta Hawks @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0355@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261217T000000Z
+DTEND:20261217T030000Z
+SUMMARY:Phoenix Suns @ Detroit Pistons
+LOCATION:Little Caesars Arena\, Detroit\, Michigan\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-12-2026 21
+ :00\nHora Punta Arenas/Magallanes: 16-12-2026 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0355\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Detroit Pistons
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Detroit Pistons
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Detroit Pistons
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0377@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261219T010000Z
+DTEND:20261219T040000Z
+SUMMARY:Phoenix Suns @ Milwaukee Bucks
+LOCATION:Fiserv Forum\, Milwaukee\, Wisconsin\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 18-12-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0377\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Milwaukee Bucks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Milwaukee Bucks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Milwaukee Bucks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0388@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261220T210000Z
+DTEND:20261221T000000Z
+SUMMARY:Phoenix Suns @ Memphis Grizzlies
+LOCATION:FedExForum\, Memphis\, Tennessee\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-12-2026 18
+ :00\nHora Punta Arenas/Magallanes: 20-12-2026 18:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0388\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Memphis Grizzlies
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Memphis Grizzlies
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Memphis Grizzlies
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0402@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261222T010000Z
+DTEND:20261222T040000Z
+SUMMARY:Phoenix Suns @ Minnesota Timberwolves
+LOCATION:Target Center\, Minneapolis\, Minnesota\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 21-12-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0402\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Minnesota Timberwolves
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Minnesota Timberwolv
+ es
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Minnesota Timberw
+ olves
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0422@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261224T020000Z
+DTEND:20261224T050000Z
+SUMMARY:Indiana Pacers @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-12-2026 23
+ :00\nHora Punta Arenas/Magallanes: 23-12-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0422\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Indiana Pacers @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Indiana Pacers @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Indiana Pacers @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0435@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261227T010000Z
+DTEND:20261227T040000Z
+SUMMARY:Phoenix Suns @ Dallas Mavericks
+LOCATION:American Airlines Center\, Dallas\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-12-2026 22
+ :00\nHora Punta Arenas/Magallanes: 26-12-2026 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0435\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Dallas Mavericks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Dallas Mavericks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Dallas Mavericks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0451@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261229T020000Z
+DTEND:20261229T050000Z
+SUMMARY:Golden State Warriors @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-12-2026 23
+ :00\nHora Punta Arenas/Magallanes: 28-12-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0451\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Golden State Warriors @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Golden State Warriors @ Phoenix Sun
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Golden State Warriors @ Phoenix 
+ Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0465@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20261231T020000Z
+DTEND:20261231T050000Z
+SUMMARY:Philadelphia 76ers @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-12-2026 23
+ :00\nHora Punta Arenas/Magallanes: 30-12-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0465\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ Phoenix Sun
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0475@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270101T020000Z
+DTEND:20270101T050000Z
+SUMMARY:New York Knicks @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-12-2026 23
+ :00\nHora Punta Arenas/Magallanes: 31-12-2026 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0475\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0491@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270103T020000Z
+DTEND:20270103T050000Z
+SUMMARY:Sacramento Kings @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-01-2027 23
+ :00\nHora Punta Arenas/Magallanes: 02-01-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0491\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Sacramento Kings @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Sacramento Kings @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Sacramento Kings @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0504@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270105T020000Z
+DTEND:20270105T050000Z
+SUMMARY:Boston Celtics @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-01-2027 23
+ :00\nHora Punta Arenas/Magallanes: 04-01-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0504\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Boston Celtics @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Boston Celtics @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Boston Celtics @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0506@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270106T030000Z
+DTEND:20270106T060000Z
+SUMMARY:Phoenix Suns @ Denver Nuggets
+LOCATION:Ball Arena\, Denver\, Colorado\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-01-2027 00
+ :00\nHora Punta Arenas/Magallanes: 06-01-2027 00:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-0506\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Denver Nuggets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Denver Nuggets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Denver Nuggets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0539@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270109T023000Z
+DTEND:20270109T053000Z
+SUMMARY:Phoenix Suns @ Dallas Mavericks
+LOCATION:American Airlines Center\, Dallas\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-01-2027 23
+ :30\nHora Punta Arenas/Magallanes: 08-01-2027 23:30\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0539\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Dallas Mavericks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Dallas Mavericks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Dallas Mavericks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0552@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270111T000000Z
+DTEND:20270111T030000Z
+SUMMARY:Chicago Bulls @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 10-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0552\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Chicago Bulls @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Chicago Bulls @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Chicago Bulls @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0573@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270114T003000Z
+DTEND:20270114T033000Z
+SUMMARY:Phoenix Suns @ Toronto Raptors
+LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canadá
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 13-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0573\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Toronto Raptors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Toronto Raptors
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Toronto Raptors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0587@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270116T000000Z
+DTEND:20270116T030000Z
+SUMMARY:Phoenix Suns @ Indiana Pacers
+LOCATION:Gainbridge Fieldhouse\, Indianapolis\, Indiana\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-01-2027 21
+ :00\nHora Punta Arenas/Magallanes: 15-01-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0587\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Indiana Pacers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Indiana Pacers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Indiana Pacers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0606@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270119T033000Z
+DTEND:20270119T063000Z
+SUMMARY:Phoenix Suns @ Los Angeles Clippers
+LOCATION:Intuit Dome\, Inglewood\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 19-01-2027 00
+ :30\nHora Punta Arenas/Magallanes: 19-01-2027 00:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0606\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Los Angeles Clippers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Los Angeles Clippers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Los Angeles Clipp
+ ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0627@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270121T020000Z
+DTEND:20270121T050000Z
+SUMMARY:Memphis Grizzlies @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-01-2027 23
+ :00\nHora Punta Arenas/Magallanes: 20-01-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0627\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Memphis Grizzlies @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Memphis Grizzlies @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Memphis Grizzlies @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0643@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270123T020000Z
+DTEND:20270123T050000Z
+SUMMARY:Utah Jazz @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-01-2027 23
+ :00\nHora Punta Arenas/Magallanes: 22-01-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0643\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Utah Jazz @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Utah Jazz @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Utah Jazz @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0652@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270124T210000Z
+DTEND:20270125T000000Z
+SUMMARY:Utah Jazz @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-01-2027 18
+ :00\nHora Punta Arenas/Magallanes: 24-01-2027 18:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0652\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Utah Jazz @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Utah Jazz @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Utah Jazz @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0670@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270127T003000Z
+DTEND:20270127T033000Z
+SUMMARY:Phoenix Suns @ New York Knicks
+LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 26-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0670\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ New York Knicks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ New York Knicks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ New York Knicks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0677@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270128T003000Z
+DTEND:20270128T033000Z
+SUMMARY:Phoenix Suns @ Brooklyn Nets
+LOCATION:Barclays Center\, Brooklyn\, Nueva York\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 27-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0677\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Brooklyn Nets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Brooklyn Nets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Brooklyn Nets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0691@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270130T003000Z
+DTEND:20270130T033000Z
+SUMMARY:Phoenix Suns @ Boston Celtics
+LOCATION:TD Garden\, Boston\, Massachusetts\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-01-2027 21
+ :30\nHora Punta Arenas/Magallanes: 29-01-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0691\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Boston Celtics
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Boston Celtics
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Boston Celtics
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0707@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270131T230000Z
+DTEND:20270201T020000Z
+SUMMARY:Phoenix Suns @ Minnesota Timberwolves
+LOCATION:Target Center\, Minneapolis\, Minnesota\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-01-2027 20
+ :00\nHora Punta Arenas/Magallanes: 31-01-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0707\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Minnesota Timberwolves
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Minnesota Timberwolv
+ es
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Minnesota Timberw
+ olves
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0731@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270204T020000Z
+DTEND:20270204T050000Z
+SUMMARY:Cleveland Cavaliers @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-02-2027 23
+ :00\nHora Punta Arenas/Magallanes: 03-02-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0731\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Phoenix Su
+ ns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0747@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270206T020000Z
+DTEND:20270206T050000Z
+SUMMARY:Houston Rockets @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-02-2027 23
+ :00\nHora Punta Arenas/Magallanes: 05-02-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0747\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0749@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270207T030000Z
+DTEND:20270207T060000Z
+SUMMARY:Phoenix Suns @ Sacramento Kings
+LOCATION:Golden 1 Center\, Sacramento\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-02-2027 00
+ :00\nHora Punta Arenas/Magallanes: 07-02-2027 00:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0749\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Sacramento Kings
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Sacramento Kings
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Sacramento Kings
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0772@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270209T023000Z
+DTEND:20270209T053000Z
+SUMMARY:Los Angeles Lakers @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-02-2027 23
+ :30\nHora Punta Arenas/Magallanes: 08-02-2027 23:30\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0772\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Los Angeles Lakers @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ Phoenix Sun
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0789@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270211T020000Z
+DTEND:20270211T050000Z
+SUMMARY:Detroit Pistons @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-02-2027 23
+ :00\nHora Punta Arenas/Magallanes: 10-02-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0789\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Detroit Pistons @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Detroit Pistons @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0798@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270213T000000Z
+DTEND:20270213T030000Z
+SUMMARY:Phoenix Suns @ Atlanta Hawks
+LOCATION:State Farm Arena\, Atlanta\, Georgia\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 12-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0798\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Atlanta Hawks
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Atlanta Hawks
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Atlanta Hawks
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0814@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270214T180000Z
+DTEND:20270214T210000Z
+SUMMARY:Phoenix Suns @ Cleveland Cavaliers
+LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-02-2027 15
+ :00\nHora Punta Arenas/Magallanes: 14-02-2027 15:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0814\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Cleveland Cavaliers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Cleveland Cavaliers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Cleveland Cavalie
+ rs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0822@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270216T000000Z
+DTEND:20270216T030000Z
+SUMMARY:Phoenix Suns @ Washington Wizards
+LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 15-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0822\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Washington Wizards
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Washington Wizards
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Washington Wizard
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0839@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270218T000000Z
+DTEND:20270218T030000Z
+SUMMARY:Phoenix Suns @ Philadelphia 76ers
+LOCATION:Xfinity Mobile Arena\, Philadelphia\, Pennsylvania\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-02-2027 21
+ :00\nHora Punta Arenas/Magallanes: 17-02-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0839\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Philadelphia 76ers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Philadelphia 76ers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Philadelphia 76er
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0858@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270226T010000Z
+DTEND:20270226T040000Z
+SUMMARY:Phoenix Suns @ New Orleans Pelicans
+LOCATION:Smoothie King Center\, New Orleans\, Louisiana\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-02-2027 22
+ :00\nHora Punta Arenas/Magallanes: 25-02-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0858\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ New Orleans Pelicans
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ New Orleans Pelicans
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ New Orleans Pelic
+ ans
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0871@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270228T020000Z
+DTEND:20270228T050000Z
+SUMMARY:New Orleans Pelicans @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-02-2027 23
+ :00\nHora Punta Arenas/Magallanes: 27-02-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0871\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New Orleans Pelicans @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New Orleans Pelicans @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New Orleans Pelicans @ Phoenix S
+ uns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0886@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270302T023000Z
+DTEND:20270302T053000Z
+SUMMARY:Washington Wizards @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-03-2027 23
+ :30\nHora Punta Arenas/Magallanes: 01-03-2027 23:30\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0886\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Phoenix Sun
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0902@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270304T020000Z
+DTEND:20270304T050000Z
+SUMMARY:Brooklyn Nets @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-03-2027 23
+ :00\nHora Punta Arenas/Magallanes: 03-03-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0902\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Brooklyn Nets @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Brooklyn Nets @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Brooklyn Nets @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0915@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270306T020000Z
+DTEND:20270306T050000Z
+SUMMARY:Minnesota Timberwolves @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-03-2027 23
+ :00\nHora Punta Arenas/Magallanes: 05-03-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0915\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ Phoenix Su
+ ns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ Phoenix
+  Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0934@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270309T003000Z
+DTEND:20270309T033000Z
+SUMMARY:Phoenix Suns @ Miami Heat
+LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-03-2027 21
+ :30\nHora Punta Arenas/Magallanes: 08-03-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0934\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Miami Heat
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Miami Heat
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Miami Heat
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0939@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270310T000000Z
+DTEND:20270310T030000Z
+SUMMARY:Phoenix Suns @ Orlando Magic
+LOCATION:Kia Center\, Orlando\, Florida\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-03-2027 21
+ :00\nHora Punta Arenas/Magallanes: 09-03-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0939\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Orlando Magic
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Orlando Magic
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Orlando Magic
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0960@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270312T010000Z
+DTEND:20270312T040000Z
+SUMMARY:Phoenix Suns @ Chicago Bulls
+LOCATION:United Center\, Chicago\, Illinois\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-03-2027 22
+ :00\nHora Punta Arenas/Magallanes: 11-03-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0960\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Chicago Bulls
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Chicago Bulls
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Chicago Bulls
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0972@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270313T230000Z
+DTEND:20270314T020000Z
+SUMMARY:Phoenix Suns @ Charlotte Hornets
+LOCATION:Spectrum Center\, Charlotte\, Carolina del Norte\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-03-2027 20
+ :00\nHora Punta Arenas/Magallanes: 13-03-2027 20:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0972\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Charlotte Hornets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Charlotte Hornets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Charlotte Hornets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0986@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270316T000000Z
+DTEND:20270316T030000Z
+SUMMARY:Phoenix Suns @ Memphis Grizzlies
+LOCATION:FedExForum\, Memphis\, Tennessee\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-03-2027 21
+ :00\nHora Punta Arenas/Magallanes: 15-03-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-0986\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Memphis Grizzlies
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Memphis Grizzlies
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Memphis Grizzlies
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0999@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270318T020000Z
+DTEND:20270318T050000Z
+SUMMARY:Phoenix Suns @ Los Angeles Lakers
+LOCATION:Crypto.com Arena\, Los Angeles\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-03-2027 23
+ :00\nHora Punta Arenas/Magallanes: 17-03-2027 23:00\nTV nacional EE.UU.:
+  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
+ a restricciones)\nID maestro: NBA2627-0999\nFuente base: NBA.com\nDuraci
+ ón del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Los Angeles Lakers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Los Angeles Lakers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Los Angeles Laker
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1017@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270320T023000Z
+DTEND:20270320T053000Z
+SUMMARY:Miami Heat @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 19-03-2027 23
+ :30\nHora Punta Arenas/Magallanes: 19-03-2027 23:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1017\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Miami Heat @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Miami Heat @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Miami Heat @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1032@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270321T210000Z
+DTEND:20270322T000000Z
+SUMMARY:Portland Trail Blazers @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-03-2027 18
+ :00\nHora Punta Arenas/Magallanes: 21-03-2027 18:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1032\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Portland Trail Blazers @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Portland Trail Blazers @ Phoenix Su
+ ns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Portland Trail Blazers @ Phoenix
+  Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1044@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270324T030000Z
+DTEND:20270324T060000Z
+SUMMARY:Oklahoma City Thunder @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-03-2027 00
+ :00\nHora Punta Arenas/Magallanes: 24-03-2027 00:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-1044\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ Phoenix Sun
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ Phoenix 
+ Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1050@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270325T020000Z
+DTEND:20270325T050000Z
+SUMMARY:Oklahoma City Thunder @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-03-2027 23
+ :00\nHora Punta Arenas/Magallanes: 24-03-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1050\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ Phoenix Sun
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ Phoenix 
+ Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1067@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270327T020000Z
+DTEND:20270327T050000Z
+SUMMARY:Milwaukee Bucks @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-03-2027 23
+ :00\nHora Punta Arenas/Magallanes: 26-03-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1067\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Milwaukee Bucks @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Milwaukee Bucks @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Milwaukee Bucks @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1088@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270329T010000Z
+DTEND:20270329T040000Z
+SUMMARY:Toronto Raptors @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-03-2027 22
+ :00\nHora Punta Arenas/Magallanes: 28-03-2027 22:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1088\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Toronto Raptors @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Toronto Raptors @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Toronto Raptors @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1096@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270330T013000Z
+DTEND:20270330T043000Z
+SUMMARY:Phoenix Suns @ San Antonio Spurs
+LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-03-2027 22
+ :30\nHora Punta Arenas/Magallanes: 29-03-2027 22:30\nTV nacional EE.UU.:
+  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
+ ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-1096\nFuent
+ e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
+ l del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ San Antonio Spurs
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ San Antonio Spurs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ San Antonio Spurs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1111@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270401T000000Z
+DTEND:20270401T030000Z
+SUMMARY:Phoenix Suns @ San Antonio Spurs
+LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-03-2027 21
+ :00\nHora Punta Arenas/Magallanes: 31-03-2027 21:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1111\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ San Antonio Spurs
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ San Antonio Spurs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ San Antonio Spurs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1117@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270403T020000Z
+DTEND:20270403T050000Z
+SUMMARY:Denver Nuggets @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-04-2027 23
+ :00\nHora Punta Arenas/Magallanes: 02-04-2027 23:00\nTV nacional EE.UU.:
+  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-1117\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del partido
+  puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Denver Nuggets @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Denver Nuggets @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1139@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270404T203000Z
+DTEND:20270404T233000Z
+SUMMARY:Phoenix Suns @ Los Angeles Clippers
+LOCATION:Intuit Dome\, Inglewood\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-04-2027 16
+ :30\nHora Punta Arenas/Magallanes: 04-04-2027 17:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1139\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Los Angeles Clippers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Los Angeles Clippers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Los Angeles Clipp
+ ers
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1149@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270407T030000Z
+DTEND:20270407T060000Z
+SUMMARY:Phoenix Suns @ Golden State Warriors
+LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-04-2027 23
+ :00\nHora Punta Arenas/Magallanes: 07-04-2027 00:00\nTV nacional EE.UU.:
+  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nID maestro: NBA2627-1149\nFuente base: NBA.com
+ \nDuración del calendario: 3 h estimadas\; el término real del partido p
+ uede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Golden State Warriors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Golden State Warrior
+ s
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Golden State Warr
+ iors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1173@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270410T020000Z
+DTEND:20270410T050000Z
+SUMMARY:Memphis Grizzlies @ Phoenix Suns
+LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-04-2027 22
+ :00\nHora Punta Arenas/Magallanes: 09-04-2027 23:00\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1173\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Memphis Grizzlies @ Phoenix Suns
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Memphis Grizzlies @ Phoenix Suns
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Memphis Grizzlies @ Phoenix Suns
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-1200@nba-master-calendar.local
+DTSTAMP:20260903T002955Z
+DTSTART:20270412T003000Z
+DTEND:20270412T033000Z
+SUMMARY:Phoenix Suns @ Los Angeles Lakers
+LOCATION:Crypto.com Arena\, Los Angeles\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-04-2027 20
+ :30\nHora Punta Arenas/Magallanes: 11-04-2027 21:30\nTV nacional EE.UU.:
+  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
+ stricciones)\nID maestro: NBA2627-1200\nFuente base: NBA.com\nDuración d
+ el calendario: 3 h estimadas\; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Phoenix Suns @ Los Angeles Lakers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Phoenix Suns @ Los Angeles Lakers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ Los Angeles Laker
+ s
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
