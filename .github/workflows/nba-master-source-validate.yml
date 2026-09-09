@@ -130,5 +130,45 @@ jobs:
           print("PRODUCTION PREFLIGHT: CLEAN")
           PY
 
+      - name: Run change report self-test
+        run: python tools/self_test_change_report.py
+
+      - name: Generate production change report
+        run: |
+          python tools/change_report.py \
+            --candidate data/master_snapshot.json \
+            --state data/published_state.json \
+            --output /tmp/nba_change_report.json
+
+          python - <<'PYREPORT'
+          import json
+          from pathlib import Path
+
+          report = json.loads(
+              Path("/tmp/nba_change_report.json").read_text(encoding="utf-8")
+          )
+
+          counts = report["counts"]
+
+          print("Added:", counts["added"])
+          print("Modified:", counts["modified"])
+          print("Unchanged:", counts["unchanged"])
+          print("Missing:", counts["missing"])
+
+          if counts["added"] != 0:
+              raise SystemExit("ERROR: unexpected added events")
+
+          if counts["modified"] != 0:
+              raise SystemExit("ERROR: unexpected modified events")
+
+          if counts["missing"] != 0:
+              raise SystemExit("ERROR: missing events require manual review")
+
+          if counts["unchanged"] != 1200:
+              raise SystemExit("ERROR: expected 1200 unchanged events")
+
+          print("CHANGE REPORT PRODUCTION: CLEAN")
+          PYREPORT
+
       - name: Validate existing feeds
         run: python tools/validate_feeds.py
