@@ -29,6 +29,17 @@ jobs:
             exit 1
           fi
 
+      - name: Verify production branch
+        shell: bash
+        run: |
+          if [ "${{ github.ref_name }}" != "main" ]; then
+            echo "ERROR: production publication is only permitted from main."
+            echo "Selected branch: ${{ github.ref_name }}"
+            exit 1
+          fi
+
+          echo "PRODUCTION BRANCH: OK — main"
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
