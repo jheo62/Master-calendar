@@ -1,0 +1,38 @@
+name: NBA Calendar Update
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nba-calendar-update
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run engine self-test
+        run: python3 tools/self_test_engine.py
+
+      - name: Check current master against published state
+        run: |
+          python3 tools/update_engine.py \
+            --candidate data/master_snapshot.json \
+            --state data/published_state.json \
+            --report /tmp/nba_update_report.json \
+            --docs docs
+
+      - name: Validate calendar feeds
+        run: python3 tools/validate_feeds.py
