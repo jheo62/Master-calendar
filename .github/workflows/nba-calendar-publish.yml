@@ -1,0 +1,192 @@
+name: NBA Calendar Publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm_publish:
+        description: 'Escribe PUBLICAR para autorizar la publicación'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nba-calendar-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verify explicit authorization
+        shell: bash
+        run: |
+          if [ "${{ inputs.confirm_publish }}" != "PUBLICAR" ]; then
+            echo "ERROR: publicación no autorizada."
+            echo "Debes escribir exactamente: PUBLICAR"
+            exit 1
+          fi
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run engine self-test
+        run: python3 tools/self_test_engine.py
+
+      - name: Preflight change detection
+        run: |
+          python3 tools/update_engine.py \
+            --candidate data/master_snapshot.json \
+            --state data/published_state.json \
+            --report /tmp/nba_preflight.json \
+            --docs docs
+
+      - name: Publication safety guard
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import sys
+
+          MAX_CHANGES = 25
+
+          with open("/tmp/nba_preflight.json", encoding="utf-8") as f:
+              report = json.load(f)
+
+          counts = report["counts"]
+
+          added = counts["added"]
+          modified = counts["modified"]
+          missing = counts["missing"]
+          unchanged = counts["unchanged"]
+
+          total_changes = added + modified
+
+          print(f"Added: {added}")
+          print(f"Modified: {modified}")
+          print(f"Unchanged: {unchanged}")
+          print(f"Missing: {missing}")
+          print(f"Total publishable changes: {total_changes}")
+
+          if report.get("applied") is not False:
+              print("ERROR: preflight report unexpectedly indicates applied=true.")
+              sys.exit(1)
+
+          if missing != 0:
+              print("ERROR: missing events detected. Automatic publication blocked.")
+              sys.exit(1)
+
+          if total_changes > MAX_CHANGES:
+              print(
+                  f"ERROR: {total_changes} changes exceed "
+                  f"the safety limit of {MAX_CHANGES}."
+              )
+              sys.exit(1)
+
+          if total_changes == 0:
+              print("NO CHANGES: nothing needs publication.")
+          else:
+              print("PUBLICATION GUARD: OK")
+          PY
+
+      - name: Check whether publication is required
+        id: changes
+        shell: bash
+        run: |
+          TOTAL=$(python3 - <<'PY'
+          import json
+          with open("/tmp/nba_preflight.json", encoding="utf-8") as f:
+              r = json.load(f)
+          print(r["counts"]["added"] + r["counts"]["modified"])
+          PY
+          )
+
+          echo "total=$TOTAL" >> "$GITHUB_OUTPUT"
+          echo "Total changes requiring publication: $TOTAL"
+
+      - name: Apply update
+        if: steps.changes.outputs.total != '0' 
+        run: |
+          python3 tools/update_engine.py \
+            --candidate data/master_snapshot.json \
+            --state data/published_state.json \
+            --report /tmp/nba_apply_report.json \
+            --docs docs \
+            --apply
+
+      - name: Validate regenerated feeds
+        run: python3 tools/validate_feeds.py
+
+      - name: Verify unique UIDs
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import sys
+
+          feed = Path("docs/calendars/nba-2026-27-completo.ics")
+
+          if not feed.exists():
+              print(f"ERROR: feed not found: {feed}")
+              sys.exit(1)
+
+          uids = []
+          for line in feed.read_text(encoding="utf-8").splitlines():
+              if line.startswith("UID:"):
+                  uids.append(line[4:].strip())
+
+          if len(uids) != len(set(uids)):
+              print("ERROR: duplicate UIDs detected.")
+              sys.exit(1)
+
+          if len(uids) != 1200:
+              print(f"ERROR: expected 1200 UIDs, found {len(uids)}.")
+              sys.exit(1)
+
+          print(f"UID VALIDATION: OK — {len(uids)} unique UIDs")
+          PY
+
+      - name: Inspect generated changes
+        shell: bash
+        run: |
+          echo "=== FILES CHANGED ==="
+          git status --short
+
+          unexpected=$(git status --porcelain | awk '{print $2}' | \
+            grep -Ev '^(docs/|data/published_state\.json$)' || true)
+
+          if [ -n "$unexpected" ]; then
+            echo "ERROR: unexpected files changed:"
+            echo "$unexpected"
+            exit 1
+          fi
+
+      - name: Commit and push validated update
+        shell: bash
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No calendar changes to publish."
+            exit 0
+          fi
+
+          git config user.name "NBA Master Calendar Bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add docs data/published_state.json
+
+          if git diff --cached --quiet; then
+            echo "No tracked publication changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Actualizar calendarios NBA 2026-27"
+          git push origin HEAD:main
