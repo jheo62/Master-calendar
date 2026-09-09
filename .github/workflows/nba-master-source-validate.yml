@@ -1,0 +1,134 @@
+name: NBA Master Source Validate
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'source/**'
+      - 'tools/build_master_snapshot.py'
+      - 'requirements.txt'
+      - '.github/workflows/nba-master-source-validate.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-master-source:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Rebuild snapshot from XLSX
+        run: |
+          python tools/build_master_snapshot.py \
+            --xlsx source/NBA_Master_Calendar_2026-27_Base_Maestra_2.4_VALIDADA.xlsx \
+            --output /tmp/master_snapshot_from_xlsx.json
+
+      - name: Verify semantic equivalence
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          production = json.loads(
+              Path("data/master_snapshot.json").read_text(encoding="utf-8")
+          )
+
+          candidate = json.loads(
+              Path("/tmp/master_snapshot_from_xlsx.json").read_text(encoding="utf-8")
+          )
+
+          p_events = production["events"]
+          c_events = candidate["events"]
+
+          if len(p_events) != 1200:
+              raise SystemExit(
+                  f"ERROR: production has {len(p_events)} events"
+              )
+
+          if len(c_events) != 1200:
+              raise SystemExit(
+                  f"ERROR: candidate has {len(c_events)} events"
+              )
+
+          p = {e["ID_Partido"]: e for e in p_events}
+          c = {e["ID_Partido"]: e for e in c_events}
+
+          if len(p) != 1200 or len(c) != 1200:
+              raise SystemExit("ERROR: duplicate IDs detected")
+
+          if set(p) != set(c):
+              raise SystemExit("ERROR: ID sets differ")
+
+          differences = [
+              uid for uid in sorted(p)
+              if p[uid] != c[uid]
+          ]
+
+          if differences:
+              print("Different events:", differences[:20])
+              raise SystemExit(
+                  f"ERROR: {len(differences)} semantic differences detected"
+              )
+
+          print("SEMANTIC RECONSTRUCTION: EXACT")
+          print("Events: 1200")
+          print("Unique IDs: 1200")
+          PY
+
+      - name: Run update engine preflight
+        run: |
+          python tools/update_engine.py \
+            --candidate /tmp/master_snapshot_from_xlsx.json \
+            --state data/published_state.json \
+            --report /tmp/xlsx_preflight.json \
+            --docs docs
+
+      - name: Verify zero production changes
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          report = json.loads(
+              Path("/tmp/xlsx_preflight.json").read_text(encoding="utf-8")
+          )
+
+          counts = report["counts"]
+
+          print("Added:", counts["added"])
+          print("Modified:", counts["modified"])
+          print("Unchanged:", counts["unchanged"])
+          print("Missing:", counts["missing"])
+
+          if counts["added"] != 0:
+              raise SystemExit("ERROR: unexpected added events")
+
+          if counts["modified"] != 0:
+              raise SystemExit("ERROR: unexpected modified events")
+
+          if counts["missing"] != 0:
+              raise SystemExit("ERROR: unexpected missing events")
+
+          if counts["unchanged"] != 1200:
+              raise SystemExit("ERROR: expected 1200 unchanged events")
+
+          print("PRODUCTION PREFLIGHT: CLEAN")
+          PY
+
+      - name: Validate existing feeds
+        run: python tools/validate_feeds.py
