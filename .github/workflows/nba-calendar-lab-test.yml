@@ -1,0 +1,201 @@
+name: NBA Calendar LAB Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lab-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout laboratory branch
+        uses: actions/checkout@v4
+
+      - name: Verify laboratory branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "Branch: ${GITHUB_REF_NAME}"
+
+          if [[ "${GITHUB_REF_NAME}" != "test/xlsx-single-change" ]]; then
+            echo "ERROR: este workflow solo puede ejecutarse desde test/xlsx-single-change."
+            exit 1
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python -m pip install openpyxl
+
+      - name: Run engine self-test
+        run: python tools/self_test_engine.py
+
+      - name: Build candidate snapshot from laboratory XLSX
+        run: |
+          python tools/build_master_snapshot.py \
+            --xlsx source/NBA_Master_Calendar_2026-27_Base_Maestra_2.4_VALIDADA.xlsx \
+            --output /tmp/master_snapshot_lab.json
+
+      - name: Generate differential report
+        run: |
+          python tools/change_report.py \
+            --candidate /tmp/master_snapshot_lab.json \
+            --state data/published_state.json \
+            --output /tmp/nba_change_report_lab.json
+
+      - name: Verify exactly one controlled change
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+
+          path = "/tmp/nba_change_report_lab.json"
+
+          with open(path, "r", encoding="utf-8") as f:
+              report = json.load(f)
+
+          def count(name):
+              value = report.get(name, [])
+              return len(value) if isinstance(value, list) else int(value or 0)
+
+          added = count("added")
+          modified = count("modified")
+          missing = count("missing")
+
+          print("Added:", added)
+          print("Modified:", modified)
+          print("Missing:", missing)
+
+          if added != 0:
+              raise SystemExit("ERROR: se esperaban 0 eventos añadidos.")
+
+          if modified != 1:
+              raise SystemExit(
+                  f"ERROR: se esperaba exactamente 1 evento modificado; encontrados {modified}."
+              )
+
+          if missing != 0:
+              raise SystemExit("ERROR: se esperaban 0 eventos ausentes.")
+
+          print("LAB SAFETY GATE: OK")
+          PY
+
+      - name: Prepare isolated laboratory environment
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          rm -rf /tmp/nba_calendar_lab
+          mkdir -p /tmp/nba_calendar_lab
+
+          cp -R docs /tmp/nba_calendar_lab/docs
+          cp data/published_state.json /tmp/nba_calendar_lab/published_state.json
+
+      - name: Apply update only inside laboratory
+        run: |
+          python tools/update_engine.py \
+            --candidate /tmp/master_snapshot_lab.json \
+            --state /tmp/nba_calendar_lab/published_state.json \
+            --report /tmp/nba_calendar_lab/apply_report.json \
+            --docs /tmp/nba_calendar_lab/docs \
+            --apply
+
+      - name: Verify modified event and feed integrity
+        shell: bash
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+
+          path = Path(
+              "/tmp/nba_calendar_lab/docs/calendars/nba-2026-27-completo.ics"
+          )
+
+          text = path.read_text(encoding="utf-8")
+
+          uid = "NBA2627-0001@nba-master-calendar.local"
+
+          events = re.findall(
+              r"BEGIN:VEVENT\r?\n(.*?)END:VEVENT",
+              text,
+              flags=re.S,
+          )
+
+          matches = [event for event in events if f"UID:{uid}" in event]
+
+          print("VEVENT totales:", len(events))
+          print("Coincidencias UID objetivo:", len(matches))
+
+          if len(events) != 1200:
+              raise SystemExit(
+                  f"ERROR: se esperaban 1200 VEVENT; encontrados {len(events)}."
+              )
+
+          if len(matches) != 1:
+              raise SystemExit(
+                  "ERROR: el UID objetivo debe aparecer exactamente una vez."
+              )
+
+          event = matches[0]
+
+          expected = {
+              "DTSTART": "20261020T191500Z",
+              "SEQUENCE": "1",
+          }
+
+          for field, wanted in expected.items():
+              match = re.search(
+                  rf"^{field}(?:;[^:]*)?:(.*)$",
+                  event,
+                  flags=re.M,
+              )
+
+              value = match.group(1).strip() if match else None
+
+              print(f"{field}:", value)
+
+              if value != wanted:
+                  raise SystemExit(
+                      f"ERROR: {field} esperado {wanted}; obtenido {value}."
+                  )
+
+          uids = re.findall(r"^UID:(.+)$", text, flags=re.M)
+          uids = [value.strip() for value in uids]
+
+          print("UID totales:", len(uids))
+          print("UID únicos:", len(set(uids)))
+          print("Duplicados:", len(uids) - len(set(uids)))
+
+          if len(uids) != 1200 or len(set(uids)) != 1200:
+              raise SystemExit("ERROR: problema de integridad de UID.")
+
+          print("INTEGRIDAD LAB: OK")
+          PY
+
+      - name: Verify idempotence
+        run: |
+          python tools/update_engine.py \
+            --candidate /tmp/master_snapshot_lab.json \
+            --state /tmp/nba_calendar_lab/published_state.json \
+            --report /tmp/nba_calendar_lab/idempotence_report.json \
+            --docs /tmp/nba_calendar_lab/docs
+
+      - name: Confirm production repository was not modified
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "ERROR: el laboratorio modificó archivos del repositorio."
+            git status --short
+            exit 1
+          fi
+
+          echo "REPOSITORIO DE PRODUCCION INTACTO."
+          echo "LAB TEST COMPLETADO CORRECTAMENTE."
