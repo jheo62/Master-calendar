@@ -44,8 +44,12 @@ def main():
         if a.cancel_missing:
             for eid in missing:
                 rec=state["events"][eid]; rec["sequence"]=int(rec.get("sequence",0))+1; rec["status"]="CANCELLED"; rec["last_modified"]=now
-        save_json(sp,state)
-        stats=build_all(a.candidate,a.state,a.docs); report["feed_stats"]=stats; report["applied"]=True
+        changes_to_publish = bool(added or modified or (a.cancel_missing and missing))
+        if changes_to_publish:
+            save_json(sp,state)
+            stats=build_all(a.candidate,a.state,a.docs)
+            report["feed_stats"]=stats
+            report["applied"]=True
     save_json(a.report,report)
     print(f"Añadidos: {len(added)} | Modificados: {len(modified)} | Sin cambio: {len(unchanged)} | Ausentes: {len(missing)} | Aplicado: {report['applied']}")
     if modified: print("Modificados:", ", ".join(modified[:20]), "..." if len(modified)>20 else "")
