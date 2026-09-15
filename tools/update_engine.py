@@ -4,7 +4,7 @@ import argparse, copy
 from datetime import datetime, timezone
 from pathlib import Path
 from common import load_json, save_json, fingerprint, uid_for
-from feed_builder import build_all
+from feed_builder import build_all, build_selective
 
 def init_state(master):
     return {"schema_version":"3.3.0","season":master.get("season"),"events":{
@@ -47,7 +47,15 @@ def main():
         changes_to_publish = bool(added or modified or (a.cancel_missing and missing))
         if changes_to_publish:
             save_json(sp,state)
-            stats=build_all(a.candidate,a.state,a.docs)
+            affected_ids=sorted(set(added + modified))
+            if a.cancel_missing:
+                affected_ids=sorted(set(affected_ids + missing))
+            stats=build_selective(
+                a.candidate,
+                a.state,
+                a.docs,
+                affected_ids,
+            )
             report["feed_stats"]=stats
             report["applied"]=True
     save_json(a.report,report)

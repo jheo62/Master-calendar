@@ -79,6 +79,98 @@ def build_all(master_path, state_path, docs_dir):
         write_calendar(teams/f"{slugify(team)}.ics",f"NBA 2026-27 — {team}",[e for e in events if team in (e["Visitante"],e["Local"])],state,stamp)
     return {"events":len(events),"teams":len(team_names),"cup":sum(bool(e.get("Es_NBA_Cup")) for e in events),"special":sum(bool(e.get("Es_Partido_Especial")) for e in events)}
 
+
+def build_selective(master_path, state_path, docs_dir, affected_ids):
+    master = load_json(master_path)
+    state = load_json(state_path).get("events", {})
+    events = master["events"]
+
+    affected_ids = set(affected_ids)
+    by_id = {e["ID_Partido"]: e for e in events}
+
+    unknown = sorted(affected_ids - set(by_id))
+    if unknown:
+        raise ValueError(
+            "IDs afectados no presentes en master: "
+            + ", ".join(unknown)
+        )
+
+    affected_events = [by_id[eid] for eid in sorted(affected_ids)]
+
+    affected_teams = sorted({
+        team
+        for e in affected_events
+        for team in (e["Visitante"], e["Local"])
+    })
+
+    docs = Path(docs_dir)
+    cal = docs / "calendars"
+    teams = cal / "teams"
+    teams.mkdir(parents=True, exist_ok=True)
+
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+
+    written = []
+
+    complete = cal / "nba-2026-27-completo.ics"
+    write_calendar(
+        complete,
+        "NBA 2026-27 — Completo",
+        events,
+        state,
+        stamp,
+    )
+    written.append(str(complete.relative_to(docs)))
+
+    if any(e.get("Es_NBA_Cup") for e in affected_events):
+        cup = cal / "nba-2026-27-cup-group-play.ics"
+        write_calendar(
+            cup,
+            "NBA Cup 2026 — Group Play",
+            [e for e in events if e.get("Es_NBA_Cup")],
+            state,
+            stamp,
+        )
+        written.append(str(cup.relative_to(docs)))
+
+    if any(e.get("Es_Partido_Especial") for e in affected_events):
+        special = cal / "nba-2026-27-eventos-especiales.ics"
+        write_calendar(
+            special,
+            "NBA 2026-27 — Eventos especiales",
+            [e for e in events if e.get("Es_Partido_Especial")],
+            state,
+            stamp,
+        )
+        written.append(str(special.relative_to(docs)))
+
+    for team in affected_teams:
+        path = teams / f"{slugify(team)}.ics"
+        write_calendar(
+            path,
+            f"NBA 2026-27 — {team}",
+            [
+                e for e in events
+                if team in (e["Visitante"], e["Local"])
+            ],
+            state,
+            stamp,
+        )
+        written.append(str(path.relative_to(docs)))
+
+    return {
+        "events": len(events),
+        "affected_events": len(affected_events),
+        "affected_teams": len(affected_teams),
+        "cup": any(e.get("Es_NBA_Cup") for e in affected_events),
+        "special": any(
+            e.get("Es_Partido_Especial")
+            for e in affected_events
+        ),
+        "feeds_written": len(written),
+        "written": written,
+    }
+
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument("--master",default="data/master_snapshot.json"); ap.add_argument("--state",default="data/published_state.json"); ap.add_argument("--docs",default="docs")
     a=ap.parse_args(); print(build_all(a.master,a.state,a.docs))
