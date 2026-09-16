@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Normalización geográfica controlada de sedes NBA",
+  "arenas": {
+    "Moody Center": {
+      "Ciudad": "Austin",
+      "Estado_Provincia": "Texas",
+      "Pais": "EE. UU.",
+      "Zona_Horaria_Arena": "America/Chicago"
+    },
+    "Arena CDMX": {
+      "Ciudad": "Ciudad de México",
+      "Estado_Provincia": "Ciudad de México",
+      "Pais": "México",
+      "Zona_Horaria_Arena": "America/Mexico_City"
+    },
+    "Accor Arena": {
+      "Ciudad": "París",
+      "Estado_Provincia": null,
+      "Pais": "Francia",
+      "Zona_Horaria_Arena": "Europe/Paris"
+    },
+    "Co-op Live": {
+      "Ciudad": "Manchester",
+      "Estado_Provincia": "Inglaterra",
+      "Pais": "Reino Unido",
+      "Zona_Horaria_Arena": "Europe/London"
+    }
+  }
+}
