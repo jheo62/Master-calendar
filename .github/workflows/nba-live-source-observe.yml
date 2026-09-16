@@ -56,6 +56,13 @@ jobs:
             data/master_snapshot.json \
             /tmp/nba_live_candidate.json
 
+      - name: Generate detailed change report
+        run: |
+          python3 tools/detailed_change_report.py \
+            --baseline data/master_snapshot.json \
+            --candidate /tmp/nba_live_candidate.json \
+            --output /tmp/nba_live_detailed_report.json
+
       - name: Generate dry-run change report
         run: |
           python3 tools/update_engine.py \
