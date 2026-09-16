@@ -1,0 +1,106 @@
+name: NBA Live Source Observe
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nba-live-source-observe
+  cancel-in-progress: false
+
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Download official NBA team schedules
+        run: |
+          python3 tools/download_nba_source.py \
+            --teams data/reference/nba_teams_2026_27.tsv \
+            --output-dir /tmp/nba_live_html
+
+      - name: Extract official NBA source
+        run: |
+          python3 tools/extract_nba_source.py \
+            --html-dir /tmp/nba_live_html \
+            --teams data/reference/nba_teams_2026_27.tsv \
+            --output /tmp/nba_live_source.json
+
+      - name: Build normalized candidate
+        run: |
+          python3 tools/source_adapter.py \
+            --source /tmp/nba_live_source.json \
+            --master data/master_snapshot.json \
+            --identity-map data/nba_game_identity_map.json \
+            --arena-registry data/reference/arena_registry.json \
+            --output /tmp/nba_live_candidate.json
+
+      - name: Validate source contract
+        run: |
+          python3 tools/source_contract.py \
+            /tmp/nba_live_candidate.json
+
+      - name: Run ingestion guard
+        run: |
+          python3 tools/ingestion_guard.py \
+            data/master_snapshot.json \
+            /tmp/nba_live_candidate.json
+
+      - name: Generate dry-run change report
+        run: |
+          python3 tools/update_engine.py \
+            --candidate /tmp/nba_live_candidate.json \
+            --state data/published_state.json \
+            --report /tmp/nba_live_report.json \
+            --docs docs
+
+      - name: Show observation summary
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          report = json.loads(
+              Path("/tmp/nba_live_report.json").read_text(encoding="utf-8")
+          )
+
+          counts = report["counts"]
+
+          print("=== NBA LIVE OBSERVATION ===")
+          print("Added:", counts["added"])
+          print("Modified:", counts["modified"])
+          print("Unchanged:", counts["unchanged"])
+          print("Missing:", counts["missing"])
+          print("Applied:", report["applied"])
+
+          print()
+          print("Modified IDs:")
+          for game_id in report.get("modified", []):
+              print("-", game_id)
+
+          if report["applied"] is not False:
+              raise SystemExit("ERROR: observation workflow must never apply changes")
+
+          print()
+          print("OBSERVATION MODE: READ-ONLY")
+          PY
+
+      - name: Verify repository unchanged
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "ERROR: workflow modified repository files"
+            git status --short
+            exit 1
+          fi
+
+          echo "REPOSITORY UNCHANGED: OK"
