@@ -276,6 +276,36 @@ def main():
         "identity_mode": "nba_gameId",
         "identity_map": args.identity_map,
         "identity_count": len(identity_events),
+        "provenance": {
+            "source": {
+                "name": source.get(
+                    "source",
+                    "NBA.com team schedules",
+                ),
+                "input": args.source,
+                "mode": source.get("mode"),
+            },
+            "adapter": {
+                "name": "tools/source_adapter.py",
+                "version": "source-adapter-0.1",
+            },
+            "identity_map": {
+                "path": args.identity_map,
+                "schema_version": identity.get(
+                    "schema_version"
+                ),
+                "source": identity.get("source"),
+            },
+            "arena_registry": {
+                "path": args.arena_registry,
+                "schema_version": arena_registry_data.get(
+                    "schema_version"
+                ),
+                "purpose": arena_registry_data.get(
+                    "purpose"
+                ),
+            },
+        },
         "source_count": len(source_events),
         "master_count": len(master_events),
         "matched_count": len(matched),
