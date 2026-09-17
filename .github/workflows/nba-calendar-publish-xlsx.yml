@@ -106,6 +106,80 @@ jobs:
           print("SAFETY GATE: OK")
           PY
 
+      - name: Generate detailed promotion report
+        run: |
+          python tools/detailed_change_report.py \
+            --baseline data/master_snapshot.json \
+            --candidate /tmp/master_snapshot_candidate.json \
+            --output /tmp/nba_promotion_detailed_report.json
+
+      - name: Classify candidate changes for promotion
+        run: |
+          python tools/change_decision.py \
+            --report /tmp/nba_promotion_detailed_report.json \
+            --policy data/reference/change_decision_policy.json \
+            --output /tmp/nba_promotion_decision.json
+
+      - name: Promotion gate
+        shell: bash
+        run: |
+          python - <<'PYDECISION'
+          import json
+          from pathlib import Path
+
+          path = Path("/tmp/nba_promotion_decision.json")
+
+          if not path.exists():
+              raise SystemExit(
+                  "ERROR: promotion decision report not generated"
+              )
+
+          result = json.loads(
+              path.read_text(encoding="utf-8")
+          )
+
+          decision = result.get("decision")
+          counts = result.get("counts", {})
+          changes = result.get("changes", [])
+          reasons = result.get("reasons", [])
+
+          print("=== NBA PROMOTION GATE ===")
+          print("Decision:", decision)
+          print("Added:", counts.get("added"))
+          print("Modified:", counts.get("modified"))
+          print("Missing:", counts.get("missing"))
+          print(
+              "Classified changes:",
+              counts.get("classified_changes")
+          )
+
+          for change in changes:
+              print(
+                  change.get("ID_Partido"),
+                  "|",
+                  change.get("field"),
+                  "|",
+                  repr(change.get("before")),
+                  "->",
+                  repr(change.get("after")),
+                  "|",
+                  change.get("decision"),
+              )
+
+          if reasons:
+              print("Reasons:")
+              for reason in reasons:
+                  print("-", reason)
+
+          if decision != "AUTO_ELIGIBLE":
+              raise SystemExit(
+                  f"PROMOTION GATE: DETENIDO ({decision})"
+              )
+
+          print("PROMOTION GATE: AUTO_ELIGIBLE")
+          print("PUBLICACION AUTOMATICA: NO")
+          PYDECISION
+
       - name: Stop cleanly when there are no changes
         id: changes
         shell: bash
