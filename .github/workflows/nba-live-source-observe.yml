@@ -63,6 +63,74 @@ jobs:
             --candidate /tmp/nba_live_candidate.json \
             --output /tmp/nba_live_detailed_report.json
 
+      - name: Classify detected changes
+        run: |
+          python3 tools/change_decision.py \
+            --report /tmp/nba_live_detailed_report.json \
+            --policy data/reference/change_decision_policy.json \
+            --output /tmp/nba_live_decision.json
+
+      - name: Show change decision
+        run: |
+          python3 - <<'PYDECISION'
+          import json
+          from pathlib import Path
+
+          path = Path("/tmp/nba_live_decision.json")
+
+          if not path.exists():
+              raise SystemExit("ERROR: decision report not generated")
+
+          result = json.loads(
+              path.read_text(encoding="utf-8")
+          )
+
+          counts = result["counts"]
+          changes = result.get("changes", [])
+
+          print("=== NBA LIVE CHANGE DECISION ===")
+          print("Decision:", result["decision"])
+          print("Added:", counts["added"])
+          print("Modified:", counts["modified"])
+          print("Missing:", counts["missing"])
+          print(
+              "Classified changes:",
+              counts["classified_changes"]
+          )
+          print("Changes list:", len(changes))
+          print("MODE: READ-ONLY")
+
+          for change in changes:
+              print(
+                  change["ID_Partido"],
+                  "|",
+                  change["field"],
+                  "|",
+                  repr(change["before"]),
+                  "->",
+                  repr(change["after"]),
+                  "|",
+                  change["decision"],
+              )
+
+          if len(changes) != counts["classified_changes"]:
+              raise SystemExit(
+                  "ERROR: classified_changes does not match changes list"
+              )
+
+          if result["decision"] not in {
+              "AUTO_ELIGIBLE",
+              "REVIEW_REQUIRED",
+              "BLOCKED",
+          }:
+              raise SystemExit(
+                  f"ERROR: unknown decision: {result['decision']}"
+              )
+
+          print()
+          print("CHANGE DECISION CONTRACT: OK")
+          PYDECISION
+
       - name: Generate dry-run change report
         run: |
           python3 tools/update_engine.py \
