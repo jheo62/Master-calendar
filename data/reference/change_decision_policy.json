@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "mode": "read-only",
+  "purpose": "Clasificar cambios detectados desde la fuente oficial NBA antes de cualquier publicacion",
+  "thresholds": {
+    "max_added": 10,
+    "max_modified": 20,
+    "max_missing": 0
+  },
+  "field_policy": {
+    "Fecha_Hora_UTC": "AUTO_ELIGIBLE",
+    "Arena": "AUTO_ELIGIBLE",
+    "Ciudad": "AUTO_ELIGIBLE",
+    "Estado_Provincia": "AUTO_ELIGIBLE",
+    "Zona_Horaria_Arena": "AUTO_ELIGIBLE",
+    "TV_Normalizada": "REVIEW_REQUIRED",
+    "Streaming_Normalizado": "REVIEW_REQUIRED",
+    "Estado": "REVIEW_REQUIRED",
+    "URL_NBA": "REVIEW_REQUIRED",
+    "Visitante": "BLOCKED",
+    "Local": "BLOCKED",
+    "Fase": "BLOCKED",
+    "Grupo_NBA_Cup": "BLOCKED",
+    "Evento_Especial": "BLOCKED",
+    "Es_NBA_Cup": "BLOCKED",
+    "Es_Partido_Especial": "BLOCKED",
+    "País": "AUTO_ELIGIBLE"
+  },
+  "event_policy": {
+    "added": "REVIEW_REQUIRED",
+    "missing": "BLOCKED"
+  },
+  "requirements": {
+    "arena_geography_requires_registry_match": true,
+    "team_identity_change_allowed": false,
+    "automatic_missing_cancellation": false,
+    "automatic_publication": false
+  }
+}
