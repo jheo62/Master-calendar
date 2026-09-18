@@ -7,10 +7,10 @@ from pathlib import Path
 
 
 FIELDS = (
-    "Ciudad",
-    "Estado_Provincia",
-    "Pais",
-    "Zona_Horaria_Arena",
+    ("Ciudad", "Ciudad"),
+    ("Estado_Provincia", "Estado_Provincia"),
+    ("País", "Pais"),
+    ("Zona_Horaria_Arena", "Zona_Horaria_Arena"),
 )
 
 
@@ -111,15 +111,15 @@ def main():
             })
 
         else:
-            for field in FIELDS:
-                candidate_value = normalize(event.get(field))
+            for candidate_field, registry_field in FIELDS:
+                candidate_value = normalize(event.get(candidate_field))
                 registry_value = normalize(
-                    registry_entry.get(field)
+                    registry_entry.get(registry_field)
                 )
 
                 if candidate_value != registry_value:
                     check["mismatches"].append({
-                        "field": field,
+                        "field": candidate_field,
                         "candidate": candidate_value,
                         "registry": registry_value,
                     })

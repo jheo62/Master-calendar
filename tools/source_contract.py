@@ -25,7 +25,7 @@ OPTIONAL_FIELDS = (
     "Arena",
     "Ciudad",
     "Estado_Provincia",
-    "Pais",
+    "País",
     "TV_Normalizada",
     "Streaming_Normalizado",
     "URL_NBA",

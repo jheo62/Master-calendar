@@ -119,7 +119,7 @@ def normalize_nba_event(
             candidate["Estado_Provincia"] = (
                 geo.get("Estado_Provincia")
             )
-            candidate["Pais"] = geo.get("Pais")
+            candidate["País"] = geo.get("Pais")
             candidate["Zona_Horaria_Arena"] = (
                 geo.get("Zona_Horaria_Arena")
             )
