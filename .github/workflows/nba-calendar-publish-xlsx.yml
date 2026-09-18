@@ -128,65 +128,19 @@ jobs:
             --registry data/reference/arena_registry.json \
             --output /tmp/nba_arena_geography_guard.json
 
-      - name: Promotion gate
-        shell: bash
+      - name: Validate temporal changes
         run: |
-          python - <<'PYDECISION'
-          import json
-          from pathlib import Path
+          python3 tools/temporal_guard.py \
+            --report /tmp/nba_promotion_detailed_report.json \
+            --output /tmp/nba_temporal_guard.json
 
-          path = Path("/tmp/nba_promotion_decision.json")
-
-          if not path.exists():
-              raise SystemExit(
-                  "ERROR: promotion decision report not generated"
-              )
-
-          result = json.loads(
-              path.read_text(encoding="utf-8")
-          )
-
-          decision = result.get("decision")
-          counts = result.get("counts", {})
-          changes = result.get("changes", [])
-          reasons = result.get("reasons", [])
-
-          print("=== NBA PROMOTION GATE ===")
-          print("Decision:", decision)
-          print("Added:", counts.get("added"))
-          print("Modified:", counts.get("modified"))
-          print("Missing:", counts.get("missing"))
-          print(
-              "Classified changes:",
-              counts.get("classified_changes")
-          )
-
-          for change in changes:
-              print(
-                  change.get("ID_Partido"),
-                  "|",
-                  change.get("field"),
-                  "|",
-                  repr(change.get("before")),
-                  "->",
-                  repr(change.get("after")),
-                  "|",
-                  change.get("decision"),
-              )
-
-          if reasons:
-              print("Reasons:")
-              for reason in reasons:
-                  print("-", reason)
-
-          if decision != "AUTO_ELIGIBLE":
-              raise SystemExit(
-                  f"PROMOTION GATE: DETENIDO ({decision})"
-              )
-
-          print("PROMOTION GATE: AUTO_ELIGIBLE")
-          print("PUBLICACION AUTOMATICA: NO")
-          PYDECISION
+      - name: Promotion gate
+        run: |
+          python3 tools/promotion_gate.py \
+            --change-decision /tmp/nba_promotion_decision.json \
+            --arena-guard /tmp/nba_arena_geography_guard.json \
+            --temporal-guard /tmp/nba_temporal_guard.json \
+            --output /tmp/nba_promotion_gate.json
 
       - name: Stop cleanly when there are no changes
         id: changes
