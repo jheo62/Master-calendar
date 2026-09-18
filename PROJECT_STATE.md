@@ -91,7 +91,7 @@ Solo pueden incorporarse cuando exista información oficial NBA.
 
 Última fase aprobada:
 
-FASE 3.7.10K.21A
+FASE 3.7.10K.30
 
 Resultado:
 
@@ -122,7 +122,7 @@ Producción permaneció intacta.
 
 ## Próximo paso
 
-FASE 3.7.10K.22
+FASE 3.7.10K.31
 
 Objetivo:
 Auditoría semántica del evento NBA2627-0001 después del apply en sandbox.

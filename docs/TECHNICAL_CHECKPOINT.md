@@ -1,7 +1,7 @@
 # NBA Calendar — Technical Checkpoint
 
-CURRENT_PHASE: 3.7.10K.22
-LAST_APPROVED_PHASE: 3.7.10K.21A
+CURRENT_PHASE: 3.7.10K.31
+LAST_APPROVED_PHASE: 3.7.10K.30
 
 SEASON: 2026-27
 
@@ -59,7 +59,7 @@ ID_Partido=NBA2627-0001
 change=Fecha_Hora_UTC +30 minutes
 
 NEXT_STEP:
-Semantic audit of NBA2627-0001 in sandbox after apply.
+Controlled test of the valid-change path without altering real NBA production data.
 
 EXPECTED_K22:
 UID stable
