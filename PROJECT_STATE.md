@@ -175,3 +175,35 @@ Estado al cierre:
 - sandbox eliminado
 
 Próxima fase: K.32.
+
+## FASE 3.7.10K.32 — CLOSED / PASS
+
+Observación automática de la fuente oficial NBA integrada y validada en entorno real.
+
+Resultados:
+- Workflow NBA Calendar Update ejecutado correctamente en GitHub Actions.
+- Fuente oficial NBA descargada para 30 equipos.
+- Extracción validada: 2400 apariciones / 1200 partidos únicos.
+- Cada gameId regular aparece exactamente 2 veces.
+- Identity map mantiene correspondencia con los 1200 partidos del Master.
+- Ingestion Guard: 0 added / 3 modified / 0 missing.
+- Cambios reales detectados: NBA2627-0027, NBA2627-0864 y NBA2627-0873.
+- Los 3 cambios corresponden a Moody Center, Austin.
+- Change Decision: AUTO_ELIGIBLE.
+- Arena Geography Guard: 3 checked / 0 blocked / AUTO_ELIGIBLE.
+- Temporal Guard: AUTO_ELIGIBLE, 0 cambios temporales.
+- Promotion Gate: AUTO_ELIGIBLE.
+- PUBLICACION AUTOMATICA: NO.
+- Workflow de observación permanece READ_ONLY.
+- Producción no fue modificada por K.32.
+- Esquema canónico normalizado a "País".
+- arena_registry.json conserva "Pais" como clave de frontera externa.
+- source_adapter.py traduce Registry "Pais" -> Candidate "País".
+- arena_geography_guard.py usa mapeo explícito Candidate "País" <-> Registry "Pais".
+- source_contract.py quedó alineado con el Candidate canónico usando "País".
+- Commit operativo validado: f28d7518fcf21492a9a4ff688a91cf5934fd0e4a.
+- GitHub Actions validó el commit f28d751 en main.
+- Los 3 cambios Moody Center permanecen detectados; no fueron publicados automáticamente.
+
+LAST_APPROVED_PHASE: 3.7.10K.32
+NEXT_PHASE: 3.7.10K.33
