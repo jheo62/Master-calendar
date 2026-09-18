@@ -120,6 +120,14 @@ jobs:
             --policy data/reference/change_decision_policy.json \
             --output /tmp/nba_promotion_decision.json
 
+      - name: Validate arena geography
+        run: |
+          python3 tools/arena_geography_guard.py \
+            --candidate /tmp/master_snapshot_candidate.json \
+            --report /tmp/nba_promotion_detailed_report.json \
+            --registry data/reference/arena_registry.json \
+            --output /tmp/nba_arena_geography_guard.json
+
       - name: Promotion gate
         shell: bash
         run: |
