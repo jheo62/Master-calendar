@@ -33,8 +33,90 @@ jobs:
           python3 tools/update_engine.py \
             --candidate data/master_snapshot.json \
             --state data/published_state.json \
-            --report /tmp/nba_update_report.json \
+            --report "$RUNNER_TEMP/nba_update_report.json" \
             --docs docs
 
       - name: Validate calendar feeds
         run: python3 tools/validate_feeds.py
+
+      - name: Prepare NBA observation workspace
+        run: |
+          rm -rf "$RUNNER_TEMP/nba-live"
+          mkdir -p "$RUNNER_TEMP/nba-live/html"
+
+      - name: Download official NBA schedule pages
+        run: |
+          python3 tools/download_nba_source.py \
+            --teams data/reference/nba_teams_2026_27.tsv \
+            --output-dir "$RUNNER_TEMP/nba-live/html" \
+            --timeout 30
+
+      - name: Extract official NBA schedule
+        run: |
+          python3 tools/extract_nba_source.py \
+            --html-dir "$RUNNER_TEMP/nba-live/html" \
+            --teams data/reference/nba_teams_2026_27.tsv \
+            --output "$RUNNER_TEMP/nba-live/nba_source.json"
+
+      - name: Adapt official NBA source
+        run: |
+          python3 tools/source_adapter.py \
+            --source "$RUNNER_TEMP/nba-live/nba_source.json" \
+            --master data/master_snapshot.json \
+            --identity-map data/nba_game_identity_map.json \
+            --arena-registry data/reference/arena_registry.json \
+            --output "$RUNNER_TEMP/nba-live/nba_candidate.json"
+
+      - name: Validate source contract
+        run: |
+          python3 tools/source_contract.py \
+            "$RUNNER_TEMP/nba-live/nba_candidate.json"
+
+      - name: Run ingestion guard
+        run: |
+          python3 tools/ingestion_guard.py \
+            data/master_snapshot.json \
+            "$RUNNER_TEMP/nba-live/nba_candidate.json"
+
+      - name: Generate detailed live change report
+        run: |
+          python3 tools/detailed_change_report.py \
+            --baseline data/master_snapshot.json \
+            --candidate "$RUNNER_TEMP/nba-live/nba_candidate.json" \
+            --output "$RUNNER_TEMP/nba-live/detailed_change_report.json"
+
+      - name: Classify live changes
+        run: |
+          python3 tools/change_decision.py \
+            --report "$RUNNER_TEMP/nba-live/detailed_change_report.json" \
+            --policy data/reference/change_decision_policy.json \
+            --output "$RUNNER_TEMP/nba-live/change_decision.json"
+
+      - name: Validate live arena geography
+        run: |
+          python3 tools/arena_geography_guard.py \
+            --candidate "$RUNNER_TEMP/nba-live/nba_candidate.json" \
+            --report "$RUNNER_TEMP/nba-live/detailed_change_report.json" \
+            --registry data/reference/arena_registry.json \
+            --output "$RUNNER_TEMP/nba-live/arena_guard.json"
+
+      - name: Validate live temporal changes
+        run: |
+          python3 tools/temporal_guard.py \
+            --report "$RUNNER_TEMP/nba-live/detailed_change_report.json" \
+            --output "$RUNNER_TEMP/nba-live/temporal_guard.json"
+
+      - name: Evaluate live promotion gate
+        run: |
+          python3 tools/promotion_gate.py \
+            --change-decision "$RUNNER_TEMP/nba-live/change_decision.json" \
+            --arena-guard "$RUNNER_TEMP/nba-live/arena_guard.json" \
+            --temporal-guard "$RUNNER_TEMP/nba-live/temporal_guard.json" \
+            --output "$RUNNER_TEMP/nba-live/promotion_gate.json"
+
+      - name: Confirm observation-only mode
+        run: |
+          echo "NBA LIVE OBSERVATION: COMPLETE"
+          echo "PUBLICACION AUTOMATICA: NO"
+          echo "MASTER PROMOTION: NO"
+          echo "CONTENTS PERMISSION: READ"
