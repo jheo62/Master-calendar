@@ -158,3 +158,20 @@ PASS
 REVIEW
 BLOCKED
 
+
+## Último hito validado — K.31
+
+FASE 3.7.10K.31: APROBADA.
+
+Se certificó de extremo a extremo, en aislamiento, el camino de un cambio AUTO_ELIGIBLE:
+guards -> promotion gate -> apply -> feeds -> master promotion -> post-publish -> idempotencia.
+
+Producción no fue modificada.
+
+Estado al cierre:
+- branch: main
+- local/remote sincronizados
+- rama de laboratorio eliminada
+- sandbox eliminado
+
+Próxima fase: K.32.

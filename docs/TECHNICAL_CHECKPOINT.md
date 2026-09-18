@@ -85,3 +85,32 @@ PASS
 REVIEW
 BLOCKED
 
+
+## FASE 3.7.10K.31 — CLOSED / PASS
+
+Prueba controlada completa del camino AUTO_ELIGIBLE.
+
+Resultados:
+- Rama temporal de laboratorio creada desde main y posteriormente eliminada.
+- Sandbox aislado: /tmp/nba-k31.
+- Producción permaneció intacta durante todo el ensayo.
+- Cambio controlado: NBA2627-0001, +30 minutos.
+- Change Decision: AUTO_ELIGIBLE.
+- Arena Geography Guard: AUTO_ELIGIBLE.
+- Temporal Guard: AUTO_ELIGIBLE.
+- Promotion Gate: AUTO_ELIGIBLE.
+- Apply sandbox: 0 added / 1 modified / 1199 unchanged / 0 missing.
+- Feeds regenerados y validados correctamente.
+- Master sandbox promovido correctamente.
+- UID estable.
+- SEQUENCE incrementado a 1.
+- Estado post-publicación: 0 added / 0 modified / 1200 unchanged / 0 missing.
+- Segundo apply: NO-OP.
+- State no reescrito en segundo apply.
+- Feeds no reescritos en segundo apply.
+- Rama lab eliminada.
+- Sandbox eliminado.
+- main sincronizada con origin/main.
+
+LAST_APPROVED_PHASE: 3.7.10K.31
+NEXT_PHASE: 3.7.10K.32
