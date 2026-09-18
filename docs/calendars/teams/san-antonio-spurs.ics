@@ -1,64 +1,64 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//NBA Master Calendar//2026-27 Premium//ES
+PRODID:-//NBA Master Calendar//2026-27 Feed Engine 3.3//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:NBA 2026-27 — San Antonio Spurs
-X-WR-CALDESC:Calendario 2026-27 de San Antonio Spurs — 80 partidos actualmente definidos.
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 UID:NBA2627-0003@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261021T013000Z
 DTEND:20261021T043000Z
 SUMMARY:[OPENING NIGHT] Oklahoma City Thunder @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-10-2026 22
- :30\nHora Punta Arenas/Magallanes: 20-10-2026 22:30\nTV nacional EE.UU.:
-  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
-  sujeto a restricciones)\nEvento especial: Opening Night\nID maestro: NB
- A2627-0003\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas
- \; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-10-2026 
+ 22:30\nHora Punta Arenas/Magallanes: 20-10-2026 22:30\nTV nacional EE.UU
+ .: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nEvento especial: Opening Night\nID maestro: 
+ NBA2627-0003\nFuente base: NBA.com\nDuración del calendario: 3 h estima
+ das\; el término real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ San Antonio Spu
- rs
+DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ San Antonio 
+ Spurs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ San Antonio
-  Spurs
+DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ San Anton
+ io Spurs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ San Anto
- nio Spurs
+DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ San An
+ tonio Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0027@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261024T013000Z
 DTEND:20261024T043000Z
 SUMMARY:Houston Rockets @ San Antonio Spurs
-LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-10-2026 22
- :30\nHora Punta Arenas/Magallanes: 23-10-2026 22:30\nTV nacional EE.UU.:
-  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
- \; sujeto a restricciones)\nID maestro: NBA2627-0027\nFuente base: NBA.c
- om\nDuración del calendario: 3 h estimadas\; el término real del partido
-  puede variar.
+LOCATION:Moody Center\, Austin\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-10-2026 
+ 22:30\nHora Punta Arenas/Magallanes: 23-10-2026 22:30\nTV nacional EE.UU
+ .: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merca
+ do\; sujeto a restricciones)\nID maestro: NBA2627-0027\nFuente base: NBA
+ .com\nDuración del calendario: 3 h estimadas\; el término real del par
+ tido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
-SEQUENCE:0
+SEQUENCE:1
+LAST-MODIFIED:20260918T235027Z
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:NBA: partido mañana — Houston Rockets @ San Antonio Spurs
@@ -66,28 +66,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ San Antonio Spurs
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ San Antonio Spu
+ rs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ San Antonio Sp
- urs
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ San Antonio 
+ Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0035@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261025T000000Z
 DTEND:20261025T030000Z
 SUMMARY:San Antonio Spurs @ Dallas Mavericks
 LOCATION:American Airlines Center\, Dallas\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-10-2026 21
- :00\nHora Punta Arenas/Magallanes: 24-10-2026 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0035\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-10-2026 
+ 21:00\nHora Punta Arenas/Magallanes: 24-10-2026 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0035\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -99,29 +101,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Dallas Maverick
- s
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Dallas Maveri
+ cks
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Dallas Maver
- icks
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Dallas Mav
+ ericks
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0056@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261028T000000Z
 DTEND:20261028T030000Z
 SUMMARY:Sacramento Kings @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-10-2026 21
- :00\nHora Punta Arenas/Magallanes: 27-10-2026 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0056\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-10-2026 
+ 21:00\nHora Punta Arenas/Magallanes: 27-10-2026 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0056\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -133,29 +136,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Sacramento Kings @ San Antonio Spur
- s
+DESCRIPTION:NBA: partido en 2 horas — Sacramento Kings @ San Antonio Sp
+ urs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Sacramento Kings @ San Antonio S
- purs
+DESCRIPTION:NBA: partido en 30 minutos — Sacramento Kings @ San Antonio
+  Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0067@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261029T010000Z
 DTEND:20261029T040000Z
 SUMMARY:San Antonio Spurs @ Utah Jazz
 LOCATION:Delta Center\, Salt Lake City\, Utah\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-10-2026 22
- :00\nHora Punta Arenas/Magallanes: 28-10-2026 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0067\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-10-2026 
+ 22:00\nHora Punta Arenas/Magallanes: 28-10-2026 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0067\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -178,51 +182,53 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0087@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261101T000000Z
 DTEND:20261101T030000Z
 SUMMARY:Minnesota Timberwolves @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-10-2026 21
- :00\nHora Punta Arenas/Magallanes: 31-10-2026 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0087\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-10-2026 
+ 21:00\nHora Punta Arenas/Magallanes: 31-10-2026 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0087\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ San Antonio Sp
- urs
+DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ San Antonio
+  Spurs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ San Antoni
- o Spurs
+DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ San Anto
+ nio Spurs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ San Ant
- onio Spurs
+DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ San A
+ ntonio Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0106@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261103T013000Z
 DTEND:20261103T043000Z
 SUMMARY:Utah Jazz @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-11-2026 22
- :30\nHora Punta Arenas/Magallanes: 02-11-2026 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0106\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-11-2026 
+ 22:30\nHora Punta Arenas/Magallanes: 02-11-2026 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0106\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -245,17 +251,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0121@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261105T023000Z
 DTEND:20261105T053000Z
 SUMMARY:Dallas Mavericks @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-11-2026 23
- :30\nHora Punta Arenas/Magallanes: 04-11-2026 23:30\nTV nacional EE.UU.:
-  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
- a restricciones)\nID maestro: NBA2627-0121\nFuente base: NBA.com\nDuraci
- ón del calendario: 3 h estimadas\; el término real del partido puede var
- iar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-11-2026 
+ 23:30\nHora Punta Arenas/Magallanes: 04-11-2026 23:30\nTV nacional EE.UU
+ .: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujet
+ o a restricciones)\nID maestro: NBA2627-0121\nFuente base: NBA.com\nDura
+ ción del calendario: 3 h estimadas\; el término real del partido puede
+  variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -267,30 +273,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Dallas Mavericks @ San Antonio Spur
- s
+DESCRIPTION:NBA: partido en 2 horas — Dallas Mavericks @ San Antonio Sp
+ urs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Dallas Mavericks @ San Antonio S
- purs
+DESCRIPTION:NBA: partido en 30 minutos — Dallas Mavericks @ San Antonio
+  Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0125@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261107T030000Z
 DTEND:20261107T060000Z
 SUMMARY:[NBA CUP] San Antonio Spurs @ Sacramento Kings
 LOCATION:Golden 1 Center\, Sacramento\, California\, EE. UU.
-DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 07-11-2026
-  00:00\nHora Punta Arenas/Magallanes: 07-11-2026 00:00\nTV nacional EE.U
- U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
-  restricciones)\nEmirates NBA Cup — West Group C\nID maestro: NBA2627-01
- 25\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
- rmino real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 07-11-
+ 2026 00:00\nHora Punta Arenas/Magallanes: 07-11-2026 00:00\nTV nacional 
+ EE.UU.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; suje
+ to a restricciones)\nGrupo NBA Cup: West Group C\nID maestro: NBA2627-01
+ 25\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el t
+ érmino real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -302,64 +308,66 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Sacramento King
- s
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Sacramento Ki
+ ngs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Sacramento K
- ings
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Sacramento
+  Kings
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0133@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261108T030000Z
 DTEND:20261108T060000Z
 SUMMARY:San Antonio Spurs @ Portland Trail Blazers
 LOCATION:Moda Center\, Portland\, Oregón\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-11-2026 00
- :00\nHora Punta Arenas/Magallanes: 08-11-2026 00:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0133\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-11-2026 
+ 00:00\nHora Punta Arenas/Magallanes: 08-11-2026 00:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0133\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Portland Trail Blaz
- ers
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Portland Trail B
+ lazers
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Portland Trail 
- Blazers
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Portland Trai
+ l Blazers
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Portland Tra
- il Blazers
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Portland T
+ rail Blazers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0154@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261110T020000Z
 DTEND:20261110T050000Z
 SUMMARY:San Antonio Spurs @ Phoenix Suns
 LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-11-2026 23
- :00\nHora Punta Arenas/Magallanes: 09-11-2026 23:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0154\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-11-2026 
+ 23:00\nHora Punta Arenas/Magallanes: 09-11-2026 23:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0154\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -376,22 +384,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Phoenix Suns
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Phoenix Su
+ ns
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0165@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261112T010000Z
 DTEND:20261112T040000Z
 SUMMARY:San Antonio Spurs @ Chicago Bulls
 LOCATION:United Center\, Chicago\, Illinois\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-11-2026 22
- :00\nHora Punta Arenas/Magallanes: 11-11-2026 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0165\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-11-2026 
+ 22:00\nHora Punta Arenas/Magallanes: 11-11-2026 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0165\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -408,59 +418,60 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Chicago Bull
- s
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Chicago Bu
+ lls
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0183@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261114T023000Z
 DTEND:20261114T053000Z
 SUMMARY:[NBA CUP] Golden State Warriors @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 13-11-2026
-  23:30\nHora Punta Arenas/Magallanes: 13-11-2026 23:30\nTV nacional EE.U
- U.: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merc
- ado\; sujeto a restricciones)\nEmirates NBA Cup — West Group C\nID maest
- ro: NBA2627-0183\nFuente base: NBA.com\nDuración del calendario: 3 h est
- imadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 13-11-
+ 2026 23:30\nHora Punta Arenas/Magallanes: 13-11-2026 23:30\nTV nacional 
+ EE.UU.: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de 
+ mercado\; sujeto a restricciones)\nGrupo NBA Cup: West Group C\nID maest
+ ro: NBA2627-0183\nFuente base: NBA.com\nDuración del calendario: 3 h es
+ timadas\; el término real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Golden State Warriors @ San Antonio Spu
- rs
+DESCRIPTION:NBA: partido mañana — Golden State Warriors @ San Antonio 
+ Spurs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Golden State Warriors @ San Antonio
-  Spurs
+DESCRIPTION:NBA: partido en 2 horas — Golden State Warriors @ San Anton
+ io Spurs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Golden State Warriors @ San Anto
- nio Spurs
+DESCRIPTION:NBA: partido en 30 minutos — Golden State Warriors @ San An
+ tonio Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0192@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261115T220000Z
 DTEND:20261116T010000Z
 SUMMARY:San Antonio Spurs @ Utah Jazz
 LOCATION:Delta Center\, Salt Lake City\, Utah\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-11-2026 19
- :00\nHora Punta Arenas/Magallanes: 15-11-2026 19:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0192\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-11-2026 
+ 19:00\nHora Punta Arenas/Magallanes: 15-11-2026 19:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0192\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -483,17 +494,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0210@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261118T010000Z
 DTEND:20261118T040000Z
 SUMMARY:Detroit Pistons @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-11-2026 22
- :00\nHora Punta Arenas/Magallanes: 17-11-2026 22:00\nTV nacional EE.UU.:
-  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
-  sujeto a restricciones)\nID maestro: NBA2627-0210\nFuente base: NBA.com
- \nDuración del calendario: 3 h estimadas\; el término real del partido p
- uede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-11-2026 
+ 22:00\nHora Punta Arenas/Magallanes: 17-11-2026 22:00\nTV nacional EE.UU
+ .: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0210\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del parti
+ do puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -505,98 +516,102 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Detroit Pistons @ San Antonio Spurs
+DESCRIPTION:NBA: partido en 2 horas — Detroit Pistons @ San Antonio Spu
+ rs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ San Antonio Sp
- urs
+DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ San Antonio 
+ Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0226@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261120T010000Z
 DTEND:20261120T040000Z
 SUMMARY:Los Angeles Clippers @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 19-11-2026 22
- :00\nHora Punta Arenas/Magallanes: 19-11-2026 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0226\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 19-11-2026 
+ 22:00\nHora Punta Arenas/Magallanes: 19-11-2026 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0226\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Los Angeles Clippers @ San Antonio Spur
- s
+DESCRIPTION:NBA: partido mañana — Los Angeles Clippers @ San Antonio S
+ purs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Los Angeles Clippers @ San Antonio 
- Spurs
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Clippers @ San Antoni
+ o Spurs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Clippers @ San Anton
- io Spurs
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Clippers @ San Ant
+ onio Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0241@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261122T010000Z
 DTEND:20261122T040000Z
 SUMMARY:New Orleans Pelicans @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-11-2026 22
- :00\nHora Punta Arenas/Magallanes: 21-11-2026 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0241\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-11-2026 
+ 22:00\nHora Punta Arenas/Magallanes: 21-11-2026 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0241\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — New Orleans Pelicans @ San Antonio Spur
- s
+DESCRIPTION:NBA: partido mañana — New Orleans Pelicans @ San Antonio S
+ purs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — New Orleans Pelicans @ San Antonio 
- Spurs
+DESCRIPTION:NBA: partido en 2 horas — New Orleans Pelicans @ San Antoni
+ o Spurs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — New Orleans Pelicans @ San Anton
- io Spurs
+DESCRIPTION:NBA: partido en 30 minutos — New Orleans Pelicans @ San Ant
+ onio Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0250@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261124T030000Z
 DTEND:20261124T060000Z
 SUMMARY:San Antonio Spurs @ Sacramento Kings
 LOCATION:Golden 1 Center\, Sacramento\, California\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-11-2026 00
- :00\nHora Punta Arenas/Magallanes: 24-11-2026 00:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0250\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-11-2026 
+ 00:00\nHora Punta Arenas/Magallanes: 24-11-2026 00:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0250\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -608,100 +623,102 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Sacramento King
- s
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Sacramento Ki
+ ngs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Sacramento K
- ings
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Sacramento
+  Kings
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0263@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261126T030000Z
 DTEND:20261126T060000Z
 SUMMARY:[NBA CUP] San Antonio Spurs @ Portland Trail Blazers
 LOCATION:Moda Center\, Portland\, Oregón\, EE. UU.
-DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 26-11-2026
-  00:00\nHora Punta Arenas/Magallanes: 26-11-2026 00:00\nTV nacional EE.U
- U.: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; suje
- to a restricciones)\nEmirates NBA Cup — West Group C\nID maestro: NBA262
- 7-0263\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; e
- l término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 26-11-
+ 2026 00:00\nHora Punta Arenas/Magallanes: 26-11-2026 00:00\nTV nacional 
+ EE.UU.: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; 
+ sujeto a restricciones)\nGrupo NBA Cup: West Group C\nID maestro: NBA262
+ 7-0263\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; 
+ el término real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Portland Trail Blaz
- ers
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Portland Trail B
+ lazers
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Portland Trail 
- Blazers
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Portland Trai
+ l Blazers
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Portland Tra
- il Blazers
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Portland T
+ rail Blazers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0278@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261128T023000Z
 DTEND:20261128T053000Z
 SUMMARY:[NBA CUP] Los Angeles Lakers @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 27-11-2026
-  23:30\nHora Punta Arenas/Magallanes: 27-11-2026 23:30\nTV nacional EE.U
- U.: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merc
- ado\; sujeto a restricciones)\nEmirates NBA Cup — West Group C\nID maest
- ro: NBA2627-0278\nFuente base: NBA.com\nDuración del calendario: 3 h est
- imadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 27-11-
+ 2026 23:30\nHora Punta Arenas/Magallanes: 27-11-2026 23:30\nTV nacional 
+ EE.UU.: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de 
+ mercado\; sujeto a restricciones)\nGrupo NBA Cup: West Group C\nID maest
+ ro: NBA2627-0278\nFuente base: NBA.com\nDuración del calendario: 3 h es
+ timadas\; el término real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Los Angeles Lakers @ San Antonio Spurs
+DESCRIPTION:NBA: partido mañana — Los Angeles Lakers @ San Antonio Spu
+ rs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ San Antonio Sp
- urs
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ San Antonio 
+ Spurs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ San Antonio
-  Spurs
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ San Anton
+ io Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0288@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261129T210000Z
 DTEND:20261130T000000Z
 SUMMARY:Boston Celtics @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-11-2026 18
- :00\nHora Punta Arenas/Magallanes: 29-11-2026 18:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0288\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-11-2026 
+ 18:00\nHora Punta Arenas/Magallanes: 29-11-2026 18:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0288\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -713,28 +730,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Boston Celtics @ San Antonio Spurs
+DESCRIPTION:NBA: partido en 2 horas — Boston Celtics @ San Antonio Spur
+ s
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Boston Celtics @ San Antonio Spu
- rs
+DESCRIPTION:NBA: partido en 30 minutos — Boston Celtics @ San Antonio S
+ purs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0303@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261201T010000Z
 DTEND:20261201T040000Z
 SUMMARY:San Antonio Spurs @ Milwaukee Bucks
 LOCATION:Fiserv Forum\, Milwaukee\, Wisconsin\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-11-2026 22
- :00\nHora Punta Arenas/Magallanes: 30-11-2026 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0303\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-11-2026 
+ 22:00\nHora Punta Arenas/Magallanes: 30-11-2026 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0303\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -746,28 +765,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Milwaukee Bucks
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Milwaukee Buc
+ ks
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Milwaukee Bu
- cks
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Milwaukee 
+ Bucks
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0325@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261204T010000Z
 DTEND:20261204T040000Z
 SUMMARY:Toronto Raptors @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-12-2026 22
- :00\nHora Punta Arenas/Magallanes: 03-12-2026 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0325\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-12-2026 
+ 22:00\nHora Punta Arenas/Magallanes: 03-12-2026 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0325\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -779,98 +800,102 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Toronto Raptors @ San Antonio Spurs
+DESCRIPTION:NBA: partido en 2 horas — Toronto Raptors @ San Antonio Spu
+ rs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Toronto Raptors @ San Antonio Sp
- urs
+DESCRIPTION:NBA: partido en 30 minutos — Toronto Raptors @ San Antonio 
+ Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0338@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261214T000000Z
 DTEND:20261214T030000Z
 SUMMARY:Los Angeles Clippers @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-12-2026 21
- :00\nHora Punta Arenas/Magallanes: 13-12-2026 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0338\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-12-2026 
+ 21:00\nHora Punta Arenas/Magallanes: 13-12-2026 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0338\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Los Angeles Clippers @ San Antonio Spur
- s
+DESCRIPTION:NBA: partido mañana — Los Angeles Clippers @ San Antonio S
+ purs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Los Angeles Clippers @ San Antonio 
- Spurs
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Clippers @ San Antoni
+ o Spurs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Clippers @ San Anton
- io Spurs
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Clippers @ San Ant
+ onio Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0352@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261216T010000Z
 DTEND:20261216T040000Z
 SUMMARY:San Antonio Spurs @ Cleveland Cavaliers
 LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-12-2026 22
- :00\nHora Punta Arenas/Magallanes: 15-12-2026 22:00\nTV nacional EE.UU.:
-  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
-  sujeto a restricciones)\nID maestro: NBA2627-0352\nFuente base: NBA.com
- \nDuración del calendario: 3 h estimadas\; el término real del partido p
- uede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-12-2026 
+ 22:00\nHora Punta Arenas/Magallanes: 15-12-2026 22:00\nTV nacional EE.UU
+ .: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0352\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del parti
+ do puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Cleveland Cavaliers
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Cleveland Cavali
+ ers
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Cleveland Caval
- iers
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Cleveland Cav
+ aliers
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Cleveland Ca
- valiers
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Cleveland 
+ Cavaliers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0359@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261217T003000Z
 DTEND:20261217T033000Z
 SUMMARY:San Antonio Spurs @ Toronto Raptors
 LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canadá
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-12-2026 21
- :30\nHora Punta Arenas/Magallanes: 16-12-2026 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0359\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-12-2026 
+ 21:30\nHora Punta Arenas/Magallanes: 16-12-2026 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0359\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -882,28 +907,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Toronto Raptors
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Toronto Rapto
+ rs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Toronto Rapt
- ors
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Toronto Ra
+ ptors
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0380@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261219T010000Z
 DTEND:20261219T040000Z
 SUMMARY:Chicago Bulls @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-12-2026 22
- :00\nHora Punta Arenas/Magallanes: 18-12-2026 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0380\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-12-2026 
+ 22:00\nHora Punta Arenas/Magallanes: 18-12-2026 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0380\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -920,58 +947,60 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Chicago Bulls @ San Antonio Spur
- s
+DESCRIPTION:NBA: partido en 30 minutos — Chicago Bulls @ San Antonio Sp
+ urs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0392@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261221T000000Z
 DTEND:20261221T030000Z
 SUMMARY:San Antonio Spurs @ New Orleans Pelicans
 LOCATION:Smoothie King Center\, New Orleans\, Louisiana\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-12-2026 21
- :00\nHora Punta Arenas/Magallanes: 20-12-2026 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0392\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-12-2026 
+ 21:00\nHora Punta Arenas/Magallanes: 20-12-2026 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0392\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ New Orleans Pelican
- s
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ New Orleans Peli
+ cans
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ New Orleans Pel
- icans
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ New Orleans P
+ elicans
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ New Orleans 
- Pelicans
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ New Orlean
+ s Pelicans
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0404@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261222T010000Z
 DTEND:20261222T040000Z
 SUMMARY:Milwaukee Bucks @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-12-2026 22
- :00\nHora Punta Arenas/Magallanes: 21-12-2026 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0404\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-12-2026 
+ 22:00\nHora Punta Arenas/Magallanes: 21-12-2026 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0404\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -983,28 +1012,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Milwaukee Bucks @ San Antonio Spurs
+DESCRIPTION:NBA: partido en 2 horas — Milwaukee Bucks @ San Antonio Spu
+ rs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Milwaukee Bucks @ San Antonio Sp
- urs
+DESCRIPTION:NBA: partido en 30 minutos — Milwaukee Bucks @ San Antonio 
+ Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0415@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261224T003000Z
 DTEND:20261224T033000Z
 SUMMARY:San Antonio Spurs @ Brooklyn Nets
 LOCATION:Barclays Center\, Brooklyn\, Nueva York\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-12-2026 21
- :30\nHora Punta Arenas/Magallanes: 23-12-2026 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0415\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-12-2026 
+ 21:30\nHora Punta Arenas/Magallanes: 23-12-2026 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0415\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1021,24 +1052,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Brooklyn Net
- s
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Brooklyn N
+ ets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0424@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261225T170000Z
 DTEND:20261225T200000Z
 SUMMARY:[NBA CHRISTMAS DAY] San Antonio Spurs @ New York Knicks
 LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-12-2026 14
- :00\nHora Punta Arenas/Magallanes: 25-12-2026 14:00\nTV nacional EE.UU.:
-  ABC / ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; s
- ujeto a restricciones)\nEvento especial: NBA Christmas Day\nID maestro: 
- NBA2627-0424\nFuente base: NBA.com\nDuración del calendario: 3 h estimad
- as\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-12-2026 
+ 14:00\nHora Punta Arenas/Magallanes: 25-12-2026 14:00\nTV nacional EE.UU
+ .: ABC / ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\;
+  sujeto a restricciones)\nEvento especial: NBA Christmas Day\nID maestro
+ : NBA2627-0424\nFuente base: NBA.com\nDuración del calendario: 3 h esti
+ madas\; el término real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1050,28 +1081,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ New York Knicks
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ New York Knic
+ ks
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ New York Kni
- cks
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ New York K
+ nicks
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0443@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261228T000000Z
 DTEND:20261228T030000Z
 SUMMARY:Atlanta Hawks @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-12-2026 21
- :00\nHora Punta Arenas/Magallanes: 27-12-2026 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0443\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-12-2026 
+ 21:00\nHora Punta Arenas/Magallanes: 27-12-2026 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0443\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1088,160 +1121,168 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Atlanta Hawks @ San Antonio Spur
- s
+DESCRIPTION:NBA: partido en 30 minutos — Atlanta Hawks @ San Antonio Sp
+ urs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0459@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261230T010000Z
 DTEND:20261230T040000Z
 SUMMARY:San Antonio Spurs @ Memphis Grizzlies
 LOCATION:FedExForum\, Memphis\, Tennessee\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-12-2026 22
- :00\nHora Punta Arenas/Magallanes: 29-12-2026 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0459\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-12-2026 
+ 22:00\nHora Punta Arenas/Magallanes: 29-12-2026 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0459\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Memphis Grizzlies
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Memphis Grizzlie
+ s
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Memphis Grizzli
- es
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Memphis Grizz
+ lies
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Memphis Griz
- zlies
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Memphis Gr
+ izzlies
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0467@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261231T180000Z
 DTEND:20261231T210000Z
 SUMMARY:San Antonio Spurs @ Charlotte Hornets
 LOCATION:Spectrum Center\, Charlotte\, Carolina del Norte\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-12-2026 15
- :00\nHora Punta Arenas/Magallanes: 31-12-2026 15:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0467\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-12-2026 
+ 15:00\nHora Punta Arenas/Magallanes: 31-12-2026 15:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0467\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Charlotte Hornets
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Charlotte Hornet
+ s
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Charlotte Horne
- ts
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Charlotte Hor
+ nets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Charlotte Ho
- rnets
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Charlotte 
+ Hornets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0476@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270101T220000Z
 DTEND:20270102T010000Z
 SUMMARY:San Antonio Spurs @ Washington Wizards
 LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-01-2027 19
- :00\nHora Punta Arenas/Magallanes: 01-01-2027 19:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0476\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-01-2027 
+ 19:00\nHora Punta Arenas/Magallanes: 01-01-2027 19:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0476\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Washington Wizards
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Washington Wizar
+ ds
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Washington Wiza
- rds
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Washington Wi
+ zards
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Washington W
- izards
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Washington
+  Wizards
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0498@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270104T000000Z
 DTEND:20270104T030000Z
 SUMMARY:San Antonio Spurs @ Minnesota Timberwolves
 LOCATION:Target Center\, Minneapolis\, Minnesota\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-01-2027 21
- :00\nHora Punta Arenas/Magallanes: 03-01-2027 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0498\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-01-2027 
+ 21:00\nHora Punta Arenas/Magallanes: 03-01-2027 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0498\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Minnesota Timberwol
- ves
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Minnesota Timber
+ wolves
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Minnesota Timbe
- rwolves
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Minnesota Tim
+ berwolves
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Minnesota Ti
- mberwolves
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Minnesota 
+ Timberwolves
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0519@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270107T010000Z
 DTEND:20270107T040000Z
 SUMMARY:Indiana Pacers @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-01-2027 22
- :00\nHora Punta Arenas/Magallanes: 06-01-2027 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0519\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-01-2027 
+ 22:00\nHora Punta Arenas/Magallanes: 06-01-2027 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0519\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1253,62 +1294,66 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Indiana Pacers @ San Antonio Spurs
+DESCRIPTION:NBA: partido en 2 horas — Indiana Pacers @ San Antonio Spur
+ s
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Indiana Pacers @ San Antonio Spu
- rs
+DESCRIPTION:NBA: partido en 30 minutos — Indiana Pacers @ San Antonio S
+ purs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0538@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270109T010000Z
 DTEND:20270109T040000Z
 SUMMARY:Memphis Grizzlies @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-01-2027 22
- :00\nHora Punta Arenas/Magallanes: 08-01-2027 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0538\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-01-2027 
+ 22:00\nHora Punta Arenas/Magallanes: 08-01-2027 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0538\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Memphis Grizzlies @ San Antonio Spurs
+DESCRIPTION:NBA: partido mañana — Memphis Grizzlies @ San Antonio Spur
+ s
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Memphis Grizzlies @ San Antonio Spu
- rs
+DESCRIPTION:NBA: partido en 2 horas — Memphis Grizzlies @ San Antonio S
+ purs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Memphis Grizzlies @ San Antonio 
- Spurs
+DESCRIPTION:NBA: partido en 30 minutos — Memphis Grizzlies @ San Antoni
+ o Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0546@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270110T200000Z
 DTEND:20270110T230000Z
 SUMMARY:San Antonio Spurs @ Atlanta Hawks
 LOCATION:State Farm Arena\, Atlanta\, Georgia\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-01-2027 17
- :00\nHora Punta Arenas/Magallanes: 10-01-2027 17:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0546\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-01-2027 
+ 17:00\nHora Punta Arenas/Magallanes: 10-01-2027 17:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0546\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1325,97 +1370,97 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Atlanta Hawk
- s
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Atlanta Ha
+ wks
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0577@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270114T190000Z
 DTEND:20270114T220000Z
 SUMMARY:[NBA PARIS GAME 2027] New Orleans Pelicans @ San Antonio Spurs
 LOCATION:Accor Arena\, Paris\, Île-de-France\, Francia
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-01-2027 16
- :00\nHora Punta Arenas/Magallanes: 14-01-2027 16:00\nTV nacional EE.UU.:
-  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
- \; sujeto a restricciones)\nEvento especial: NBA Paris Game 2027\nID mae
- stro: NBA2627-0577\nFuente base: NBA.com\nDuración del calendario: 3 h e
- stimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-01-2027 
+ 16:00\nHora Punta Arenas/Magallanes: 14-01-2027 16:00\nTV nacional EE.UU
+ .: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merca
+ do\; sujeto a restricciones)\nEvento especial: NBA Paris Game 2027\nID m
+ aestro: NBA2627-0577\nFuente base: NBA.com\nDuración del calendario: 3 
+ h estimadas\; el término real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — New Orleans Pelicans @ San Antonio Spur
- s
+DESCRIPTION:NBA: partido mañana — New Orleans Pelicans @ San Antonio S
+ purs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — New Orleans Pelicans @ San Antonio 
- Spurs
+DESCRIPTION:NBA: partido en 2 horas — New Orleans Pelicans @ San Antoni
+ o Spurs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — New Orleans Pelicans @ San Anton
- io Spurs
+DESCRIPTION:NBA: partido en 30 minutos — New Orleans Pelicans @ San Ant
+ onio Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0598@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270117T153000Z
 DTEND:20270117T183000Z
 SUMMARY:[NBA MANCHESTER GAME 2027] San Antonio Spurs @ New Orleans Pelica
  ns
 LOCATION:Co-op Live\, Manchester\, England\, Reino Unido
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-01-2027 12
- :30\nHora Punta Arenas/Magallanes: 17-01-2027 12:30\nTV nacional EE.UU.:
-  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
- \; sujeto a restricciones)\nEvento especial: NBA Manchester Game 2027\nI
- D maestro: NBA2627-0598\nFuente base: NBA.com\nDuración del calendario: 
- 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-01-2027 
+ 12:30\nHora Punta Arenas/Magallanes: 17-01-2027 12:30\nTV nacional EE.UU
+ .: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merca
+ do\; sujeto a restricciones)\nEvento especial: NBA Manchester Game 2027\
+ nID maestro: NBA2627-0598\nFuente base: NBA.com\nDuración del calendari
+ o: 3 h estimadas\; el término real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ New Orleans Pelican
- s
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ New Orleans Peli
+ cans
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ New Orleans Pel
- icans
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ New Orleans P
+ elicans
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ New Orleans 
- Pelicans
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ New Orlean
+ s Pelicans
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0629@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270121T023000Z
 DTEND:20270121T053000Z
 SUMMARY:Miami Heat @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-01-2027 23
- :30\nHora Punta Arenas/Magallanes: 20-01-2027 23:30\nTV nacional EE.UU.:
-  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
- a restricciones)\nID maestro: NBA2627-0629\nFuente base: NBA.com\nDuraci
- ón del calendario: 3 h estimadas\; el término real del partido puede var
- iar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-01-2027 
+ 23:30\nHora Punta Arenas/Magallanes: 20-01-2027 23:30\nTV nacional EE.UU
+ .: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujet
+ o a restricciones)\nID maestro: NBA2627-0629\nFuente base: NBA.com\nDura
+ ción del calendario: 3 h estimadas\; el término real del partido puede
+  variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1438,16 +1483,52 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0644@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270123T023000Z
 DTEND:20270123T053000Z
 SUMMARY:Minnesota Timberwolves @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-01-2027 23
- :30\nHora Punta Arenas/Magallanes: 22-01-2027 23:30\nTV nacional EE.UU.:
-  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
- a restricciones)\nID maestro: NBA2627-0644\nFuente base: NBA.com\nDuraci
- ón del calendario: 3 h estimadas\; el término real del partido puede var
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-01-2027 
+ 23:30\nHora Punta Arenas/Magallanes: 22-01-2027 23:30\nTV nacional EE.UU
+ .: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujet
+ o a restricciones)\nID maestro: NBA2627-0644\nFuente base: NBA.com\nDura
+ ción del calendario: 3 h estimadas\; el término real del partido puede
+  variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ San Antonio
+  Spurs
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ San Anto
+ nio Spurs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ San A
+ ntonio Spurs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0651@nba-master-calendar.local
+DTSTAMP:20260918T235027Z
+DTSTART:20270124T203000Z
+DTEND:20270124T233000Z
+SUMMARY:Portland Trail Blazers @ San Antonio Spurs
+LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-01-2027 
+ 17:30\nHora Punta Arenas/Magallanes: 24-01-2027 17:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0651\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
  iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1455,71 +1536,36 @@ CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ San Antonio Sp
- urs
+DESCRIPTION:NBA: partido mañana — Portland Trail Blazers @ San Antonio
+  Spurs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ San Antoni
- o Spurs
+DESCRIPTION:NBA: partido en 2 horas — Portland Trail Blazers @ San Anto
+ nio Spurs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ San Ant
- onio Spurs
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NBA2627-0651@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
-DTSTART:20270124T203000Z
-DTEND:20270124T233000Z
-SUMMARY:Portland Trail Blazers @ San Antonio Spurs
-LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-01-2027 17
- :30\nHora Punta Arenas/Magallanes: 24-01-2027 17:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0651\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:NBA 2026-27
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Portland Trail Blazers @ San Antonio Sp
- urs
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Portland Trail Blazers @ San Antoni
- o Spurs
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Portland Trail Blazers @ San Ant
- onio Spurs
+DESCRIPTION:NBA: partido en 30 minutos — Portland Trail Blazers @ San A
+ ntonio Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0671@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270127T010000Z
 DTEND:20270127T040000Z
 SUMMARY:[AWS NBA RIVALS WEEK] Houston Rockets @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-01-2027 22
- :00\nHora Punta Arenas/Magallanes: 26-01-2027 22:00\nTV nacional EE.UU.:
-  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
-  sujeto a restricciones)\nEvento especial: AWS NBA Rivals Week\nID maest
- ro: NBA2627-0671\nFuente base: NBA.com\nDuración del calendario: 3 h est
- imadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-01-2027 
+ 22:00\nHora Punta Arenas/Magallanes: 26-01-2027 22:00\nTV nacional EE.UU
+ .: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nEvento especial: AWS NBA Rivals Week\nID mae
+ stro: NBA2627-0671\nFuente base: NBA.com\nDuración del calendario: 3 h 
+ estimadas\; el término real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1531,169 +1577,174 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ San Antonio Spurs
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ San Antonio Sp
- urs
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NBA2627-0679@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
-DTSTART:20270128T010000Z
-DTEND:20270128T040000Z
-SUMMARY:Charlotte Hornets @ San Antonio Spurs
-LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-01-2027 22
- :00\nHora Punta Arenas/Magallanes: 27-01-2027 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0679\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:NBA 2026-27
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Charlotte Hornets @ San Antonio Spurs
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Charlotte Hornets @ San Antonio Spu
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ San Antonio Spu
  rs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Charlotte Hornets @ San Antonio 
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ San Antonio 
  Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NBA2627-0698@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
-DTSTART:20270130T223000Z
-DTEND:20270131T013000Z
-SUMMARY:[AWS NBA RIVALS WEEK] San Antonio Spurs @ Golden State Warriors
-LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-01-2027 19
- :30\nHora Punta Arenas/Magallanes: 30-01-2027 19:30\nTV nacional EE.UU.:
-  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
-  restricciones)\nEvento especial: AWS NBA Rivals Week\nID maestro: NBA26
- 27-0698\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; 
- el término real del partido puede variar.
+UID:NBA2627-0679@nba-master-calendar.local
+DTSTAMP:20260918T235027Z
+DTSTART:20270128T010000Z
+DTEND:20270128T040000Z
+SUMMARY:Charlotte Hornets @ San Antonio Spurs
+LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-01-2027 
+ 22:00\nHora Punta Arenas/Magallanes: 27-01-2027 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0679\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Golden State Warrio
- rs
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Golden State Wa
- rriors
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Golden State
-  Warriors
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NBA2627-0712@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
-DTSTART:20270202T030000Z
-DTEND:20270202T060000Z
-SUMMARY:San Antonio Spurs @ Golden State Warriors
-LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-02-2027 00
- :00\nHora Punta Arenas/Magallanes: 02-02-2027 00:00\nTV nacional EE.UU.:
-  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
- ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0712\nFuent
- e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
- l del partido puede variar.
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:NBA 2026-27
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Golden State Warrio
- rs
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Golden State Wa
- rriors
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Golden State
-  Warriors
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NBA2627-0719@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
-DTSTART:20270203T033000Z
-DTEND:20270203T063000Z
-SUMMARY:San Antonio Spurs @ Los Angeles Clippers
-LOCATION:Intuit Dome\, Inglewood\, California\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-02-2027 00
- :30\nHora Punta Arenas/Magallanes: 03-02-2027 00:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0719\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:NBA 2026-27
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Los Angeles Clipper
+DESCRIPTION:NBA: partido mañana — Charlotte Hornets @ San Antonio Spur
  s
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Los Angeles Cli
- ppers
+DESCRIPTION:NBA: partido en 2 horas — Charlotte Hornets @ San Antonio S
+ purs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Los Angeles 
- Clippers
+DESCRIPTION:NBA: partido en 30 minutos — Charlotte Hornets @ San Antoni
+ o Spurs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0698@nba-master-calendar.local
+DTSTAMP:20260918T235027Z
+DTSTART:20270130T223000Z
+DTEND:20270131T013000Z
+SUMMARY:[AWS NBA RIVALS WEEK] San Antonio Spurs @ Golden State Warriors
+LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-01-2027 
+ 19:30\nHora Punta Arenas/Magallanes: 30-01-2027 19:30\nTV nacional EE.UU
+ .: ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto
+  a restricciones)\nEvento especial: AWS NBA Rivals Week\nID maestro: NBA
+ 2627-0698\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas
+ \; el término real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Golden State War
+ riors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Golden State 
+ Warriors
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Golden Sta
+ te Warriors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0712@nba-master-calendar.local
+DTSTAMP:20260918T235027Z
+DTSTART:20270202T030000Z
+DTEND:20270202T060000Z
+SUMMARY:San Antonio Spurs @ Golden State Warriors
+LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-02-2027 
+ 00:00\nHora Punta Arenas/Magallanes: 02-02-2027 00:00\nTV nacional EE.UU
+ .: Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (f
+ uera de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0712\nFue
+ nte base: NBA.com\nDuración del calendario: 3 h estimadas\; el término
+  real del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Golden State War
+ riors
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Golden State 
+ Warriors
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Golden Sta
+ te Warriors
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0719@nba-master-calendar.local
+DTSTAMP:20260918T235027Z
+DTSTART:20270203T033000Z
+DTEND:20270203T063000Z
+SUMMARY:San Antonio Spurs @ Los Angeles Clippers
+LOCATION:Intuit Dome\, Inglewood\, California\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-02-2027 
+ 00:30\nHora Punta Arenas/Magallanes: 03-02-2027 00:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0719\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Los Angeles Clip
+ pers
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Los Angeles C
+ lippers
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Los Angele
+ s Clippers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0742@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270205T010000Z
 DTEND:20270205T040000Z
 SUMMARY:Orlando Magic @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-02-2027 22
- :00\nHora Punta Arenas/Magallanes: 04-02-2027 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0742\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-02-2027 
+ 22:00\nHora Punta Arenas/Magallanes: 04-02-2027 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0742\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1710,59 +1761,60 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Orlando Magic @ San Antonio Spur
- s
+DESCRIPTION:NBA: partido en 30 minutos — Orlando Magic @ San Antonio Sp
+ urs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0757@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270207T013000Z
 DTEND:20270207T043000Z
 SUMMARY:Los Angeles Lakers @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-02-2027 22
- :30\nHora Punta Arenas/Magallanes: 06-02-2027 22:30\nTV nacional EE.UU.:
-  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
-  restricciones)\nID maestro: NBA2627-0757\nFuente base: NBA.com\nDuració
- n del calendario: 3 h estimadas\; el término real del partido puede vari
- ar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-02-2027 
+ 22:30\nHora Punta Arenas/Magallanes: 06-02-2027 22:30\nTV nacional EE.UU
+ .: ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto
+  a restricciones)\nID maestro: NBA2627-0757\nFuente base: NBA.com\nDurac
+ ión del calendario: 3 h estimadas\; el término real del partido puede 
+ variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Los Angeles Lakers @ San Antonio Spurs
+DESCRIPTION:NBA: partido mañana — Los Angeles Lakers @ San Antonio Spu
+ rs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ San Antonio Sp
- urs
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ San Antonio 
+ Spurs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ San Antonio
-  Spurs
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ San Anton
+ io Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0780@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270210T010000Z
 DTEND:20270210T040000Z
 SUMMARY:San Antonio Spurs @ Dallas Mavericks
 LOCATION:American Airlines Center\, Dallas\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-02-2027 22
- :00\nHora Punta Arenas/Magallanes: 09-02-2027 22:00\nTV nacional EE.UU.:
-  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
-  sujeto a restricciones)\nID maestro: NBA2627-0780\nFuente base: NBA.com
- \nDuración del calendario: 3 h estimadas\; el término real del partido p
- uede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-02-2027 
+ 22:00\nHora Punta Arenas/Magallanes: 09-02-2027 22:00\nTV nacional EE.UU
+ .: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0780\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del parti
+ do puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1774,65 +1826,66 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Dallas Maverick
- s
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Dallas Maveri
+ cks
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Dallas Maver
- icks
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Dallas Mav
+ ericks
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0796@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270212T023000Z
 DTEND:20270212T053000Z
 SUMMARY:San Antonio Spurs @ Oklahoma City Thunder
 LOCATION:Paycom Center\, Oklahoma City\, Oklahoma\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-02-2027 23
- :30\nHora Punta Arenas/Magallanes: 11-02-2027 23:30\nTV nacional EE.UU.:
-  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
- \; sujeto a restricciones)\nID maestro: NBA2627-0796\nFuente base: NBA.c
- om\nDuración del calendario: 3 h estimadas\; el término real del partido
-  puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-02-2027 
+ 23:30\nHora Punta Arenas/Magallanes: 11-02-2027 23:30\nTV nacional EE.UU
+ .: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merca
+ do\; sujeto a restricciones)\nID maestro: NBA2627-0796\nFuente base: NBA
+ .com\nDuración del calendario: 3 h estimadas\; el término real del par
+ tido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Oklahoma City Thund
- er
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Oklahoma City Th
+ under
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Oklahoma City T
- hunder
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Oklahoma City
+  Thunder
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Oklahoma Cit
- y Thunder
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Oklahoma C
+ ity Thunder
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0809@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270214T000000Z
 DTEND:20270214T030000Z
 SUMMARY:San Antonio Spurs @ Orlando Magic
 LOCATION:Kia Center\, Orlando\, Florida\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-02-2027 21
- :00\nHora Punta Arenas/Magallanes: 13-02-2027 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0809\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-02-2027 
+ 21:00\nHora Punta Arenas/Magallanes: 13-02-2027 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0809\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1849,24 +1902,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Orlando Magi
- c
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Orlando Ma
+ gic
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0821@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270215T220000Z
 DTEND:20270216T010000Z
 SUMMARY:[NBA ON PRESIDENTS' DAY] San Antonio Spurs @ Miami Heat
 LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-02-2027 19
- :00\nHora Punta Arenas/Magallanes: 15-02-2027 19:00\nTV nacional EE.UU.:
-  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
-  sujeto a restricciones)\nEvento especial: NBA on Presidents' Day\nID ma
- estro: NBA2627-0821\nFuente base: NBA.com\nDuración del calendario: 3 h 
- estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-02-2027 
+ 19:00\nHora Punta Arenas/Magallanes: 15-02-2027 19:00\nTV nacional EE.UU
+ .: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nEvento especial: NBA on Presidents' Day\nID 
+ maestro: NBA2627-0821\nFuente base: NBA.com\nDuración del calendario: 3
+  h estimadas\; el término real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1889,125 +1942,131 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0842@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270218T010000Z
 DTEND:20270218T040000Z
 SUMMARY:San Antonio Spurs @ Memphis Grizzlies
 LOCATION:FedExForum\, Memphis\, Tennessee\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-02-2027 22
- :00\nHora Punta Arenas/Magallanes: 17-02-2027 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0842\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-02-2027 
+ 22:00\nHora Punta Arenas/Magallanes: 17-02-2027 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0842\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Memphis Grizzlies
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Memphis Grizzlie
+ s
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Memphis Grizzli
- es
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Memphis Grizz
+ lies
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Memphis Griz
- zlies
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Memphis Gr
+ izzlies
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0847@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270219T003000Z
 DTEND:20270219T033000Z
 SUMMARY:San Antonio Spurs @ Minnesota Timberwolves
 LOCATION:Target Center\, Minneapolis\, Minnesota\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-02-2027 21
- :30\nHora Punta Arenas/Magallanes: 18-02-2027 21:30\nTV nacional EE.UU.:
-  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
- \; sujeto a restricciones)\nID maestro: NBA2627-0847\nFuente base: NBA.c
- om\nDuración del calendario: 3 h estimadas\; el término real del partido
-  puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-02-2027 
+ 21:30\nHora Punta Arenas/Magallanes: 18-02-2027 21:30\nTV nacional EE.UU
+ .: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merca
+ do\; sujeto a restricciones)\nID maestro: NBA2627-0847\nFuente base: NBA
+ .com\nDuración del calendario: 3 h estimadas\; el término real del par
+ tido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Minnesota Timberwol
- ves
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Minnesota Timber
+ wolves
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Minnesota Timbe
- rwolves
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Minnesota Tim
+ berwolves
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Minnesota Ti
- mberwolves
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Minnesota 
+ Timberwolves
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0864@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270227T010000Z
 DTEND:20270227T040000Z
 SUMMARY:Memphis Grizzlies @ San Antonio Spurs
-LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-02-2027 22
- :00\nHora Punta Arenas/Magallanes: 26-02-2027 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0864\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+LOCATION:Moody Center\, Austin\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-02-2027 
+ 22:00\nHora Punta Arenas/Magallanes: 26-02-2027 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0864\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
-SEQUENCE:0
+SEQUENCE:1
+LAST-MODIFIED:20260918T235027Z
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Memphis Grizzlies @ San Antonio Spurs
+DESCRIPTION:NBA: partido mañana — Memphis Grizzlies @ San Antonio Spur
+ s
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Memphis Grizzlies @ San Antonio Spu
- rs
+DESCRIPTION:NBA: partido en 2 horas — Memphis Grizzlies @ San Antonio S
+ purs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Memphis Grizzlies @ San Antonio 
- Spurs
+DESCRIPTION:NBA: partido en 30 minutos — Memphis Grizzlies @ San Antoni
+ o Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0873@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270228T180000Z
 DTEND:20270228T210000Z
 SUMMARY:Denver Nuggets @ San Antonio Spurs
-LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-02-2027 15
- :00\nHora Punta Arenas/Magallanes: 28-02-2027 15:00\nTV nacional EE.UU.:
-  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
-  restricciones)\nID maestro: NBA2627-0873\nFuente base: NBA.com\nDuració
- n del calendario: 3 h estimadas\; el término real del partido puede vari
- ar.
+LOCATION:Moody Center\, Austin\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-02-2027 
+ 15:00\nHora Punta Arenas/Magallanes: 28-02-2027 15:00\nTV nacional EE.UU
+ .: ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto
+  a restricciones)\nID maestro: NBA2627-0873\nFuente base: NBA.com\nDurac
+ ión del calendario: 3 h estimadas\; el término real del partido puede 
+ variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
-SEQUENCE:0
+SEQUENCE:1
+LAST-MODIFIED:20260918T235027Z
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:NBA: partido mañana — Denver Nuggets @ San Antonio Spurs
@@ -2015,29 +2074,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Denver Nuggets @ San Antonio Spurs
+DESCRIPTION:NBA: partido en 2 horas — Denver Nuggets @ San Antonio Spur
+ s
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ San Antonio Spu
- rs
+DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ San Antonio S
+ purs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0896@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270304T030000Z
 DTEND:20270304T060000Z
 SUMMARY:San Antonio Spurs @ Denver Nuggets
 LOCATION:Ball Arena\, Denver\, Colorado\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-03-2027 00
- :00\nHora Punta Arenas/Magallanes: 04-03-2027 00:00\nTV nacional EE.UU.:
-  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
- a restricciones)\nID maestro: NBA2627-0896\nFuente base: NBA.com\nDuraci
- ón del calendario: 3 h estimadas\; el término real del partido puede var
- iar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-03-2027 
+ 00:00\nHora Punta Arenas/Magallanes: 04-03-2027 00:00\nTV nacional EE.UU
+ .: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujet
+ o a restricciones)\nID maestro: NBA2627-0896\nFuente base: NBA.com\nDura
+ ción del calendario: 3 h estimadas\; el término real del partido puede
+  variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2049,28 +2109,207 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Denver Nuggets
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Denver Nugget
+ s
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Denver Nugge
- ts
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Denver Nug
+ gets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0916@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270306T023000Z
 DTEND:20270306T053000Z
 SUMMARY:San Antonio Spurs @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-03-2027 23
- :30\nHora Punta Arenas/Magallanes: 05-03-2027 23:30\nTV nacional EE.UU.:
-  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
- a restricciones)\nID maestro: NBA2627-0916\nFuente base: NBA.com\nDuraci
- ón del calendario: 3 h estimadas\; el término real del partido puede var
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-03-2027 
+ 23:30\nHora Punta Arenas/Magallanes: 05-03-2027 23:30\nTV nacional EE.UU
+ .: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujet
+ o a restricciones)\nID maestro: NBA2627-0916\nFuente base: NBA.com\nDura
+ ción del calendario: 3 h estimadas\; el término real del partido puede
+  variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Houston Rockets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Houston Rocke
+ ts
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Houston Ro
+ ckets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0929@nba-master-calendar.local
+DTSTAMP:20260918T235027Z
+DTSTART:20270308T003000Z
+DTEND:20270308T033000Z
+SUMMARY:New York Knicks @ San Antonio Spurs
+LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-03-2027 
+ 21:30\nHora Punta Arenas/Magallanes: 07-03-2027 21:30\nTV nacional EE.UU
+ .: NBC / Peacock / Telemundo\nStreaming: Peacock / NBA League Pass (fuer
+ a de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0929\nFuente
+  base: NBA.com\nDuración del calendario: 3 h estimadas\; el término re
+ al del partido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — New York Knicks @ San Antonio Spurs
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ San Antonio Spu
+ rs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ San Antonio 
+ Spurs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0944@nba-master-calendar.local
+DTSTAMP:20260918T235027Z
+DTSTART:20270310T010000Z
+DTEND:20270310T040000Z
+SUMMARY:Washington Wizards @ San Antonio Spurs
+LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-03-2027 
+ 22:00\nHora Punta Arenas/Magallanes: 09-03-2027 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0944\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Washington Wizards @ San Antonio Spu
+ rs
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ San Antonio 
+ Spurs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ San Anton
+ io Spurs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0958@nba-master-calendar.local
+DTSTAMP:20260918T235027Z
+DTSTART:20270312T003000Z
+DTEND:20270312T033000Z
+SUMMARY:Philadelphia 76ers @ San Antonio Spurs
+LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-03-2027 
+ 21:30\nHora Punta Arenas/Magallanes: 11-03-2027 21:30\nTV nacional EE.UU
+ .: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merca
+ do\; sujeto a restricciones)\nID maestro: NBA2627-0958\nFuente base: NBA
+ .com\nDuración del calendario: 3 h estimadas\; el término real del par
+ tido puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ San Antonio Spu
+ rs
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ San Antonio 
+ Spurs
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ San Anton
+ io Spurs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0978@nba-master-calendar.local
+DTSTAMP:20260918T235027Z
+DTSTART:20270314T183000Z
+DTEND:20270314T213000Z
+SUMMARY:San Antonio Spurs @ Oklahoma City Thunder
+LOCATION:Paycom Center\, Oklahoma City\, Oklahoma\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-03-2027 
+ 15:30\nHora Punta Arenas/Magallanes: 14-03-2027 15:30\nTV nacional EE.UU
+ .: ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto
+  a restricciones)\nID maestro: NBA2627-0978\nFuente base: NBA.com\nDurac
+ ión del calendario: 3 h estimadas\; el término real del partido puede 
+ variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Oklahoma City Th
+ under
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Oklahoma City
+  Thunder
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Oklahoma C
+ ity Thunder
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0997@nba-master-calendar.local
+DTSTAMP:20260918T235027Z
+DTSTART:20270317T003000Z
+DTEND:20270317T033000Z
+SUMMARY:San Antonio Spurs @ Houston Rockets
+LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-03-2027 
+ 21:30\nHora Punta Arenas/Magallanes: 16-03-2027 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0997\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
  iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2083,200 +2322,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Houston Rockets
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Houston Rocke
+ ts
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Houston Rock
- ets
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NBA2627-0929@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
-DTSTART:20270308T003000Z
-DTEND:20270308T033000Z
-SUMMARY:New York Knicks @ San Antonio Spurs
-LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-03-2027 21
- :30\nHora Punta Arenas/Magallanes: 07-03-2027 21:30\nTV nacional EE.UU.:
-  NBC / Peacock / Telemundo\nStreaming: Peacock / NBA League Pass (fuera 
- de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0929\nFuente b
- ase: NBA.com\nDuración del calendario: 3 h estimadas\; el término real d
- el partido puede variar.
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:NBA 2026-27
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — New York Knicks @ San Antonio Spurs
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — New York Knicks @ San Antonio Spurs
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ San Antonio Sp
- urs
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NBA2627-0944@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
-DTSTART:20270310T010000Z
-DTEND:20270310T040000Z
-SUMMARY:Washington Wizards @ San Antonio Spurs
-LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-03-2027 22
- :00\nHora Punta Arenas/Magallanes: 09-03-2027 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0944\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:NBA 2026-27
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Washington Wizards @ San Antonio Spurs
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ San Antonio Sp
- urs
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ San Antonio
-  Spurs
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NBA2627-0958@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
-DTSTART:20270312T003000Z
-DTEND:20270312T033000Z
-SUMMARY:Philadelphia 76ers @ San Antonio Spurs
-LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-03-2027 21
- :30\nHora Punta Arenas/Magallanes: 11-03-2027 21:30\nTV nacional EE.UU.:
-  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
- \; sujeto a restricciones)\nID maestro: NBA2627-0958\nFuente base: NBA.c
- om\nDuración del calendario: 3 h estimadas\; el término real del partido
-  puede variar.
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:NBA 2026-27
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Philadelphia 76ers @ San Antonio Spurs
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ San Antonio Sp
- urs
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ San Antonio
-  Spurs
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NBA2627-0978@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
-DTSTART:20270314T183000Z
-DTEND:20270314T213000Z
-SUMMARY:San Antonio Spurs @ Oklahoma City Thunder
-LOCATION:Paycom Center\, Oklahoma City\, Oklahoma\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-03-2027 15
- :30\nHora Punta Arenas/Magallanes: 14-03-2027 15:30\nTV nacional EE.UU.:
-  ABC\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto a
-  restricciones)\nID maestro: NBA2627-0978\nFuente base: NBA.com\nDuració
- n del calendario: 3 h estimadas\; el término real del partido puede vari
- ar.
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:NBA 2026-27
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Oklahoma City Thund
- er
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Oklahoma City T
- hunder
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Oklahoma Cit
- y Thunder
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NBA2627-0997@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
-DTSTART:20270317T003000Z
-DTEND:20270317T033000Z
-SUMMARY:San Antonio Spurs @ Houston Rockets
-LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-03-2027 21
- :30\nHora Punta Arenas/Magallanes: 16-03-2027 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0997\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:NBA 2026-27
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Houston Rockets
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Houston Rockets
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Houston Rock
- ets
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Houston Ro
+ ckets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1012@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270319T000000Z
 DTEND:20270319T030000Z
 SUMMARY:Brooklyn Nets @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-03-2027 21
- :00\nHora Punta Arenas/Magallanes: 18-03-2027 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1012\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-03-2027 
+ 21:00\nHora Punta Arenas/Magallanes: 18-03-2027 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1012\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2293,23 +2362,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Brooklyn Nets @ San Antonio Spur
- s
+DESCRIPTION:NBA: partido en 30 minutos — Brooklyn Nets @ San Antonio Sp
+ urs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1020@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270320T000000Z
 DTEND:20270320T030000Z
 SUMMARY:Dallas Mavericks @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 19-03-2027 21
- :00\nHora Punta Arenas/Magallanes: 19-03-2027 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1020\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 19-03-2027 
+ 21:00\nHora Punta Arenas/Magallanes: 19-03-2027 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1020\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2321,65 +2391,66 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Dallas Mavericks @ San Antonio Spur
- s
+DESCRIPTION:NBA: partido en 2 horas — Dallas Mavericks @ San Antonio Sp
+ urs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Dallas Mavericks @ San Antonio S
- purs
+DESCRIPTION:NBA: partido en 30 minutos — Dallas Mavericks @ San Antonio
+  Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1034@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270321T233000Z
 DTEND:20270322T023000Z
 SUMMARY:San Antonio Spurs @ Philadelphia 76ers
 LOCATION:Xfinity Mobile Arena\, Philadelphia\, Pennsylvania\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-03-2027 20
- :30\nHora Punta Arenas/Magallanes: 21-03-2027 20:30\nTV nacional EE.UU.:
-  NBC / Peacock / Telemundo\nStreaming: Peacock / NBA League Pass (fuera 
- de mercado\; sujeto a restricciones)\nID maestro: NBA2627-1034\nFuente b
- ase: NBA.com\nDuración del calendario: 3 h estimadas\; el término real d
- el partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-03-2027 
+ 20:30\nHora Punta Arenas/Magallanes: 21-03-2027 20:30\nTV nacional EE.UU
+ .: NBC / Peacock / Telemundo\nStreaming: Peacock / NBA League Pass (fuer
+ a de mercado\; sujeto a restricciones)\nID maestro: NBA2627-1034\nFuente
+  base: NBA.com\nDuración del calendario: 3 h estimadas\; el término re
+ al del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Philadelphia 76ers
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Philadelphia 76e
+ rs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Philadelphia 76
- ers
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Philadelphia 
+ 76ers
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Philadelphia
-  76ers
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Philadelph
+ ia 76ers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1056@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270324T233000Z
 DTEND:20270325T023000Z
 SUMMARY:San Antonio Spurs @ Boston Celtics
 LOCATION:TD Garden\, Boston\, Massachusetts\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-03-2027 20
- :30\nHora Punta Arenas/Magallanes: 24-03-2027 20:30\nTV nacional EE.UU.:
-  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
- a restricciones)\nID maestro: NBA2627-1056\nFuente base: NBA.com\nDuraci
- ón del calendario: 3 h estimadas\; el término real del partido puede var
- iar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-03-2027 
+ 20:30\nHora Punta Arenas/Magallanes: 24-03-2027 20:30\nTV nacional EE.UU
+ .: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujet
+ o a restricciones)\nID maestro: NBA2627-1056\nFuente base: NBA.com\nDura
+ ción del calendario: 3 h estimadas\; el término real del partido puede
+  variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2391,28 +2462,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Boston Celtics
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Boston Celtic
+ s
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Boston Celti
- cs
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Boston Cel
+ tics
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1063@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270325T230000Z
 DTEND:20270326T020000Z
 SUMMARY:San Antonio Spurs @ Indiana Pacers
 LOCATION:Gainbridge Fieldhouse\, Indianapolis\, Indiana\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-03-2027 20
- :00\nHora Punta Arenas/Magallanes: 25-03-2027 20:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1063\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-03-2027 
+ 20:00\nHora Punta Arenas/Magallanes: 25-03-2027 20:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1063\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2424,29 +2497,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Indiana Pacers
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Indiana Pacer
+ s
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Indiana Pace
- rs
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Indiana Pa
+ cers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1075@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270327T190000Z
 DTEND:20270327T220000Z
 SUMMARY:San Antonio Spurs @ Detroit Pistons
 LOCATION:Little Caesars Arena\, Detroit\, Michigan\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-03-2027 16
- :00\nHora Punta Arenas/Magallanes: 27-03-2027 16:00\nTV nacional EE.UU.:
-  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
- \; sujeto a restricciones)\nID maestro: NBA2627-1075\nFuente base: NBA.c
- om\nDuración del calendario: 3 h estimadas\; el término real del partido
-  puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-03-2027 
+ 16:00\nHora Punta Arenas/Magallanes: 27-03-2027 16:00\nTV nacional EE.UU
+ .: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merca
+ do\; sujeto a restricciones)\nID maestro: NBA2627-1075\nFuente base: NBA
+ .com\nDuración del calendario: 3 h estimadas\; el término real del par
+ tido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2458,29 +2532,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Detroit Pistons
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Detroit Pisto
+ ns
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Detroit Pist
- ons
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Detroit Pi
+ stons
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1096@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270330T013000Z
 DTEND:20270330T043000Z
 SUMMARY:Phoenix Suns @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-03-2027 22
- :30\nHora Punta Arenas/Magallanes: 29-03-2027 22:30\nTV nacional EE.UU.:
-  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
- ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-1096\nFuent
- e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
- l del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-03-2027 
+ 22:30\nHora Punta Arenas/Magallanes: 29-03-2027 22:30\nTV nacional EE.UU
+ .: Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (f
+ uera de mercado\; sujeto a restricciones)\nID maestro: NBA2627-1096\nFue
+ nte base: NBA.com\nDuración del calendario: 3 h estimadas\; el término
+  real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2497,22 +2572,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ San Antonio Spurs
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ San Antonio Spu
+ rs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1111@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270401T000000Z
 DTEND:20270401T030000Z
 SUMMARY:Phoenix Suns @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-03-2027 21
- :00\nHora Punta Arenas/Magallanes: 31-03-2027 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1111\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-03-2027 
+ 21:00\nHora Punta Arenas/Magallanes: 31-03-2027 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1111\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2529,92 +2606,96 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ San Antonio Spurs
+DESCRIPTION:NBA: partido en 30 minutos — Phoenix Suns @ San Antonio Spu
+ rs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1119@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270403T023000Z
 DTEND:20270403T053000Z
 SUMMARY:San Antonio Spurs @ Los Angeles Clippers
 LOCATION:Intuit Dome\, Inglewood\, California\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-04-2027 23
- :30\nHora Punta Arenas/Magallanes: 02-04-2027 23:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1119\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-04-2027 
+ 23:30\nHora Punta Arenas/Magallanes: 02-04-2027 23:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1119\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Los Angeles Clipper
- s
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Los Angeles Clip
+ pers
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Los Angeles Cli
- ppers
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Los Angeles C
+ lippers
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Los Angeles 
- Clippers
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Los Angele
+ s Clippers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1131@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270405T020000Z
 DTEND:20270405T050000Z
 SUMMARY:San Antonio Spurs @ Los Angeles Lakers
 LOCATION:Crypto.com Arena\, Los Angeles\, California\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-04-2027 22
- :00\nHora Punta Arenas/Magallanes: 04-04-2027 23:00\nTV nacional EE.UU.:
-  NBC / Peacock / Telemundo\nStreaming: Peacock / NBA League Pass (fuera 
- de mercado\; sujeto a restricciones)\nID maestro: NBA2627-1131\nFuente b
- ase: NBA.com\nDuración del calendario: 3 h estimadas\; el término real d
- el partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-04-2027 
+ 22:00\nHora Punta Arenas/Magallanes: 04-04-2027 23:00\nTV nacional EE.UU
+ .: NBC / Peacock / Telemundo\nStreaming: Peacock / NBA League Pass (fuer
+ a de mercado\; sujeto a restricciones)\nID maestro: NBA2627-1131\nFuente
+  base: NBA.com\nDuración del calendario: 3 h estimadas\; el término re
+ al del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Los Angeles Lakers
+DESCRIPTION:NBA: partido mañana — San Antonio Spurs @ Los Angeles Lake
+ rs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Los Angeles Lak
- ers
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Los Angeles L
+ akers
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Los Angeles 
- Lakers
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Los Angele
+ s Lakers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1155@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270407T000000Z
 DTEND:20270407T030000Z
 SUMMARY:Sacramento Kings @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-04-2027 20
- :00\nHora Punta Arenas/Magallanes: 06-04-2027 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1155\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 06-04-2027 
+ 20:00\nHora Punta Arenas/Magallanes: 06-04-2027 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1155\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2626,65 +2707,66 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Sacramento Kings @ San Antonio Spur
- s
+DESCRIPTION:NBA: partido en 2 horas — Sacramento Kings @ San Antonio Sp
+ urs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Sacramento Kings @ San Antonio S
- purs
+DESCRIPTION:NBA: partido en 30 minutos — Sacramento Kings @ San Antonio
+  Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1163@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270407T233000Z
 DTEND:20270408T023000Z
 SUMMARY:Cleveland Cavaliers @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-04-2027 19
- :30\nHora Punta Arenas/Magallanes: 07-04-2027 20:30\nTV nacional EE.UU.:
-  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
- a restricciones)\nID maestro: NBA2627-1163\nFuente base: NBA.com\nDuraci
- ón del calendario: 3 h estimadas\; el término real del partido puede var
- iar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-04-2027 
+ 19:30\nHora Punta Arenas/Magallanes: 07-04-2027 20:30\nTV nacional EE.UU
+ .: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujet
+ o a restricciones)\nID maestro: NBA2627-1163\nFuente base: NBA.com\nDura
+ ción del calendario: 3 h estimadas\; el término real del partido puede
+  variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ San Antonio Spurs
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ San Antonio Sp
+ urs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ San Antonio S
- purs
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ San Antonio
+  Spurs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ San Antoni
- o Spurs
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ San Anto
+ nio Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1184@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270410T013000Z
 DTEND:20270410T043000Z
 SUMMARY:Denver Nuggets @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-04-2027 21
- :30\nHora Punta Arenas/Magallanes: 09-04-2027 22:30\nTV nacional EE.UU.:
-  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
- \; sujeto a restricciones)\nID maestro: NBA2627-1184\nFuente base: NBA.c
- om\nDuración del calendario: 3 h estimadas\; el término real del partido
-  puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-04-2027 
+ 21:30\nHora Punta Arenas/Magallanes: 09-04-2027 22:30\nTV nacional EE.UU
+ .: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merca
+ do\; sujeto a restricciones)\nID maestro: NBA2627-1184\nFuente base: NBA
+ .com\nDuración del calendario: 3 h estimadas\; el término real del par
+ tido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2696,48 +2778,50 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Denver Nuggets @ San Antonio Spurs
+DESCRIPTION:NBA: partido en 2 horas — Denver Nuggets @ San Antonio Spur
+ s
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ San Antonio Spu
- rs
+DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ San Antonio S
+ purs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1196@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270412T003000Z
 DTEND:20270412T033000Z
 SUMMARY:Portland Trail Blazers @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-04-2027 20
- :30\nHora Punta Arenas/Magallanes: 11-04-2027 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1196\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-04-2027 
+ 20:30\nHora Punta Arenas/Magallanes: 11-04-2027 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1196\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Portland Trail Blazers @ San Antonio Sp
- urs
+DESCRIPTION:NBA: partido mañana — Portland Trail Blazers @ San Antonio
+  Spurs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Portland Trail Blazers @ San Antoni
- o Spurs
+DESCRIPTION:NBA: partido en 2 horas — Portland Trail Blazers @ San Anto
+ nio Spurs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Portland Trail Blazers @ San Ant
- onio Spurs
+DESCRIPTION:NBA: partido en 30 minutos — Portland Trail Blazers @ San A
+ ntonio Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

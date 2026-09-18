@@ -1,23 +1,23 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//NBA Master Calendar//2026-27 Premium//ES
+PRODID:-//NBA Master Calendar//2026-27 Feed Engine 3.3//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:NBA 2026-27 — Houston Rockets
-X-WR-CALDESC:Calendario 2026-27 de Houston Rockets — 80 partidos actualmente definidos.
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 UID:NBA2627-0014@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261022T003000Z
 DTEND:20261022T033000Z
 SUMMARY:Dallas Mavericks @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-10-2026 21
- :30\nHora Punta Arenas/Magallanes: 21-10-2026 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0014\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-10-2026 
+ 21:30\nHora Punta Arenas/Magallanes: 21-10-2026 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0014\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -29,33 +29,35 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Dallas Mavericks @ Houston Rockets
+DESCRIPTION:NBA: partido en 2 horas — Dallas Mavericks @ Houston Rocket
+ s
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Dallas Mavericks @ Houston Rocke
- ts
+DESCRIPTION:NBA: partido en 30 minutos — Dallas Mavericks @ Houston Roc
+ kets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0027@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261024T013000Z
 DTEND:20261024T043000Z
 SUMMARY:Houston Rockets @ San Antonio Spurs
-LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-10-2026 22
- :30\nHora Punta Arenas/Magallanes: 23-10-2026 22:30\nTV nacional EE.UU.:
-  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
- \; sujeto a restricciones)\nID maestro: NBA2627-0027\nFuente base: NBA.c
- om\nDuración del calendario: 3 h estimadas\; el término real del partido
-  puede variar.
+LOCATION:Moody Center\, Austin\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-10-2026 
+ 22:30\nHora Punta Arenas/Magallanes: 23-10-2026 22:30\nTV nacional EE.UU
+ .: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merca
+ do\; sujeto a restricciones)\nID maestro: NBA2627-0027\nFuente base: NBA
+ .com\nDuración del calendario: 3 h estimadas\; el término real del par
+ tido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
-SEQUENCE:0
+SEQUENCE:1
+LAST-MODIFIED:20260918T235027Z
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:NBA: partido mañana — Houston Rockets @ San Antonio Spurs
@@ -63,28 +65,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ San Antonio Spurs
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ San Antonio Spu
+ rs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ San Antonio Sp
- urs
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ San Antonio 
+ Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0033@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261025T000000Z
 DTEND:20261025T030000Z
 SUMMARY:Houston Rockets @ Atlanta Hawks
 LOCATION:State Farm Arena\, Atlanta\, Georgia\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-10-2026 21
- :00\nHora Punta Arenas/Magallanes: 24-10-2026 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0033\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-10-2026 
+ 21:00\nHora Punta Arenas/Magallanes: 24-10-2026 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0033\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -101,22 +105,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Atlanta Hawks
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Atlanta Hawk
+ s
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0051@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261027T003000Z
 DTEND:20261027T033000Z
 SUMMARY:Atlanta Hawks @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-10-2026 21
- :30\nHora Punta Arenas/Magallanes: 26-10-2026 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0051\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-10-2026 
+ 21:30\nHora Punta Arenas/Magallanes: 26-10-2026 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0051\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -133,22 +139,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Atlanta Hawks @ Houston Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Atlanta Hawks @ Houston Rocket
+ s
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0064@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261029T000000Z
 DTEND:20261029T030000Z
 SUMMARY:Houston Rockets @ Milwaukee Bucks
 LOCATION:Fiserv Forum\, Milwaukee\, Wisconsin\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-10-2026 21
- :00\nHora Punta Arenas/Magallanes: 28-10-2026 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0064\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-10-2026 
+ 21:00\nHora Punta Arenas/Magallanes: 28-10-2026 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0064\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -165,24 +173,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Milwaukee Buck
- s
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Milwaukee Bu
+ cks
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0080@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261031T000000Z
 DTEND:20261031T030000Z
 SUMMARY:[NBA CUP] Houston Rockets @ Dallas Mavericks
 LOCATION:American Airlines Center\, Dallas\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 30-10-2026
-  21:00\nHora Punta Arenas/Magallanes: 30-10-2026 21:00\nTV nacional EE.U
- U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
-  restricciones)\nEmirates NBA Cup — West Group A\nID maestro: NBA2627-00
- 80\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
- rmino real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 30-10-
+ 2026 21:00\nHora Punta Arenas/Magallanes: 30-10-2026 21:00\nTV nacional 
+ EE.UU.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; suje
+ to a restricciones)\nGrupo NBA Cup: West Group A\nID maestro: NBA2627-00
+ 80\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el t
+ érmino real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -194,62 +202,66 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Dallas Mavericks
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Dallas Maverick
+ s
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Dallas Maveric
- ks
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Dallas Maver
+ icks
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0088@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261101T003000Z
 DTEND:20261101T033000Z
 SUMMARY:Oklahoma City Thunder @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-10-2026 21
- :30\nHora Punta Arenas/Magallanes: 31-10-2026 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0088\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-10-2026 
+ 21:30\nHora Punta Arenas/Magallanes: 31-10-2026 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0088\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ Houston Rockets
+DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ Houston Rock
+ ets
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ Houston Roc
- kets
+DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ Houston R
+ ockets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ Houston 
- Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ Housto
+ n Rockets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0105@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261103T013000Z
 DTEND:20261103T043000Z
 SUMMARY:Boston Celtics @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-11-2026 22
- :30\nHora Punta Arenas/Magallanes: 02-11-2026 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0105\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-11-2026 
+ 22:30\nHora Punta Arenas/Magallanes: 02-11-2026 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0105\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -266,57 +278,60 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Boston Celtics @ Houston Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Boston Celtics @ Houston Rocke
+ ts
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0118@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261105T013000Z
 DTEND:20261105T043000Z
 SUMMARY:Minnesota Timberwolves @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-11-2026 22
- :30\nHora Punta Arenas/Magallanes: 04-11-2026 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0118\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-11-2026 
+ 22:30\nHora Punta Arenas/Magallanes: 04-11-2026 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0118\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ Houston Rocket
- s
+DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ Houston Roc
+ kets
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ Houston Ro
- ckets
+DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ Houston 
+ Rockets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ Houston
-  Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ Houst
+ on Rockets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0139@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261108T020000Z
 DTEND:20261108T050000Z
 SUMMARY:Houston Rockets @ Phoenix Suns
 LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-11-2026 23
- :00\nHora Punta Arenas/Magallanes: 07-11-2026 23:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0139\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-11-2026 
+ 23:00\nHora Punta Arenas/Magallanes: 07-11-2026 23:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0139\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -339,16 +354,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0153@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261110T013000Z
 DTEND:20261110T043000Z
 SUMMARY:Denver Nuggets @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-11-2026 22
- :30\nHora Punta Arenas/Magallanes: 09-11-2026 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0153\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-11-2026 
+ 22:30\nHora Punta Arenas/Magallanes: 09-11-2026 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0153\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -365,58 +381,60 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ Houston Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ Houston Rocke
+ ts
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0170@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261112T023000Z
 DTEND:20261112T053000Z
 SUMMARY:Golden State Warriors @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-11-2026 23
- :30\nHora Punta Arenas/Magallanes: 11-11-2026 23:30\nTV nacional EE.UU.:
-  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
- a restricciones)\nID maestro: NBA2627-0170\nFuente base: NBA.com\nDuraci
- ón del calendario: 3 h estimadas\; el término real del partido puede var
- iar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-11-2026 
+ 23:30\nHora Punta Arenas/Magallanes: 11-11-2026 23:30\nTV nacional EE.UU
+ .: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujet
+ o a restricciones)\nID maestro: NBA2627-0170\nFuente base: NBA.com\nDura
+ ción del calendario: 3 h estimadas\; el término real del partido puede
+  variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Golden State Warriors @ Houston Rockets
+DESCRIPTION:NBA: partido mañana — Golden State Warriors @ Houston Rock
+ ets
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Golden State Warriors @ Houston Roc
- kets
+DESCRIPTION:NBA: partido en 2 horas — Golden State Warriors @ Houston R
+ ockets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Golden State Warriors @ Houston 
- Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Golden State Warriors @ Housto
+ n Rockets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0182@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261114T013000Z
 DTEND:20261114T043000Z
 SUMMARY:[NBA CUP] Utah Jazz @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 13-11-2026
-  22:30\nHora Punta Arenas/Magallanes: 13-11-2026 22:30\nTV nacional EE.U
- U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
-  restricciones)\nEmirates NBA Cup — West Group A\nID maestro: NBA2627-01
- 82\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
- rmino real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 13-11-
+ 2026 22:30\nHora Punta Arenas/Magallanes: 13-11-2026 22:30\nTV nacional 
+ EE.UU.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; suje
+ to a restricciones)\nGrupo NBA Cup: West Group A\nID maestro: NBA2627-01
+ 82\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el t
+ érmino real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -439,16 +457,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0195@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261116T000000Z
 DTEND:20261116T030000Z
 SUMMARY:Houston Rockets @ Washington Wizards
 LOCATION:Capital One Arena\, Washington\, D.C.\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-11-2026 21
- :00\nHora Punta Arenas/Magallanes: 15-11-2026 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0195\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-11-2026 
+ 21:00\nHora Punta Arenas/Magallanes: 15-11-2026 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0195\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -460,29 +479,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Washington Wizard
- s
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Washington Wiza
+ rds
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Washington Wiz
- ards
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Washington W
+ izards
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0202@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261117T003000Z
 DTEND:20261117T033000Z
 SUMMARY:Houston Rockets @ Miami Heat
 LOCATION:Kaseya Center\, Miami\, Florida\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-11-2026 21
- :30\nHora Punta Arenas/Magallanes: 16-11-2026 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0202\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-11-2026 
+ 21:30\nHora Punta Arenas/Magallanes: 16-11-2026 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0202\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -505,16 +525,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0214@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261119T000000Z
 DTEND:20261119T030000Z
 SUMMARY:Houston Rockets @ Indiana Pacers
 LOCATION:Gainbridge Fieldhouse\, Indianapolis\, Indiana\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-11-2026 21
- :00\nHora Punta Arenas/Magallanes: 18-11-2026 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0214\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-11-2026 
+ 21:00\nHora Punta Arenas/Magallanes: 18-11-2026 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0214\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -531,23 +552,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Indiana Pacers
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Indiana Pace
+ rs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0227@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261121T030000Z
 DTEND:20261121T060000Z
 SUMMARY:[NBA CUP] Houston Rockets @ Denver Nuggets
 LOCATION:Ball Arena\, Denver\, Colorado\, EE. UU.
-DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 21-11-2026
-  00:00\nHora Punta Arenas/Magallanes: 21-11-2026 00:00\nTV nacional EE.U
- U.: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merc
- ado\; sujeto a restricciones)\nEmirates NBA Cup — West Group A\nID maest
- ro: NBA2627-0227\nFuente base: NBA.com\nDuración del calendario: 3 h est
- imadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 21-11-
+ 2026 00:00\nHora Punta Arenas/Magallanes: 21-11-2026 00:00\nTV nacional 
+ EE.UU.: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de 
+ mercado\; sujeto a restricciones)\nGrupo NBA Cup: West Group A\nID maest
+ ro: NBA2627-0227\nFuente base: NBA.com\nDuración del calendario: 3 h es
+ timadas\; el término real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -564,57 +586,60 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Denver Nuggets
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Denver Nugge
+ ts
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0258@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261124T013000Z
 DTEND:20261124T043000Z
 SUMMARY:Los Angeles Clippers @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-11-2026 22
- :30\nHora Punta Arenas/Magallanes: 23-11-2026 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0258\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-11-2026 
+ 22:30\nHora Punta Arenas/Magallanes: 23-11-2026 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0258\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Los Angeles Clippers @ Houston Rockets
+DESCRIPTION:NBA: partido mañana — Los Angeles Clippers @ Houston Rocke
+ ts
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Los Angeles Clippers @ Houston Rock
- ets
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Clippers @ Houston Ro
+ ckets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Clippers @ Houston R
- ockets
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Clippers @ Houston
+  Rockets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0270@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261126T013000Z
 DTEND:20261126T043000Z
 SUMMARY:[NBA CUP] Phoenix Suns @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 25-11-2026
-  22:30\nHora Punta Arenas/Magallanes: 25-11-2026 22:30\nTV nacional EE.U
- U.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a
-  restricciones)\nEmirates NBA Cup — West Group A\nID maestro: NBA2627-02
- 70\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el té
- rmino real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — NBA Cup — Group Play\nHora Santiago: 25-11-
+ 2026 22:30\nHora Punta Arenas/Magallanes: 25-11-2026 22:30\nTV nacional 
+ EE.UU.: No indicado\nStreaming: NBA League Pass (fuera de mercado\; suje
+ to a restricciones)\nGrupo NBA Cup: West Group A\nID maestro: NBA2627-02
+ 70\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el t
+ érmino real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -637,16 +662,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0286@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261129T013000Z
 DTEND:20261129T043000Z
 SUMMARY:Philadelphia 76ers @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-11-2026 22
- :30\nHora Punta Arenas/Magallanes: 28-11-2026 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0286\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-11-2026 
+ 22:30\nHora Punta Arenas/Magallanes: 28-11-2026 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0286\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -658,30 +684,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ Houston Rocket
- s
+DESCRIPTION:NBA: partido en 2 horas — Philadelphia 76ers @ Houston Rock
+ ets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ Houston Roc
- kets
+DESCRIPTION:NBA: partido en 30 minutos — Philadelphia 76ers @ Houston R
+ ockets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0301@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261201T003000Z
 DTEND:20261201T033000Z
 SUMMARY:Los Angeles Lakers @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-11-2026 21
- :30\nHora Punta Arenas/Magallanes: 30-11-2026 21:30\nTV nacional EE.UU.:
-  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
- ra de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0301\nFuent
- e base: NBA.com\nDuración del calendario: 3 h estimadas\; el término rea
- l del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-11-2026 
+ 21:30\nHora Punta Arenas/Magallanes: 30-11-2026 21:30\nTV nacional EE.UU
+ .: Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (f
+ uera de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0301\nFue
+ nte base: NBA.com\nDuración del calendario: 3 h estimadas\; el término
+  real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -693,29 +719,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ Houston Rocket
- s
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ Houston Rock
+ ets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ Houston Roc
- kets
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ Houston R
+ ockets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0310@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261202T013000Z
 DTEND:20261202T043000Z
 SUMMARY:Toronto Raptors @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-12-2026 22
- :30\nHora Punta Arenas/Magallanes: 01-12-2026 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0310\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-12-2026 
+ 22:30\nHora Punta Arenas/Magallanes: 01-12-2026 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0310\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -732,23 +759,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Toronto Raptors @ Houston Rocket
- s
+DESCRIPTION:NBA: partido en 30 minutos — Toronto Raptors @ Houston Rock
+ ets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0337@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261213T230000Z
 DTEND:20261214T020000Z
 SUMMARY:Houston Rockets @ Chicago Bulls
 LOCATION:United Center\, Chicago\, Illinois\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-12-2026 20
- :00\nHora Punta Arenas/Magallanes: 13-12-2026 20:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0337\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-12-2026 
+ 20:00\nHora Punta Arenas/Magallanes: 13-12-2026 20:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0337\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -765,22 +793,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Chicago Bulls
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Chicago Bull
+ s
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0348@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261215T013000Z
 DTEND:20261215T043000Z
 SUMMARY:New York Knicks @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-12-2026 22
- :30\nHora Punta Arenas/Magallanes: 14-12-2026 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0348\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-12-2026 
+ 22:30\nHora Punta Arenas/Magallanes: 14-12-2026 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0348\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -797,23 +827,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Houston Rocket
- s
+DESCRIPTION:NBA: partido en 30 minutos — New York Knicks @ Houston Rock
+ ets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0364@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261217T013000Z
 DTEND:20261217T043000Z
 SUMMARY:Milwaukee Bucks @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-12-2026 22
- :30\nHora Punta Arenas/Magallanes: 16-12-2026 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0364\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-12-2026 
+ 22:30\nHora Punta Arenas/Magallanes: 16-12-2026 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0364\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -830,23 +861,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Milwaukee Bucks @ Houston Rocket
- s
+DESCRIPTION:NBA: partido en 30 minutos — Milwaukee Bucks @ Houston Rock
+ ets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0376@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261219T010000Z
 DTEND:20261219T040000Z
 SUMMARY:Houston Rockets @ Memphis Grizzlies
 LOCATION:FedExForum\, Memphis\, Tennessee\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-12-2026 22
- :00\nHora Punta Arenas/Magallanes: 18-12-2026 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0376\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-12-2026 
+ 22:00\nHora Punta Arenas/Magallanes: 18-12-2026 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0376\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -858,28 +890,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Memphis Grizzlies
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Memphis Grizzli
+ es
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Memphis Grizzl
- ies
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Memphis Griz
+ zlies
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0387@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261220T203000Z
 DTEND:20261220T233000Z
 SUMMARY:Houston Rockets @ Toronto Raptors
 LOCATION:Scotiabank Arena\, Toronto\, Ontario\, Canadá
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-12-2026 17
- :30\nHora Punta Arenas/Magallanes: 20-12-2026 17:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0387\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-12-2026 
+ 17:30\nHora Punta Arenas/Magallanes: 20-12-2026 17:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0387\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -896,24 +930,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Toronto Raptor
- s
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Toronto Rapt
+ ors
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0418@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261224T003000Z
 DTEND:20261224T033000Z
 SUMMARY:Houston Rockets @ Philadelphia 76ers
 LOCATION:Xfinity Mobile Arena\, Philadelphia\, Pennsylvania\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-12-2026 21
- :30\nHora Punta Arenas/Magallanes: 23-12-2026 21:30\nTV nacional EE.UU.:
-  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
- \; sujeto a restricciones)\nID maestro: NBA2627-0418\nFuente base: NBA.c
- om\nDuración del calendario: 3 h estimadas\; el término real del partido
-  puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-12-2026 
+ 21:30\nHora Punta Arenas/Magallanes: 23-12-2026 21:30\nTV nacional EE.UU
+ .: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merca
+ do\; sujeto a restricciones)\nID maestro: NBA2627-0418\nFuente base: NBA
+ .com\nDuración del calendario: 3 h estimadas\; el término real del par
+ tido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -925,64 +959,66 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Philadelphia 76er
- s
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Philadelphia 76
+ ers
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Philadelphia 7
- 6ers
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Philadelphia
+  76ers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0436@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261227T203000Z
 DTEND:20261227T233000Z
 SUMMARY:Oklahoma City Thunder @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-12-2026 17
- :30\nHora Punta Arenas/Magallanes: 27-12-2026 17:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0436\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-12-2026 
+ 17:30\nHora Punta Arenas/Magallanes: 27-12-2026 17:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0436\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ Houston Rockets
+DESCRIPTION:NBA: partido mañana — Oklahoma City Thunder @ Houston Rock
+ ets
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ Houston Roc
- kets
+DESCRIPTION:NBA: partido en 2 horas — Oklahoma City Thunder @ Houston R
+ ockets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ Houston 
- Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Oklahoma City Thunder @ Housto
+ n Rockets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0454@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261230T033000Z
 DTEND:20261230T063000Z
 SUMMARY:Houston Rockets @ Los Angeles Lakers
 LOCATION:Crypto.com Arena\, Los Angeles\, California\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-12-2026 00
- :30\nHora Punta Arenas/Magallanes: 30-12-2026 00:30\nTV nacional EE.UU.:
-  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
-  sujeto a restricciones)\nID maestro: NBA2627-0454\nFuente base: NBA.com
- \nDuración del calendario: 3 h estimadas\; el término real del partido p
- uede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 30-12-2026 
+ 00:30\nHora Punta Arenas/Magallanes: 30-12-2026 00:30\nTV nacional EE.UU
+ .: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0454\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del parti
+ do puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -994,63 +1030,66 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Los Angeles Laker
- s
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Los Angeles Lak
+ ers
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Los Angeles La
- kers
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Los Angeles 
+ Lakers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0461@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20261231T030000Z
 DTEND:20261231T060000Z
 SUMMARY:Houston Rockets @ Golden State Warriors
 LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-12-2026 00
- :00\nHora Punta Arenas/Magallanes: 31-12-2026 00:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0461\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-12-2026 
+ 00:00\nHora Punta Arenas/Magallanes: 31-12-2026 00:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0461\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Houston Rockets @ Golden State Warriors
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Golden State Warri
+ ors
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Golden State Warr
- iors
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Golden State Wa
+ rriors
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Golden State W
- arriors
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Golden State
+  Warriors
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0480@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270102T013000Z
 DTEND:20270102T043000Z
 SUMMARY:Dallas Mavericks @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-01-2027 22
- :30\nHora Punta Arenas/Magallanes: 01-01-2027 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0480\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-01-2027 
+ 22:30\nHora Punta Arenas/Magallanes: 01-01-2027 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0480\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1062,98 +1101,102 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Dallas Mavericks @ Houston Rockets
+DESCRIPTION:NBA: partido en 2 horas — Dallas Mavericks @ Houston Rocket
+ s
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Dallas Mavericks @ Houston Rocke
- ts
+DESCRIPTION:NBA: partido en 30 minutos — Dallas Mavericks @ Houston Roc
+ kets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0497@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270104T000000Z
 DTEND:20270104T030000Z
 SUMMARY:Cleveland Cavaliers @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-01-2027 21
- :00\nHora Punta Arenas/Magallanes: 03-01-2027 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0497\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-01-2027 
+ 21:00\nHora Punta Arenas/Magallanes: 03-01-2027 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0497\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Houston Rockets
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Houston Rocke
- ts
-TRIGGER:-PT2H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Houston Ro
- ckets
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NBA2627-0514@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
-DTSTART:20270106T010000Z
-DTEND:20270106T040000Z
-SUMMARY:Minnesota Timberwolves @ Houston Rockets
-LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-01-2027 22
- :00\nHora Punta Arenas/Magallanes: 05-01-2027 22:00\nTV nacional EE.UU.:
-  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
-  sujeto a restricciones)\nID maestro: NBA2627-0514\nFuente base: NBA.com
- \nDuración del calendario: 3 h estimadas\; el término real del partido p
- uede variar.
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:NBA 2026-27
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ Houston Rocket
+DESCRIPTION:NBA: partido mañana — Cleveland Cavaliers @ Houston Rocket
  s
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ Houston Ro
- ckets
+DESCRIPTION:NBA: partido en 2 horas — Cleveland Cavaliers @ Houston Roc
+ kets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ Houston
-  Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Cleveland Cavaliers @ Houston 
+ Rockets
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NBA2627-0514@nba-master-calendar.local
+DTSTAMP:20260918T235027Z
+DTSTART:20270106T010000Z
+DTEND:20270106T040000Z
+SUMMARY:Minnesota Timberwolves @ Houston Rockets
+LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-01-2027 
+ 22:00\nHora Punta Arenas/Magallanes: 05-01-2027 22:00\nTV nacional EE.UU
+ .: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0514\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del parti
+ do puede variar.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:NBA 2026-27
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido mañana — Minnesota Timberwolves @ Houston Roc
+ kets
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 2 horas — Minnesota Timberwolves @ Houston 
+ Rockets
+TRIGGER:-PT2H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NBA: partido en 30 minutos — Minnesota Timberwolves @ Houst
+ on Rockets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0531@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270108T013000Z
 DTEND:20270108T043000Z
 SUMMARY:Memphis Grizzlies @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-01-2027 22
- :30\nHora Punta Arenas/Magallanes: 07-01-2027 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0531\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-01-2027 
+ 22:30\nHora Punta Arenas/Magallanes: 07-01-2027 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0531\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1165,28 +1208,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Memphis Grizzlies @ Houston Rockets
+DESCRIPTION:NBA: partido en 2 horas — Memphis Grizzlies @ Houston Rocke
+ ts
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Memphis Grizzlies @ Houston Rock
- ets
+DESCRIPTION:NBA: partido en 30 minutos — Memphis Grizzlies @ Houston Ro
+ ckets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0543@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270109T230000Z
 DTEND:20270110T020000Z
 SUMMARY:Houston Rockets @ Brooklyn Nets
 LOCATION:Barclays Center\, Brooklyn\, Nueva York\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-01-2027 20
- :00\nHora Punta Arenas/Magallanes: 09-01-2027 20:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0543\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-01-2027 
+ 20:00\nHora Punta Arenas/Magallanes: 09-01-2027 20:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0543\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1203,22 +1248,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Brooklyn Nets
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Brooklyn Net
+ s
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0557@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270112T003000Z
 DTEND:20270112T033000Z
 SUMMARY:Houston Rockets @ Boston Celtics
 LOCATION:TD Garden\, Boston\, Massachusetts\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-01-2027 21
- :30\nHora Punta Arenas/Magallanes: 11-01-2027 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0557\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-01-2027 
+ 21:30\nHora Punta Arenas/Magallanes: 11-01-2027 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0557\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1235,57 +1282,60 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Boston Celtics
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Boston Celti
+ cs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0574@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270114T023000Z
 DTEND:20270114T053000Z
 SUMMARY:Houston Rockets @ Oklahoma City Thunder
 LOCATION:Paycom Center\, Oklahoma City\, Oklahoma\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-01-2027 23
- :30\nHora Punta Arenas/Magallanes: 13-01-2027 23:30\nTV nacional EE.UU.:
-  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
- a restricciones)\nID maestro: NBA2627-0574\nFuente base: NBA.com\nDuraci
- ón del calendario: 3 h estimadas\; el término real del partido puede var
- iar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-01-2027 
+ 23:30\nHora Punta Arenas/Magallanes: 13-01-2027 23:30\nTV nacional EE.UU
+ .: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujet
+ o a restricciones)\nID maestro: NBA2627-0574\nFuente base: NBA.com\nDura
+ ción del calendario: 3 h estimadas\; el término real del partido puede
+  variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Houston Rockets @ Oklahoma City Thunder
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Oklahoma City Thun
+ der
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Oklahoma City Thu
- nder
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Oklahoma City T
+ hunder
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Oklahoma City 
- Thunder
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Oklahoma Cit
+ y Thunder
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0591@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270116T013000Z
 DTEND:20270116T043000Z
 SUMMARY:Washington Wizards @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-01-2027 22
- :30\nHora Punta Arenas/Magallanes: 15-01-2027 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0591\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 15-01-2027 
+ 22:30\nHora Punta Arenas/Magallanes: 15-01-2027 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0591\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1297,29 +1347,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Houston Rocket
- s
+DESCRIPTION:NBA: partido en 2 horas — Washington Wizards @ Houston Rock
+ ets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Houston Roc
- kets
+DESCRIPTION:NBA: partido en 30 minutos — Washington Wizards @ Houston R
+ ockets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0596@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270117T013000Z
 DTEND:20270117T043000Z
 SUMMARY:Detroit Pistons @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-01-2027 22
- :30\nHora Punta Arenas/Magallanes: 16-01-2027 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0596\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-01-2027 
+ 22:30\nHora Punta Arenas/Magallanes: 16-01-2027 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0596\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1336,24 +1387,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ Houston Rocket
- s
+DESCRIPTION:NBA: partido en 30 minutos — Detroit Pistons @ Houston Rock
+ ets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0611@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270119T003000Z
 DTEND:20270119T033000Z
 SUMMARY:[NBA ON MLK DAY] Houston Rockets @ Memphis Grizzlies
 LOCATION:FedExForum\, Memphis\, Tennessee\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-01-2027 21
- :30\nHora Punta Arenas/Magallanes: 18-01-2027 21:30\nTV nacional EE.UU.:
-  Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (fue
- ra de mercado\; sujeto a restricciones)\nEvento especial: NBA on MLK Day
- \nID maestro: NBA2627-0611\nFuente base: NBA.com\nDuración del calendari
- o: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 18-01-2027 
+ 21:30\nHora Punta Arenas/Magallanes: 18-01-2027 21:30\nTV nacional EE.UU
+ .: Peacock / NBC Sports Network\nStreaming: Peacock / NBA League Pass (f
+ uera de mercado\; sujeto a restricciones)\nEvento especial: NBA on MLK D
+ ay\nID maestro: NBA2627-0611\nFuente base: NBA.com\nDuración del calend
+ ario: 3 h estimadas\; el término real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1365,63 +1416,66 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Memphis Grizzlies
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Memphis Grizzli
+ es
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Memphis Grizzl
- ies
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Memphis Griz
+ zlies
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0625@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270121T010000Z
 DTEND:20270121T040000Z
 SUMMARY:Houston Rockets @ Minnesota Timberwolves
 LOCATION:Target Center\, Minneapolis\, Minnesota\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-01-2027 22
- :00\nHora Punta Arenas/Magallanes: 20-01-2027 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0625\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-01-2027 
+ 22:00\nHora Punta Arenas/Magallanes: 20-01-2027 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0625\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Houston Rockets @ Minnesota Timberwolve
- s
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Minnesota Timberwo
+ lves
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Minnesota Timberw
- olves
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Minnesota Timbe
+ rwolves
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Minnesota Timb
- erwolves
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Minnesota Ti
+ mberwolves
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0638@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270123T000000Z
 DTEND:20270123T030000Z
 SUMMARY:Houston Rockets @ Charlotte Hornets
 LOCATION:Spectrum Center\, Charlotte\, Carolina del Norte\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-01-2027 21
- :00\nHora Punta Arenas/Magallanes: 22-01-2027 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0638\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-01-2027 
+ 21:00\nHora Punta Arenas/Magallanes: 22-01-2027 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0638\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1433,28 +1487,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Charlotte Hornets
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Charlotte Horne
+ ts
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Charlotte Horn
- ets
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Charlotte Ho
+ rnets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0655@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270124T230000Z
 DTEND:20270125T020000Z
 SUMMARY:Houston Rockets @ Orlando Magic
 LOCATION:Kia Center\, Orlando\, Florida\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-01-2027 20
- :00\nHora Punta Arenas/Magallanes: 24-01-2027 20:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0655\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-01-2027 
+ 20:00\nHora Punta Arenas/Magallanes: 24-01-2027 20:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0655\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1471,23 +1527,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Orlando Magic
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Orlando Magi
+ c
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0671@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270127T010000Z
 DTEND:20270127T040000Z
 SUMMARY:[AWS NBA RIVALS WEEK] Houston Rockets @ San Antonio Spurs
 LOCATION:Frost Bank Center\, San Antonio\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-01-2027 22
- :00\nHora Punta Arenas/Magallanes: 26-01-2027 22:00\nTV nacional EE.UU.:
-  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
-  sujeto a restricciones)\nEvento especial: AWS NBA Rivals Week\nID maest
- ro: NBA2627-0671\nFuente base: NBA.com\nDuración del calendario: 3 h est
- imadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-01-2027 
+ 22:00\nHora Punta Arenas/Magallanes: 26-01-2027 22:00\nTV nacional EE.UU
+ .: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nEvento especial: AWS NBA Rivals Week\nID mae
+ stro: NBA2627-0671\nFuente base: NBA.com\nDuración del calendario: 3 h 
+ estimadas\; el término real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1499,62 +1556,66 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ San Antonio Spurs
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ San Antonio Spu
+ rs
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ San Antonio Sp
- urs
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ San Antonio 
+ Spurs
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0680@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270128T013000Z
 DTEND:20270128T043000Z
 SUMMARY:New Orleans Pelicans @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-01-2027 22
- :30\nHora Punta Arenas/Magallanes: 27-01-2027 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0680\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 27-01-2027 
+ 22:30\nHora Punta Arenas/Magallanes: 27-01-2027 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0680\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — New Orleans Pelicans @ Houston Rockets
+DESCRIPTION:NBA: partido mañana — New Orleans Pelicans @ Houston Rocke
+ ts
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — New Orleans Pelicans @ Houston Rock
- ets
+DESCRIPTION:NBA: partido en 2 horas — New Orleans Pelicans @ Houston Ro
+ ckets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — New Orleans Pelicans @ Houston R
- ockets
+DESCRIPTION:NBA: partido en 30 minutos — New Orleans Pelicans @ Houston
+  Rockets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0694@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270130T013000Z
 DTEND:20270130T043000Z
 SUMMARY:Orlando Magic @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-01-2027 22
- :30\nHora Punta Arenas/Magallanes: 29-01-2027 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0694\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 29-01-2027 
+ 22:30\nHora Punta Arenas/Magallanes: 29-01-2027 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0694\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1571,23 +1632,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Orlando Magic @ Houston Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Orlando Magic @ Houston Rocket
+ s
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0711@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270201T013000Z
 DTEND:20270201T043000Z
 SUMMARY:Houston Rockets @ Dallas Mavericks
 LOCATION:American Airlines Center\, Dallas\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-01-2027 22
- :30\nHora Punta Arenas/Magallanes: 31-01-2027 22:30\nTV nacional EE.UU.:
-  NBC / Peacock / Telemundo\nStreaming: Peacock / NBA League Pass (fuera 
- de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0711\nFuente b
- ase: NBA.com\nDuración del calendario: 3 h estimadas\; el término real d
- el partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-01-2027 
+ 22:30\nHora Punta Arenas/Magallanes: 31-01-2027 22:30\nTV nacional EE.UU
+ .: NBC / Peacock / Telemundo\nStreaming: Peacock / NBA League Pass (fuer
+ a de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0711\nFuente
+  base: NBA.com\nDuración del calendario: 3 h estimadas\; el término re
+ al del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1599,29 +1661,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Dallas Mavericks
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Dallas Maverick
+ s
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Dallas Maveric
- ks
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Dallas Maver
+ icks
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0732@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270204T023000Z
 DTEND:20270204T053000Z
 SUMMARY:Utah Jazz @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-02-2027 23
- :30\nHora Punta Arenas/Magallanes: 03-02-2027 23:30\nTV nacional EE.UU.:
-  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
- a restricciones)\nID maestro: NBA2627-0732\nFuente base: NBA.com\nDuraci
- ón del calendario: 3 h estimadas\; el término real del partido puede var
- iar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-02-2027 
+ 23:30\nHora Punta Arenas/Magallanes: 03-02-2027 23:30\nTV nacional EE.UU
+ .: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujet
+ o a restricciones)\nID maestro: NBA2627-0732\nFuente base: NBA.com\nDura
+ ción del calendario: 3 h estimadas\; el término real del partido puede
+  variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1644,16 +1707,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0747@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270206T020000Z
 DTEND:20270206T050000Z
 SUMMARY:Houston Rockets @ Phoenix Suns
 LOCATION:Mortgage Matchup Center\, Phoenix\, Arizona\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-02-2027 23
- :00\nHora Punta Arenas/Magallanes: 05-02-2027 23:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0747\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-02-2027 
+ 23:00\nHora Punta Arenas/Magallanes: 05-02-2027 23:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0747\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1676,16 +1740,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0758@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270208T033000Z
 DTEND:20270208T063000Z
 SUMMARY:Houston Rockets @ Sacramento Kings
 LOCATION:Golden 1 Center\, Sacramento\, California\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-02-2027 00
- :30\nHora Punta Arenas/Magallanes: 08-02-2027 00:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0758\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-02-2027 
+ 00:30\nHora Punta Arenas/Magallanes: 08-02-2027 00:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0758\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1697,29 +1762,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Sacramento Kings
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Sacramento King
+ s
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Sacramento Kin
- gs
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Sacramento K
+ ings
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0773@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270210T030000Z
 DTEND:20270210T060000Z
 SUMMARY:Houston Rockets @ Utah Jazz
 LOCATION:Delta Center\, Salt Lake City\, Utah\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-02-2027 00
- :00\nHora Punta Arenas/Magallanes: 10-02-2027 00:00\nTV nacional EE.UU.:
-  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
-  sujeto a restricciones)\nID maestro: NBA2627-0773\nFuente base: NBA.com
- \nDuración del calendario: 3 h estimadas\; el término real del partido p
- uede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-02-2027 
+ 00:00\nHora Punta Arenas/Magallanes: 10-02-2027 00:00\nTV nacional EE.UU
+ .: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0773\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del parti
+ do puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1742,16 +1808,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0794@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270212T013000Z
 DTEND:20270212T043000Z
 SUMMARY:Sacramento Kings @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-02-2027 22
- :30\nHora Punta Arenas/Magallanes: 11-02-2027 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0794\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-02-2027 
+ 22:30\nHora Punta Arenas/Magallanes: 11-02-2027 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0794\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1763,62 +1830,66 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Sacramento Kings @ Houston Rockets
+DESCRIPTION:NBA: partido en 2 horas — Sacramento Kings @ Houston Rocket
+ s
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Sacramento Kings @ Houston Rocke
- ts
+DESCRIPTION:NBA: partido en 30 minutos — Sacramento Kings @ Houston Roc
+ kets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0804@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270213T010000Z
 DTEND:20270213T040000Z
 SUMMARY:Houston Rockets @ New Orleans Pelicans
 LOCATION:Smoothie King Center\, New Orleans\, Louisiana\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-02-2027 22
- :00\nHora Punta Arenas/Magallanes: 12-02-2027 22:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0804\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 12-02-2027 
+ 22:00\nHora Punta Arenas/Magallanes: 12-02-2027 22:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0804\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Houston Rockets @ New Orleans Pelicans
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ New Orleans Pelica
+ ns
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ New Orleans Pelic
- ans
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ New Orleans Pel
+ icans
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ New Orleans Pe
- licans
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ New Orleans 
+ Pelicans
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0816@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270214T190000Z
 DTEND:20270214T220000Z
 SUMMARY:Denver Nuggets @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-02-2027 16
- :00\nHora Punta Arenas/Magallanes: 14-02-2027 16:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0816\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 14-02-2027 
+ 16:00\nHora Punta Arenas/Magallanes: 14-02-2027 16:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0816\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1835,58 +1906,60 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ Houston Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Denver Nuggets @ Houston Rocke
+ ts
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0829@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270217T040000Z
 DTEND:20270217T070000Z
 SUMMARY:Houston Rockets @ Los Angeles Clippers
 LOCATION:Intuit Dome\, Inglewood\, California\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-02-2027 01
- :00\nHora Punta Arenas/Magallanes: 17-02-2027 01:00\nTV nacional EE.UU.:
-  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
-  sujeto a restricciones)\nID maestro: NBA2627-0829\nFuente base: NBA.com
- \nDuración del calendario: 3 h estimadas\; el término real del partido p
- uede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-02-2027 
+ 01:00\nHora Punta Arenas/Magallanes: 17-02-2027 01:00\nTV nacional EE.UU
+ .: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0829\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del parti
+ do puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Houston Rockets @ Los Angeles Clippers
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Los Angeles Clippe
+ rs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Los Angeles Clipp
- ers
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Los Angeles Cli
+ ppers
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Los Angeles Cl
- ippers
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Los Angeles 
+ Clippers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0845@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270219T030000Z
 DTEND:20270219T060000Z
 SUMMARY:Houston Rockets @ Los Angeles Lakers
 LOCATION:Crypto.com Arena\, Los Angeles\, California\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 19-02-2027 00
- :00\nHora Punta Arenas/Magallanes: 19-02-2027 00:00\nTV nacional EE.UU.:
-  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
- \; sujeto a restricciones)\nID maestro: NBA2627-0845\nFuente base: NBA.c
- om\nDuración del calendario: 3 h estimadas\; el término real del partido
-  puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 19-02-2027 
+ 00:00\nHora Punta Arenas/Magallanes: 19-02-2027 00:00\nTV nacional EE.UU
+ .: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merca
+ do\; sujeto a restricciones)\nID maestro: NBA2627-0845\nFuente base: NBA
+ .com\nDuración del calendario: 3 h estimadas\; el término real del par
+ tido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1898,29 +1971,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Los Angeles Laker
- s
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Los Angeles Lak
+ ers
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Los Angeles La
- kers
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Los Angeles 
+ Lakers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0865@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270227T013000Z
 DTEND:20270227T043000Z
 SUMMARY:Charlotte Hornets @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-02-2027 22
- :30\nHora Punta Arenas/Magallanes: 26-02-2027 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0865\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 26-02-2027 
+ 22:30\nHora Punta Arenas/Magallanes: 26-02-2027 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0865\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1932,29 +2006,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Charlotte Hornets @ Houston Rockets
+DESCRIPTION:NBA: partido en 2 horas — Charlotte Hornets @ Houston Rocke
+ ts
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Charlotte Hornets @ Houston Rock
- ets
+DESCRIPTION:NBA: partido en 30 minutos — Charlotte Hornets @ Houston Ro
+ ckets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0880@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270301T023000Z
 DTEND:20270301T053000Z
 SUMMARY:Miami Heat @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-02-2027 23
- :30\nHora Punta Arenas/Magallanes: 28-02-2027 23:30\nTV nacional EE.UU.:
-  NBC / Peacock / Telemundo\nStreaming: Peacock / NBA League Pass (fuera 
- de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0880\nFuente b
- ase: NBA.com\nDuración del calendario: 3 h estimadas\; el término real d
- el partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-02-2027 
+ 23:30\nHora Punta Arenas/Magallanes: 28-02-2027 23:30\nTV nacional EE.UU
+ .: NBC / Peacock / Telemundo\nStreaming: Peacock / NBA League Pass (fuer
+ a de mercado\; sujeto a restricciones)\nID maestro: NBA2627-0880\nFuente
+  base: NBA.com\nDuración del calendario: 3 h estimadas\; el término re
+ al del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -1977,85 +2052,89 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0884@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270302T013000Z
 DTEND:20270302T043000Z
 SUMMARY:Golden State Warriors @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-03-2027 22
- :30\nHora Punta Arenas/Magallanes: 01-03-2027 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0884\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 01-03-2027 
+ 22:30\nHora Punta Arenas/Magallanes: 01-03-2027 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0884\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Golden State Warriors @ Houston Rockets
+DESCRIPTION:NBA: partido mañana — Golden State Warriors @ Houston Rock
+ ets
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Golden State Warriors @ Houston Roc
- kets
+DESCRIPTION:NBA: partido en 2 horas — Golden State Warriors @ Houston R
+ ockets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Golden State Warriors @ Houston 
- Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Golden State Warriors @ Housto
+ n Rockets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0901@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270304T013000Z
 DTEND:20270304T043000Z
 SUMMARY:New Orleans Pelicans @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-03-2027 22
- :30\nHora Punta Arenas/Magallanes: 03-03-2027 22:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0901\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 03-03-2027 
+ 22:30\nHora Punta Arenas/Magallanes: 03-03-2027 22:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0901\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — New Orleans Pelicans @ Houston Rockets
+DESCRIPTION:NBA: partido mañana — New Orleans Pelicans @ Houston Rocke
+ ts
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — New Orleans Pelicans @ Houston Rock
- ets
+DESCRIPTION:NBA: partido en 2 horas — New Orleans Pelicans @ Houston Ro
+ ckets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — New Orleans Pelicans @ Houston R
- ockets
+DESCRIPTION:NBA: partido en 30 minutos — New Orleans Pelicans @ Houston
+  Rockets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0916@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270306T023000Z
 DTEND:20270306T053000Z
 SUMMARY:San Antonio Spurs @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-03-2027 23
- :30\nHora Punta Arenas/Magallanes: 05-03-2027 23:30\nTV nacional EE.UU.:
-  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
- a restricciones)\nID maestro: NBA2627-0916\nFuente base: NBA.com\nDuraci
- ón del calendario: 3 h estimadas\; el término real del partido puede var
- iar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 05-03-2027 
+ 23:30\nHora Punta Arenas/Magallanes: 05-03-2027 23:30\nTV nacional EE.UU
+ .: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujet
+ o a restricciones)\nID maestro: NBA2627-0916\nFuente base: NBA.com\nDura
+ ción del calendario: 3 h estimadas\; el término real del partido puede
+  variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2067,97 +2146,102 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Houston Rockets
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Houston Rocke
+ ts
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Houston Rock
- ets
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Houston Ro
+ ckets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0924@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270308T030000Z
 DTEND:20270308T060000Z
 SUMMARY:Houston Rockets @ Golden State Warriors
 LOCATION:Chase Center\, San Francisco\, California\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-03-2027 00
- :00\nHora Punta Arenas/Magallanes: 08-03-2027 00:00\nTV nacional EE.UU.:
-  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
-  sujeto a restricciones)\nID maestro: NBA2627-0924\nFuente base: NBA.com
- \nDuración del calendario: 3 h estimadas\; el término real del partido p
- uede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 08-03-2027 
+ 00:00\nHora Punta Arenas/Magallanes: 08-03-2027 00:00\nTV nacional EE.UU
+ .: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-0924\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del parti
+ do puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Houston Rockets @ Golden State Warriors
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Golden State Warri
+ ors
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Golden State Warr
- iors
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Golden State Wa
+ rriors
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Golden State W
- arriors
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Golden State
+  Warriors
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0931@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270309T033000Z
 DTEND:20270309T063000Z
 SUMMARY:Houston Rockets @ Los Angeles Clippers
 LOCATION:Intuit Dome\, Inglewood\, California\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-03-2027 00
- :30\nHora Punta Arenas/Magallanes: 09-03-2027 00:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0931\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-03-2027 
+ 00:30\nHora Punta Arenas/Magallanes: 09-03-2027 00:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0931\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Houston Rockets @ Los Angeles Clippers
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Los Angeles Clippe
+ rs
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Los Angeles Clipp
- ers
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Los Angeles Cli
+ ppers
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Los Angeles Cl
- ippers
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Los Angeles 
+ Clippers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0951@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270311T020000Z
 DTEND:20270311T050000Z
 SUMMARY:Houston Rockets @ Utah Jazz
 LOCATION:Delta Center\, Salt Lake City\, Utah\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-03-2027 23
- :00\nHora Punta Arenas/Magallanes: 10-03-2027 23:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0951\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 10-03-2027 
+ 23:00\nHora Punta Arenas/Magallanes: 10-03-2027 23:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0951\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2180,17 +2264,17 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0971@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270313T223000Z
 DTEND:20270314T013000Z
 SUMMARY:Indiana Pacers @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-03-2027 19
- :30\nHora Punta Arenas/Magallanes: 13-03-2027 19:30\nTV nacional EE.UU.:
-  Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de mercado
- \; sujeto a restricciones)\nID maestro: NBA2627-0971\nFuente base: NBA.c
- om\nDuración del calendario: 3 h estimadas\; el término real del partido
-  puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 13-03-2027 
+ 19:30\nHora Punta Arenas/Magallanes: 13-03-2027 19:30\nTV nacional EE.UU
+ .: Prime Video\nStreaming: Prime Video / NBA League Pass (fuera de merca
+ do\; sujeto a restricciones)\nID maestro: NBA2627-0971\nFuente base: NBA
+ .com\nDuración del calendario: 3 h estimadas\; el término real del par
+ tido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2207,22 +2291,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Indiana Pacers @ Houston Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Indiana Pacers @ Houston Rocke
+ ts
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0997@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270317T003000Z
 DTEND:20270317T033000Z
 SUMMARY:San Antonio Spurs @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-03-2027 21
- :30\nHora Punta Arenas/Magallanes: 16-03-2027 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0997\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 16-03-2027 
+ 21:30\nHora Punta Arenas/Magallanes: 16-03-2027 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0997\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2234,28 +2320,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Houston Rockets
+DESCRIPTION:NBA: partido en 2 horas — San Antonio Spurs @ Houston Rocke
+ ts
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Houston Rock
- ets
+DESCRIPTION:NBA: partido en 30 minutos — San Antonio Spurs @ Houston Ro
+ ckets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1004@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270318T003000Z
 DTEND:20270318T033000Z
 SUMMARY:Brooklyn Nets @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-03-2027 21
- :30\nHora Punta Arenas/Magallanes: 17-03-2027 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1004\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 17-03-2027 
+ 21:30\nHora Punta Arenas/Magallanes: 17-03-2027 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1004\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2272,90 +2360,96 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Brooklyn Nets @ Houston Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Brooklyn Nets @ Houston Rocket
+ s
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1019@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270320T000000Z
 DTEND:20270320T030000Z
 SUMMARY:Houston Rockets @ New Orleans Pelicans
 LOCATION:Smoothie King Center\, New Orleans\, Louisiana\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 19-03-2027 21
- :00\nHora Punta Arenas/Magallanes: 19-03-2027 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1019\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 19-03-2027 
+ 21:00\nHora Punta Arenas/Magallanes: 19-03-2027 21:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1019\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Houston Rockets @ New Orleans Pelicans
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ New Orleans Pelica
+ ns
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ New Orleans Pelic
- ans
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ New Orleans Pel
+ icans
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ New Orleans Pe
- licans
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ New Orleans 
+ Pelicans
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1037@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270322T230000Z
 DTEND:20270323T020000Z
 SUMMARY:Houston Rockets @ Cleveland Cavaliers
 LOCATION:Rocket Arena\, Cleveland\, Ohio\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-03-2027 20
- :00\nHora Punta Arenas/Magallanes: 22-03-2027 20:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1037\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 22-03-2027 
+ 20:00\nHora Punta Arenas/Magallanes: 22-03-2027 20:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1037\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Houston Rockets @ Cleveland Cavaliers
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Cleveland Cavalier
+ s
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Cleveland Cavalie
- rs
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Cleveland Caval
+ iers
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Cleveland Cava
- liers
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Cleveland Ca
+ valiers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1057@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270324T233000Z
 DTEND:20270325T023000Z
 SUMMARY:Houston Rockets @ New York Knicks
 LOCATION:Madison Square Garden\, New York\, Nueva York\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-03-2027 20
- :30\nHora Punta Arenas/Magallanes: 24-03-2027 20:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1057\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-03-2027 
+ 20:30\nHora Punta Arenas/Magallanes: 24-03-2027 20:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1057\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2372,23 +2466,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ New York Knick
- s
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ New York Kni
+ cks
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1062@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270325T230000Z
 DTEND:20270326T020000Z
 SUMMARY:Houston Rockets @ Detroit Pistons
 LOCATION:Little Caesars Arena\, Detroit\, Michigan\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-03-2027 20
- :00\nHora Punta Arenas/Magallanes: 25-03-2027 20:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1062\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 25-03-2027 
+ 20:00\nHora Punta Arenas/Magallanes: 25-03-2027 20:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1062\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2405,24 +2500,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Detroit Piston
- s
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Detroit Pist
+ ons
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1083@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270328T190000Z
 DTEND:20270328T220000Z
 SUMMARY:Los Angeles Lakers @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-03-2027 16
- :00\nHora Punta Arenas/Magallanes: 28-03-2027 16:00\nTV nacional EE.UU.:
-  ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujeto 
- a restricciones)\nID maestro: NBA2627-1083\nFuente base: NBA.com\nDuraci
- ón del calendario: 3 h estimadas\; el término real del partido puede var
- iar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 28-03-2027 
+ 16:00\nHora Punta Arenas/Magallanes: 28-03-2027 16:00\nTV nacional EE.UU
+ .: ESPN\nStreaming: ESPN App / NBA League Pass (fuera de mercado\; sujet
+ o a restricciones)\nID maestro: NBA2627-1083\nFuente base: NBA.com\nDura
+ ción del calendario: 3 h estimadas\; el término real del partido puede
+  variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2434,100 +2529,102 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ Houston Rocket
- s
+DESCRIPTION:NBA: partido en 2 horas — Los Angeles Lakers @ Houston Rock
+ ets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ Houston Roc
- kets
+DESCRIPTION:NBA: partido en 30 minutos — Los Angeles Lakers @ Houston R
+ ockets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1097@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270331T030000Z
 DTEND:20270331T060000Z
 SUMMARY:Houston Rockets @ Portland Trail Blazers
 LOCATION:Moda Center\, Portland\, Oregón\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-03-2027 00
- :00\nHora Punta Arenas/Magallanes: 31-03-2027 00:00\nTV nacional EE.UU.:
-  NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\;
-  sujeto a restricciones)\nID maestro: NBA2627-1097\nFuente base: NBA.com
- \nDuración del calendario: 3 h estimadas\; el término real del partido p
- uede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-03-2027 
+ 00:00\nHora Punta Arenas/Magallanes: 31-03-2027 00:00\nTV nacional EE.UU
+ .: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado
+ \; sujeto a restricciones)\nID maestro: NBA2627-1097\nFuente base: NBA.c
+ om\nDuración del calendario: 3 h estimadas\; el término real del parti
+ do puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Houston Rockets @ Portland Trail Blazer
- s
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Portland Trail Bla
+ zers
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Portland Trail Bl
- azers
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Portland Trail 
+ Blazers
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Portland Trail
-  Blazers
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Portland Tra
+ il Blazers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1103@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270401T020000Z
 DTEND:20270401T050000Z
 SUMMARY:Houston Rockets @ Portland Trail Blazers
 LOCATION:Moda Center\, Portland\, Oregón\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-03-2027 23
- :00\nHora Punta Arenas/Magallanes: 31-03-2027 23:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1103\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 31-03-2027 
+ 23:00\nHora Punta Arenas/Magallanes: 31-03-2027 23:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1103\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Houston Rockets @ Portland Trail Blazer
- s
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Portland Trail Bla
+ zers
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Portland Trail Bl
- azers
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Portland Trail 
+ Blazers
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Portland Trail
-  Blazers
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Portland Tra
+ il Blazers
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1128@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270403T003000Z
 DTEND:20270403T033000Z
 SUMMARY:Memphis Grizzlies @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-04-2027 21
- :30\nHora Punta Arenas/Magallanes: 02-04-2027 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1128\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 02-04-2027 
+ 21:30\nHora Punta Arenas/Magallanes: 02-04-2027 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1128\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2539,28 +2636,30 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Memphis Grizzlies @ Houston Rockets
+DESCRIPTION:NBA: partido en 2 horas — Memphis Grizzlies @ Houston Rocke
+ ts
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Memphis Grizzlies @ Houston Rock
- ets
+DESCRIPTION:NBA: partido en 30 minutos — Memphis Grizzlies @ Houston Ro
+ ckets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1138@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270404T200000Z
 DTEND:20270404T230000Z
 SUMMARY:Chicago Bulls @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-04-2027 16
- :00\nHora Punta Arenas/Magallanes: 04-04-2027 17:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1138\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 04-04-2027 
+ 16:00\nHora Punta Arenas/Magallanes: 04-04-2027 17:00\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1138\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2577,22 +2676,24 @@ TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Chicago Bulls @ Houston Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Chicago Bulls @ Houston Rocket
+ s
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1166@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270408T003000Z
 DTEND:20270408T033000Z
 SUMMARY:Sacramento Kings @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-04-2027 20
- :30\nHora Punta Arenas/Magallanes: 07-04-2027 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1166\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 07-04-2027 
+ 20:30\nHora Punta Arenas/Magallanes: 07-04-2027 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1166\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
@@ -2604,83 +2705,86 @@ TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Sacramento Kings @ Houston Rockets
+DESCRIPTION:NBA: partido en 2 horas — Sacramento Kings @ Houston Rocket
+ s
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Sacramento Kings @ Houston Rocke
- ts
+DESCRIPTION:NBA: partido en 30 minutos — Sacramento Kings @ Houston Roc
+ kets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1183@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270410T003000Z
 DTEND:20270410T033000Z
 SUMMARY:Portland Trail Blazers @ Houston Rockets
 LOCATION:Toyota Center\, Houston\, Texas\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-04-2027 20
- :30\nHora Punta Arenas/Magallanes: 09-04-2027 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1183\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 09-04-2027 
+ 20:30\nHora Punta Arenas/Magallanes: 09-04-2027 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1183\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Portland Trail Blazers @ Houston Rocket
- s
+DESCRIPTION:NBA: partido mañana — Portland Trail Blazers @ Houston Roc
+ kets
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Portland Trail Blazers @ Houston Ro
- ckets
+DESCRIPTION:NBA: partido en 2 horas — Portland Trail Blazers @ Houston 
+ Rockets
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Portland Trail Blazers @ Houston
-  Rockets
+DESCRIPTION:NBA: partido en 30 minutos — Portland Trail Blazers @ Houst
+ on Rockets
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-1195@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
+DTSTAMP:20260918T235027Z
 DTSTART:20270412T003000Z
 DTEND:20270412T033000Z
 SUMMARY:Houston Rockets @ Minnesota Timberwolves
 LOCATION:Target Center\, Minneapolis\, Minnesota\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-04-2027 20
- :30\nHora Punta Arenas/Magallanes: 11-04-2027 21:30\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-1195\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 11-04-2027 
+ 20:30\nHora Punta Arenas/Magallanes: 11-04-2027 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-1195\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido mañana — Houston Rockets @ Minnesota Timberwolve
- s
+DESCRIPTION:NBA: partido mañana — Houston Rockets @ Minnesota Timberwo
+ lves
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Minnesota Timberw
- olves
+DESCRIPTION:NBA: partido en 2 horas — Houston Rockets @ Minnesota Timbe
+ rwolves
 TRIGGER:-PT2H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Minnesota Timb
- erwolves
+DESCRIPTION:NBA: partido en 30 minutos — Houston Rockets @ Minnesota Ti
+ mberwolves
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
