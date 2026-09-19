@@ -207,3 +207,44 @@ Resultados:
 
 LAST_APPROVED_PHASE: 3.7.10K.32
 NEXT_PHASE: 3.7.10K.33
+
+## FASE 3.7.10K.33 — CLOSED / PASS
+
+Publicación manual NBA Live integrada, publicada y validada de extremo a extremo en producción.
+
+Resultados:
+- Nuevo workflow NBA Calendar Publish Live incorporado a GitHub Actions.
+- Ejecución exclusivamente manual mediante workflow_dispatch.
+- Autorización humana obligatoria mediante confirm_publish = PUBLICAR.
+- Publicación restringida a branch main.
+- contents: write y concurrency compartida nba-calendar-publish.
+- Checkout endurecido con fetch-depth: 0.
+- Pipeline Live: fuente oficial NBA -> extracción -> adaptación -> contrato -> Ingestion Guard -> State Safety Gate -> Change Decision -> Arena Geography Guard -> Temporal Guard -> Promotion Gate -> autorización humana -> update engine -> regeneración selectiva -> validación -> master/state -> commit/push.
+- No existe publicación automática programada en este workflow.
+- No se utiliza --cancel-missing; eventos ausentes continúan bloqueando publicación automática.
+- Commit de incorporación del workflow: a102d2075caa1c7e1d490e80a15bbaf8d7a434a4.
+- Primera publicación NBA Live real ejecutada correctamente en GitHub Actions.
+- Commit de publicación real: b2edae1fdc153035b6e27ef60748b012e273ff0c.
+- Cambios publicados: 0 added / 3 modified / 0 missing.
+- IDs modificados: NBA2627-0027, NBA2627-0864 y NBA2627-0873.
+- Delta semántico exacto: 6 campos.
+- Arena: Frost Bank Center -> Moody Center en los 3 partidos.
+- Ciudad: San Antonio -> Austin en los 3 partidos.
+- UID estable conservado para los 3 eventos.
+- SEQUENCE incrementado de 0 a 1 para los 3 eventos.
+- STATUS permanece ACTIVE.
+- Regeneración selectiva confirmada: calendario completo y feeds Denver Nuggets, Houston Rockets, Memphis Grizzlies y San Antonio Spurs.
+- Sólo 7 archivos fueron modificados por la primera publicación: master, state y 5 feeds.
+- Validación completa de feeds: OK.
+- Calendario completo: 1200 eventos / 1200 UID únicos.
+- Cada calendario de equipo: 80 eventos / 80 UID únicos.
+- Estado post-publicación: 0 added / 0 modified / 1200 unchanged / 0 missing.
+- Segunda ejecución real NBA Calendar Publish Live completada correctamente sin cambios en la fuente.
+- Segunda ejecución no generó nuevo commit.
+- SEQUENCE de los 3 eventos permaneció en 1.
+- Segunda ejecución confirmó idempotencia real en producción.
+- Detección automática y publicación manual permanecen separadas.
+- main y origin/main sincronizados al cierre operativo de K.33.
+
+LAST_APPROVED_PHASE: 3.7.10K.33
+NEXT_PHASE: 3.7.10K.34
