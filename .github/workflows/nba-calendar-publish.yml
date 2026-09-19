@@ -1,93 +1,17 @@
-name: NBA Calendar Publish
+name: NBA Calendar Publish LEGACY DISABLED
 
 on:
   workflow_dispatch:
 
 permissions:
-  contents: write
-
-concurrency:
-  group: nba-calendar-publish
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  publish:
+  disabled:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Engine self-test
-        run: python3 tools/self_test_engine.py
-
-      - name: Detect changes
+      - name: Legacy publication route disabled
         run: |
-          python3 tools/update_engine.py \
-            --candidate data/master_snapshot.json \
-            --state data/published_state.json \
-            --report /tmp/nba_pre_publish.json \
-            --docs docs
-
-      - name: Safety guard
-        run: |
-          python3 - <<'PYTHON'
-          import json
-          import sys
-
-          with open("/tmp/nba_pre_publish.json", encoding="utf-8") as f:
-              report = json.load(f)
-
-          counts = report["counts"]
-
-          added = counts["added"]
-          modified = counts["modified"]
-          missing = counts["missing"]
-
-          print(f"Añadidos: {added}")
-          print(f"Modificados: {modified}")
-          print(f"Ausentes: {missing}")
-
-          if added > 10:
-              sys.exit("BLOQUEADO: más de 10 partidos añadidos.")
-
-          if modified > 20:
-              sys.exit("BLOQUEADO: más de 20 partidos modificados.")
-
-          if missing > 0:
-              sys.exit("BLOQUEADO: existen partidos ausentes.")
-
-          print("SAFETY GUARD: OK")
-          PYTHON
-
-      - name: Apply verified changes
-        run: |
-          python3 tools/update_engine.py \
-            --candidate data/master_snapshot.json \
-            --state data/published_state.json \
-            --report /tmp/nba_publish.json \
-            --docs docs \
-            --apply
-
-      - name: Validate generated feeds
-        run: python3 tools/validate_feeds.py
-
-      - name: Commit publication only if files changed
-        run: |
-          if git diff --quiet; then
-            echo "No hay cambios para publicar."
-            exit 0
-          fi
-
-          git config user.name "NBA Calendar Bot"
-          git config user.email "actions@users.noreply.github.com"
-
-          git add data/published_state.json docs/calendars
-
-          git commit -m "Auto - actualizar feeds NBA 2026-27"
-          git push
+          echo "This legacy publication workflow is disabled."
+          echo "Use NBA Calendar Publish Live or NBA Calendar Publish XLSX."
+          exit 1
