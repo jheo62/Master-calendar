@@ -114,6 +114,18 @@ jobs:
             --temporal-guard "$RUNNER_TEMP/nba-live/temporal_guard.json" \
             --output "$RUNNER_TEMP/nba-live/promotion_gate.json"
 
+      - name: Upload live observation evidence
+        uses: actions/upload-artifact@v7
+        with:
+          name: nba-live-observation-evidence
+          path: |
+            ${{ runner.temp }}/nba-live/detailed_change_report.json
+            ${{ runner.temp }}/nba-live/change_decision.json
+            ${{ runner.temp }}/nba-live/arena_guard.json
+            ${{ runner.temp }}/nba-live/temporal_guard.json
+            ${{ runner.temp }}/nba-live/promotion_gate.json
+          if-no-files-found: error
+
       - name: Confirm observation-only mode
         run: |
           echo "NBA LIVE OBSERVATION: COMPLETE"
