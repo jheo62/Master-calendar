@@ -185,5 +185,23 @@ Resultados:
 - Detección automática y publicación manual permanecen separadas.
 - main y origin/main sincronizados al cierre operativo de K.33.
 
-LAST_APPROVED_PHASE: 3.7.10K.33
-NEXT_PHASE: 3.7.10K.34
+## K.34 - Infrastructure Hardening
+- Estado final: PASS.
+- Ruta legacy de publicación neutralizada: workflow manual, contents: read y sin git push.
+- GitHub Actions activas modernizadas a checkout@v7 y setup-python@v7.
+- Seis workflows activos migrados de ubuntu-latest a ubuntu-26.04.
+- NBA Calendar Update validado correctamente en Ubuntu 26.04.
+- NBA Live Source Observe validado correctamente en Ubuntu 26.04.
+- NBA Calendar LAB Test validado correctamente en Ubuntu 26.04 desde test/xlsx-single-change.
+- NBA Master Source Validate confirmó compatibilidad de infraestructura con Ubuntu 26.04; el bloqueo semántico corresponde únicamente a los 3 casos Moody ya conocidos.
+- Publish Live y Publish XLSX migrados a ubuntu-26.04 sin ejecutar una publicación real durante la migración.
+- Commit final de migración de las rutas críticas: f833369.
+- Únicamente Publish Live y Publish XLSX conservan contents: write.
+- Únicamente Publish Live y Publish XLSX contienen git push origin HEAD:main.
+- Los otros cinco workflows mantienen contents: read.
+- El workflow legacy deshabilitado conserva ubuntu-latest deliberadamente y no forma parte de la infraestructura activa.
+- GitHub Pages build and deployment #56 completado correctamente después del push final.
+- main y origin/main sincronizados y working tree limpio al cierre de K.34.
+
+LAST_APPROVED_PHASE: 3.7.10K.34
+NEXT_PHASE: 3.7.10K.35
