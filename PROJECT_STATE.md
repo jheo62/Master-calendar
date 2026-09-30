@@ -334,3 +334,37 @@ Resultados:
 
 LAST_APPROVED_PHASE: 3.7.10K.35.3
 NEXT_PHASE: 3.7.10K.35.4
+
+### K.35.4 — CLOSED / PASS
+
+Resumen humano de observación integrado y validado para facilitar la revisión de la evidencia automática sin descargar los artifacts.
+
+Resultados:
+- Se incorporó tools/observation_summary.py como generador READ_ONLY de GitHub Step Summary.
+- Se incorporó tools/self_test_observation_summary.py con tres escenarios funcionales: evidencia ausente, evidencia completa y evidencia parcial.
+- Los 3/3 escenarios del self-test fueron superados.
+- Cuando falta evidencia, el resumen utiliza NOT_AVAILABLE y no inventa valores.
+- El resumen consume detailed_change_report.json, change_decision.json, arena_guard.json, temporal_guard.json y promotion_gate.json sin recalcular decisiones.
+- El artifact nba-live-observation-evidence permanece como evidencia técnica canónica.
+- El step Generate live observation summary incorpora if: always().
+- NBA Calendar Update mantiene contents: read, sin --apply y sin git push.
+- No se introdujo continue-on-error ni || true.
+- Commit operativo: 3ebaa20.
+- Ejecución real NBA Calendar Update #24 sobre main y commit 3ebaa20: Success.
+- GitHub Step Summary se renderizó correctamente en el runner real.
+- Observación real: 0 added / 0 modified / 1200 unchanged / 0 missing.
+- Change Decision: AUTO_ELIGIBLE.
+- Arena Geography Guard: AUTO_ELIGIBLE.
+- Temporal Guard: AUTO_ELIGIBLE.
+- Promotion Gate: AUTO_ELIGIBLE.
+- Classified field changes: 0.
+- Arena changes checked: 0.
+- Arena changes blocked: 0.
+- Temporal changes: 0.
+- La ejecución conservó 1 artifact de evidencia.
+- Detección automática, observación y publicación permanecen separadas.
+- PUBLICACION AUTOMATICA: NO.
+- main y origin/main quedaron sincronizados y el working tree limpio antes del cierre documental.
+
+LAST_APPROVED_PHASE: 3.7.10K.35.4
+NEXT_PHASE: 3.7.10K.35.5
