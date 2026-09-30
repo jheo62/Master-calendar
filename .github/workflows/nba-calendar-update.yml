@@ -126,6 +126,16 @@ jobs:
             ${{ runner.temp }}/nba-live/temporal_guard.json
             ${{ runner.temp }}/nba-live/promotion_gate.json
           if-no-files-found: error
+      - name: Generate live observation summary
+        if: always()
+        run: |
+          python3 tools/observation_summary.py \
+            --report "$RUNNER_TEMP/nba-live/detailed_change_report.json" \
+            --change-decision "$RUNNER_TEMP/nba-live/change_decision.json" \
+            --arena-guard "$RUNNER_TEMP/nba-live/arena_guard.json" \
+            --temporal-guard "$RUNNER_TEMP/nba-live/temporal_guard.json" \
+            --promotion-gate "$RUNNER_TEMP/nba-live/promotion_gate.json" \
+            --output "$GITHUB_STEP_SUMMARY"
 
       - name: Confirm observation-only mode
         run: |
