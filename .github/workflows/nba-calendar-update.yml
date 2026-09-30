@@ -115,6 +115,7 @@ jobs:
             --output "$RUNNER_TEMP/nba-live/promotion_gate.json"
 
       - name: Upload live observation evidence
+        if: always()
         uses: actions/upload-artifact@v7
         with:
           name: nba-live-observation-evidence
