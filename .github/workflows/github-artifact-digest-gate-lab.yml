@@ -1,0 +1,305 @@
+name: GitHub Artifact Digest Gate Lab
+
+on:
+  workflow_dispatch:
+
+permissions:
+  actions: read
+
+jobs:
+  digest-gate:
+    runs-on: ubuntu-26.04
+    timeout-minutes: 10
+    steps:
+      - name: Check dependencies and create isolated synthetic fixtures
+        id: fixture
+        shell: bash
+        run: |
+          set -euo pipefail
+          command -v python3 >/dev/null
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import os
+          import pathlib
+          import re
+          import ssl
+          import tempfile
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+          import zipfile
+
+          # Imports explicitly verify the standard-library dependencies of the gate.
+          ssl.create_default_context()
+          root = pathlib.Path(os.environ['RUNNER_TEMP']).resolve(strict=True)
+          lab = pathlib.Path(tempfile.mkdtemp(prefix='digest-gate-lab-', dir=root))
+          fixtures = lab / 'fixtures'
+          fixtures.mkdir()
+          def serialize(value):
+              return (json.dumps(value, sort_keys=True, separators=(',', ':'),
+                                 ensure_ascii=False) + '\n').encode('utf-8')
+          state = serialize({'schema_version': 1, 'scope': 'synthetic-lab',
+                             'observations': [{'id': 'fixture-001', 'value': 'unchanged'}]})
+          (fixtures / 'observation_state.json').write_bytes(state)
+          (fixtures / 'manifest.json').write_bytes(serialize({
+              'schema_version': 1, 'scope': 'synthetic-lab',
+              'files': {'observation_state.json': hashlib.sha256(state).hexdigest()}}))
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
+              output.write(f'lab_dir={lab}\n')
+          PY
+
+      - name: Upload synthetic fixture
+        id: upload
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: digest-gate-fixture-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ steps.fixture.outputs.lab_dir }}/fixtures/observation_state.json
+            ${{ steps.fixture.outputs.lab_dir }}/fixtures/manifest.json
+          overwrite: false
+          include-hidden-files: false
+          retention-days: 1
+          if-no-files-found: error
+          compression-level: 0
+
+      - name: Verify provenance, ZIP digest, contents and tampering rejection
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          LAB_DIR: ${{ steps.fixture.outputs.lab_dir }}
+          ARTIFACT_ID: ${{ steps.upload.outputs.artifact-id }}
+          ARTIFACT_URL: ${{ steps.upload.outputs.artifact-url }}
+          ARTIFACT_DIGEST: ${{ steps.upload.outputs.artifact-digest }}
+          EXPECTED_REPOSITORY_ID: ${{ github.repository_id }}
+          EXPECTED_WORKFLOW: ${{ github.workflow }}
+          EXPECTED_WORKFLOW_REF: ${{ github.workflow_ref }}
+        run: |
+          set -euo pipefail
+          command -v python3 >/dev/null
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import os
+          import pathlib
+          import re
+          import ssl
+          import sys
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+          import zipfile
+
+          class Blocked(Exception):
+              pass
+
+          def require(condition, code):
+              if not condition:
+                  raise Blocked(code)
+
+          class NoRedirect(urllib.request.HTTPRedirectHandler):
+              def redirect_request(self, request, fp, code, message, headers, newurl):
+                  return None
+
+          def opener():
+              # No proxy credentials, cookie processor or automatic redirects.
+              return urllib.request.build_opener(
+                  urllib.request.ProxyHandler({}), NoRedirect(),
+                  urllib.request.HTTPSHandler(context=ssl.create_default_context()))
+
+          def request(client, url, headers, expected_status):
+              req = urllib.request.Request(url, headers=headers, method='GET')
+              try:
+                  response = client.open(req, timeout=60)
+              except urllib.error.HTTPError as error:
+                  response = error
+              with response:
+                  require(response.code == expected_status, 'HTTP_STATUS')
+                  if expected_status == 302:
+                      locations = response.headers.get_all('Location', [])
+                      require(len(locations) == 1, 'REDIRECT_LOCATION')
+                      return locations[0]
+                  return response.read()
+
+          def api_json(client, url, headers):
+              data = json.loads(request(client, url, headers, 200))
+              require(isinstance(data, dict), 'REST_JSON_OBJECT')
+              return data
+
+          def digest(path):
+              return 'sha256:' + hashlib.sha256(path.read_bytes()).hexdigest()
+
+          def verify_digest(path, expected):
+              actual = digest(path)
+              require(actual == expected, 'DIGEST_MISMATCH')
+              return actual
+
+          def main():
+              lab = pathlib.Path(os.environ['LAB_DIR']).resolve(strict=True)
+              root = pathlib.Path(os.environ['RUNNER_TEMP']).resolve(strict=True)
+              require(lab != root and lab.is_relative_to(root), 'TEMP_ISOLATION')
+              artifact_id = os.environ['ARTIFACT_ID']
+              require(re.fullmatch(r'[1-9][0-9]*', artifact_id) is not None,
+                      'ARTIFACT_ID_MISSING_OR_INVALID')
+              original_a = os.environ['ARTIFACT_DIGEST']
+              require(re.fullmatch(r'(?:sha256:)?[0-9a-fA-F]{64}', original_a) is not None,
+                      'UPLOAD_DIGEST_MISSING_OR_INVALID')
+              a = 'sha256:' + original_a.removeprefix('sha256:').lower()
+              repository = os.environ['GITHUB_REPOSITORY']
+              run_id = int(os.environ['GITHUB_RUN_ID'])
+              attempt = int(os.environ['GITHUB_RUN_ATTEMPT'])
+              sha = os.environ['GITHUB_SHA']
+              name = f'digest-gate-fixture-{run_id}-{attempt}'
+              api_version = '2026-03-10'
+              base = f'https://api.github.com/repos/{repository}/actions'
+              headers = {'Authorization': 'Bearer ' + os.environ['GITHUB_TOKEN'],
+                         'Accept': 'application/vnd.github+json',
+                         'X-GitHub-Api-Version': api_version}
+              api = opener()
+              # The first REST request is artifact metadata, never a list lookup.
+              metadata = api_json(api, f'{base}/artifacts/{artifact_id}', headers)
+              require(type(metadata.get('id')) is int and metadata['id'] == int(artifact_id),
+                      'ARTIFACT_ID')
+              require(metadata.get('name') == name, 'ARTIFACT_NAME')
+              require(metadata.get('expired') is False, 'ARTIFACT_EXPIRED')
+              b = metadata.get('digest')
+              require(isinstance(b, str) and re.fullmatch(r'sha256:[0-9a-f]{64}', b)
+                      is not None, 'REST_DIGEST_FORMAT')
+              run = api_json(api, f'{base}/runs/{run_id}', headers)
+              require(type(run.get('id')) is int and run['id'] == run_id, 'RUN_ID')
+              require(type(run.get('run_attempt')) is int and run['run_attempt'] == attempt,
+                      'RUN_ATTEMPT')
+              require(run.get('head_sha') == sha, 'RUN_COMMIT')
+              repo = run.get('repository')
+              require(isinstance(repo, dict) and repo.get('full_name') == repository,
+                      'RUN_REPOSITORY')
+              require(type(repo.get('id')) is int and
+                      str(repo['id']) == os.environ['EXPECTED_REPOSITORY_ID'],
+                      'RUN_REPOSITORY_ID')
+              require(run.get('event') == 'workflow_dispatch', 'RUN_EVENT')
+              workflow_path = '.github/workflows/github-artifact-digest-gate-lab.yml'
+              require(run.get('path') == workflow_path, 'RUN_WORKFLOW_PATH')
+              require(os.environ['EXPECTED_WORKFLOW_REF'].startswith(
+                      f'{repository}/{workflow_path}@'), 'WORKFLOW_REF')
+              provenance = metadata.get('workflow_run')
+              require(isinstance(provenance, dict) and
+                      type(provenance.get('id')) is int and provenance['id'] == run_id,
+                      'ARTIFACT_RUN_ID')
+              # Compare fields only when returned; the run id is mandatory.
+              comparisons = {'head_sha': run['head_sha'],
+                             'head_branch': run.get('head_branch'),
+                             'repository_id': repo['id']}
+              head_repo = run.get('head_repository')
+              if 'head_repository_id' in provenance:
+                  require(isinstance(head_repo, dict) and type(head_repo.get('id')) is int,
+                          'HEAD_REPOSITORY_UNAVAILABLE')
+                  comparisons['head_repository_id'] = head_repo['id']
+              for field, expected in comparisons.items():
+                  if field in provenance:
+                      require(type(provenance[field]) is type(expected) and
+                              provenance[field] == expected, 'ARTIFACT_RUN_IDENTITY')
+
+              location = request(api, f'{base}/artifacts/{artifact_id}/zip', headers, 302)
+              require(not any(ord(char) <= 32 or ord(char) == 127 for char in location),
+                      'DOWNLOAD_URL_INVALID')
+              parsed = urllib.parse.urlsplit(location)
+              require(parsed.scheme == 'https' and parsed.hostname and
+                      parsed.username is None and parsed.password is None and
+                      parsed.port in (None, 443) and not parsed.fragment,
+                      'DOWNLOAD_URL_INVALID')
+              # Independent client: no API headers, Authorization or cookies.
+              zip_bytes = request(opener(), location, {}, 200)
+              del location, parsed
+              archive = lab / 'fixture.zip'
+              archive.write_bytes(zip_bytes)
+              require(a == b, 'UPLOAD_REST_DIGEST_MISMATCH')
+              c = verify_digest(archive, b)
+              expected_names = {'observation_state.json', 'manifest.json'}
+              with zipfile.ZipFile(archive) as zipped:
+                  names = zipped.namelist()
+                  require(len(names) == 2 and set(names) == expected_names, 'ZIP_MEMBERS')
+                  for filename in sorted(expected_names):
+                      require(zipped.read(filename) == (lab / 'fixtures' / filename).read_bytes(),
+                              'ZIP_FIXTURE_BYTES')
+              manifest = json.loads((lab / 'fixtures' / 'manifest.json').read_bytes())
+              require(manifest['files']['observation_state.json'] == hashlib.sha256(
+                      (lab / 'fixtures' / 'observation_state.json').read_bytes()).hexdigest(),
+                      'MANIFEST_SHA256')
+
+              require(len(zip_bytes) > 0, 'ZIP_EMPTY')
+              altered = bytearray(zip_bytes)
+              altered[len(altered) // 2] ^= 1
+              tampered = lab / 'fixture-tampered.zip'
+              tampered.write_bytes(altered)
+              copy_bytes = tampered.read_bytes()
+              require(len(copy_bytes) == len(zip_bytes), 'TAMPER_LENGTH')
+              require(sum(left != right for left, right in zip(zip_bytes, copy_bytes)) == 1,
+                      'TAMPER_ONE_POSITION')
+              require(archive.read_bytes() == zip_bytes, 'ORIGINAL_ZIP_INTACT')
+              try:
+                  verify_digest(tampered, b)
+              except Blocked as error:
+                  require(str(error) == 'DIGEST_MISMATCH', 'TAMPER_UNEXPECTED_REJECTION')
+                  tamper_result = 'DIGEST_MISMATCH'
+              else:
+                  raise Blocked('TAMPER_ACCEPTED')
+
+              # Only the public, unsigned action output URL may enter evidence.
+              public_url = os.environ['ARTIFACT_URL']
+              expected_url = f'https://github.com/{repository}/actions/runs/{run_id}/artifacts/{artifact_id}'
+              require(not public_url or public_url == expected_url, 'PUBLIC_ARTIFACT_URL')
+              assertions = {key: True for key in (
+                  'temp_isolation', 'upload_outputs', 'metadata_http_200', 'metadata_json',
+                  'artifact_id', 'artifact_name', 'not_expired', 'rest_digest_format',
+                  'run_provenance', 'download_http_302', 'location_https_no_userinfo',
+                  'download_without_credentials', 'download_http_200', 'a_equals_b_equals_c',
+                  'zip_readable', 'zip_exact_members', 'fixture_bytes_equal', 'manifest_sha256',
+                  'tamper_same_length', 'tamper_exactly_one_position', 'original_zip_intact',
+                  'tamper_rejected')}
+              evidence = {
+                  'schema': 'github_artifact_digest_gate', 'version': 1,
+                  'experimental_scope': 'isolated-synthetic-lab-only',
+                  'repository': repository, 'repository_id': repo['id'],
+                  'workflow_identity': {'name': os.environ['EXPECTED_WORKFLOW'],
+                                        'workflow_id': run.get('workflow_id')},
+                  'workflow_ref': os.environ['EXPECTED_WORKFLOW_REF'],
+                  'workflow_path': workflow_path, 'ref': os.environ['GITHUB_REF'],
+                  'commit_sha': sha, 'run_id': run_id, 'run_attempt': attempt,
+                  'artifact_id': int(artifact_id), 'artifact_name': name,
+                  'upload_artifact_sha': '043fb46d1a93c77aae656e7c1c64a875d1fc6a0a',
+                  'release_reference': 'v7.0.1', 'api_version': api_version,
+                  'compression_level': 0, 'A_original': original_a, 'A_normalized': a,
+                  'B': b, 'C': c, 'zip_byte_length': len(zip_bytes),
+                  'assertions': assertions, 'tamper_result': tamper_result,
+                  'final_status': 'PASS'}
+              if public_url:
+                  evidence['artifact_url'] = public_url
+              evidence_path = lab / 'github_artifact_digest_gate.json'
+              encoded = (json.dumps(evidence, sort_keys=True, separators=(',', ':'),
+                                    ensure_ascii=False) + '\n').encode('utf-8')
+              evidence_path.write_bytes(encoded)
+              require(evidence_path.read_bytes() == encoded, 'EVIDENCE_WRITE')
+              require(json.loads(encoded)['final_status'] == 'PASS', 'EVIDENCE_JSON')
+              print('PASS: provenance, A/B/C, ZIP, tampering rejection and evidence complete')
+
+          try:
+              main()
+          except Blocked as error:
+              print('BLOCKED: ' + str(error), file=sys.stderr)
+              sys.exit(1)
+          except Exception:
+              # Never expose exception text, request objects, headers or signed URLs.
+              print('BLOCKED: dependency, transport, parsing or I/O failure', file=sys.stderr)
+              sys.exit(1)
+          PY
+
+      - name: Upload sanitized gate evidence
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: digest-gate-evidence-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.fixture.outputs.lab_dir }}/github_artifact_digest_gate.json
+          retention-days: 1
+          overwrite: false
+          include-hidden-files: false
+          if-no-files-found: error
+          compression-level: 0
