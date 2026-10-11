@@ -6,16 +6,21 @@ METHOD:PUBLISH
 X-WR-CALNAME:NBA TEST Feed V2
 BEGIN:VEVENT
 UID:NBA2627-0001@nba-master-calendar.local
-DTSTAMP:20261011T184804Z
-DTSTART:20261020T191500Z
-DTEND:20261020T221500Z
+DTSTAMP:20261011T194219Z
+DTSTART:20261021T191500Z
+DTEND:20261021T221500Z
 SUMMARY:[TEST REFRESH V3] Boston Celtics @ Detroit Pistons
 LOCATION:Little Caesars Arena\, Detroit\, Michigan\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 20-10-2026 16:00\nHora Punta Arenas/Magallanes: 20-10-2026 16:00\nTV nacional EE.UU.: NBC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\; sujeto a restricciones)\nEvento especial: Opening Night\nID maestro: NBA2627-0001\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 21-10-2026 16
+ :15\nHora Punta Arenas/Magallanes: 21-10-2026 16:15\nTV nacional EE.UU.: N
+ BC / Peacock\nStreaming: Peacock / NBA League Pass (fuera de mercado\; suj
+ eto a restricciones)\nEvento especial: Opening Night\nID maestro: NBA2627-
+ 0001\nFuente base: NBA.com\nDuración del calendario: 3 h estimadas\; el t
+ érmino real del partido puede variar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
-SEQUENCE:2
+SEQUENCE:3
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:NBA: partido mañana — Boston Celtics @ Detroit Pistons
@@ -31,6 +36,6 @@ ACTION:DISPLAY
 DESCRIPTION:NBA: partido en 30 minutos — Boston Celtics @ Detroit Pistons
 TRIGGER:-PT30M
 END:VALARM
-LAST-MODIFIED:20261011T184804Z
+LAST-MODIFIED:20261011T194219Z
 END:VEVENT
 END:VCALENDAR
