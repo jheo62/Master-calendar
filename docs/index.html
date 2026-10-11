@@ -1,68 +1,225 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>NBA Master Calendar 2026-27</title>
-<style>
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:900px;margin:40px auto;padding:0 20px;line-height:1.55}
-h1,h2{line-height:1.15} code{background:#f2f2f2;padding:2px 5px;border-radius:4px}
-.card{border:1px solid #ddd;border-radius:12px;padding:18px;margin:16px 0} li{margin:5px 0}
-.small{font-size:.92rem;color:#555}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PlannerSport: calendarios de la liga NBA 2026–27. Sigue toda la liga, NBA Cup, eventos especiales o tu equipo.">
+  <title>PlannerSport · Calendario NBA 2026–27</title>
+  <style>
+    :root{color-scheme:light;--ink:#0b203b;--muted:#44556e;--green:#943700;--paper:#f5f7fb;--line:#d6deea}
+    *{box-sizing:border-box}
+    html{scroll-padding-top:1.5rem}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+    a{color:var(--green);text-underline-offset:.22em}
+    a:focus-visible{outline:3px solid #b35319;outline-offset:5px}
+    .wrap{width:min(1304px,100%);margin-inline:auto;padding-inline:clamp(20px,5vw,48px)}
+    .skip{position:absolute;left:20px;top:0;transform:translateY(-150%);padding:12px;background:white;z-index:2}
+    .skip:focus{transform:translateY(0)}
+    header{border-bottom:1px solid var(--line);background:#fff}
+    .header-row{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-block:24px}
+    .brand{font-size:1.45rem;font-weight:800;letter-spacing:-.05em;color:var(--ink);text-decoration:none}
+    .brand-mark{display:inline-block;width:12px;height:20px;margin-right:10px;background:var(--green);border-radius:3px;transform:skew(-15deg)}
+    nav ul{display:flex;flex-wrap:wrap;gap:12px 24px;list-style:none;margin:0;padding:0}
+    nav a{color:var(--muted);font-size:.92rem;font-weight:600}
+    .hero{background:#122b30;color:#fff;position:relative;overflow:hidden}
+    .hero::after{content:"";position:absolute;width:360px;height:360px;border:1px solid #355250;border-radius:50%;right:-210px;top:20px;pointer-events:none}
+    .hero .wrap{position:relative;z-index:1;padding-block:clamp(48px,8vw,88px)}
+    .eyebrow{text-transform:uppercase;letter-spacing:.15em;font-size:.75rem;font-weight:750;margin:0 0 16px}
+    .hero .eyebrow{color:#b9e3c8}
+    h1,h2,h3{line-height:1.15;letter-spacing:-.035em}
+    h1{font-size:clamp(2.5rem,7vw,4.75rem);max-width:800px;margin:0 0 20px}
+    h1 span{display:block;color:#b9e3c8;font-size:.55em;margin-top:18px}
+    .hero-copy{max-width:620px;color:#d6e4df;font-size:1.08rem}
+    .tagline{font-weight:650;color:#fff;margin-top:26px}
+    .button{display:inline-block;padding:13px 22px;border-radius:8px;font-weight:750;text-decoration:none;background:var(--green);color:white}
+    .hero .button{background:#c6f17b;color:#122b30;margin-top:14px}
+    .button:hover{filter:brightness(.93)}
+    section{padding-block:48px}
+    h2{font-size:clamp(1.8rem,4vw,2.4rem);margin:0 0 14px}
+    h3{font-size:1.3rem;margin:0 0 14px}
+    .intro{color:var(--muted);max-width:720px;margin:0 0 28px}
+    .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px;display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+    .card.featured{border-top:4px solid var(--green)}
+    .card .eyebrow{color:var(--muted)}
+    .card p{color:var(--muted);margin:0 0 24px}
+    .card a{margin-top:auto}
+    .teams{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+    .teams a{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:56px;padding:14px 18px;background:#fff;border:1px solid var(--line);border-radius:8px;text-decoration:none;font-weight:650}
+    .teams a:hover{background:#edf2fa;border-color:var(--green)}
+    .teams span{font-weight:400}
+    .guide{background:#eaf0f8;border-block:1px solid var(--line)}
+    .guide-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:40px}
+    .guide p{color:var(--muted)}
+    ol{padding-left:24px;margin:0}
+    ol li{padding-left:6px;margin-bottom:16px}
+    .note{border-left:4px solid var(--green);padding:8px 0 8px 20px;margin:24px 0 0;color:var(--muted)}
+    .info-list{padding-left:22px;color:var(--muted);max-width:800px}
+    .info-list li{margin-bottom:12px}
+    footer{border-top:1px solid var(--line);padding-block:28px;background:#fff}
+    footer p{color:var(--muted);font-size:.9rem;max-width:760px;margin:10px 0 0}
+    @media(max-width:850px){.cards{grid-template-columns:1fr}.teams{grid-template-columns:repeat(2,minmax(0,1fr))}.guide-grid{grid-template-columns:1fr;gap:24px}}
+    @media(max-width:520px){.teams{grid-template-columns:1fr}.header-row{gap:16px}nav ul{gap:10px 18px}section{padding-block:36px}.card{padding:22px}}
+
+    /* Recortes de la referencia aprobada: logotipo superior y escena sin textos. */
+    .logo-crop{display:block;position:relative;width:clamp(220px,28vw,330px);aspect-ratio:900 / 190;overflow:hidden}
+    .logo-crop img{position:absolute;width:227.56%;height:auto;max-width:none;left:-64.44%;top:-10.53%}
+    .hero{background:#07172d}
+    .hero::after{display:none}
+    .hero .hero-layout{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);align-items:center;gap:36px;padding-block:64px}
+    .hero-content{min-width:0;animation:arrive .65s ease-out both}
+    .hero .eyebrow{color:#ffb77c;letter-spacing:.08em}
+    h1{font-size:clamp(2rem,3.4vw,3.1rem);font-weight:850;line-height:1.12}
+    h1 span{color:#ff9d50;font-size:1em;margin-top:8px}
+    .hero-copy{color:#dde7f6;font-size:1rem}
+    .tagline{font-size:.92rem;color:#c4d3e9}
+    .hero .button{background:#ff9d50;color:#07172d;font-size:.9rem}
+    .hero-art{position:relative;aspect-ratio:1068 / 550;overflow:hidden;border:1px solid #375374;border-radius:20px;box-shadow:0 16px 48px #0005;animation:arrive .8s ease-out both}
+    .hero-art img{position:absolute;width:191.76%;height:auto;max-width:none;right:0;bottom:0}
+    .button,.teams a{transition:transform .18s ease,box-shadow .18s ease}
+    .button:hover{filter:none;transform:translateY(-2px);box-shadow:0 5px 16px #07172d26}
+    .teams a:hover{border-color:#943700}
+    a:focus-visible{outline-color:#943700}
+    .hero a:focus-visible{outline-color:#fff}
+    .card.featured{border-top-color:#e56b19}
+    @keyframes arrive{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+    @media(max-width:850px){.hero .hero-layout{grid-template-columns:1fr;gap:32px;padding-block:40px}.hero-art{width:100%;max-width:620px;justify-self:center}h1{font-size:clamp(2rem,5.5vw,3.1rem)}}
+    @media(max-width:520px){.hero .hero-layout{padding-block:32px}.hero .button{padding:13px 16px}.hero-art{border-radius:12px}.hero .eyebrow{font-size:.72rem}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+  </style>
 </head>
 <body>
-<h1>NBA Master Calendar 2026-27</h1>
-<p>Prototipo de feed suscribible — Fase 3.2.</p>
-
-<div class="card">
-<h2>Feeds principales</h2>
-<ul>
-<li><a href="calendars/nba-2026-27-completo.ics">NBA completo — 1.200 partidos definidos</a></li>
-<li><a href="calendars/nba-2026-27-cup-group-play.ics">Emirates NBA Cup — Group Play</a></li>
-<li><a href="calendars/nba-2026-27-eventos-especiales.ics">Partidos y eventos especiales</a></li>
-</ul>
-</div>
-
-<div class="card">
-<h2>Prueba de actualización</h2>
-<p>Feed estable de laboratorio: <a href="test/nba-test-current.ics">nba-test-current.ics</a></p>
-<p class="small">No corresponde a un cambio real de la NBA.</p>
-</div>
-
-<h2>Calendarios por equipo</h2>
-<ul><li><a href="calendars/teams/atlanta-hawks.ics">Atlanta Hawks</a></li>
-<li><a href="calendars/teams/boston-celtics.ics">Boston Celtics</a></li>
-<li><a href="calendars/teams/brooklyn-nets.ics">Brooklyn Nets</a></li>
-<li><a href="calendars/teams/charlotte-hornets.ics">Charlotte Hornets</a></li>
-<li><a href="calendars/teams/chicago-bulls.ics">Chicago Bulls</a></li>
-<li><a href="calendars/teams/cleveland-cavaliers.ics">Cleveland Cavaliers</a></li>
-<li><a href="calendars/teams/dallas-mavericks.ics">Dallas Mavericks</a></li>
-<li><a href="calendars/teams/denver-nuggets.ics">Denver Nuggets</a></li>
-<li><a href="calendars/teams/detroit-pistons.ics">Detroit Pistons</a></li>
-<li><a href="calendars/teams/golden-state-warriors.ics">Golden State Warriors</a></li>
-<li><a href="calendars/teams/houston-rockets.ics">Houston Rockets</a></li>
-<li><a href="calendars/teams/indiana-pacers.ics">Indiana Pacers</a></li>
-<li><a href="calendars/teams/los-angeles-clippers.ics">Los Angeles Clippers</a></li>
-<li><a href="calendars/teams/los-angeles-lakers.ics">Los Angeles Lakers</a></li>
-<li><a href="calendars/teams/memphis-grizzlies.ics">Memphis Grizzlies</a></li>
-<li><a href="calendars/teams/miami-heat.ics">Miami Heat</a></li>
-<li><a href="calendars/teams/milwaukee-bucks.ics">Milwaukee Bucks</a></li>
-<li><a href="calendars/teams/minnesota-timberwolves.ics">Minnesota Timberwolves</a></li>
-<li><a href="calendars/teams/new-orleans-pelicans.ics">New Orleans Pelicans</a></li>
-<li><a href="calendars/teams/new-york-knicks.ics">New York Knicks</a></li>
-<li><a href="calendars/teams/oklahoma-city-thunder.ics">Oklahoma City Thunder</a></li>
-<li><a href="calendars/teams/orlando-magic.ics">Orlando Magic</a></li>
-<li><a href="calendars/teams/philadelphia-76ers.ics">Philadelphia 76Ers</a></li>
-<li><a href="calendars/teams/phoenix-suns.ics">Phoenix Suns</a></li>
-<li><a href="calendars/teams/portland-trail-blazers.ics">Portland Trail Blazers</a></li>
-<li><a href="calendars/teams/sacramento-kings.ics">Sacramento Kings</a></li>
-<li><a href="calendars/teams/san-antonio-spurs.ics">San Antonio Spurs</a></li>
-<li><a href="calendars/teams/toronto-raptors.ics">Toronto Raptors</a></li>
-<li><a href="calendars/teams/utah-jazz.ics">Utah Jazz</a></li>
-<li><a href="calendars/teams/washington-wizards.ics">Washington Wizards</a></li></ul>
-
-<p class="small">Los horarios y partidos están sujetos a modificaciones oficiales de la NBA.
-Los 30 partidos dependientes de la NBA Cup aún no determinados no se incluyen.</p>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header>
+    <div class="wrap header-row">
+      <a class="brand" href="#inicio" aria-label="PlannerSport, inicio"><span class="logo-crop"><img src="assets/plannersport.png" width="2048" height="768" alt="PlannerSport"></span></a>
+      <nav aria-label="Navegación principal">
+        <ul>
+          <li><a href="#calendarios">Calendarios</a></li>
+          <li><a href="#equipos">Equipos</a></li>
+          <li><a href="#suscripcion">Cómo suscribirse</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="titulo">
+      <div class="wrap hero-layout">
+        <div class="hero-content">
+        <p class="eyebrow">Calendario de la liga NBA · Temporada 2026–27</p>
+        <h1 id="titulo">LA TEMPORADA COMPLETA <span>DISPONIBLE EN TU CALENDARIO</span></h1>
+        <p class="hero-copy">Lleva los partidos a tu calendario personal. Sigue toda la liga, elige tu equipo o consulta los encuentros de NBA Cup y los eventos especiales.</p>
+        <p class="tagline">Tu deporte. Tu calendario. Tu planificación.</p>
+        <a class="button" href="#calendarios">EXPLORAR CALENDARIOS <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-art" aria-hidden="true"><img src="assets/plannersport.png" width="2048" height="768" alt=""></div>
+      </div>
+    </section>
+    <div class="wrap">
+      <section id="calendarios" aria-labelledby="titulo-calendarios">
+        <p class="eyebrow">Elige cómo seguir la liga</p>
+        <h2 id="titulo-calendarios">Calendarios principales</h2>
+        <p class="intro">Tres maneras de organizar la temporada. Usa la URL del calendario que prefieras para crear tu suscripción.</p>
+        <div class="cards">
+          <article class="card featured" id="calendario-completo">
+            <p class="eyebrow">Toda la liga</p>
+            <h3>Calendario completo</h3>
+            <p>Los 1.200 partidos actualmente definidos de la temporada regular, en un solo calendario.</p>
+            <a class="button" href="calendars/nba-2026-27-completo.ics">Abrir calendario completo</a>
+          </article>
+          <article class="card">
+            <p class="eyebrow">La competición de copa</p>
+            <h3>NBA Cup</h3>
+            <p>Los encuentros de la fase de grupos de Emirates NBA Cup incluidos en el calendario publicado.</p>
+            <a href="calendars/nba-2026-27-cup-group-play.ics">Abrir calendario NBA Cup</a>
+          </article>
+          <article class="card">
+            <p class="eyebrow">Fechas destacadas</p>
+            <h3>Eventos especiales</h3>
+            <p>Una selección de partidos y eventos especiales de la temporada.</p>
+            <a href="calendars/nba-2026-27-eventos-especiales.ics">Abrir calendario de eventos especiales</a>
+          </article>
+        </div>
+      </section>
+      <section id="equipos" aria-labelledby="titulo-equipos">
+        <p class="eyebrow">Tu equipo, tu agenda</p>
+        <h2 id="titulo-equipos">Calendarios por equipo</h2>
+        <p class="intro">Encuentra tu equipo entre los 30 de la liga. Cada enlace corresponde a su calendario individual.</p>
+        <ul class="teams">
+        <li><a href="calendars/teams/atlanta-hawks.ics">Atlanta Hawks<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/boston-celtics.ics">Boston Celtics<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/brooklyn-nets.ics">Brooklyn Nets<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/charlotte-hornets.ics">Charlotte Hornets<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/chicago-bulls.ics">Chicago Bulls<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/cleveland-cavaliers.ics">Cleveland Cavaliers<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/dallas-mavericks.ics">Dallas Mavericks<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/denver-nuggets.ics">Denver Nuggets<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/detroit-pistons.ics">Detroit Pistons<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/golden-state-warriors.ics">Golden State Warriors<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/houston-rockets.ics">Houston Rockets<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/indiana-pacers.ics">Indiana Pacers<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/los-angeles-clippers.ics">Los Angeles Clippers<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/los-angeles-lakers.ics">Los Angeles Lakers<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/memphis-grizzlies.ics">Memphis Grizzlies<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/miami-heat.ics">Miami Heat<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/milwaukee-bucks.ics">Milwaukee Bucks<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/minnesota-timberwolves.ics">Minnesota Timberwolves<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/new-orleans-pelicans.ics">New Orleans Pelicans<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/new-york-knicks.ics">New York Knicks<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/oklahoma-city-thunder.ics">Oklahoma City Thunder<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/orlando-magic.ics">Orlando Magic<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/philadelphia-76ers.ics">Philadelphia 76ers<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/phoenix-suns.ics">Phoenix Suns<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/portland-trail-blazers.ics">Portland Trail Blazers<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/sacramento-kings.ics">Sacramento Kings<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/san-antonio-spurs.ics">San Antonio Spurs<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/toronto-raptors.ics">Toronto Raptors<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/utah-jazz.ics">Utah Jazz<span aria-hidden="true">↗</span></a></li>
+        <li><a href="calendars/teams/washington-wizards.ics">Washington Wizards<span aria-hidden="true">↗</span></a></li>
+        </ul>
+      </section>
+    </div>
+    <section class="guide" id="suscripcion" aria-labelledby="titulo-suscripcion">
+      <div class="wrap">
+        <p class="eyebrow">Empieza aquí</p>
+        <h2 id="titulo-suscripcion">Cómo suscribirse</h2>
+        <div class="guide-grid">
+          <div>
+            <h3>Descargar o suscribirse</h3>
+            <p><strong>Descargar e importar un archivo ICS</strong> añade una copia de los eventos. Esa copia no queda vinculada al feed para recibir cambios posteriores.</p>
+            <p><strong>Suscribirse mediante URL</strong> mantiene un vínculo con el calendario publicado. La aplicación consulta esa dirección según su frecuencia de actualización.</p>
+            <p>Para recibir los cambios publicados, crea una suscripción con la URL HTTPS del calendario.</p>
+          </div>
+          <div>
+            <h3>Apple Calendar en Mac</h3>
+            <ol>
+              <li>En la página pública de PlannerSport, haz clic secundario sobre el enlace del calendario elegido y selecciona <strong>Copiar enlace</strong>. Debe ser la dirección HTTPS del archivo <strong>.ics</strong>, no la dirección de esta página.</li>
+              <li>Abre Calendario y elige <strong>Archivo → Nueva suscripción a calendario</strong>.</li>
+              <li>Pega la URL y selecciona <strong>Suscribirse</strong>.</li>
+              <li>Elige el nombre, la ubicación y la frecuencia de actualización. Confirma con <strong>Aceptar</strong>.</li>
+            </ol>
+          </div>
+        </div>
+        <p class="note">La recepción de cambios depende de la publicación del calendario y del refresco de Apple Calendar. Las actualizaciones no son instantáneas.</p>
+      </div>
+    </section>
+    <div class="wrap">
+      <section aria-labelledby="titulo-informacion">
+        <p class="eyebrow">Antes de planificar</p>
+        <h2 id="titulo-informacion">Información importante</h2>
+        <ul class="info-list">
+          <li>Los 30 partidos de temporada regular que dependen de los resultados de NBA Cup siguen pendientes de confirmación y no están incluidos.</li>
+          <li>Las fechas, los horarios y las sedes pueden cambiar. Las modificaciones del calendario dependen de información confirmada y de su publicación.</li>
+          <li>Si sigues varios calendarios con partidos en común, tu aplicación puede mostrar esos encuentros más de una vez.</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap">
+      <p>Tu deporte. Tu calendario. Tu planificación.</p>
+      <p>PlannerSport es una plataforma independiente, sin afiliación oficial con la NBA ni con sus equipos. Los nombres de las competiciones y los equipos identifican los calendarios disponibles.</p>
+    </div>
+  </footer>
 </body>
 </html>
