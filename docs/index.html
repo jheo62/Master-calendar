@@ -86,6 +86,26 @@
     @media(max-width:850px){.hero .hero-layout{grid-template-columns:1fr;gap:32px;padding-block:40px}.hero-art{width:100%;max-width:620px;justify-self:center}h1{font-size:clamp(2rem,5.5vw,3.1rem)}}
     @media(max-width:520px){.hero .hero-layout{padding-block:32px}.hero .button{padding:13px 16px}.hero-art{border-radius:12px}.hero .eyebrow{font-size:.72rem}}
     @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+    .calendar-access{width:100%;margin-top:auto;min-width:0}
+    .access-actions{display:flex;flex-wrap:wrap;gap:8px}
+    .access-actions a,.access-actions button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 12px;border:1px solid var(--line);border-radius:7px;font:600 .85rem/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-decoration:none;color:var(--green);background:white;cursor:pointer;margin:0}
+    .access-actions .subscribe{color:white;background:var(--green);border-color:var(--green)}
+    .access-actions [hidden]{display:none}
+    button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #943700;outline-offset:3px}
+    .manual-link{margin-top:12px;color:var(--muted);font-size:.85rem}
+    .manual-link summary{cursor:pointer;min-height:44px;padding-block:10px}
+    .manual-link label,.manual-link small{display:block;margin-top:8px}
+    .manual-link input{display:block;width:100%;min-width:0;min-height:44px;margin-top:8px;padding:10px;border:1px solid #8394ae;border-radius:5px;background:white;color:var(--ink);font-size:16px}
+    .card .copy-status,.copy-status{font-size:.85rem;color:var(--ink);margin:8px 0 0;overflow-wrap:anywhere}
+    .copy-status:empty{margin:0}
+    .team-card{min-width:0;border:1px solid var(--line);border-radius:8px;background:white;padding:0 16px}
+    .team-card>details>summary{cursor:pointer;min-height:72px;padding:14px 0;font-weight:650}
+    .teams .team-options{display:block;color:var(--muted);font-size:.78rem;margin-left:18px}
+    .team-card .calendar-access{padding-bottom:16px}
+    .teams .access-actions a{min-height:44px;padding:10px 12px;border-radius:7px;font-size:.85rem;justify-content:center}
+    .teams .access-actions .subscribe{background:var(--green);color:white;border-color:var(--green)}
+    .teams .access-actions .download:hover{background:#edf2fa}
   </style>
 </head>
 <body>
@@ -125,57 +145,486 @@
             <p class="eyebrow">Toda la liga</p>
             <h3>Calendario completo</h3>
             <p>Los 1.200 partidos actualmente definidos de la temporada regular, en un solo calendario.</p>
-            <a class="button" href="calendars/nba-2026-27-completo.ics">Abrir calendario completo</a>
+            <div class="calendar-access" data-calendar="calendars/nba-2026-27-completo.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Calendario completo">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/nba-2026-27-completo.ics" aria-label="Suscribirme a Calendario completo">Suscribirme</a>
+                <a class="download" href="calendars/nba-2026-27-completo.ics" download aria-label="Descargar ICS de Calendario completo">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Calendario completo">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-1">URL de suscripción · Calendario completo</label>
+                <input id="calendar-1" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/nba-2026-27-completo.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div>
           </article>
           <article class="card">
             <p class="eyebrow">La competición de copa</p>
             <h3>NBA Cup</h3>
             <p>Los encuentros de la fase de grupos de Emirates NBA Cup incluidos en el calendario publicado.</p>
-            <a href="calendars/nba-2026-27-cup-group-play.ics">Abrir calendario NBA Cup</a>
+            <div class="calendar-access" data-calendar="calendars/nba-2026-27-cup-group-play.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a NBA Cup">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/nba-2026-27-cup-group-play.ics" aria-label="Suscribirme a NBA Cup">Suscribirme</a>
+                <a class="download" href="calendars/nba-2026-27-cup-group-play.ics" download aria-label="Descargar ICS de NBA Cup">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de NBA Cup">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-2">URL de suscripción · NBA Cup</label>
+                <input id="calendar-2" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/nba-2026-27-cup-group-play.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div>
           </article>
           <article class="card">
             <p class="eyebrow">Fechas destacadas</p>
             <h3>Eventos especiales</h3>
             <p>Una selección de partidos y eventos especiales de la temporada.</p>
-            <a href="calendars/nba-2026-27-eventos-especiales.ics">Abrir calendario de eventos especiales</a>
+            <div class="calendar-access" data-calendar="calendars/nba-2026-27-eventos-especiales.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Eventos especiales">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/nba-2026-27-eventos-especiales.ics" aria-label="Suscribirme a Eventos especiales">Suscribirme</a>
+                <a class="download" href="calendars/nba-2026-27-eventos-especiales.ics" download aria-label="Descargar ICS de Eventos especiales">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Eventos especiales">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-3">URL de suscripción · Eventos especiales</label>
+                <input id="calendar-3" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/nba-2026-27-eventos-especiales.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div>
           </article>
         </div>
       </section>
       <section id="equipos" aria-labelledby="titulo-equipos">
         <p class="eyebrow">Tu equipo, tu agenda</p>
         <h2 id="titulo-equipos">Calendarios por equipo</h2>
-        <p class="intro">Encuentra tu equipo entre los 30 de la liga. Cada enlace corresponde a su calendario individual.</p>
+        <p class="intro">Encuentra tu equipo entre los 30 de la liga. Abre las opciones de tu equipo para suscribirte, descargar el ICS o copiar su enlace.</p>
         <ul class="teams">
-        <li><a href="calendars/teams/atlanta-hawks.ics">Atlanta Hawks<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/boston-celtics.ics">Boston Celtics<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/brooklyn-nets.ics">Brooklyn Nets<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/charlotte-hornets.ics">Charlotte Hornets<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/chicago-bulls.ics">Chicago Bulls<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/cleveland-cavaliers.ics">Cleveland Cavaliers<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/dallas-mavericks.ics">Dallas Mavericks<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/denver-nuggets.ics">Denver Nuggets<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/detroit-pistons.ics">Detroit Pistons<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/golden-state-warriors.ics">Golden State Warriors<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/houston-rockets.ics">Houston Rockets<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/indiana-pacers.ics">Indiana Pacers<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/los-angeles-clippers.ics">Los Angeles Clippers<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/los-angeles-lakers.ics">Los Angeles Lakers<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/memphis-grizzlies.ics">Memphis Grizzlies<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/miami-heat.ics">Miami Heat<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/milwaukee-bucks.ics">Milwaukee Bucks<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/minnesota-timberwolves.ics">Minnesota Timberwolves<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/new-orleans-pelicans.ics">New Orleans Pelicans<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/new-york-knicks.ics">New York Knicks<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/oklahoma-city-thunder.ics">Oklahoma City Thunder<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/orlando-magic.ics">Orlando Magic<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/philadelphia-76ers.ics">Philadelphia 76ers<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/phoenix-suns.ics">Phoenix Suns<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/portland-trail-blazers.ics">Portland Trail Blazers<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/sacramento-kings.ics">Sacramento Kings<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/san-antonio-spurs.ics">San Antonio Spurs<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/toronto-raptors.ics">Toronto Raptors<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/utah-jazz.ics">Utah Jazz<span aria-hidden="true">↗</span></a></li>
-        <li><a href="calendars/teams/washington-wizards.ics">Washington Wizards<span aria-hidden="true">↗</span></a></li>
+        <li class="team-card"><details><summary>Atlanta Hawks<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/atlanta-hawks.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Atlanta Hawks">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/atlanta-hawks.ics" aria-label="Suscribirme a Atlanta Hawks">Suscribirme</a>
+                <a class="download" href="calendars/teams/atlanta-hawks.ics" download aria-label="Descargar ICS de Atlanta Hawks">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Atlanta Hawks">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-4">URL de suscripción · Atlanta Hawks</label>
+                <input id="calendar-4" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/atlanta-hawks.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Boston Celtics<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/boston-celtics.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Boston Celtics">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/boston-celtics.ics" aria-label="Suscribirme a Boston Celtics">Suscribirme</a>
+                <a class="download" href="calendars/teams/boston-celtics.ics" download aria-label="Descargar ICS de Boston Celtics">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Boston Celtics">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-5">URL de suscripción · Boston Celtics</label>
+                <input id="calendar-5" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/boston-celtics.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Brooklyn Nets<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/brooklyn-nets.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Brooklyn Nets">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/brooklyn-nets.ics" aria-label="Suscribirme a Brooklyn Nets">Suscribirme</a>
+                <a class="download" href="calendars/teams/brooklyn-nets.ics" download aria-label="Descargar ICS de Brooklyn Nets">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Brooklyn Nets">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-6">URL de suscripción · Brooklyn Nets</label>
+                <input id="calendar-6" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/brooklyn-nets.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Charlotte Hornets<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/charlotte-hornets.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Charlotte Hornets">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/charlotte-hornets.ics" aria-label="Suscribirme a Charlotte Hornets">Suscribirme</a>
+                <a class="download" href="calendars/teams/charlotte-hornets.ics" download aria-label="Descargar ICS de Charlotte Hornets">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Charlotte Hornets">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-7">URL de suscripción · Charlotte Hornets</label>
+                <input id="calendar-7" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/charlotte-hornets.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Chicago Bulls<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/chicago-bulls.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Chicago Bulls">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/chicago-bulls.ics" aria-label="Suscribirme a Chicago Bulls">Suscribirme</a>
+                <a class="download" href="calendars/teams/chicago-bulls.ics" download aria-label="Descargar ICS de Chicago Bulls">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Chicago Bulls">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-8">URL de suscripción · Chicago Bulls</label>
+                <input id="calendar-8" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/chicago-bulls.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Cleveland Cavaliers<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/cleveland-cavaliers.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Cleveland Cavaliers">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/cleveland-cavaliers.ics" aria-label="Suscribirme a Cleveland Cavaliers">Suscribirme</a>
+                <a class="download" href="calendars/teams/cleveland-cavaliers.ics" download aria-label="Descargar ICS de Cleveland Cavaliers">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Cleveland Cavaliers">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-9">URL de suscripción · Cleveland Cavaliers</label>
+                <input id="calendar-9" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/cleveland-cavaliers.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Dallas Mavericks<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/dallas-mavericks.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Dallas Mavericks">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/dallas-mavericks.ics" aria-label="Suscribirme a Dallas Mavericks">Suscribirme</a>
+                <a class="download" href="calendars/teams/dallas-mavericks.ics" download aria-label="Descargar ICS de Dallas Mavericks">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Dallas Mavericks">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-10">URL de suscripción · Dallas Mavericks</label>
+                <input id="calendar-10" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/dallas-mavericks.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Denver Nuggets<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/denver-nuggets.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Denver Nuggets">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/denver-nuggets.ics" aria-label="Suscribirme a Denver Nuggets">Suscribirme</a>
+                <a class="download" href="calendars/teams/denver-nuggets.ics" download aria-label="Descargar ICS de Denver Nuggets">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Denver Nuggets">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-11">URL de suscripción · Denver Nuggets</label>
+                <input id="calendar-11" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/denver-nuggets.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Detroit Pistons<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/detroit-pistons.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Detroit Pistons">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/detroit-pistons.ics" aria-label="Suscribirme a Detroit Pistons">Suscribirme</a>
+                <a class="download" href="calendars/teams/detroit-pistons.ics" download aria-label="Descargar ICS de Detroit Pistons">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Detroit Pistons">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-12">URL de suscripción · Detroit Pistons</label>
+                <input id="calendar-12" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/detroit-pistons.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Golden State Warriors<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/golden-state-warriors.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Golden State Warriors">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/golden-state-warriors.ics" aria-label="Suscribirme a Golden State Warriors">Suscribirme</a>
+                <a class="download" href="calendars/teams/golden-state-warriors.ics" download aria-label="Descargar ICS de Golden State Warriors">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Golden State Warriors">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-13">URL de suscripción · Golden State Warriors</label>
+                <input id="calendar-13" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/golden-state-warriors.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Houston Rockets<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/houston-rockets.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Houston Rockets">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/houston-rockets.ics" aria-label="Suscribirme a Houston Rockets">Suscribirme</a>
+                <a class="download" href="calendars/teams/houston-rockets.ics" download aria-label="Descargar ICS de Houston Rockets">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Houston Rockets">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-14">URL de suscripción · Houston Rockets</label>
+                <input id="calendar-14" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/houston-rockets.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Indiana Pacers<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/indiana-pacers.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Indiana Pacers">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/indiana-pacers.ics" aria-label="Suscribirme a Indiana Pacers">Suscribirme</a>
+                <a class="download" href="calendars/teams/indiana-pacers.ics" download aria-label="Descargar ICS de Indiana Pacers">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Indiana Pacers">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-15">URL de suscripción · Indiana Pacers</label>
+                <input id="calendar-15" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/indiana-pacers.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Los Angeles Clippers<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/los-angeles-clippers.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Los Angeles Clippers">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/los-angeles-clippers.ics" aria-label="Suscribirme a Los Angeles Clippers">Suscribirme</a>
+                <a class="download" href="calendars/teams/los-angeles-clippers.ics" download aria-label="Descargar ICS de Los Angeles Clippers">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Los Angeles Clippers">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-16">URL de suscripción · Los Angeles Clippers</label>
+                <input id="calendar-16" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/los-angeles-clippers.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Los Angeles Lakers<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/los-angeles-lakers.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Los Angeles Lakers">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/los-angeles-lakers.ics" aria-label="Suscribirme a Los Angeles Lakers">Suscribirme</a>
+                <a class="download" href="calendars/teams/los-angeles-lakers.ics" download aria-label="Descargar ICS de Los Angeles Lakers">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Los Angeles Lakers">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-17">URL de suscripción · Los Angeles Lakers</label>
+                <input id="calendar-17" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/los-angeles-lakers.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Memphis Grizzlies<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/memphis-grizzlies.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Memphis Grizzlies">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/memphis-grizzlies.ics" aria-label="Suscribirme a Memphis Grizzlies">Suscribirme</a>
+                <a class="download" href="calendars/teams/memphis-grizzlies.ics" download aria-label="Descargar ICS de Memphis Grizzlies">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Memphis Grizzlies">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-18">URL de suscripción · Memphis Grizzlies</label>
+                <input id="calendar-18" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/memphis-grizzlies.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Miami Heat<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/miami-heat.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Miami Heat">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/miami-heat.ics" aria-label="Suscribirme a Miami Heat">Suscribirme</a>
+                <a class="download" href="calendars/teams/miami-heat.ics" download aria-label="Descargar ICS de Miami Heat">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Miami Heat">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-19">URL de suscripción · Miami Heat</label>
+                <input id="calendar-19" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/miami-heat.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Milwaukee Bucks<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/milwaukee-bucks.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Milwaukee Bucks">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/milwaukee-bucks.ics" aria-label="Suscribirme a Milwaukee Bucks">Suscribirme</a>
+                <a class="download" href="calendars/teams/milwaukee-bucks.ics" download aria-label="Descargar ICS de Milwaukee Bucks">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Milwaukee Bucks">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-20">URL de suscripción · Milwaukee Bucks</label>
+                <input id="calendar-20" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/milwaukee-bucks.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Minnesota Timberwolves<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/minnesota-timberwolves.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Minnesota Timberwolves">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/minnesota-timberwolves.ics" aria-label="Suscribirme a Minnesota Timberwolves">Suscribirme</a>
+                <a class="download" href="calendars/teams/minnesota-timberwolves.ics" download aria-label="Descargar ICS de Minnesota Timberwolves">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Minnesota Timberwolves">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-21">URL de suscripción · Minnesota Timberwolves</label>
+                <input id="calendar-21" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/minnesota-timberwolves.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>New Orleans Pelicans<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/new-orleans-pelicans.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a New Orleans Pelicans">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/new-orleans-pelicans.ics" aria-label="Suscribirme a New Orleans Pelicans">Suscribirme</a>
+                <a class="download" href="calendars/teams/new-orleans-pelicans.ics" download aria-label="Descargar ICS de New Orleans Pelicans">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de New Orleans Pelicans">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-22">URL de suscripción · New Orleans Pelicans</label>
+                <input id="calendar-22" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/new-orleans-pelicans.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>New York Knicks<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/new-york-knicks.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a New York Knicks">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/new-york-knicks.ics" aria-label="Suscribirme a New York Knicks">Suscribirme</a>
+                <a class="download" href="calendars/teams/new-york-knicks.ics" download aria-label="Descargar ICS de New York Knicks">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de New York Knicks">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-23">URL de suscripción · New York Knicks</label>
+                <input id="calendar-23" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/new-york-knicks.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Oklahoma City Thunder<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/oklahoma-city-thunder.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Oklahoma City Thunder">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/oklahoma-city-thunder.ics" aria-label="Suscribirme a Oklahoma City Thunder">Suscribirme</a>
+                <a class="download" href="calendars/teams/oklahoma-city-thunder.ics" download aria-label="Descargar ICS de Oklahoma City Thunder">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Oklahoma City Thunder">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-24">URL de suscripción · Oklahoma City Thunder</label>
+                <input id="calendar-24" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/oklahoma-city-thunder.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Orlando Magic<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/orlando-magic.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Orlando Magic">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/orlando-magic.ics" aria-label="Suscribirme a Orlando Magic">Suscribirme</a>
+                <a class="download" href="calendars/teams/orlando-magic.ics" download aria-label="Descargar ICS de Orlando Magic">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Orlando Magic">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-25">URL de suscripción · Orlando Magic</label>
+                <input id="calendar-25" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/orlando-magic.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Philadelphia 76ers<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/philadelphia-76ers.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Philadelphia 76ers">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/philadelphia-76ers.ics" aria-label="Suscribirme a Philadelphia 76ers">Suscribirme</a>
+                <a class="download" href="calendars/teams/philadelphia-76ers.ics" download aria-label="Descargar ICS de Philadelphia 76ers">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Philadelphia 76ers">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-26">URL de suscripción · Philadelphia 76ers</label>
+                <input id="calendar-26" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/philadelphia-76ers.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Phoenix Suns<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/phoenix-suns.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Phoenix Suns">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/phoenix-suns.ics" aria-label="Suscribirme a Phoenix Suns">Suscribirme</a>
+                <a class="download" href="calendars/teams/phoenix-suns.ics" download aria-label="Descargar ICS de Phoenix Suns">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Phoenix Suns">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-27">URL de suscripción · Phoenix Suns</label>
+                <input id="calendar-27" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/phoenix-suns.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Portland Trail Blazers<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/portland-trail-blazers.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Portland Trail Blazers">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/portland-trail-blazers.ics" aria-label="Suscribirme a Portland Trail Blazers">Suscribirme</a>
+                <a class="download" href="calendars/teams/portland-trail-blazers.ics" download aria-label="Descargar ICS de Portland Trail Blazers">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Portland Trail Blazers">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-28">URL de suscripción · Portland Trail Blazers</label>
+                <input id="calendar-28" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/portland-trail-blazers.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Sacramento Kings<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/sacramento-kings.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Sacramento Kings">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/sacramento-kings.ics" aria-label="Suscribirme a Sacramento Kings">Suscribirme</a>
+                <a class="download" href="calendars/teams/sacramento-kings.ics" download aria-label="Descargar ICS de Sacramento Kings">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Sacramento Kings">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-29">URL de suscripción · Sacramento Kings</label>
+                <input id="calendar-29" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/sacramento-kings.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>San Antonio Spurs<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/san-antonio-spurs.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a San Antonio Spurs">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/san-antonio-spurs.ics" aria-label="Suscribirme a San Antonio Spurs">Suscribirme</a>
+                <a class="download" href="calendars/teams/san-antonio-spurs.ics" download aria-label="Descargar ICS de San Antonio Spurs">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de San Antonio Spurs">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-30">URL de suscripción · San Antonio Spurs</label>
+                <input id="calendar-30" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/san-antonio-spurs.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Toronto Raptors<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/toronto-raptors.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Toronto Raptors">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/toronto-raptors.ics" aria-label="Suscribirme a Toronto Raptors">Suscribirme</a>
+                <a class="download" href="calendars/teams/toronto-raptors.ics" download aria-label="Descargar ICS de Toronto Raptors">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Toronto Raptors">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-31">URL de suscripción · Toronto Raptors</label>
+                <input id="calendar-31" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/toronto-raptors.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Utah Jazz<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/utah-jazz.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Utah Jazz">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/utah-jazz.ics" aria-label="Suscribirme a Utah Jazz">Suscribirme</a>
+                <a class="download" href="calendars/teams/utah-jazz.ics" download aria-label="Descargar ICS de Utah Jazz">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Utah Jazz">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-32">URL de suscripción · Utah Jazz</label>
+                <input id="calendar-32" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/utah-jazz.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
+        <li class="team-card"><details><summary>Washington Wizards<span class="team-options">Opciones del calendario</span></summary><div class="calendar-access" data-calendar="calendars/teams/washington-wizards.ics">
+              <div class="access-actions" role="group" aria-label="Acceso a Washington Wizards">
+                <a class="subscribe" href="webcal://jheo62.github.io/Master-calendar/calendars/teams/washington-wizards.ics" aria-label="Suscribirme a Washington Wizards">Suscribirme</a>
+                <a class="download" href="calendars/teams/washington-wizards.ics" download aria-label="Descargar ICS de Washington Wizards">Descargar ICS</a>
+                <button type="button" class="copy-link" hidden aria-label="Copiar enlace de Washington Wizards">Copiar enlace</button>
+              </div>
+              <details class="manual-link">
+                <summary>Enlace HTTPS para copiar</summary>
+                <label for="calendar-33">URL de suscripción · Washington Wizards</label>
+                <input id="calendar-33" type="text" readonly value="https://jheo62.github.io/Master-calendar/calendars/teams/washington-wizards.ics" spellcheck="false" autocapitalize="off">
+                <small>Selecciona el enlace y usa Copiar o ⌘C / Ctrl+C.</small>
+              </details>
+              <p class="copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+            </div></details></li>
         </ul>
       </section>
     </div>
@@ -188,19 +637,46 @@
             <h3>Descargar o suscribirse</h3>
             <p><strong>Descargar e importar un archivo ICS</strong> añade una copia de los eventos. Esa copia no queda vinculada al feed para recibir cambios posteriores.</p>
             <p><strong>Suscribirse mediante URL</strong> mantiene un vínculo con el calendario publicado. La aplicación consulta esa dirección según su frecuencia de actualización.</p>
-            <p>Para recibir los cambios publicados, crea una suscripción con la URL HTTPS del calendario.</p>
+            <p><strong>Suscribirme</strong> abre un enlace webcal. Su apertura depende de que exista una aplicación compatible instalada y configurada en tu dispositivo.</p>
+            <p><strong>Copiar enlace</strong> copia la URL HTTPS pública. Si la copia automática no está disponible, encontrarás el enlace en un campo seleccionable. También puedes abrir <strong>Enlace HTTPS para copiar</strong> y seleccionar su URL manualmente, incluso con JavaScript desactivado.</p>
           </div>
           <div>
             <h3>Apple Calendar en Mac</h3>
             <ol>
-              <li>En la página pública de PlannerSport, haz clic secundario sobre el enlace del calendario elegido y selecciona <strong>Copiar enlace</strong>. Debe ser la dirección HTTPS del archivo <strong>.ics</strong>, no la dirección de esta página.</li>
+              <li>Elige un calendario y pulsa <strong>Copiar enlace</strong>. También puedes abrir <strong>Enlace HTTPS para copiar</strong>, seleccionar la URL y copiarla manualmente, incluso con JavaScript desactivado. Debe ser la dirección del archivo <strong>.ics</strong>, no la dirección de esta página.</li>
               <li>Abre Calendario y elige <strong>Archivo → Nueva suscripción a calendario</strong>.</li>
               <li>Pega la URL y selecciona <strong>Suscribirse</strong>.</li>
               <li>Elige el nombre, la ubicación y la frecuencia de actualización. Confirma con <strong>Aceptar</strong>.</li>
             </ol>
           </div>
+          <div>
+            <h3>Apple Calendar en iPhone o iPad</h3>
+            <ol>
+              <li>Abre esta página en tu dispositivo y pulsa <strong>Suscribirme</strong> en el calendario elegido. Si Calendario ofrece añadir una suscripción, revisa los datos y confírmala.</li>
+              <li>Si el enlace no abre una aplicación compatible, copia la URL HTTPS desde <strong>Enlace HTTPS para copiar</strong>. En Calendario, busca la opción para añadir un calendario de suscripción y pega esa URL. La ubicación de esta opción puede variar según la versión del sistema.</li>
+              <li>Comprueba que has creado una suscripción; importar el archivo descargado no permite recibir cambios posteriores.</li>
+            </ol>
+          </div>
+          <div>
+            <h3>Google Calendar: suscripción por URL</h3>
+            <ol>
+              <li>Copia la URL HTTPS del calendario elegido. Puedes usar <strong>Copiar enlace</strong> o abrir <strong>Enlace HTTPS para copiar</strong> y copiarla manualmente.</li>
+              <li>Abre Google Calendar en un navegador de ordenador con la cuenta que utilizas para tus calendarios.</li>
+              <li>En <strong>Otros calendarios</strong>, abre el menú <strong>+</strong>, elige <strong>Desde URL</strong>, pega la dirección HTTPS del archivo ICS y confirma con <strong>Añadir calendario</strong>.</li>
+              <li>Google consulta el feed según su propia frecuencia. No uses la importación de archivos si quieres recibir actualizaciones.</li>
+            </ol>
+          </div>
+          <div>
+            <h3>Ver el calendario en Android</h3>
+            <ol>
+              <li>Primero crea la suscripción por URL en Google Calendar desde un ordenador, siguiendo las instrucciones anteriores.</li>
+              <li>Abre Google Calendar en Android con la misma cuenta y busca el calendario suscrito en el menú para activar su visualización.</li>
+              <li>Si no aparece, revisa la cuenta seleccionada y las opciones de sincronización de ese calendario. Espera a que el servicio actualice los datos.</li>
+            </ol>
+            <p>Estas indicaciones corresponden a Google Calendar. Otras aplicaciones de Android pueden requerir su propio procedimiento de suscripción; abrir o descargar un ICS no garantiza una suscripción.</p>
+          </div>
         </div>
-        <p class="note">La recepción de cambios depende de la publicación del calendario y del refresco de Apple Calendar. Las actualizaciones no son instantáneas.</p>
+        <p class="note">La recepción de cambios depende de que se publique el calendario actualizado y de la frecuencia de consulta de tu aplicación o servicio de calendario. Las actualizaciones no son instantáneas y pueden tardar en aparecer; no hay un plazo de sincronización garantizado.</p>
       </div>
     </section>
     <div class="wrap">
@@ -208,7 +684,7 @@
         <p class="eyebrow">Antes de planificar</p>
         <h2 id="titulo-informacion">Información importante</h2>
         <ul class="info-list">
-          <li>Los 30 partidos de temporada regular que dependen de los resultados de NBA Cup siguen pendientes de confirmación y no están incluidos.</li>
+          <li>Hay 30 partidos de temporada regular que dependen de los resultados de NBA Cup y siguen pendientes de programación oficial. No están incluidos; solo podrán incorporarse cuando exista información oficial confirmada.</li>
           <li>Las fechas, los horarios y las sedes pueden cambiar. Las modificaciones del calendario dependen de información confirmada y de su publicación.</li>
           <li>Si sigues varios calendarios con partidos en común, tu aplicación puede mostrar esos encuentros más de una vez.</li>
         </ul>
@@ -221,5 +697,44 @@
       <p>PlannerSport es una plataforma independiente, sin afiliación oficial con la NBA ni con sus equipos. Los nombres de las competiciones y los equipos identifican los calendarios disponibles.</p>
     </div>
   </footer>
+
+  <script>
+    "use strict";
+    document.querySelectorAll(".calendar-access").forEach(function (access) {
+      const button = access.querySelector(".copy-link");
+      const field = access.querySelector("input");
+      const manual = access.querySelector(".manual-link");
+      const status = access.querySelector(".copy-status");
+      function selectURL() {
+        field.focus();
+        field.select();
+        field.setSelectionRange(0, field.value.length);
+      }
+      field.addEventListener("focus", function () {
+        field.select();
+        field.setSelectionRange(0, field.value.length);
+      });
+      button.hidden = false;
+      button.addEventListener("click", async function () {
+        status.textContent = "";
+        button.disabled = true;
+        try {
+          if (!window.isSecureContext || !navigator.clipboard ||
+              typeof navigator.clipboard.writeText !== "function") {
+            throw new Error("Clipboard unavailable");
+          }
+          // Iniciar la copia dentro del clic, sin esperas previas.
+          await navigator.clipboard.writeText(field.value);
+          status.textContent = "Enlace copiado al portapapeles.";
+        } catch (error) {
+          manual.open = true;
+          selectURL();
+          status.textContent = "No se pudo copiar automáticamente. El enlace está seleccionado: usa Copiar o ⌘C / Ctrl+C.";
+        } finally {
+          button.disabled = false;
+        }
+      });
+    });
+  </script>
 </body>
 </html>
