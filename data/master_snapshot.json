@@ -513,7 +513,7 @@
       "Es_Partido_Especial": false,
       "Zona_Horaria_Arena": "America/Chicago",
       "URL_NBA": "https://www.nba.com/game/",
-      "Fecha_Hora_UTC": "2026-10-24T00:00:00Z"
+      "Fecha_Hora_UTC": "2026-10-23T20:00:00Z"
     },
     {
       "ID_Partido": "NBA2627-0027",
@@ -702,7 +702,7 @@
       "Es_Partido_Especial": false,
       "Zona_Horaria_Arena": "America/New_York",
       "URL_NBA": "https://www.nba.com/game/",
-      "Fecha_Hora_UTC": "2026-10-25T00:00:00Z"
+      "Fecha_Hora_UTC": "2026-10-25T00:30:00Z"
     },
     {
       "ID_Partido": "NBA2627-0034",

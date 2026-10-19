@@ -179,10 +179,10 @@
     },
     "NBA2627-0026": {
       "uid": "NBA2627-0026@nba-master-calendar.local",
-      "sequence": 0,
-      "fingerprint": "032d06eb6b50b3196b222617b1ad660222e336868f4f799c2041b9fc60d2c8b8",
+      "sequence": 1,
+      "fingerprint": "2dcac1675e4c9ebb3a4458b6c89ca6db5d590fc17c963026a9adab3b0b0ab9c5",
       "status": "ACTIVE",
-      "last_modified": null
+      "last_modified": "20261019T012137Z"
     },
     "NBA2627-0027": {
       "uid": "NBA2627-0027@nba-master-calendar.local",
@@ -228,10 +228,10 @@
     },
     "NBA2627-0033": {
       "uid": "NBA2627-0033@nba-master-calendar.local",
-      "sequence": 0,
-      "fingerprint": "8bdbe65440496256d70afe51a91afa7aaf3198ed52ac22a166a2e34a83e8580c",
+      "sequence": 1,
+      "fingerprint": "ff7729aa5973749ee9d719601434f00df2a335c7b581d90dbd79c2bcc5d4d6c9",
       "status": "ACTIVE",
-      "last_modified": null
+      "last_modified": "20261019T012137Z"
     },
     "NBA2627-0034": {
       "uid": "NBA2627-0034@nba-master-calendar.local",

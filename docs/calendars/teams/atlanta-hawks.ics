@@ -73,20 +73,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0033@nba-master-calendar.local
-DTSTAMP:20260903T002955Z
-DTSTART:20261025T000000Z
-DTEND:20261025T030000Z
+DTSTAMP:20261019T012137Z
+DTSTART:20261025T003000Z
+DTEND:20261025T033000Z
 SUMMARY:Houston Rockets @ Atlanta Hawks
 LOCATION:State Farm Arena\, Atlanta\, Georgia\, EE. UU.
-DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-10-2026 21
- :00\nHora Punta Arenas/Magallanes: 24-10-2026 21:00\nTV nacional EE.UU.:
-  No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a re
- stricciones)\nID maestro: NBA2627-0033\nFuente base: NBA.com\nDuración d
- el calendario: 3 h estimadas\; el término real del partido puede variar.
+DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-10-2026 
+ 21:30\nHora Punta Arenas/Magallanes: 24-10-2026 21:30\nTV nacional EE.UU
+ .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
+ restricciones)\nID maestro: NBA2627-0033\nFuente base: NBA.com\nDuració
+ n del calendario: 3 h estimadas\; el término real del partido puede var
+ iar.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
-SEQUENCE:0
+SEQUENCE:1
+LAST-MODIFIED:20261019T012137Z
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:NBA: partido mañana — Houston Rockets @ Atlanta Hawks

@@ -773,13 +773,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0026@nba-master-calendar.local
-DTSTAMP:20260918T235027Z
-DTSTART:20261024T000000Z
-DTEND:20261024T030000Z
+DTSTAMP:20261019T012137Z
+DTSTART:20261023T200000Z
+DTEND:20261023T230000Z
 SUMMARY:Chicago Bulls @ Milwaukee Bucks
 LOCATION:Fiserv Forum\, Milwaukee\, Wisconsin\, EE. UU.
 DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-10-2026 
- 21:00\nHora Punta Arenas/Magallanes: 23-10-2026 21:00\nTV nacional EE.UU
+ 17:00\nHora Punta Arenas/Magallanes: 23-10-2026 17:00\nTV nacional EE.UU
  .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
  restricciones)\nID maestro: NBA2627-0026\nFuente base: NBA.com\nDuració
  n del calendario: 3 h estimadas\; el término real del partido puede var
@@ -787,7 +787,8 @@ DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 23-10-2026
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
-SEQUENCE:0
+SEQUENCE:1
+LAST-MODIFIED:20261019T012137Z
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:NBA: partido mañana — Chicago Bulls @ Milwaukee Bucks
@@ -1088,13 +1089,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:NBA2627-0033@nba-master-calendar.local
-DTSTAMP:20260918T235027Z
-DTSTART:20261025T000000Z
-DTEND:20261025T030000Z
+DTSTAMP:20261019T012137Z
+DTSTART:20261025T003000Z
+DTEND:20261025T033000Z
 SUMMARY:Houston Rockets @ Atlanta Hawks
 LOCATION:State Farm Arena\, Atlanta\, Georgia\, EE. UU.
 DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-10-2026 
- 21:00\nHora Punta Arenas/Magallanes: 24-10-2026 21:00\nTV nacional EE.UU
+ 21:30\nHora Punta Arenas/Magallanes: 24-10-2026 21:30\nTV nacional EE.UU
  .: No indicado\nStreaming: NBA League Pass (fuera de mercado\; sujeto a 
  restricciones)\nID maestro: NBA2627-0033\nFuente base: NBA.com\nDuració
  n del calendario: 3 h estimadas\; el término real del partido puede var
@@ -1102,7 +1103,8 @@ DESCRIPTION:NBA 2026-27 — Temporada Regular\nHora Santiago: 24-10-2026
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:NBA 2026-27
-SEQUENCE:0
+SEQUENCE:1
+LAST-MODIFIED:20261019T012137Z
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:NBA: partido mañana — Houston Rockets @ Atlanta Hawks
